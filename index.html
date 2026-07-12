@@ -71,17 +71,60 @@
       font: inherit;
       margin-bottom: 1rem;
     }
-    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
-    th, td { text-align: left; padding: 0.55rem 0.4rem; border-bottom: 1px solid var(--line); }
-    th { color: var(--muted); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; }
+    .groups { display: flex; flex-direction: column; gap: 0.6rem; }
+    .group {
+      background: rgba(255,255,255,0.45);
+      border: 1px solid var(--line);
+    }
+    .group > summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 0.85rem 1rem;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+    .group > summary::-webkit-details-marker { display: none; }
+    .group > summary::before {
+      content: "▸";
+      color: var(--accent);
+      margin-right: 0.5rem;
+      flex-shrink: 0;
+    }
+    .group[open] > summary::before { content: "▾"; }
+    .group-name {
+      font-weight: 700;
+      flex: 1;
+      min-width: 0;
+    }
+    .group-meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+    .group-meta b { color: var(--ink); font-weight: 600; }
+    .alias {
+      display: block;
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 400;
+      margin-top: 0.15rem;
+    }
+    .group-body { padding: 0 1rem 0.85rem; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    th, td { text-align: left; padding: 0.45rem 0.35rem; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-weight: 600; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; }
     .money { font-variant-numeric: tabular-nums; }
     .err { color: #8b1e1e; padding: 1rem; }
+    .empty { color: var(--muted); padding: 1rem 0; }
   </style>
 </head>
 <body>
   <header>
     <h1 class="brand">PanelBook</h1>
-    <p class="tag">Collection snapshot — refresh by exporting from the laptop app.</p>
+    <p class="tag">Collection snapshot — grouped by series.</p>
     <p style="margin:0.75rem 0 0;"><a href="scan.html" style="display:inline-block;background:#c45c26;color:#f3e6d4;text-decoration:none;font-weight:700;letter-spacing:0.02em;padding:0.7rem 1.1rem;border:1px solid #c45c26;">Scan a comic &rarr;</a></p>
   </header>
   <div class="stats" id="stats"></div>
@@ -90,39 +133,167 @@
     <div id="out" class="err">Loading collection.json…</div>
   </main>
   <script>
+    /* --- fuzzy series grouping (mirrors scan.js normalisation) --- */
+    function normSeries(s) {
+      return String(s || "").toLowerCase()
+        .replace(/^the\s+/, "")
+        .replace(/spider-man/g, "spiderman")
+        .replace(/spider man/g, "spiderman")
+        .replace(/&/g, " and ")
+        .replace(/[^a-z0-9]+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function bigrams(s) {
+      const t = s.replace(/\s+/g, "");
+      const g = new Set();
+      for (let i = 0; i < t.length - 1; i++) g.add(t.slice(i, i + 2));
+      return g;
+    }
+
+    function dice(a, b) {
+      const ga = bigrams(a), gb = bigrams(b);
+      if (!ga.size || !gb.size) return 0;
+      let inter = 0;
+      for (const x of gb) if (ga.has(x)) inter++;
+      return (2 * inter) / (ga.size + gb.size);
+    }
+
+    const FUZZY = 0.88; // high bar — only merge near-duplicates, not related titles
+
+    function clusterSeries(names) {
+      const unique = [...new Set(names.filter(Boolean))];
+      const norms = unique.map((n) => ({ name: n, norm: normSeries(n) }));
+      const parent = norms.map((_, i) => i);
+      const find = (i) => { while (parent[i] !== i) { parent[i] = parent[parent[i]]; i = parent[i]; } return i; };
+      const unite = (a, b) => { parent[find(a)] = find(b); };
+
+      for (let i = 0; i < norms.length; i++) {
+        for (let j = i + 1; j < norms.length; j++) {
+          if (norms[i].norm === norms[j].norm) { unite(i, j); continue; }
+          if (dice(norms[i].norm, norms[j].norm) >= FUZZY) unite(i, j);
+        }
+      }
+
+      const clusters = new Map();
+      for (let i = 0; i < norms.length; i++) {
+        const root = find(i);
+        if (!clusters.has(root)) clusters.set(root, []);
+        clusters.get(root).push(norms[i].name);
+      }
+      return [...clusters.values()];
+    }
+
+    function pickDisplayName(names) {
+      const counts = new Map();
+      for (const n of names) counts.set(n, (counts.get(n) || 0) + 1);
+      const sorted = [...names].sort((a, b) => {
+        const dc = (counts.get(b) || 0) - (counts.get(a) || 0);
+        if (dc) return dc;
+        const aThe = /^the\s/i.test(a), bThe = /^the\s/i.test(b);
+        if (aThe !== bThe) return aThe ? 1 : -1;
+        return a.localeCompare(b);
+      });
+      return sorted[0];
+    }
+
+    function issueNum(v) {
+      const n = parseFloat(v);
+      return Number.isFinite(n) ? n : 999999;
+    }
+
+    function buildGroups(rows) {
+      const bySeries = new Map();
+      for (const r of rows) {
+        const s = String(r.series || "").trim() || "(unknown)";
+        if (!bySeries.has(s)) bySeries.set(s, []);
+        bySeries.get(s).push(r);
+      }
+      const clusters = clusterSeries([...bySeries.keys()]);
+      return clusters.map((names) => {
+        const issues = names.flatMap((n) => bySeries.get(n) || []);
+        issues.sort((a, b) => issueNum(a.issue_number) - issueNum(b.issue_number));
+        const value = issues.reduce((s, r) => s + Number(r.estimated_value || 0), 0);
+        const aliases = names.length > 1
+          ? names.filter((n) => n !== pickDisplayName(names))
+          : [];
+        return {
+          display: pickDisplayName(names),
+          names,
+          aliases,
+          issues,
+          value,
+        };
+      }).sort((a, b) => a.display.localeCompare(b.display));
+    }
+
+    function esc(s) {
+      return String(s ?? "").replace(/[&<>"']/g, (c) =>
+        ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+
     async function boot() {
-      const out = document.getElementById('out');
-      const stats = document.getElementById('stats');
+      const out = document.getElementById("out");
+      const stats = document.getElementById("stats");
       try {
-        const res = await fetch('collection.json', { cache: 'no-store' });
-        if (!res.ok) throw new Error('No collection.json yet — run scripts/export_static.py');
+        const res = await fetch("collection.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("No collection.json yet — run scripts/export_static.py");
         const data = await res.json();
         const t = data.totals || {};
         stats.innerHTML = `
-          <div class="stat"><b>${(t.issues||0).toLocaleString()}</b><span>issues</span></div>
-          <div class="stat"><b>£${Number(t.estimated_value_gbp||0).toLocaleString()}</b><span>est. value</span></div>
-          <div class="stat"><b>£${Number(t.paid_known_gbp||0).toLocaleString()}</b><span>paid (known)</span></div>
+          <div class="stat"><b>${(t.issues || 0).toLocaleString()}</b><span>issues</span></div>
+          <div class="stat"><b>£${Number(t.estimated_value_gbp || 0).toLocaleString()}</b><span>est. value</span></div>
+          <div class="stat"><b>£${Number(t.paid_known_gbp || 0).toLocaleString()}</b><span>paid (known)</span></div>
         `;
         const rows = data.collection || [];
+        const allGroups = buildGroups(rows);
+
         const render = (q) => {
-          const qq = (q||'').toLowerCase();
-          const filtered = !qq ? rows : rows.filter(r =>
-            String(r.series||'').toLowerCase().includes(qq) ||
-            String(r.title||'').toLowerCase().includes(qq)
-          );
-          out.innerHTML = `<table>
-            <thead><tr><th>Series</th><th>#</th><th>Year</th><th>Est.</th><th>Source</th></tr></thead>
-            <tbody>${filtered.slice(0,500).map(r => `<tr>
-              <td>${r.series||''}</td>
-              <td>${r.issue_number ?? ''}</td>
-              <td>${r.year ?? ''}</td>
-              <td class="money">£${Number(r.estimated_value||0).toFixed(2)}</td>
-              <td>${r.market_source||''}</td>
-            </tr>`).join('')}</tbody>
-          </table>${filtered.length>500?`<p class="tag">Showing 500 of ${filtered.length}</p>`:''}`;
+          const qq = (q || "").toLowerCase();
+          const groups = !qq ? allGroups : allGroups.map((g) => ({
+            ...g,
+            issues: g.issues.filter((r) =>
+              g.display.toLowerCase().includes(qq) ||
+              g.names.some((n) => n.toLowerCase().includes(qq)) ||
+              String(r.title || "").toLowerCase().includes(qq) ||
+              String(r.issue_number ?? "").includes(qq)
+            ),
+          })).filter((g) => g.issues.length);
+
+          if (!groups.length) {
+            out.innerHTML = '<p class="empty">No matching series or issues.</p>';
+            return;
+          }
+
+          out.innerHTML = `<div class="groups">${groups.map((g) => {
+            const alias = g.aliases.length
+              ? `<span class="alias">Also: ${g.aliases.map(esc).join(", ")}</span>`
+              : "";
+            const body = g.issues.map((r) => `<tr>
+              <td>${esc(r.issue_number ?? "")}</td>
+              <td>${esc(r.year ?? "")}</td>
+              <td class="money">£${Number(r.estimated_value || 0).toFixed(2)}</td>
+              <td>${esc(r.market_source || "")}</td>
+            </tr>`).join("");
+            return `<details class="group">
+              <summary>
+                <span class="group-name">${esc(g.display)}${alias}</span>
+                <span class="group-meta"><b>${g.issues.length}</b> issues · £${g.value.toFixed(0)}</span>
+              </summary>
+              <div class="group-body">
+                <table>
+                  <thead><tr><th>#</th><th>Year</th><th>Est.</th><th>Source</th></tr></thead>
+                  <tbody>${body}</tbody>
+                </table>
+              </div>
+            </details>`;
+          }).join("")}</div>
+          <p class="tag">${groups.length} series · ${groups.reduce((s, g) => s + g.issues.length, 0)} issues shown</p>`;
         };
-        document.getElementById('q').addEventListener('input', e => render(e.target.value));
-        render('');
+
+        document.getElementById("q").addEventListener("input", (e) => render(e.target.value));
+        render("");
       } catch (e) {
         out.textContent = e.message || String(e);
       }
