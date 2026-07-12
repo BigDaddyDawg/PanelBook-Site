@@ -1,11 +1,13 @@
 /* PanelBook phone scanner: barcode UPC + on-device OCR of title/issue,
-   fuzzy-matched to the known collection, saved to an exportable CSV. */
+   fuzzy-matched to the known collection, saved to an exportable CSV.
+   Photos are never stored — only extracted text fields persist locally
+   or in Supabase. Camera frames live in memory for OCR, then are discarded. */
 (() => {
   "use strict";
 
   const $ = (id) => document.getElementById(id);
   const els = {
-    video: $("video"), frame: $("frame"), scanBtn: $("scanBtn"),
+    video: $("video"), scanBtn: $("scanBtn"),
     status: $("status"), series: $("series"), suggest: $("suggest"),
     matchNote: $("matchNote"), issue: $("issue"), year: $("year"),
     upc: $("upc"), notes: $("notes"), raw: $("raw"),
@@ -145,8 +147,8 @@
     return ocrWorker;
   }
 
-  // Draw a normalised crop of the current video frame to an offscreen canvas.
-  function cropToCanvas(topFrac, bottomFrac, digitsOnly) {
+  // Throwaway canvas for OCR — never persisted, never uploaded.
+  function cropToCanvas(topFrac, bottomFrac) {
     const v = els.video;
     const vw = v.videoWidth, vh = v.videoHeight;
     const y0 = Math.floor(vh * topFrac);
@@ -186,6 +188,10 @@
       const numCanvas = cropToCanvas(0.72, 1.0, true);
       await worker.setParameters({ tessedit_char_whitelist: "0123456789 #No." });
       const tNum = (await worker.recognize(numCanvas)).data.text || "";
+
+      // Release pixel memory immediately — we only keep the OCR text below.
+      titleCanvas.width = titleCanvas.height = 0;
+      numCanvas.width = numCanvas.height = 0;
 
       applyOcr(tTitle, tNum);
       setStatus("Check the fields, then “Add to list”.", "ok");
@@ -245,7 +251,7 @@
     }
   }
 
-  /* ---------- session list + storage ---------- */
+  /* ---------- session list + storage (text fields only, no images) ---------- */
   const load = () => { try { return JSON.parse(localStorage.getItem(STORE_KEY)) || []; } catch { return []; } };
   const save = (rows) => localStorage.setItem(STORE_KEY, JSON.stringify(rows));
 
