@@ -96,11 +96,17 @@
       flex-shrink: 0;
     }
     .group[open] > summary::before { content: "▾"; }
-    .group-name {
-      font-weight: 700;
-      flex: 1;
-      min-width: 0;
+    .group.char > summary {
+      background: rgba(255,255,255,0.35);
+      font-size: 1.02rem;
     }
+    .group.char > .group-body { padding: 0.5rem 0.75rem 0.75rem; display: flex; flex-direction: column; gap: 0.45rem; }
+    .group.series {
+      margin-left: 0.25rem;
+      border-left: 3px solid rgba(196,92,38,0.45);
+    }
+    .group.series > summary { padding: 0.65rem 0.85rem; font-size: 0.92rem; }
+    .group-name { font-weight: 700; flex: 1; min-width: 0; }
     .group-meta {
       color: var(--muted);
       font-size: 0.85rem;
@@ -116,6 +122,7 @@
       margin-top: 0.15rem;
     }
     .group-body { padding: 0 1rem 0.85rem; overflow-x: auto; }
+    .series .group-body { padding: 0 0.75rem 0.65rem; }
     table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
     th, td { text-align: left; padding: 0.45rem 0.35rem; border-bottom: 1px solid var(--line); }
     th { color: var(--muted); font-weight: 600; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; }
@@ -132,11 +139,11 @@
   </header>
   <div class="stats" id="stats"></div>
   <main>
-    <input id="q" type="search" placeholder="Filter series or title…" />
+    <input id="q" type="search" placeholder="Filter character, series or issue…" />
     <div id="out" class="err">Loading collection.json…</div>
   </main>
   <script>
-    /* --- fuzzy series grouping (mirrors scan.js normalisation) --- */
+    /* --- fuzzy series grouping --- */
     function normSeries(s) {
       return String(s || "").toLowerCase()
         .replace(/^the\s+/, "")
@@ -163,7 +170,7 @@
       return (2 * inter) / (ga.size + gb.size);
     }
 
-    const FUZZY = 0.88; // high bar — only merge near-duplicates, not related titles
+    const FUZZY = 0.88;
 
     function clusterSeries(names) {
       const unique = [...new Set(names.filter(Boolean))];
@@ -191,14 +198,13 @@
     function pickDisplayName(names) {
       const counts = new Map();
       for (const n of names) counts.set(n, (counts.get(n) || 0) + 1);
-      const sorted = [...names].sort((a, b) => {
+      return [...names].sort((a, b) => {
         const dc = (counts.get(b) || 0) - (counts.get(a) || 0);
         if (dc) return dc;
         const aThe = /^the\s/i.test(a), bThe = /^the\s/i.test(b);
         if (aThe !== bThe) return aThe ? 1 : -1;
         return a.localeCompare(b);
-      });
-      return sorted[0];
+      })[0];
     }
 
     function issueNum(v) {
@@ -206,34 +212,118 @@
       return Number.isFinite(n) ? n : 999999;
     }
 
-    function buildGroups(rows) {
+    /* --- character / franchise detection --- */
+    function mapCharacterField(raw) {
+      const c = String(raw || "").trim();
+      if (!c) return null;
+      const lower = c.toLowerCase();
+      if (/spider-man|spider gwen|scarlet spider|\bsilk\b|spider-man 2099/.test(lower)) return "Spider-Man";
+      if (/wolverine|x-23|laura kinney/.test(lower)) return "X-Men";
+      if (/iron man|ironheart/.test(lower)) return "Iron Man";
+      if (/captain america/.test(lower)) return "Captain America";
+      if (/fantastic four/.test(lower)) return "Fantastic Four";
+      if (/carnage/.test(lower)) return "Carnage";
+      if (/venom/.test(lower)) return "Venom";
+      return c.split(":")[0].trim() || null;
+    }
+
+    function detectCharacter(series, characterField) {
+      const mapped = mapCharacterField(characterField);
+      if (mapped) return mapped;
+      const s = String(series || "").toLowerCase();
+
+      if (/star wars/.test(s)) return "Star Wars";
+      if (/^web of venom|^venom war|^all[- ]new venom|^venom:|^venom$/.test(s) || (/\bvenom\b/.test(s) && !/amazing spider-man\/venom/.test(s))) return "Venom";
+      if (/miles morales|spider-man|spider man|spider-verse|spider geddon|spider-geddon|spider force|spider gwen|spider-woman|scarlet spider|friendly neighborhood|spectacular spider|amazing spider|non-stop spider|spidergeddon|edge of spider/.test(s)) return "Spider-Man";
+      if (/iron man|ironheart|invincible iron|superior iron|infamous iron|international iron|tony stark/.test(s)) return "Iron Man";
+      if (/avengers/.test(s)) return "Avengers";
+      if (/captain america/.test(s)) return "Captain America";
+      if (/fantastic four/.test(s)) return "Fantastic Four";
+      if (/wolverine|x-men|x men|x-23|laura kinney|uncanny x/.test(s)) return "X-Men";
+      if (/deadpool/.test(s)) return "Deadpool";
+      if (/\bthor\b/.test(s)) return "Thor";
+      if (/^the incredible hulk|^immortal hulk|\bhulk\b/.test(s)) return "Hulk";
+      if (/daredevil/.test(s)) return "Daredevil";
+      if (/guardians of the galaxy/.test(s)) return "Guardians of the Galaxy";
+      if (/doctor strange|dr\. strange/.test(s)) return "Doctor Strange";
+      if (/black panther/.test(s)) return "Black Panther";
+      if (/carnage/.test(s)) return "Carnage";
+      if (/absolute carnage|king in black|empyre|secret wars|civil war|war of the realms|dark ages|infinity/.test(s)) return "Events";
+
+      return null;
+    }
+
+    function buildSeriesGroups(rows) {
       const bySeries = new Map();
       for (const r of rows) {
         const s = String(r.series || "").trim() || "(unknown)";
         if (!bySeries.has(s)) bySeries.set(s, []);
         bySeries.get(s).push(r);
       }
-      const clusters = clusterSeries([...bySeries.keys()]);
-      return clusters.map((names) => {
+      return clusterSeries([...bySeries.keys()]).map((names) => {
         const issues = names.flatMap((n) => bySeries.get(n) || []);
         issues.sort((a, b) => issueNum(a.issue_number) - issueNum(b.issue_number));
-        const value = issues.reduce((s, r) => s + Number(r.estimated_value || 0), 0);
-        const aliases = names.length > 1
-          ? names.filter((n) => n !== pickDisplayName(names))
-          : [];
-        return {
-          display: pickDisplayName(names),
-          names,
-          aliases,
-          issues,
-          value,
-        };
-      }).sort((a, b) => a.display.localeCompare(b.display));
+        const display = pickDisplayName(names);
+        const aliases = names.length > 1 ? names.filter((n) => n !== display) : [];
+        const value = issues.reduce((sum, r) => sum + Number(r.estimated_value || 0), 0);
+        const characterHint = issues.map((r) => r.character).find((c) => c && String(c).trim()) || "";
+        const character = detectCharacter(display, characterHint) || display;
+        return { display, names, aliases, issues, value, character };
+      });
+    }
+
+    function buildCharacterGroups(seriesGroups) {
+      const chars = new Map();
+      for (const sg of seriesGroups) {
+        const key = sg.character;
+        if (!chars.has(key)) chars.set(key, { name: key, series: [], value: 0, issueCount: 0 });
+        const ch = chars.get(key);
+        ch.series.push(sg);
+        ch.value += sg.value;
+        ch.issueCount += sg.issues.length;
+      }
+      return [...chars.values()]
+        .map((ch) => {
+          ch.series.sort((a, b) => a.display.localeCompare(b.display));
+          return ch;
+        })
+        .sort((a, b) => a.name.localeCompare(b.name));
     }
 
     function esc(s) {
       return String(s ?? "").replace(/[&<>"']/g, (c) =>
         ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+
+    function issueMatches(r, qq) {
+      return String(r.title || "").toLowerCase().includes(qq) ||
+        String(r.series || "").toLowerCase().includes(qq) ||
+        String(r.issue_number ?? "").includes(qq);
+    }
+
+    function filterCharacters(chars, qq) {
+      if (!qq) return chars;
+      return chars.map((ch) => {
+        if (ch.name.toLowerCase().includes(qq)) return ch;
+        const series = ch.series.map((sg) => {
+          if (sg.display.toLowerCase().includes(qq) || sg.names.some((n) => n.toLowerCase().includes(qq))) return sg;
+          const issues = sg.issues.filter((r) => issueMatches(r, qq));
+          return issues.length ? { ...sg, issues } : null;
+        }).filter(Boolean);
+        return series.length ? { ...ch, series, issueCount: series.reduce((s, g) => s + g.issues.length, 0), value: series.reduce((s, g) => s + g.value, 0) } : null;
+      }).filter(Boolean);
+    }
+
+    function renderIssueTable(issues) {
+      return `<table>
+        <thead><tr><th>#</th><th>Year</th><th>Est.</th><th>Source</th></tr></thead>
+        <tbody>${issues.map((r) => `<tr>
+          <td>${esc(r.issue_number ?? "")}</td>
+          <td>${esc(r.year ?? "")}</td>
+          <td class="money">£${Number(r.estimated_value || 0).toFixed(2)}</td>
+          <td>${esc(r.market_source || "")}</td>
+        </tr>`).join("")}</tbody>
+      </table>`;
     }
 
     async function boot() {
@@ -247,57 +337,50 @@
           ? new Date(data.exported_at).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })
           : "unknown";
         document.getElementById("snapTag").textContent =
-          `Snapshot ${when} · ${(data.totals?.issues || 0).toLocaleString()} issues · grouped by series`;
+          `Snapshot ${when} · ${(data.totals?.issues || 0).toLocaleString()} comics · grouped by character`;
         const t = data.totals || {};
         stats.innerHTML = `
-          <div class="stat"><b>${(t.issues || 0).toLocaleString()}</b><span>issues</span></div>
+          <div class="stat"><b>${(t.issues || 0).toLocaleString()}</b><span>comics</span></div>
           <div class="stat"><b>£${Number(t.estimated_value_gbp || 0).toLocaleString()}</b><span>est. value</span></div>
           <div class="stat"><b>£${Number(t.paid_known_gbp || 0).toLocaleString()}</b><span>paid (known)</span></div>
         `;
         const rows = (data.collection || []).filter((r) => (r.kind || "comic") === "comic");
-        const allGroups = buildGroups(rows);
+        const allChars = buildCharacterGroups(buildSeriesGroups(rows));
 
         const render = (q) => {
           const qq = (q || "").toLowerCase();
-          const groups = !qq ? allGroups : allGroups.map((g) => ({
-            ...g,
-            issues: g.issues.filter((r) =>
-              g.display.toLowerCase().includes(qq) ||
-              g.names.some((n) => n.toLowerCase().includes(qq)) ||
-              String(r.title || "").toLowerCase().includes(qq) ||
-              String(r.issue_number ?? "").includes(qq)
-            ),
-          })).filter((g) => g.issues.length);
+          const chars = filterCharacters(allChars, qq);
 
-          if (!groups.length) {
-            out.innerHTML = '<p class="empty">No matching series or issues.</p>';
+          if (!chars.length) {
+            out.innerHTML = '<p class="empty">No matching characters, series or issues.</p>';
             return;
           }
 
-          out.innerHTML = `<div class="groups">${groups.map((g) => {
-            const alias = g.aliases.length
-              ? `<span class="alias">Also: ${g.aliases.map(esc).join(", ")}</span>`
-              : "";
-            const body = g.issues.map((r) => `<tr>
-              <td>${esc(r.issue_number ?? "")}</td>
-              <td>${esc(r.year ?? "")}</td>
-              <td class="money">£${Number(r.estimated_value || 0).toFixed(2)}</td>
-              <td>${esc(r.market_source || "")}</td>
-            </tr>`).join("");
-            return `<details class="group">
+          const seriesCount = chars.reduce((s, c) => s + c.series.length, 0);
+          const issueCount = chars.reduce((s, c) => s + c.issueCount, 0);
+
+          out.innerHTML = `<div class="groups">${chars.map((ch) => {
+            const seriesHtml = ch.series.map((sg) => {
+              const alias = sg.aliases.length
+                ? `<span class="alias">Also: ${sg.aliases.map(esc).join(", ")}</span>`
+                : "";
+              return `<details class="group series">
+                <summary>
+                  <span class="group-name">${esc(sg.display)}${alias}</span>
+                  <span class="group-meta"><b>${sg.issues.length}</b> · £${sg.value.toFixed(0)}</span>
+                </summary>
+                <div class="group-body">${renderIssueTable(sg.issues)}</div>
+              </details>`;
+            }).join("");
+            return `<details class="group char">
               <summary>
-                <span class="group-name">${esc(g.display)}${alias}</span>
-                <span class="group-meta"><b>${g.issues.length}</b> issues · £${g.value.toFixed(0)}</span>
+                <span class="group-name">${esc(ch.name)}</span>
+                <span class="group-meta"><b>${ch.series.length}</b> titles · <b>${ch.issueCount}</b> issues · £${ch.value.toFixed(0)}</span>
               </summary>
-              <div class="group-body">
-                <table>
-                  <thead><tr><th>#</th><th>Year</th><th>Est.</th><th>Source</th></tr></thead>
-                  <tbody>${body}</tbody>
-                </table>
-              </div>
+              <div class="group-body">${seriesHtml}</div>
             </details>`;
           }).join("")}</div>
-          <p class="tag">${groups.length} series · ${groups.reduce((s, g) => s + g.issues.length, 0)} issues shown</p>`;
+          <p class="tag">${chars.length} characters · ${seriesCount} series · ${issueCount} issues shown</p>`;
         };
 
         document.getElementById("q").addEventListener("input", (e) => render(e.target.value));
