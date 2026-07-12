@@ -254,7 +254,7 @@
           <div class="stat"><b>£${Number(t.estimated_value_gbp || 0).toLocaleString()}</b><span>est. value</span></div>
           <div class="stat"><b>£${Number(t.paid_known_gbp || 0).toLocaleString()}</b><span>paid (known)</span></div>
         `;
-        const rows = data.collection || [];
+        const rows = (data.collection || []).filter((r) => (r.kind || "comic") === "comic");
         const allGroups = buildGroups(rows);
 
         const render = (q) => {
