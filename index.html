@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>PanelBook</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
@@ -124,7 +127,7 @@
 <body>
   <header>
     <h1 class="brand">PanelBook</h1>
-    <p class="tag">Collection snapshot — grouped by series.</p>
+    <p class="tag" id="snapTag">Loading collection…</p>
     <p style="margin:0.75rem 0 0;"><a href="scan.html" style="display:inline-block;background:#c45c26;color:#f3e6d4;text-decoration:none;font-weight:700;letter-spacing:0.02em;padding:0.7rem 1.1rem;border:1px solid #c45c26;">Scan a comic &rarr;</a></p>
   </header>
   <div class="stats" id="stats"></div>
@@ -237,9 +240,14 @@
       const out = document.getElementById("out");
       const stats = document.getElementById("stats");
       try {
-        const res = await fetch("collection.json", { cache: "no-store" });
+        const res = await fetch(`collection.json?t=${Date.now()}`, { cache: "no-store" });
         if (!res.ok) throw new Error("No collection.json yet — run scripts/export_static.py");
         const data = await res.json();
+        const when = data.exported_at
+          ? new Date(data.exported_at).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })
+          : "unknown";
+        document.getElementById("snapTag").textContent =
+          `Snapshot ${when} · ${(data.totals?.issues || 0).toLocaleString()} issues · grouped by series`;
         const t = data.totals || {};
         stats.innerHTML = `
           <div class="stat"><b>${(t.issues || 0).toLocaleString()}</b><span>issues</span></div>
