@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2a211c">
+  <title>PanelBook · Scan</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #1a1410;
+      --paper: #f3e6d4;
+      --panel: #2a211c;
+      --accent: #c45c26;
+      --muted: #7a6a5c;
+      --line: rgba(26,20,16,0.12);
+      --ok: #2f7d3a;
+      --warn: #8b1e1e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Source Sans 3", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse at 20% 0%, rgba(196,92,38,0.18), transparent 50%),
+        linear-gradient(165deg, #efe2cf 0%, #e4d3bb 45%, #d9c4a8 100%);
+      min-height: 100vh;
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+    header {
+      padding: 1.25rem 1.25rem 0.5rem;
+      max-width: 720px;
+      margin: 0 auto;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .brand {
+      font-family: "Bebas Neue", Impact, sans-serif;
+      font-size: clamp(2rem, 7vw, 3rem);
+      letter-spacing: 0.04em;
+      line-height: 0.95;
+      margin: 0;
+    }
+    .brand small { color: var(--accent); }
+    header a { color: var(--muted); text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+    main { max-width: 720px; margin: 0 auto; padding: 0 1.25rem 3rem; }
+
+    .card {
+      background: rgba(255,255,255,0.5);
+      border: 1px solid var(--line);
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .camwrap {
+      position: relative;
+      background: #000;
+      aspect-ratio: 3 / 4;
+      overflow: hidden;
+      border: 1px solid var(--line);
+    }
+    video, #frame { width: 100%; height: 100%; object-fit: cover; display: block; }
+    #frame { display: none; }
+    .reticle {
+      position: absolute; inset: 12% 8%;
+      border: 2px dashed rgba(255,255,255,0.6);
+      border-radius: 6px;
+      pointer-events: none;
+    }
+    .reticle::after {
+      content: "aim at cover · keep barcode in frame";
+      position: absolute; left: 0; right: 0; bottom: -1.6rem;
+      text-align: center; color: rgba(255,255,255,0.85); font-size: 0.75rem;
+    }
+
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      gap: 0.5rem;
+      width: 100%;
+      padding: 0.95rem 1rem;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--paper);
+      font: inherit; font-weight: 700;
+      letter-spacing: 0.02em;
+      cursor: pointer;
+    }
+    .btn.accent { background: var(--accent); border-color: var(--accent); }
+    .btn.ghost { background: rgba(255,255,255,0.55); color: var(--ink); }
+    .btn:disabled { opacity: 0.5; }
+    .btn-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin-top: 0.75rem; }
+
+    label { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 0.6rem 0 0.25rem; }
+    input {
+      width: 100%;
+      padding: 0.75rem 0.85rem;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.7);
+      font: inherit;
+    }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+
+    .status { font-size: 0.85rem; color: var(--muted); margin: 0.5rem 0 0; min-height: 1.2em; }
+    .status.ok { color: var(--ok); }
+    .status.warn { color: var(--warn); }
+    .match { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; }
+    .chips { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.4rem; }
+    .chip { border: 1px solid var(--line); background: rgba(255,255,255,0.6); padding: 0.3rem 0.55rem; font-size: 0.8rem; cursor: pointer; }
+
+    .count { font-family: "Bebas Neue", sans-serif; font-size: 1.6rem; letter-spacing: 0.03em; }
+    .list { list-style: none; margin: 0.5rem 0 0; padding: 0; }
+    .list li { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--line); font-size: 0.9rem; }
+    .list li .meta { flex: 1; min-width: 0; }
+    .list li .meta small { color: var(--muted); display: block; }
+    .list li button { border: none; background: none; color: var(--warn); font-size: 1.1rem; cursor: pointer; padding: 0 0.3rem; }
+    .raw { font-family: ui-monospace, monospace; font-size: 0.72rem; color: var(--muted); white-space: pre-wrap; word-break: break-word; margin-top: 0.4rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="brand">PanelBook<small>·Scan</small></h1>
+    <a href="index.html">&larr; Collection</a>
+  </header>
+  <main>
+    <div class="card">
+      <div class="camwrap">
+        <video id="video" playsinline muted></video>
+        <canvas id="frame"></canvas>
+        <div class="reticle"></div>
+      </div>
+      <button id="scanBtn" class="btn accent" type="button" disabled>Start camera</button>
+      <p id="status" class="status">Tap “Start camera” to begin.</p>
+    </div>
+
+    <div class="card">
+      <label for="series">Series</label>
+      <input id="series" type="text" autocomplete="off" placeholder="e.g. Amazing Spider-Man" />
+      <div id="suggest" class="chips"></div>
+      <div id="matchNote" class="match"></div>
+
+      <div class="grid2">
+        <div>
+          <label for="issue">Issue #</label>
+          <input id="issue" type="text" inputmode="numeric" placeholder="e.g. 300" />
+        </div>
+        <div>
+          <label for="year">Year</label>
+          <input id="year" type="text" inputmode="numeric" placeholder="opt." />
+        </div>
+      </div>
+
+      <label for="upc">UPC / barcode</label>
+      <input id="upc" type="text" inputmode="numeric" placeholder="scanned automatically" />
+
+      <label for="notes">Notes</label>
+      <input id="notes" type="text" placeholder="opt. (variant, condition…)" />
+
+      <div class="raw" id="raw"></div>
+
+      <div class="btn-row">
+        <button id="addBtn" class="btn" type="button">Add to list</button>
+        <button id="clearBtn" class="btn ghost" type="button">Clear fields</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;">
+        <span class="count"><span id="count">0</span> scanned</span>
+        <button id="wipeBtn" class="btn ghost" type="button" style="width:auto;padding:0.4rem 0.7rem;">Empty list</button>
+      </div>
+      <ul id="list" class="list"></ul>
+      <button id="pushBtn" class="btn accent" type="button" style="margin-top:0.75rem;">Push to master</button>
+      <p id="pushStatus" class="status"></p>
+      <div class="btn-row">
+        <button id="exportBtn" class="btn" type="button">Export CSV</button>
+        <button id="copyBtn" class="btn ghost" type="button">Copy text</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+  <script src="scan.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "PanelBook Scan",
+  "short_name": "PB Scan",
+  "description": "Scan comic barcodes and covers to log ownership.",
+  "start_url": "scan.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e4d3bb",
+  "theme_color": "#2a211c",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

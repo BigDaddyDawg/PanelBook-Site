@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PanelBook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #1a1410;
+      --paper: #f3e6d4;
+      --panel: #2a211c;
+      --accent: #c45c26;
+      --muted: #7a6a5c;
+      --line: rgba(26,20,16,0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Source Sans 3", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse at 20% 0%, rgba(196,92,38,0.18), transparent 50%),
+        linear-gradient(165deg, #efe2cf 0%, #e4d3bb 45%, #d9c4a8 100%);
+      min-height: 100vh;
+    }
+    header {
+      padding: 2rem 1.25rem 1rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .brand {
+      font-family: "Bebas Neue", Impact, sans-serif;
+      font-size: clamp(2.8rem, 8vw, 4.5rem);
+      letter-spacing: 0.04em;
+      line-height: 0.95;
+      margin: 0;
+    }
+    .tag {
+      color: var(--muted);
+      margin: 0.4rem 0 0;
+      max-width: 28rem;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+      max-width: 960px;
+      margin: 0 auto 1.5rem;
+      padding: 0 1.25rem;
+    }
+    .stat {
+      background: rgba(255,255,255,0.45);
+      border: 1px solid var(--line);
+      padding: 1rem;
+    }
+    .stat b {
+      display: block;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 1.8rem;
+      letter-spacing: 0.03em;
+    }
+    .stat span { color: var(--muted); font-size: 0.85rem; }
+    main { max-width: 960px; margin: 0 auto; padding: 0 1.25rem 3rem; }
+    input {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.55);
+      font: inherit;
+      margin-bottom: 1rem;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+    th, td { text-align: left; padding: 0.55rem 0.4rem; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; }
+    .money { font-variant-numeric: tabular-nums; }
+    .err { color: #8b1e1e; padding: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="brand">PanelBook</h1>
+    <p class="tag">Collection snapshot — refresh by exporting from the laptop app.</p>
+    <p style="margin:0.75rem 0 0;"><a href="scan.html" style="display:inline-block;background:#c45c26;color:#f3e6d4;text-decoration:none;font-weight:700;letter-spacing:0.02em;padding:0.7rem 1.1rem;border:1px solid #c45c26;">Scan a comic &rarr;</a></p>
+  </header>
+  <div class="stats" id="stats"></div>
+  <main>
+    <input id="q" type="search" placeholder="Filter series or title…" />
+    <div id="out" class="err">Loading collection.json…</div>
+  </main>
+  <script>
+    async function boot() {
+      const out = document.getElementById('out');
+      const stats = document.getElementById('stats');
+      try {
+        const res = await fetch('collection.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('No collection.json yet — run scripts/export_static.py');
+        const data = await res.json();
+        const t = data.totals || {};
+        stats.innerHTML = `
+          <div class="stat"><b>${(t.issues||0).toLocaleString()}</b><span>issues</span></div>
+          <div class="stat"><b>£${Number(t.estimated_value_gbp||0).toLocaleString()}</b><span>est. value</span></div>
+          <div class="stat"><b>£${Number(t.paid_known_gbp||0).toLocaleString()}</b><span>paid (known)</span></div>
+        `;
+        const rows = data.collection || [];
+        const render = (q) => {
+          const qq = (q||'').toLowerCase();
+          const filtered = !qq ? rows : rows.filter(r =>
+            String(r.series||'').toLowerCase().includes(qq) ||
+            String(r.title||'').toLowerCase().includes(qq)
+          );
+          out.innerHTML = `<table>
+            <thead><tr><th>Series</th><th>#</th><th>Year</th><th>Est.</th><th>Source</th></tr></thead>
+            <tbody>${filtered.slice(0,500).map(r => `<tr>
+              <td>${r.series||''}</td>
+              <td>${r.issue_number ?? ''}</td>
+              <td>${r.year ?? ''}</td>
+              <td class="money">£${Number(r.estimated_value||0).toFixed(2)}</td>
+              <td>${r.market_source||''}</td>
+            </tr>`).join('')}</tbody>
+          </table>${filtered.length>500?`<p class="tag">Showing 500 of ${filtered.length}</p>`:''}`;
+        };
+        document.getElementById('q').addEventListener('input', e => render(e.target.value));
+        render('');
+      } catch (e) {
+        out.textContent = e.message || String(e);
+      }
+    }
+    boot();
+  </script>
+</body>
+</html>
