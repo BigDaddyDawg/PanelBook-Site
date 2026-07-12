@@ -96,11 +96,11 @@
       flex-shrink: 0;
     }
     .group[open] > summary::before { content: "▾"; }
-    .group.char > summary {
+    .group.line > summary {
       background: rgba(255,255,255,0.35);
       font-size: 1.02rem;
     }
-    .group.char > .group-body { padding: 0.5rem 0.75rem 0.75rem; display: flex; flex-direction: column; gap: 0.45rem; }
+    .group.line > .group-body { padding: 0.5rem 0.75rem 0.75rem; display: flex; flex-direction: column; gap: 0.45rem; }
     .group.series {
       margin-left: 0.25rem;
       border-left: 3px solid rgba(196,92,38,0.45);
@@ -139,7 +139,7 @@
   </header>
   <div class="stats" id="stats"></div>
   <main>
-    <input id="q" type="search" placeholder="Filter character, series or issue…" />
+    <input id="q" type="search" placeholder="Filter franchise, series or issue…" />
     <div id="out" class="err">Loading collection.json…</div>
   </main>
   <script>
@@ -212,34 +212,25 @@
       return Number.isFinite(n) ? n : 999999;
     }
 
-    /* --- character / franchise detection --- */
-    function mapCharacterField(raw) {
-      const c = String(raw || "").trim();
-      if (!c) return null;
-      const lower = c.toLowerCase();
-      if (/spider-man|spider gwen|scarlet spider|\bsilk\b|spider-man 2099/.test(lower)) return "Spider-Man";
-      if (/wolverine|x-23|laura kinney/.test(lower)) return "X-Men";
-      if (/iron man|ironheart/.test(lower)) return "Iron Man";
-      if (/captain america/.test(lower)) return "Captain America";
-      if (/fantastic four/.test(lower)) return "Fantastic Four";
-      if (/carnage/.test(lower)) return "Carnage";
-      if (/venom/.test(lower)) return "Venom";
-      return c.split(":")[0].trim() || null;
-    }
-
-    function detectCharacter(series, characterField) {
-      const mapped = mapCharacterField(characterField);
-      if (mapped) return mapped;
+    /* --- publishing-line / franchise detection (from series name, not character field) --- */
+    function detectPublishingLine(series) {
       const s = String(series || "").toLowerCase();
 
       if (/star wars/.test(s)) return "Star Wars";
-      if (/^web of venom|^venom war|^all[- ]new venom|^venom:|^venom$/.test(s) || (/\bvenom\b/.test(s) && !/amazing spider-man\/venom/.test(s))) return "Venom";
-      if (/miles morales|spider-man|spider man|spider-verse|spider geddon|spider-geddon|spider force|spider gwen|spider-woman|scarlet spider|friendly neighborhood|spectacular spider|amazing spider|non-stop spider|spidergeddon|edge of spider/.test(s)) return "Spider-Man";
+      if (/^ultimate|^ultimates\b|^ultimate comics|ultimate universe|ultimate spider-man|ultimate wolverine|ultimate endgame|ultimate invasion|miles morales: the ultimate/.test(s)) {
+        return "Ultimate Universe";
+      }
+      if (/spider-man|spider man|spider-verse|spider geddon|spider-geddon|spider force|spider gwen|spider-woman|scarlet spider|miles morales|friendly neighborhood|spectacular spider|amazing spider|non-stop spider|spidergeddon|edge of spider|symbiote spider|vault of spiders|spider-men|superior spider|spider-woman|king in black: spider-man|venom war: spider-man/.test(s)) {
+        return "Spider-Man";
+      }
+      if (/^web of venom|venom war|^venom:|^all[- ]new venom|^venom$/.test(s) || (/\bvenom\b/.test(s) && !/amazing spider-man\/venom|spider-man\/venom/.test(s))) {
+        return "Venom";
+      }
       if (/iron man|ironheart|invincible iron|superior iron|infamous iron|international iron|tony stark/.test(s)) return "Iron Man";
       if (/avengers/.test(s)) return "Avengers";
       if (/captain america/.test(s)) return "Captain America";
       if (/fantastic four/.test(s)) return "Fantastic Four";
-      if (/wolverine|x-men|x men|x-23|laura kinney|uncanny x/.test(s)) return "X-Men";
+      if (/wolverine|x-men|x men|x-23|uncanny x/.test(s)) return "X-Men";
       if (/deadpool/.test(s)) return "Deadpool";
       if (/\bthor\b/.test(s)) return "Thor";
       if (/^the incredible hulk|^immortal hulk|\bhulk\b/.test(s)) return "Hulk";
@@ -247,10 +238,11 @@
       if (/guardians of the galaxy/.test(s)) return "Guardians of the Galaxy";
       if (/doctor strange|dr\. strange/.test(s)) return "Doctor Strange";
       if (/black panther/.test(s)) return "Black Panther";
-      if (/carnage/.test(s)) return "Carnage";
-      if (/absolute carnage|king in black|empyre|secret wars|civil war|war of the realms|dark ages|infinity/.test(s)) return "Events";
+      if (/absolute carnage|king in black|empyre|secret wars|civil war|war of the realms|dark ages|\binfinity\b/.test(s)) return "Events";
 
-      return null;
+      // Standalone publishing title: use the part before the first colon
+      const prefix = String(series || "").split(":")[0].trim();
+      return prefix || series || "(unknown)";
     }
 
     function buildSeriesGroups(rows) {
@@ -266,26 +258,25 @@
         const display = pickDisplayName(names);
         const aliases = names.length > 1 ? names.filter((n) => n !== display) : [];
         const value = issues.reduce((sum, r) => sum + Number(r.estimated_value || 0), 0);
-        const characterHint = issues.map((r) => r.character).find((c) => c && String(c).trim()) || "";
-        const character = detectCharacter(display, characterHint) || display;
-        return { display, names, aliases, issues, value, character };
+        const publishingLine = detectPublishingLine(display);
+        return { display, names, aliases, issues, value, publishingLine };
       });
     }
 
-    function buildCharacterGroups(seriesGroups) {
-      const chars = new Map();
+    function buildLineGroups(seriesGroups) {
+      const lines = new Map();
       for (const sg of seriesGroups) {
-        const key = sg.character;
-        if (!chars.has(key)) chars.set(key, { name: key, series: [], value: 0, issueCount: 0 });
-        const ch = chars.get(key);
-        ch.series.push(sg);
-        ch.value += sg.value;
-        ch.issueCount += sg.issues.length;
+        const key = sg.publishingLine;
+        if (!lines.has(key)) lines.set(key, { name: key, series: [], value: 0, issueCount: 0 });
+        const line = lines.get(key);
+        line.series.push(sg);
+        line.value += sg.value;
+        line.issueCount += sg.issues.length;
       }
-      return [...chars.values()]
-        .map((ch) => {
-          ch.series.sort((a, b) => a.display.localeCompare(b.display));
-          return ch;
+      return [...lines.values()]
+        .map((line) => {
+          line.series.sort((a, b) => a.display.localeCompare(b.display));
+          return line;
         })
         .sort((a, b) => a.name.localeCompare(b.name));
     }
@@ -301,16 +292,16 @@
         String(r.issue_number ?? "").includes(qq);
     }
 
-    function filterCharacters(chars, qq) {
-      if (!qq) return chars;
-      return chars.map((ch) => {
-        if (ch.name.toLowerCase().includes(qq)) return ch;
-        const series = ch.series.map((sg) => {
+    function filterLines(lines, qq) {
+      if (!qq) return lines;
+      return lines.map((line) => {
+        if (line.name.toLowerCase().includes(qq)) return line;
+        const series = line.series.map((sg) => {
           if (sg.display.toLowerCase().includes(qq) || sg.names.some((n) => n.toLowerCase().includes(qq))) return sg;
           const issues = sg.issues.filter((r) => issueMatches(r, qq));
           return issues.length ? { ...sg, issues } : null;
         }).filter(Boolean);
-        return series.length ? { ...ch, series, issueCount: series.reduce((s, g) => s + g.issues.length, 0), value: series.reduce((s, g) => s + g.value, 0) } : null;
+        return series.length ? { ...line, series, issueCount: series.reduce((s, g) => s + g.issues.length, 0), value: series.reduce((s, g) => s + g.value, 0) } : null;
       }).filter(Boolean);
     }
 
@@ -337,7 +328,7 @@
           ? new Date(data.exported_at).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })
           : "unknown";
         document.getElementById("snapTag").textContent =
-          `Snapshot ${when} · ${(data.totals?.issues || 0).toLocaleString()} comics · grouped by character`;
+          `Snapshot ${when} · ${(data.totals?.issues || 0).toLocaleString()} comics · grouped by publishing line`;
         const t = data.totals || {};
         stats.innerHTML = `
           <div class="stat"><b>${(t.issues || 0).toLocaleString()}</b><span>comics</span></div>
@@ -345,22 +336,22 @@
           <div class="stat"><b>£${Number(t.paid_known_gbp || 0).toLocaleString()}</b><span>paid (known)</span></div>
         `;
         const rows = (data.collection || []).filter((r) => (r.kind || "comic") === "comic");
-        const allChars = buildCharacterGroups(buildSeriesGroups(rows));
+        const allLines = buildLineGroups(buildSeriesGroups(rows));
 
         const render = (q) => {
           const qq = (q || "").toLowerCase();
-          const chars = filterCharacters(allChars, qq);
+          const lines = filterLines(allLines, qq);
 
-          if (!chars.length) {
-            out.innerHTML = '<p class="empty">No matching characters, series or issues.</p>';
+          if (!lines.length) {
+            out.innerHTML = '<p class="empty">No matching franchises, series or issues.</p>';
             return;
           }
 
-          const seriesCount = chars.reduce((s, c) => s + c.series.length, 0);
-          const issueCount = chars.reduce((s, c) => s + c.issueCount, 0);
+          const seriesCount = lines.reduce((s, c) => s + c.series.length, 0);
+          const issueCount = lines.reduce((s, c) => s + c.issueCount, 0);
 
-          out.innerHTML = `<div class="groups">${chars.map((ch) => {
-            const seriesHtml = ch.series.map((sg) => {
+          out.innerHTML = `<div class="groups">${lines.map((line) => {
+            const seriesHtml = line.series.map((sg) => {
               const alias = sg.aliases.length
                 ? `<span class="alias">Also: ${sg.aliases.map(esc).join(", ")}</span>`
                 : "";
@@ -372,15 +363,15 @@
                 <div class="group-body">${renderIssueTable(sg.issues)}</div>
               </details>`;
             }).join("");
-            return `<details class="group char">
+            return `<details class="group line">
               <summary>
-                <span class="group-name">${esc(ch.name)}</span>
-                <span class="group-meta"><b>${ch.series.length}</b> titles · <b>${ch.issueCount}</b> issues · £${ch.value.toFixed(0)}</span>
+                <span class="group-name">${esc(line.name)}</span>
+                <span class="group-meta"><b>${line.series.length}</b> titles · <b>${line.issueCount}</b> issues · £${line.value.toFixed(0)}</span>
               </summary>
               <div class="group-body">${seriesHtml}</div>
             </details>`;
           }).join("")}</div>
-          <p class="tag">${chars.length} characters · ${seriesCount} series · ${issueCount} issues shown</p>`;
+          <p class="tag">${lines.length} franchises · ${seriesCount} series · ${issueCount} issues shown</p>`;
         };
 
         document.getElementById("q").addEventListener("input", (e) => render(e.target.value));
