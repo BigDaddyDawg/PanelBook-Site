@@ -1,8 +1,9 @@
 {
-  "built_from": "marvel_fandom_cache",
+  "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1285,
+  "count": 1289,
   "inferred_count": 25,
+  "secondary_count": 4,
   "years": {
     "Absolute Carnage|1": "2019",
     "Absolute Carnage|2": "2019",
@@ -1250,7 +1251,11 @@
     "Venom|254": "2026",
     "Venom|255": "2026",
     "Venom|256": "2026",
+    "Venom|257": "2026",
+    "Venom|258": "2026",
+    "Venom|259": "2026",
     "Venom|26": "2023",
+    "Venom|260": "2026",
     "Venom|27": "2023",
     "Venom|28": "2023",
     "Venom|29": "2024",
@@ -8791,11 +8796,39 @@
       "volume": "6",
       "issue": "256"
     },
+    "Venom|257": {
+      "year": "2026",
+      "series": "Venom",
+      "volume": "6",
+      "issue": "257",
+      "source": "comicpreviews.com"
+    },
+    "Venom|258": {
+      "year": "2026",
+      "series": "Venom",
+      "volume": "6",
+      "issue": "258",
+      "source": "comicpreviews.com"
+    },
+    "Venom|259": {
+      "year": "2026",
+      "series": "Venom",
+      "volume": "6",
+      "issue": "259",
+      "source": "comicpreviews.com"
+    },
     "Venom|26": {
       "year": "2023",
       "series": "Venom",
       "volume": "5",
       "issue": "26"
+    },
+    "Venom|260": {
+      "year": "2026",
+      "series": "Venom",
+      "volume": "6",
+      "issue": "260",
+      "source": "comicpreviews.com"
     },
     "Venom|27": {
       "year": "2023",
