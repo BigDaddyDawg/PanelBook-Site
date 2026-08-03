@@ -30,6 +30,8 @@
   let ocrWorker = null;
   let knownSeries = []; // { name, norm, grams }
   let seriesAliases = {}; // norm alias -> display name
+  let issueYears = {}; // "Series|issue" -> "2025"
+  const MIN_YEAR = 2009; // hard rule: collection is modern-only
 
   const setStatus = (msg, kind = "") => {
     els.status.textContent = msg;
@@ -80,12 +82,29 @@
     } catch (_) { /* optional */ }
     try {
       const res = await fetch("collection.json", { cache: "no-store" });
-      if (!res.ok) return;
-      const data = await res.json();
-      const names = [];
-      for (const r of data.collection || []) if (r.series) names.push(String(r.series));
-      indexSeriesNames(names);
+      if (res.ok) {
+        const data = await res.json();
+        const names = [];
+        for (const r of data.collection || []) if (r.series) names.push(String(r.series));
+        indexSeriesNames(names);
+      }
     } catch (_) { /* matching just degrades to typed text */ }
+    try {
+      const res = await fetch("issue_years.json", { cache: "no-store" });
+      if (res.ok) {
+        const data = await res.json();
+        issueYears = data.years || {};
+      }
+    } catch (_) { /* years stay blank until catalog is published */ }
+  }
+
+  function lookupYear(series, issue) {
+    const key = `${series}|${issue}`;
+    const y = issueYears[key] || issueYears[`${series}|${String(issue)}`] || "";
+    if (!y) return "";
+    const n = parseInt(y, 10);
+    if (!n || n < MIN_YEAR) return "";
+    return String(n);
   }
 
   // Returns up to `n` best series matches for an OCR / typed blob.
@@ -184,18 +203,22 @@
     }
     const series = resolveSeries(parsed.seriesRaw);
     const entries = [];
+    let withYear = 0;
     for (let i = parsed.from; i <= parsed.to; i++) {
+      const year = lookupYear(series, i);
+      if (year) withYear++;
       entries.push({
         series,
         issue: i,
+        year,
         raw: `quick: ${els.quick.value.trim()}`,
       });
     }
     appendRows(entries);
     const label = span === 1
-      ? `Added ${series} #${parsed.from}.`
-      : `Added ${series} #${parsed.from}–#${parsed.to} (${span}).`;
-    setQuick(label + " Next?", "ok");
+      ? `Added ${series} #${parsed.from}${entries[0].year ? " (" + entries[0].year + ")" : ""}.`
+      : `Added ${series} #${parsed.from}–#${parsed.to} (${span}, ${withYear} with year).`;
+    setQuick(label + " Next?", withYear === span ? "ok" : "warn");
     els.quick.value = "";
     els.quick.focus();
   }
