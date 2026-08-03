@@ -1,13 +1,67 @@
 {
-  "exported_at": "2026-08-03T18:30:25.520562+00:00",
+  "exported_at": "2026-08-03T18:40:27.368420+00:00",
   "totals": {
-    "issues": 198,
-    "estimated_value_gbp": 631.81,
+    "issues": 268,
+    "estimated_value_gbp": 844.78,
     "paid_known_gbp": 0.0
   },
   "collection": [
     {
-      "id": 9574,
+      "id": 9951,
+      "source": "scan",
+      "series": "1872",
+      "issue_number": 1.0,
+      "title": "1872 #1",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9952,
+      "source": "scan",
+      "series": "1872",
+      "issue_number": 2.0,
+      "title": "1872 #2",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9772,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 1.0,
@@ -34,7 +88,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9575,
+      "id": 9773,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 2.0,
@@ -61,7 +115,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9576,
+      "id": 9774,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 3.0,
@@ -88,7 +142,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9577,
+      "id": 9775,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 4.0,
@@ -115,7 +169,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9662,
+      "id": 9860,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 1.0,
@@ -142,7 +196,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9663,
+      "id": 9861,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 2.0,
@@ -169,7 +223,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9664,
+      "id": 9862,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 3.0,
@@ -196,7 +250,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9515,
+      "id": 9713,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -223,7 +277,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9516,
+      "id": 9714,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -250,7 +304,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9517,
+      "id": 9715,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -277,7 +331,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9518,
+      "id": 9716,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -304,7 +358,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9519,
+      "id": 9717,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -331,7 +385,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9520,
+      "id": 9718,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -358,7 +412,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9669,
+      "id": 9867,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -385,7 +439,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9670,
+      "id": 9868,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -412,7 +466,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9671,
+      "id": 9869,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -439,7 +493,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9672,
+      "id": 9870,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -466,7 +520,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9673,
+      "id": 9871,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -493,7 +547,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9674,
+      "id": 9872,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -520,7 +574,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9521,
+      "id": 9719,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 2.0,
@@ -547,7 +601,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9522,
+      "id": 9720,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 3.0,
@@ -574,7 +628,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9523,
+      "id": 9721,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 4.0,
@@ -601,7 +655,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9524,
+      "id": 9722,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 5.0,
@@ -628,7 +682,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9525,
+      "id": 9723,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 6.0,
@@ -655,7 +709,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9675,
+      "id": 9873,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 6.0,
@@ -682,7 +736,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9526,
+      "id": 9724,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 7.0,
@@ -709,7 +763,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9527,
+      "id": 9725,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 8.0,
@@ -736,7 +790,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9528,
+      "id": 9726,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 9.0,
@@ -763,7 +817,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9529,
+      "id": 9727,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 10.0,
@@ -790,7 +844,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9530,
+      "id": 9728,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 11.0,
@@ -817,7 +871,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9531,
+      "id": 9729,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 12.0,
@@ -844,7 +898,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9532,
+      "id": 9730,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 13.0,
@@ -871,7 +925,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9533,
+      "id": 9731,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 14.0,
@@ -898,7 +952,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9534,
+      "id": 9732,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 15.0,
@@ -925,7 +979,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9557,
+      "id": 9755,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 16.0,
@@ -952,7 +1006,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9558,
+      "id": 9756,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 16.0,
@@ -979,7 +1033,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9559,
+      "id": 9757,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 17.0,
@@ -1006,7 +1060,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9560,
+      "id": 9758,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 17.0,
@@ -1033,7 +1087,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9561,
+      "id": 9759,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 18.0,
@@ -1060,7 +1114,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9562,
+      "id": 9760,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 18.0,
@@ -1087,7 +1141,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9563,
+      "id": 9761,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 19.0,
@@ -1114,7 +1168,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9564,
+      "id": 9762,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 20.0,
@@ -1141,7 +1195,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9584,
+      "id": 9782,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 657.0,
@@ -1168,7 +1222,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9585,
+      "id": 9783,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 658.0,
@@ -1195,7 +1249,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9586,
+      "id": 9784,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 659.0,
@@ -1222,7 +1276,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9587,
+      "id": 9785,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 660.0,
@@ -1249,7 +1303,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9588,
+      "id": 9786,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 661.0,
@@ -1276,7 +1330,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9589,
+      "id": 9787,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 662.0,
@@ -1303,7 +1357,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9590,
+      "id": 9788,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 664.0,
@@ -1330,7 +1384,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9591,
+      "id": 9789,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 665.0,
@@ -1357,7 +1411,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9592,
+      "id": 9790,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 674.0,
@@ -1384,7 +1438,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9593,
+      "id": 9791,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 675.0,
@@ -1411,7 +1465,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9594,
+      "id": 9792,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 676.0,
@@ -1438,7 +1492,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9595,
+      "id": 9793,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 677.0,
@@ -1465,7 +1519,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9596,
+      "id": 9794,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 678.0,
@@ -1492,7 +1546,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9597,
+      "id": 9795,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 679.0,
@@ -1519,7 +1573,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9598,
+      "id": 9796,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 680.0,
@@ -1546,7 +1600,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9599,
+      "id": 9797,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 681.0,
@@ -1573,7 +1627,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9600,
+      "id": 9798,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 682.0,
@@ -1600,7 +1654,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9601,
+      "id": 9799,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 683.0,
@@ -1627,7 +1681,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9602,
+      "id": 9800,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 684.0,
@@ -1654,7 +1708,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9603,
+      "id": 9801,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 685.0,
@@ -1681,7 +1735,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9604,
+      "id": 9802,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 686.0,
@@ -1708,7 +1762,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9605,
+      "id": 9803,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 687.0,
@@ -1735,7 +1789,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9606,
+      "id": 9804,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 688.0,
@@ -1762,7 +1816,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9607,
+      "id": 9805,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 689.0,
@@ -1789,7 +1843,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9608,
+      "id": 9806,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 690.0,
@@ -1816,7 +1870,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9609,
+      "id": 9807,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 691.0,
@@ -1843,7 +1897,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9610,
+      "id": 9808,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 692.0,
@@ -1870,7 +1924,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9611,
+      "id": 9809,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 693.0,
@@ -1897,7 +1951,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9612,
+      "id": 9810,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 694.0,
@@ -1924,7 +1978,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9613,
+      "id": 9811,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 695.0,
@@ -1951,7 +2005,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9614,
+      "id": 9812,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 696.0,
@@ -1978,7 +2032,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9615,
+      "id": 9813,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 697.0,
@@ -2005,7 +2059,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9616,
+      "id": 9814,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 698.0,
@@ -2032,7 +2086,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9617,
+      "id": 9815,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 699.0,
@@ -2059,7 +2113,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9618,
+      "id": 9816,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.0,
@@ -2086,7 +2140,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9619,
+      "id": 9817,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.0,
@@ -2113,7 +2167,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9620,
+      "id": 9818,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.0,
@@ -2140,7 +2194,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9621,
+      "id": 9819,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.0,
@@ -2167,7 +2221,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9622,
+      "id": 9820,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.0,
@@ -2194,7 +2248,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9623,
+      "id": 9821,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.0,
@@ -2221,7 +2275,142 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9661,
+      "id": 9919,
+      "source": "scan",
+      "series": "Amazing Spider-Man: Renew Your Vows",
+      "issue_number": 1.0,
+      "title": "Amazing Spider-Man: Renew Your Vows #1",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9920,
+      "source": "scan",
+      "series": "Amazing Spider-Man: Renew Your Vows",
+      "issue_number": 2.0,
+      "title": "Amazing Spider-Man: Renew Your Vows #2",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9921,
+      "source": "scan",
+      "series": "Amazing Spider-Man: Renew Your Vows",
+      "issue_number": 3.0,
+      "title": "Amazing Spider-Man: Renew Your Vows #3",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9922,
+      "source": "scan",
+      "series": "Amazing Spider-Man: Renew Your Vows",
+      "issue_number": 4.0,
+      "title": "Amazing Spider-Man: Renew Your Vows #4",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9923,
+      "source": "scan",
+      "series": "Amazing Spider-Man: Renew Your Vows",
+      "issue_number": 5.0,
+      "title": "Amazing Spider-Man: Renew Your Vows #5",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9859,
       "source": "scan",
       "series": "Avengers",
       "issue_number": 0.0,
@@ -2248,7 +2437,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9565,
+      "id": 9763,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 1.0,
@@ -2275,7 +2464,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9566,
+      "id": 9764,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 2.0,
@@ -2302,7 +2491,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9567,
+      "id": 9765,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 3.0,
@@ -2329,7 +2518,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9568,
+      "id": 9766,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 4.0,
@@ -2356,7 +2545,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9569,
+      "id": 9767,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 5.0,
@@ -2383,7 +2572,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9570,
+      "id": 9768,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 6.0,
@@ -2410,7 +2599,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9571,
+      "id": 9769,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 7.0,
@@ -2437,7 +2626,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9572,
+      "id": 9770,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 8.0,
@@ -2464,7 +2653,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9573,
+      "id": 9771,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 9.0,
@@ -2491,7 +2680,142 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9624,
+      "id": 9927,
+      "source": "scan",
+      "series": "Civil War",
+      "issue_number": 1.0,
+      "title": "Civil War #1",
+      "year": 2015,
+      "volume": "2",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9928,
+      "source": "scan",
+      "series": "Civil War",
+      "issue_number": 2.0,
+      "title": "Civil War #2",
+      "year": 2015,
+      "volume": "2",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9929,
+      "source": "scan",
+      "series": "Civil War",
+      "issue_number": 3.0,
+      "title": "Civil War #3",
+      "year": 2015,
+      "volume": "2",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9930,
+      "source": "scan",
+      "series": "Civil War",
+      "issue_number": 4.0,
+      "title": "Civil War #4",
+      "year": 2015,
+      "volume": "2",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9931,
+      "source": "scan",
+      "series": "Civil War",
+      "issue_number": 5.0,
+      "title": "Civil War #5",
+      "year": 2015,
+      "volume": "2",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9822,
       "source": "scan",
       "series": "Death of Wolverine",
       "issue_number": 1.0,
@@ -2518,7 +2842,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9625,
+      "id": 9823,
       "source": "scan",
       "series": "Death of Wolverine",
       "issue_number": 2.0,
@@ -2545,7 +2869,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9626,
+      "id": 9824,
       "source": "scan",
       "series": "Death of Wolverine",
       "issue_number": 3.0,
@@ -2572,7 +2896,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9627,
+      "id": 9825,
       "source": "scan",
       "series": "Death of Wolverine",
       "issue_number": 4.0,
@@ -2599,7 +2923,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9535,
+      "id": 9733,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 1.0,
@@ -2626,7 +2950,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9536,
+      "id": 9734,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 2.0,
@@ -2653,7 +2977,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9537,
+      "id": 9735,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 3.0,
@@ -2680,7 +3004,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9538,
+      "id": 9736,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 4.0,
@@ -2707,7 +3031,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9539,
+      "id": 9737,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 5.0,
@@ -2734,7 +3058,88 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9682,
+      "id": 9924,
+      "source": "scan",
+      "series": "Inhumans: Attilan Rising",
+      "issue_number": 2.0,
+      "title": "Inhumans: Attilan Rising #2",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9925,
+      "source": "scan",
+      "series": "Inhumans: Attilan Rising",
+      "issue_number": 3.0,
+      "title": "Inhumans: Attilan Rising #3",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9926,
+      "source": "scan",
+      "series": "Inhumans: Attilan Rising",
+      "issue_number": 4.0,
+      "title": "Inhumans: Attilan Rising #4",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9880,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 1.0,
@@ -2761,7 +3166,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9683,
+      "id": 9881,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 2.0,
@@ -2788,7 +3193,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9684,
+      "id": 9882,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 3.0,
@@ -2815,7 +3220,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9685,
+      "id": 9883,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 4.0,
@@ -2842,7 +3247,277 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9507,
+      "id": 9884,
+      "source": "scan",
+      "series": "Invincible Iron Man",
+      "issue_number": 5.0,
+      "title": "Invincible Iron Man #5",
+      "year": 2016,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9885,
+      "source": "scan",
+      "series": "Invincible Iron Man",
+      "issue_number": 6.0,
+      "title": "Invincible Iron Man #6",
+      "year": 2016,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9886,
+      "source": "scan",
+      "series": "Invincible Iron Man",
+      "issue_number": 7.0,
+      "title": "Invincible Iron Man #7",
+      "year": 2016,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 1,
+      "key_note": "1st cameo of Riri Williams (Ironheart)",
+      "key_source": "reference",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9887,
+      "source": "scan",
+      "series": "Invincible Iron Man",
+      "issue_number": 8.0,
+      "title": "Invincible Iron Man #8",
+      "year": 2016,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9888,
+      "source": "scan",
+      "series": "Invincible Iron Man",
+      "issue_number": 9.0,
+      "title": "Invincible Iron Man #9",
+      "year": 2016,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 1,
+      "key_note": "1st full appearance of Riri Williams (Ironheart)",
+      "key_source": "reference",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9889,
+      "source": "scan",
+      "series": "Invincible Iron Man",
+      "issue_number": 10.0,
+      "title": "Invincible Iron Man #10",
+      "year": 2016,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9890,
+      "source": "scan",
+      "series": "Invincible Iron Man",
+      "issue_number": 11.0,
+      "title": "Invincible Iron Man #11",
+      "year": 2016,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9891,
+      "source": "scan",
+      "series": "Invincible Iron Man",
+      "issue_number": 12.0,
+      "title": "Invincible Iron Man #12",
+      "year": 2016,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9892,
+      "source": "scan",
+      "series": "Invincible Iron Man",
+      "issue_number": 13.0,
+      "title": "Invincible Iron Man #13",
+      "year": 2016,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9893,
+      "source": "scan",
+      "series": "Invincible Iron Man",
+      "issue_number": 14.0,
+      "title": "Invincible Iron Man #14",
+      "year": 2016,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9705,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 1.0,
@@ -2869,7 +3544,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9508,
+      "id": 9706,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 2.0,
@@ -2896,7 +3571,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9509,
+      "id": 9707,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 3.0,
@@ -2923,7 +3598,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9510,
+      "id": 9708,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 4.0,
@@ -2950,7 +3625,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9511,
+      "id": 9709,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 5.0,
@@ -2977,7 +3652,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9512,
+      "id": 9710,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 6.0,
@@ -3004,7 +3679,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9513,
+      "id": 9711,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 7.0,
@@ -3031,7 +3706,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9514,
+      "id": 9712,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 8.0,
@@ -3058,7 +3733,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9665,
+      "id": 9863,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 9.0,
@@ -3085,7 +3760,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9666,
+      "id": 9864,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 10.0,
@@ -3112,7 +3787,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9667,
+      "id": 9865,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 11.0,
@@ -3139,7 +3814,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9668,
+      "id": 9866,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 12.0,
@@ -3166,7 +3841,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9496,
+      "id": 9694,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 1.0,
@@ -3193,7 +3868,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9497,
+      "id": 9695,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 2.0,
@@ -3220,7 +3895,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9498,
+      "id": 9696,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 3.0,
@@ -3247,7 +3922,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9499,
+      "id": 9697,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 4.0,
@@ -3274,7 +3949,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9500,
+      "id": 9698,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 5.0,
@@ -3301,7 +3976,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9501,
+      "id": 9699,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 6.0,
@@ -3328,7 +4003,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9502,
+      "id": 9700,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 7.0,
@@ -3355,7 +4030,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9503,
+      "id": 9701,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 8.0,
@@ -3382,7 +4057,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9504,
+      "id": 9702,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 9.0,
@@ -3409,7 +4084,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9505,
+      "id": 9703,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 10.0,
@@ -3436,7 +4111,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9506,
+      "id": 9704,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 11.0,
@@ -3463,7 +4138,142 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9549,
+      "id": 9932,
+      "source": "scan",
+      "series": "Old Man Logan",
+      "issue_number": 1.0,
+      "title": "Old Man Logan #1",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 1,
+      "key_note": "Old Man Logan ongoing #1 (2016)",
+      "key_source": "reference",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9933,
+      "source": "scan",
+      "series": "Old Man Logan",
+      "issue_number": 2.0,
+      "title": "Old Man Logan #2",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9934,
+      "source": "scan",
+      "series": "Old Man Logan",
+      "issue_number": 3.0,
+      "title": "Old Man Logan #3",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9935,
+      "source": "scan",
+      "series": "Old Man Logan",
+      "issue_number": 4.0,
+      "title": "Old Man Logan #4",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9936,
+      "source": "scan",
+      "series": "Old Man Logan",
+      "issue_number": 5.0,
+      "title": "Old Man Logan #5",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9747,
       "source": "scan",
       "series": "Scarlet Spiders",
       "issue_number": 1.0,
@@ -3490,7 +4300,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9550,
+      "id": 9748,
       "source": "scan",
       "series": "Scarlet Spiders",
       "issue_number": 2.0,
@@ -3517,7 +4327,547 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9540,
+      "id": 9907,
+      "source": "scan",
+      "series": "Secret Wars",
+      "issue_number": 1.0,
+      "title": "Secret Wars #1",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9953,
+      "source": "scan",
+      "series": "Secret Wars",
+      "issue_number": 1.0,
+      "title": "Secret Wars #1 (Spider-Man variant)",
+      "year": 2015,
+      "volume": "1",
+      "edition": "Spider-Man variant",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9908,
+      "source": "scan",
+      "series": "Secret Wars",
+      "issue_number": 2.0,
+      "title": "Secret Wars #2",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9909,
+      "source": "scan",
+      "series": "Secret Wars",
+      "issue_number": 3.0,
+      "title": "Secret Wars #3",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9910,
+      "source": "scan",
+      "series": "Secret Wars",
+      "issue_number": 4.0,
+      "title": "Secret Wars #4",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9911,
+      "source": "scan",
+      "series": "Secret Wars",
+      "issue_number": 5.0,
+      "title": "Secret Wars #5",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9912,
+      "source": "scan",
+      "series": "Secret Wars",
+      "issue_number": 6.0,
+      "title": "Secret Wars #6",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9913,
+      "source": "scan",
+      "series": "Secret Wars",
+      "issue_number": 7.0,
+      "title": "Secret Wars #7",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9914,
+      "source": "scan",
+      "series": "Secret Wars",
+      "issue_number": 8.0,
+      "title": "Secret Wars #8",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9915,
+      "source": "scan",
+      "series": "Secret Wars",
+      "issue_number": 9.0,
+      "title": "Secret Wars #9",
+      "year": 2016,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9937,
+      "source": "scan",
+      "series": "Secret Wars 2099",
+      "issue_number": 1.0,
+      "title": "Secret Wars 2099 #1",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9938,
+      "source": "scan",
+      "series": "Secret Wars 2099",
+      "issue_number": 2.0,
+      "title": "Secret Wars 2099 #2",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9916,
+      "source": "scan",
+      "series": "Secret Wars: Battleworld",
+      "issue_number": 1.0,
+      "title": "Secret Wars: Battleworld #1",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9917,
+      "source": "scan",
+      "series": "Secret Wars: Battleworld",
+      "issue_number": 3.0,
+      "title": "Secret Wars: Battleworld #3",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9918,
+      "source": "scan",
+      "series": "Secret Wars: Battleworld",
+      "issue_number": 4.0,
+      "title": "Secret Wars: Battleworld #4",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9946,
+      "source": "scan",
+      "series": "Spider-Island",
+      "issue_number": 1.0,
+      "title": "Spider-Island #1",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9947,
+      "source": "scan",
+      "series": "Spider-Island",
+      "issue_number": 2.0,
+      "title": "Spider-Island #2",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9948,
+      "source": "scan",
+      "series": "Spider-Island",
+      "issue_number": 3.0,
+      "title": "Spider-Island #3",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9949,
+      "source": "scan",
+      "series": "Spider-Island",
+      "issue_number": 4.0,
+      "title": "Spider-Island #4",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9950,
+      "source": "scan",
+      "series": "Spider-Island",
+      "issue_number": 5.0,
+      "title": "Spider-Island #5",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9738,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 5.0,
@@ -3544,7 +4894,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9541,
+      "id": 9739,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 6.0,
@@ -3571,7 +4921,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9542,
+      "id": 9740,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 7.0,
@@ -3598,7 +4948,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9543,
+      "id": 9741,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 8.0,
@@ -3625,7 +4975,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9547,
+      "id": 9745,
       "source": "scan",
       "series": "Spider-Verse",
       "issue_number": 1.0,
@@ -3652,7 +5002,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9548,
+      "id": 9746,
       "source": "scan",
       "series": "Spider-Verse",
       "issue_number": 2.0,
@@ -3679,7 +5029,88 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9544,
+      "id": 9943,
+      "source": "scan",
+      "series": "Spider-Verse",
+      "issue_number": 3.0,
+      "title": "Spider-Verse #3",
+      "year": 2015,
+      "volume": "2",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9944,
+      "source": "scan",
+      "series": "Spider-Verse",
+      "issue_number": 4.0,
+      "title": "Spider-Verse #4",
+      "year": 2015,
+      "volume": "2",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9945,
+      "source": "scan",
+      "series": "Spider-Verse",
+      "issue_number": 5.0,
+      "title": "Spider-Verse #5",
+      "year": 2015,
+      "volume": "2",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9742,
       "source": "scan",
       "series": "Spider-Verse Team-Up",
       "issue_number": 1.0,
@@ -3706,7 +5137,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9545,
+      "id": 9743,
       "source": "scan",
       "series": "Spider-Verse Team-Up",
       "issue_number": 2.0,
@@ -3733,7 +5164,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9546,
+      "id": 9744,
       "source": "scan",
       "series": "Spider-Verse Team-Up",
       "issue_number": 3.0,
@@ -3760,7 +5191,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9551,
+      "id": 9749,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 1.0,
@@ -3787,7 +5218,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9552,
+      "id": 9750,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 2.0,
@@ -3814,7 +5245,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9553,
+      "id": 9751,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 3.0,
@@ -3841,7 +5272,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9554,
+      "id": 9752,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 4.0,
@@ -3868,7 +5299,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9581,
+      "id": 9779,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 1.0,
@@ -3895,7 +5326,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9582,
+      "id": 9780,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 2.0,
@@ -3922,7 +5353,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9583,
+      "id": 9781,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 3.0,
@@ -3949,7 +5380,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9676,
+      "id": 9874,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 4.0,
@@ -3976,7 +5407,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9677,
+      "id": 9875,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 5.0,
@@ -4003,7 +5434,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9678,
+      "id": 9876,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 6.0,
@@ -4030,7 +5461,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9679,
+      "id": 9877,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 7.0,
@@ -4057,7 +5488,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9680,
+      "id": 9878,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 8.0,
@@ -4084,7 +5515,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9681,
+      "id": 9879,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 9.0,
@@ -4111,7 +5542,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9628,
+      "id": 9826,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 1.0,
@@ -4138,7 +5569,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9629,
+      "id": 9827,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 2.0,
@@ -4165,7 +5596,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9630,
+      "id": 9828,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 3.0,
@@ -4192,7 +5623,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9631,
+      "id": 9829,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 4.0,
@@ -4219,7 +5650,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9632,
+      "id": 9830,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 5.0,
@@ -4246,7 +5677,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9633,
+      "id": 9831,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 6.0,
@@ -4273,7 +5704,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9634,
+      "id": 9832,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 7.0,
@@ -4300,7 +5731,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9635,
+      "id": 9833,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 8.0,
@@ -4327,7 +5758,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9636,
+      "id": 9834,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 9.0,
@@ -4354,7 +5785,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9637,
+      "id": 9835,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 10.0,
@@ -4381,7 +5812,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9638,
+      "id": 9836,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 11.0,
@@ -4408,7 +5839,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9639,
+      "id": 9837,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 12.0,
@@ -4435,7 +5866,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9640,
+      "id": 9838,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 13.0,
@@ -4462,7 +5893,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9641,
+      "id": 9839,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 14.0,
@@ -4489,7 +5920,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9642,
+      "id": 9840,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 15.0,
@@ -4516,7 +5947,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9643,
+      "id": 9841,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 16.0,
@@ -4543,7 +5974,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9644,
+      "id": 9842,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 17.0,
@@ -4570,7 +6001,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9645,
+      "id": 9843,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 18.0,
@@ -4597,7 +6028,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9646,
+      "id": 9844,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 19.0,
@@ -4624,7 +6055,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9647,
+      "id": 9845,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 20.0,
@@ -4651,7 +6082,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9648,
+      "id": 9846,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 21.0,
@@ -4678,7 +6109,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9649,
+      "id": 9847,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 22.0,
@@ -4705,7 +6136,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9650,
+      "id": 9848,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 23.0,
@@ -4732,7 +6163,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9651,
+      "id": 9849,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 24.0,
@@ -4759,7 +6190,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9652,
+      "id": 9850,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 25.0,
@@ -4786,7 +6217,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9653,
+      "id": 9851,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 26.0,
@@ -4813,7 +6244,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9654,
+      "id": 9852,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 27.0,
@@ -4840,7 +6271,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9655,
+      "id": 9853,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 28.0,
@@ -4867,7 +6298,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9656,
+      "id": 9854,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 29.0,
@@ -4894,7 +6325,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9657,
+      "id": 9855,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 30.0,
@@ -4921,7 +6352,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9658,
+      "id": 9856,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 31.0,
@@ -4948,7 +6379,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9659,
+      "id": 9857,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 32.0,
@@ -4975,7 +6406,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9660,
+      "id": 9858,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 33.0,
@@ -5002,7 +6433,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9578,
+      "id": 9776,
       "source": "scan",
       "series": "Thor",
       "issue_number": 1.0,
@@ -5029,7 +6460,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9579,
+      "id": 9777,
       "source": "scan",
       "series": "Thor",
       "issue_number": 2.0,
@@ -5056,7 +6487,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9580,
+      "id": 9778,
       "source": "scan",
       "series": "Thor",
       "issue_number": 3.0,
@@ -5083,7 +6514,358 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9488,
+      "id": 9897,
+      "source": "scan",
+      "series": "Thor",
+      "issue_number": 4.0,
+      "title": "Thor #4",
+      "year": 2015,
+      "volume": "4",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9898,
+      "source": "scan",
+      "series": "Thor",
+      "issue_number": 5.0,
+      "title": "Thor #5",
+      "year": 2015,
+      "volume": "4",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9899,
+      "source": "scan",
+      "series": "Thor",
+      "issue_number": 6.0,
+      "title": "Thor #6",
+      "year": 2015,
+      "volume": "4",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9900,
+      "source": "scan",
+      "series": "Thor",
+      "issue_number": 7.0,
+      "title": "Thor #7",
+      "year": 2015,
+      "volume": "4",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9901,
+      "source": "scan",
+      "series": "Thor",
+      "issue_number": 8.0,
+      "title": "Thor #8",
+      "year": 2015,
+      "volume": "4",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9894,
+      "source": "scan",
+      "series": "Tony Stark: Iron Man",
+      "issue_number": 15.0,
+      "title": "Tony Stark: Iron Man #15",
+      "year": 2019,
+      "volume": "1",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.99,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.99
+    },
+    {
+      "id": 9895,
+      "source": "scan",
+      "series": "Tony Stark: Iron Man",
+      "issue_number": 16.0,
+      "title": "Tony Stark: Iron Man #16",
+      "year": 2019,
+      "volume": "1",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.99,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.99
+    },
+    {
+      "id": 9896,
+      "source": "scan",
+      "series": "Tony Stark: Iron Man",
+      "issue_number": 17.0,
+      "title": "Tony Stark: Iron Man #17",
+      "year": 2019,
+      "volume": "1",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.99,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.99
+    },
+    {
+      "id": 9902,
+      "source": "scan",
+      "series": "Ultimate End",
+      "issue_number": 1.0,
+      "title": "Ultimate End #1",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9903,
+      "source": "scan",
+      "series": "Ultimate End",
+      "issue_number": 2.0,
+      "title": "Ultimate End #2",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9904,
+      "source": "scan",
+      "series": "Ultimate End",
+      "issue_number": 3.0,
+      "title": "Ultimate End #3",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9905,
+      "source": "scan",
+      "series": "Ultimate End",
+      "issue_number": 4.0,
+      "title": "Ultimate End #4",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9906,
+      "source": "scan",
+      "series": "Ultimate End",
+      "issue_number": 5.0,
+      "title": "Ultimate End #5",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9686,
       "source": "scan",
       "series": "Venom",
       "issue_number": 250.0,
@@ -5110,7 +6892,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9489,
+      "id": 9687,
       "source": "scan",
       "series": "Venom",
       "issue_number": 251.0,
@@ -5137,7 +6919,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9490,
+      "id": 9688,
       "source": "scan",
       "series": "Venom",
       "issue_number": 252.0,
@@ -5164,7 +6946,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9491,
+      "id": 9689,
       "source": "scan",
       "series": "Venom",
       "issue_number": 253.0,
@@ -5191,7 +6973,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9492,
+      "id": 9690,
       "source": "scan",
       "series": "Venom",
       "issue_number": 254.0,
@@ -5218,7 +7000,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9493,
+      "id": 9691,
       "source": "scan",
       "series": "Venom",
       "issue_number": 255.0,
@@ -5245,7 +7027,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9494,
+      "id": 9692,
       "source": "scan",
       "series": "Venom",
       "issue_number": 258.0,
@@ -5272,7 +7054,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9495,
+      "id": 9693,
       "source": "scan",
       "series": "Venom",
       "issue_number": 259.0,
@@ -5299,7 +7081,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 9555,
+      "id": 9753,
       "source": "scan",
       "series": "Web Warriors",
       "issue_number": 1.0,
@@ -5326,7 +7108,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 9556,
+      "id": 9754,
       "source": "scan",
       "series": "Web Warriors",
       "issue_number": 3.0,
@@ -5351,11 +7133,119 @@
       "market_source": "cover_heuristic",
       "market_as_of": "2026-08-03",
       "estimated_value": 3.0
+    },
+    {
+      "id": 9939,
+      "source": "scan",
+      "series": "Years of Future Past",
+      "issue_number": 1.0,
+      "title": "Years of Future Past #1",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9940,
+      "source": "scan",
+      "series": "Years of Future Past",
+      "issue_number": 2.0,
+      "title": "Years of Future Past #2",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9941,
+      "source": "scan",
+      "series": "Years of Future Past",
+      "issue_number": 3.0,
+      "title": "Years of Future Past #3",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
+    },
+    {
+      "id": 9942,
+      "source": "scan",
+      "series": "Years of Future Past",
+      "issue_number": 4.0,
+      "title": "Years of Future Past #4",
+      "year": 2015,
+      "volume": "1",
+      "edition": "",
+      "event": "Secret Wars",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": 3.0,
+      "market_source": "cover_heuristic",
+      "market_as_of": "2026-08-03",
+      "estimated_value": 3.0
     }
   ],
   "gaps": [
     {
-      "id": 1874,
+      "id": 1879,
       "series": "Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "Amazing Spider-Man Vol 2",
@@ -5368,7 +7258,7 @@
       "copy_years": "2011-2013"
     },
     {
-      "id": 1875,
+      "id": 1880,
       "series": "Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "Amazing Spider-Man Vol 3",
@@ -5381,7 +7271,7 @@
       "copy_years": "2014-2015"
     },
     {
-      "id": 1876,
+      "id": 1881,
       "series": "Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "Amazing Spider-Man Vol 4",
@@ -5394,7 +7284,20 @@
       "copy_years": "2015-2016"
     },
     {
-      "id": 1877,
+      "id": 1882,
+      "series": "Secret Wars: Battleworld",
+      "fandom_series": "Secret Wars: Battleworld",
+      "fandom_volume": "Secret Wars: Battleworld Vol 1",
+      "status": "HOLES",
+      "owned_range": "1-4",
+      "owned_count": 3,
+      "owned_issues": "1,3,4",
+      "internal_holes": "2",
+      "missing_after": "",
+      "copy_years": "2015-2015"
+    },
+    {
+      "id": 1883,
       "series": "Venom",
       "fandom_series": "Venom",
       "fandom_volume": "Venom Vol 6",
@@ -5407,7 +7310,7 @@
       "copy_years": "2025-2026"
     },
     {
-      "id": 1878,
+      "id": 1884,
       "series": "Web Warriors",
       "fandom_series": "Web Warriors",
       "fandom_volume": "Web Warriors Vol 1",

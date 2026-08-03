@@ -1453,7 +1453,107 @@
     "Invincible Iron Man Vol 3|1": "2015",
     "Invincible Iron Man Vol 3|2": "2015",
     "Invincible Iron Man Vol 3|3": "2015",
-    "Invincible Iron Man Vol 3|4": "2015"
+    "Invincible Iron Man Vol 3|4": "2015",
+    "Invincible Iron Man Vol 3|5": "2016",
+    "Invincible Iron Man Vol 3|6": "2016",
+    "Invincible Iron Man Vol 3|7": "2016",
+    "Invincible Iron Man Vol 3|8": "2016",
+    "Invincible Iron Man Vol 3|9": "2016",
+    "Invincible Iron Man Vol 3|10": "2016",
+    "Invincible Iron Man Vol 3|11": "2016",
+    "Invincible Iron Man Vol 3|12": "2016",
+    "Invincible Iron Man Vol 3|13": "2016",
+    "Invincible Iron Man Vol 3|14": "2016",
+    "Tony Stark: Iron Man Vol 1|15": "2019",
+    "Tony Stark: Iron Man Vol 1|16": "2019",
+    "Tony Stark: Iron Man Vol 1|17": "2019",
+    "Thor Vol 4|4": "2015",
+    "Thor Vol 4|5": "2015",
+    "Thor Vol 4|6": "2015",
+    "Thor Vol 4|7": "2015",
+    "Thor Vol 4|8": "2015",
+    "Ultimate End Vol 1|1": "2015",
+    "Ultimate End|1": "2015",
+    "Ultimate End Vol 1|2": "2015",
+    "Ultimate End|2": "2015",
+    "Ultimate End Vol 1|3": "2015",
+    "Ultimate End|3": "2015",
+    "Ultimate End Vol 1|4": "2015",
+    "Ultimate End|4": "2015",
+    "Ultimate End Vol 1|5": "2015",
+    "Ultimate End|5": "2015",
+    "Secret Wars Vol 1|1": "2015",
+    "Secret Wars Vol 1|2": "2015",
+    "Secret Wars Vol 1|3": "2015",
+    "Secret Wars Vol 1|4": "2015",
+    "Secret Wars Vol 1|5": "2015",
+    "Secret Wars Vol 1|6": "2015",
+    "Secret Wars Vol 1|7": "2015",
+    "Secret Wars Vol 1|8": "2015",
+    "Secret Wars Vol 1|9": "2016",
+    "Secret Wars: Battleworld Vol 1|1": "2015",
+    "Secret Wars: Battleworld|1": "2015",
+    "Secret Wars: Battleworld Vol 1|3": "2015",
+    "Secret Wars: Battleworld|3": "2015",
+    "Secret Wars: Battleworld Vol 1|4": "2015",
+    "Secret Wars: Battleworld|4": "2015",
+    "Amazing Spider-Man: Renew Your Vows Vol 1|1": "2015",
+    "Amazing Spider-Man: Renew Your Vows|1": "2015",
+    "Amazing Spider-Man: Renew Your Vows Vol 1|2": "2015",
+    "Amazing Spider-Man: Renew Your Vows|2": "2015",
+    "Amazing Spider-Man: Renew Your Vows Vol 1|3": "2015",
+    "Amazing Spider-Man: Renew Your Vows|3": "2015",
+    "Amazing Spider-Man: Renew Your Vows Vol 1|4": "2015",
+    "Amazing Spider-Man: Renew Your Vows|4": "2015",
+    "Amazing Spider-Man: Renew Your Vows Vol 1|5": "2015",
+    "Amazing Spider-Man: Renew Your Vows|5": "2015",
+    "Inhumans: Attilan Rising Vol 1|2": "2015",
+    "Inhumans: Attilan Rising|2": "2015",
+    "Inhumans: Attilan Rising Vol 1|3": "2015",
+    "Inhumans: Attilan Rising|3": "2015",
+    "Inhumans: Attilan Rising Vol 1|4": "2015",
+    "Inhumans: Attilan Rising|4": "2015",
+    "Civil War Vol 2|1": "2015",
+    "Civil War Vol 2|2": "2015",
+    "Civil War Vol 2|3": "2015",
+    "Civil War Vol 2|4": "2015",
+    "Civil War Vol 2|5": "2015",
+    "Old Man Logan Vol 1|1": "2015",
+    "Old Man Logan Vol 1|2": "2015",
+    "Old Man Logan Vol 1|3": "2015",
+    "Old Man Logan Vol 1|4": "2015",
+    "Old Man Logan Vol 1|5": "2015",
+    "Secret Wars 2099 Vol 1|1": "2015",
+    "Secret Wars 2099|1": "2015",
+    "Secret Wars 2099 Vol 1|2": "2015",
+    "Secret Wars 2099|2": "2015",
+    "Years of Future Past Vol 1|1": "2015",
+    "Years of Future Past|1": "2015",
+    "Years of Future Past Vol 1|2": "2015",
+    "Years of Future Past|2": "2015",
+    "Years of Future Past Vol 1|3": "2015",
+    "Years of Future Past|3": "2015",
+    "Years of Future Past Vol 1|4": "2015",
+    "Years of Future Past|4": "2015",
+    "Spider-Verse Vol 2|1": "2015",
+    "Spider-Verse Vol 2|2": "2015",
+    "Spider-Verse Vol 2|3": "2015",
+    "Spider-Verse Vol 2|4": "2015",
+    "Spider-Verse Vol 2|5": "2015",
+    "Spider-Island Vol 1|1": "2015",
+    "Spider-Island|1": "2015",
+    "Spider-Island Vol 1|2": "2015",
+    "Spider-Island|2": "2015",
+    "Spider-Island Vol 1|3": "2015",
+    "Spider-Island|3": "2015",
+    "Spider-Island Vol 1|4": "2015",
+    "Spider-Island|4": "2015",
+    "Spider-Island Vol 1|5": "2015",
+    "Spider-Island|5": "2015",
+    "1872 Vol 1|1": "2015",
+    "1872|1": "2015",
+    "1872 Vol 1|2": "2015",
+    "1872|2": "2015"
   },
   "books": {
     "Absolute Carnage|1": {
@@ -4566,33 +4666,33 @@
       "issue": "1"
     },
     "Invincible Iron Man|10": {
-      "year": "2023",
+      "year": "2016",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "10"
     },
     "Invincible Iron Man|11": {
-      "year": "2023",
+      "year": "2016",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "11"
     },
     "Invincible Iron Man|12": {
-      "year": "2023",
+      "year": "2016",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "12"
     },
     "Invincible Iron Man|13": {
-      "year": "2023",
+      "year": "2016",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "13"
     },
     "Invincible Iron Man|14": {
-      "year": "2024",
+      "year": "2016",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "14"
     },
     "Invincible Iron Man|2": {
@@ -4614,9 +4714,9 @@
       "issue": "4"
     },
     "Invincible Iron Man|5": {
-      "year": "2023",
+      "year": "2016",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "5"
     },
     "Invincible Iron Man|500": {
@@ -4668,9 +4768,9 @@
       "issue": "599"
     },
     "Invincible Iron Man|6": {
-      "year": "2023",
+      "year": "2016",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "6"
     },
     "Invincible Iron Man|600": {
@@ -4680,21 +4780,21 @@
       "issue": "600"
     },
     "Invincible Iron Man|7": {
-      "year": "2023",
+      "year": "2016",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "7"
     },
     "Invincible Iron Man|8": {
-      "year": "2023",
+      "year": "2016",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "8"
     },
     "Invincible Iron Man|9": {
-      "year": "2023",
+      "year": "2016",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "9"
     },
     "Iron Man|1": {
@@ -5488,9 +5588,9 @@
       "issue": "3"
     },
     "Old Man Logan|1": {
-      "year": "2016",
+      "year": "2015",
       "series": "Old Man Logan",
-      "volume": "2",
+      "volume": "1",
       "issue": "1"
     },
     "Old Man Logan|10": {
@@ -5554,9 +5654,9 @@
       "issue": "19"
     },
     "Old Man Logan|2": {
-      "year": "2016",
+      "year": "2015",
       "series": "Old Man Logan",
-      "volume": "2",
+      "volume": "1",
       "issue": "2"
     },
     "Old Man Logan|20": {
@@ -5620,9 +5720,9 @@
       "issue": "29"
     },
     "Old Man Logan|3": {
-      "year": "2016",
+      "year": "2015",
       "series": "Old Man Logan",
-      "volume": "2",
+      "volume": "1",
       "issue": "3"
     },
     "Old Man Logan|30": {
@@ -5686,9 +5786,9 @@
       "issue": "39"
     },
     "Old Man Logan|4": {
-      "year": "2016",
+      "year": "2015",
       "series": "Old Man Logan",
-      "volume": "2",
+      "volume": "1",
       "issue": "4"
     },
     "Old Man Logan|40": {
@@ -5752,9 +5852,9 @@
       "issue": "49"
     },
     "Old Man Logan|5": {
-      "year": "2016",
+      "year": "2015",
       "series": "Old Man Logan",
-      "volume": "2",
+      "volume": "1",
       "issue": "5"
     },
     "Old Man Logan|50": {
@@ -8191,21 +8291,21 @@
       "issue": "3"
     },
     "Thor|4": {
-      "year": "2020",
+      "year": "2015",
       "series": "Thor",
-      "volume": "6",
+      "volume": "4",
       "issue": "4"
     },
     "Thor|5": {
-      "year": "2020",
+      "year": "2015",
       "series": "Thor",
-      "volume": "6",
+      "volume": "4",
       "issue": "5"
     },
     "Thor|6": {
-      "year": "2020",
+      "year": "2015",
       "series": "Thor",
-      "volume": "6",
+      "volume": "4",
       "issue": "6"
     },
     "Thor|600": {
@@ -8233,9 +8333,9 @@
       "issue": "3"
     },
     "Thor|7": {
-      "year": "2020",
+      "year": "2015",
       "series": "Thor",
-      "volume": "6",
+      "volume": "4",
       "issue": "7"
     },
     "Thor|788": {
@@ -8245,9 +8345,9 @@
       "issue": "2"
     },
     "Thor|8": {
-      "year": "2020",
+      "year": "2015",
       "series": "Thor",
-      "volume": "6",
+      "volume": "4",
       "issue": "8"
     },
     "Thor|9": {
@@ -9805,6 +9905,270 @@
       "series": "All-New, All-Different Avengers",
       "volume": "1",
       "issue": "3"
+    },
+    "Tony Stark: Iron Man|15": {
+      "year": "2019",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "15"
+    },
+    "Tony Stark: Iron Man|16": {
+      "year": "2019",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "16"
+    },
+    "Tony Stark: Iron Man|17": {
+      "year": "2019",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "17"
+    },
+    "Ultimate End|1": {
+      "year": "2015",
+      "series": "Ultimate End",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Ultimate End|2": {
+      "year": "2015",
+      "series": "Ultimate End",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Ultimate End|3": {
+      "year": "2015",
+      "series": "Ultimate End",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Ultimate End|4": {
+      "year": "2015",
+      "series": "Ultimate End",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Ultimate End|5": {
+      "year": "2015",
+      "series": "Ultimate End",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Secret Wars|1": {
+      "year": "2015",
+      "series": "Secret Wars",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Secret Wars|2": {
+      "year": "2015",
+      "series": "Secret Wars",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Secret Wars|3": {
+      "year": "2015",
+      "series": "Secret Wars",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Secret Wars|4": {
+      "year": "2015",
+      "series": "Secret Wars",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Secret Wars|5": {
+      "year": "2015",
+      "series": "Secret Wars",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Secret Wars|6": {
+      "year": "2015",
+      "series": "Secret Wars",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Secret Wars|7": {
+      "year": "2015",
+      "series": "Secret Wars",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Secret Wars|8": {
+      "year": "2015",
+      "series": "Secret Wars",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Secret Wars|9": {
+      "year": "2016",
+      "series": "Secret Wars",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Secret Wars: Battleworld|1": {
+      "year": "2015",
+      "series": "Secret Wars: Battleworld",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Secret Wars: Battleworld|3": {
+      "year": "2015",
+      "series": "Secret Wars: Battleworld",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Secret Wars: Battleworld|4": {
+      "year": "2015",
+      "series": "Secret Wars: Battleworld",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Amazing Spider-Man: Renew Your Vows|1": {
+      "year": "2015",
+      "series": "Amazing Spider-Man: Renew Your Vows",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Amazing Spider-Man: Renew Your Vows|2": {
+      "year": "2015",
+      "series": "Amazing Spider-Man: Renew Your Vows",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Amazing Spider-Man: Renew Your Vows|3": {
+      "year": "2015",
+      "series": "Amazing Spider-Man: Renew Your Vows",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Amazing Spider-Man: Renew Your Vows|4": {
+      "year": "2015",
+      "series": "Amazing Spider-Man: Renew Your Vows",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Amazing Spider-Man: Renew Your Vows|5": {
+      "year": "2015",
+      "series": "Amazing Spider-Man: Renew Your Vows",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Inhumans: Attilan Rising|2": {
+      "year": "2015",
+      "series": "Inhumans: Attilan Rising",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Inhumans: Attilan Rising|3": {
+      "year": "2015",
+      "series": "Inhumans: Attilan Rising",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Inhumans: Attilan Rising|4": {
+      "year": "2015",
+      "series": "Inhumans: Attilan Rising",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Secret Wars 2099|1": {
+      "year": "2015",
+      "series": "Secret Wars 2099",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Secret Wars 2099|2": {
+      "year": "2015",
+      "series": "Secret Wars 2099",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Years of Future Past|1": {
+      "year": "2015",
+      "series": "Years of Future Past",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Years of Future Past|2": {
+      "year": "2015",
+      "series": "Years of Future Past",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Years of Future Past|3": {
+      "year": "2015",
+      "series": "Years of Future Past",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Years of Future Past|4": {
+      "year": "2015",
+      "series": "Years of Future Past",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Spider-Verse|3": {
+      "year": "2015",
+      "series": "Spider-Verse",
+      "volume": "2",
+      "issue": "3"
+    },
+    "Spider-Verse|4": {
+      "year": "2015",
+      "series": "Spider-Verse",
+      "volume": "2",
+      "issue": "4"
+    },
+    "Spider-Verse|5": {
+      "year": "2015",
+      "series": "Spider-Verse",
+      "volume": "2",
+      "issue": "5"
+    },
+    "Spider-Island|1": {
+      "year": "2015",
+      "series": "Spider-Island",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Spider-Island|2": {
+      "year": "2015",
+      "series": "Spider-Island",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Spider-Island|3": {
+      "year": "2015",
+      "series": "Spider-Island",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Spider-Island|4": {
+      "year": "2015",
+      "series": "Spider-Island",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Spider-Island|5": {
+      "year": "2015",
+      "series": "Spider-Island",
+      "volume": "1",
+      "issue": "5"
+    },
+    "1872|1": {
+      "year": "2015",
+      "series": "1872",
+      "volume": "1",
+      "issue": "1"
+    },
+    "1872|2": {
+      "year": "2015",
+      "series": "1872",
+      "volume": "1",
+      "issue": "2"
     }
   }
 }
