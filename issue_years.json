@@ -1383,7 +1383,66 @@
     "Amazing Spider-Man|700.2": "2013",
     "Amazing Spider-Man|700.3": "2013",
     "Amazing Spider-Man|700.4": "2013",
-    "Amazing Spider-Man|700.5": "2013"
+    "Amazing Spider-Man|700.5": "2013",
+    "Death of Wolverine Vol 1|1": "2014",
+    "Death of Wolverine Vol 1|2": "2014",
+    "Death of Wolverine Vol 1|3": "2014",
+    "Death of Wolverine Vol 1|4": "2014",
+    "Superior Spider-Man Vol 1|1": "2013",
+    "Superior Spider-Man Vol 1|2": "2013",
+    "Superior Spider-Man Vol 1|3": "2013",
+    "Superior Spider-Man Vol 1|4": "2013",
+    "Superior Spider-Man Vol 1|5": "2013",
+    "Superior Spider-Man Vol 1|6": "2013",
+    "Superior Spider-Man Vol 1|7": "2013",
+    "Superior Spider-Man Vol 1|8": "2013",
+    "Superior Spider-Man Vol 1|9": "2013",
+    "Superior Spider-Man Vol 1|10": "2013",
+    "Superior Spider-Man Vol 1|11": "2013",
+    "Superior Spider-Man Vol 1|12": "2013",
+    "Superior Spider-Man Vol 1|13": "2013",
+    "Superior Spider-Man Vol 1|14": "2013",
+    "Superior Spider-Man Vol 1|15": "2013",
+    "Superior Spider-Man Vol 1|16": "2013",
+    "Superior Spider-Man Vol 1|17": "2013",
+    "Superior Spider-Man Vol 1|18": "2013",
+    "Superior Spider-Man Vol 1|19": "2013",
+    "Superior Spider-Man Vol 1|20": "2013",
+    "Superior Spider-Man Vol 1|21": "2013",
+    "Superior Spider-Man Vol 1|22": "2013",
+    "Superior Spider-Man Vol 1|23": "2013",
+    "Superior Spider-Man Vol 1|24": "2013",
+    "Superior Spider-Man Vol 1|25": "2014",
+    "Superior Spider-Man Vol 1|26": "2014",
+    "Superior Spider-Man Vol 1|27": "2014",
+    "Superior Spider-Man Vol 1|28": "2014",
+    "Superior Spider-Man Vol 1|29": "2014",
+    "Superior Spider-Man Vol 1|30": "2014",
+    "Superior Spider-Man Vol 1|31": "2014",
+    "Superior Spider-Man Vol 1|32": "2014",
+    "Superior Spider-Man Vol 1|33": "2014",
+    "Avengers Vol 6|0": "2015",
+    "Miles Morales: Ultimate Spider-Man Vol 1|9": "2015",
+    "Miles Morales: Ultimate Spider-Man|9": "2015",
+    "Miles Morales: Ultimate Spider-Man Vol 1|10": "2015",
+    "Miles Morales: Ultimate Spider-Man|10": "2015",
+    "Miles Morales: Ultimate Spider-Man Vol 1|11": "2015",
+    "Miles Morales: Ultimate Spider-Man|11": "2015",
+    "Miles Morales: Ultimate Spider-Man Vol 1|12": "2015",
+    "Miles Morales: Ultimate Spider-Man|12": "2015",
+    "Amazing Spider-Man Vol 4|1.1": "2015",
+    "Amazing Spider-Man Vol 4|1.2": "2016",
+    "Amazing Spider-Man Vol 4|1.3": "2016",
+    "Amazing Spider-Man Vol 4|1.4": "2016",
+    "Amazing Spider-Man Vol 4|1.5": "2016",
+    "Amazing Spider-Man Vol 4|1.6": "2016",
+    "Amazing Spider-Man|1.6": "2016",
+    "All-New, All-Different Avengers Vol 1|1": "2015",
+    "All-New, All-Different Avengers|1": "2015",
+    "All-New, All-Different Avengers Vol 1|2": "2015",
+    "All-New, All-Different Avengers|2": "2015",
+    "All-New, All-Different Avengers Vol 1|3": "2016",
+    "All-New, All-Different Avengers|3": "2016"
   },
   "books": {
     "Absolute Carnage|1": {
@@ -1753,33 +1812,33 @@
       "issue": "1"
     },
     "Amazing Spider-Man|1.1": {
-      "year": "2014",
+      "year": "2015",
       "series": "Amazing Spider-Man",
-      "volume": "3",
+      "volume": "4",
       "issue": "1.1"
     },
     "Amazing Spider-Man|1.2": {
-      "year": "2014",
+      "year": "2016",
       "series": "Amazing Spider-Man",
-      "volume": "3",
+      "volume": "4",
       "issue": "1.2"
     },
     "Amazing Spider-Man|1.3": {
-      "year": "2014",
+      "year": "2016",
       "series": "Amazing Spider-Man",
-      "volume": "3",
+      "volume": "4",
       "issue": "1.3"
     },
     "Amazing Spider-Man|1.4": {
-      "year": "2014",
+      "year": "2016",
       "series": "Amazing Spider-Man",
-      "volume": "3",
+      "volume": "4",
       "issue": "1.4"
     },
     "Amazing Spider-Man|1.5": {
-      "year": "2014",
+      "year": "2016",
       "series": "Amazing Spider-Man",
-      "volume": "3",
+      "volume": "4",
       "issue": "1.5"
     },
     "Amazing Spider-Man|10": {
@@ -7833,27 +7892,27 @@
       "issue": "9"
     },
     "Superior Spider-Man|1": {
-      "year": "2023",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "3",
+      "volume": "1",
       "issue": "1"
     },
     "Superior Spider-Man|10": {
-      "year": "2019",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "2",
+      "volume": "1",
       "issue": "10"
     },
     "Superior Spider-Man|11": {
-      "year": "2019",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "2",
+      "volume": "1",
       "issue": "11"
     },
     "Superior Spider-Man|12": {
-      "year": "2019",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "2",
+      "volume": "1",
       "issue": "12"
     },
     "Superior Spider-Man|13": {
@@ -7899,9 +7958,9 @@
       "issue": "19"
     },
     "Superior Spider-Man|2": {
-      "year": "2023",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "3",
+      "volume": "1",
       "issue": "2"
     },
     "Superior Spider-Man|20": {
@@ -7950,8 +8009,7 @@
       "year": "2014",
       "series": "Superior Spider-Man",
       "volume": "1",
-      "issue": "27",
-      "inferred": true
+      "issue": "27"
     },
     "Superior Spider-Man|28": {
       "year": "2014",
@@ -7966,9 +8024,9 @@
       "issue": "29"
     },
     "Superior Spider-Man|3": {
-      "year": "2024",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "3",
+      "volume": "1",
       "issue": "3"
     },
     "Superior Spider-Man|30": {
@@ -7996,39 +8054,39 @@
       "issue": "33"
     },
     "Superior Spider-Man|4": {
-      "year": "2024",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "3",
+      "volume": "1",
       "issue": "4"
     },
     "Superior Spider-Man|5": {
-      "year": "2024",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "3",
+      "volume": "1",
       "issue": "5"
     },
     "Superior Spider-Man|6": {
-      "year": "2024",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "3",
+      "volume": "1",
       "issue": "6"
     },
     "Superior Spider-Man|7": {
-      "year": "2024",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "3",
+      "volume": "1",
       "issue": "7"
     },
     "Superior Spider-Man|8": {
-      "year": "2024",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "3",
+      "volume": "1",
       "issue": "8"
     },
     "Superior Spider-Man|9": {
-      "year": "2019",
+      "year": "2013",
       "series": "Superior Spider-Man",
-      "volume": "2",
+      "volume": "1",
       "issue": "9"
     },
     "Symbiote Spider-Man|1": {
@@ -9688,6 +9746,54 @@
       "series": "Amazing Spider-Man",
       "volume": "2",
       "issue": "700.5"
+    },
+    "Miles Morales: Ultimate Spider-Man|9": {
+      "year": "2015",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Miles Morales: Ultimate Spider-Man|10": {
+      "year": "2015",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Miles Morales: Ultimate Spider-Man|11": {
+      "year": "2015",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Miles Morales: Ultimate Spider-Man|12": {
+      "year": "2015",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "12"
+    },
+    "Amazing Spider-Man|1.6": {
+      "year": "2016",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "1.6"
+    },
+    "All-New, All-Different Avengers|1": {
+      "year": "2015",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "1"
+    },
+    "All-New, All-Different Avengers|2": {
+      "year": "2015",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "2"
+    },
+    "All-New, All-Different Avengers|3": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "3"
     }
   }
 }
