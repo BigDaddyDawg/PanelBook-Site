@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1289,
+  "count": 1305,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -601,6 +601,14 @@
     "Miles Morales: Spider-Man|7": "2023",
     "Miles Morales: Spider-Man|8": "2023",
     "Miles Morales: Spider-Man|9": "2023",
+    "Miles Morales: Ultimate Spider-Man|1": "2014",
+    "Miles Morales: Ultimate Spider-Man|2": "2014",
+    "Miles Morales: Ultimate Spider-Man|3": "2014",
+    "Miles Morales: Ultimate Spider-Man|4": "2014",
+    "Miles Morales: Ultimate Spider-Man|5": "2014",
+    "Miles Morales: Ultimate Spider-Man|6": "2014",
+    "Miles Morales: Ultimate Spider-Man|7": "2014",
+    "Miles Morales: Ultimate Spider-Man|8": "2014",
     "Mortal Thor|1": "2025",
     "Mortal Thor|10": "2026",
     "Mortal Thor|11": "2026",
@@ -1134,6 +1142,14 @@
     "Ultimate Spider-Man|2": "2024",
     "Ultimate Spider-Man|20": "2025",
     "Ultimate Spider-Man|200": "2014",
+    "Ultimate Spider-Man|201": "2014",
+    "Ultimate Spider-Man|202": "2014",
+    "Ultimate Spider-Man|203": "2014",
+    "Ultimate Spider-Man|204": "2014",
+    "Ultimate Spider-Man|205": "2014",
+    "Ultimate Spider-Man|206": "2014",
+    "Ultimate Spider-Man|207": "2014",
+    "Ultimate Spider-Man|208": "2014",
     "Ultimate Spider-Man|21": "2025",
     "Ultimate Spider-Man|22": "2025",
     "Ultimate Spider-Man|23": "2025",
@@ -4883,6 +4899,54 @@
       "volume": "2",
       "issue": "9"
     },
+    "Miles Morales: Ultimate Spider-Man|1": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Miles Morales: Ultimate Spider-Man|2": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Miles Morales: Ultimate Spider-Man|3": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Miles Morales: Ultimate Spider-Man|4": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Miles Morales: Ultimate Spider-Man|5": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Miles Morales: Ultimate Spider-Man|6": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Miles Morales: Ultimate Spider-Man|7": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Miles Morales: Ultimate Spider-Man|8": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "8"
+    },
     "Mortal Thor|1": {
       "year": "2025",
       "series": "Mortal Thor",
@@ -8093,6 +8157,54 @@
       "series": "Ultimate Spider-Man",
       "volume": "1",
       "issue": "200"
+    },
+    "Ultimate Spider-Man|201": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Ultimate Spider-Man|202": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Ultimate Spider-Man|203": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Ultimate Spider-Man|204": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Ultimate Spider-Man|205": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Ultimate Spider-Man|206": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Ultimate Spider-Man|207": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Ultimate Spider-Man|208": {
+      "year": "2014",
+      "series": "Miles Morales: Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "8"
     },
     "Ultimate Spider-Man|21": {
       "year": "2025",
