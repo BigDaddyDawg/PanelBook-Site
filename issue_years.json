@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1368,
+  "count": 1374,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -552,6 +552,9 @@
     "Iron Man|3": "2026",
     "Iron Man|4": "2026",
     "Iron Man|5": "2026",
+    "Iron Man|559": "2014",
+    "Iron Man|560": "2014",
+    "Iron Man|561": "2014",
     "Iron Man|6": "2026",
     "Iron Man|7": "2026",
     "Iron Man|8": "2026",
@@ -1125,6 +1128,9 @@
     "Thor|5": "2020",
     "Thor|6": "2020",
     "Thor|600": "2009",
+    "Thor|669": "2014",
+    "Thor|670": "2014",
+    "Thor|671": "2014",
     "Thor|7": "2020",
     "Thor|788": "2025",
     "Thor|8": "2020",
@@ -4667,6 +4673,24 @@
       "volume": "7",
       "issue": "5"
     },
+    "Iron Man|559": {
+      "year": "2014",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Iron Man|560": {
+      "year": "2014",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Iron Man|561": {
+      "year": "2014",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "3"
+    },
     "Iron Man|6": {
       "year": "2026",
       "series": "Iron Man",
@@ -8115,6 +8139,24 @@
       "series": "Thor",
       "volume": "3",
       "issue": "600"
+    },
+    "Thor|669": {
+      "year": "2014",
+      "series": "Thor",
+      "volume": "4",
+      "issue": "1"
+    },
+    "Thor|670": {
+      "year": "2014",
+      "series": "Thor",
+      "volume": "4",
+      "issue": "2"
+    },
+    "Thor|671": {
+      "year": "2014",
+      "series": "Thor",
+      "volume": "4",
+      "issue": "3"
     },
     "Thor|7": {
       "year": "2020",
