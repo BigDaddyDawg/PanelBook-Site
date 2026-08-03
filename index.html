@@ -6,142 +6,51 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
+  <meta name="theme-color" content="#07090f">
   <title>PanelBook</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --ink: #1a1410;
-      --paper: #f3e6d4;
-      --panel: #2a211c;
-      --accent: #c45c26;
-      --muted: #7a6a5c;
-      --line: rgba(26,20,16,0.12);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: "Source Sans 3", system-ui, sans-serif;
-      color: var(--ink);
-      background:
-        radial-gradient(ellipse at 20% 0%, rgba(196,92,38,0.18), transparent 50%),
-        linear-gradient(165deg, #efe2cf 0%, #e4d3bb 45%, #d9c4a8 100%);
-      min-height: 100vh;
-    }
-    header {
-      padding: 2rem 1.25rem 1rem;
-      max-width: 960px;
-      margin: 0 auto;
-    }
-    .brand {
-      font-family: "Bebas Neue", Impact, sans-serif;
-      font-size: clamp(2.8rem, 8vw, 4.5rem);
-      letter-spacing: 0.04em;
-      line-height: 0.95;
-      margin: 0;
-    }
-    .tag {
-      color: var(--muted);
-      margin: 0.4rem 0 0;
-      max-width: 28rem;
-    }
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 0.75rem;
-      max-width: 960px;
-      margin: 0 auto 1.5rem;
-      padding: 0 1.25rem;
-    }
-    .stat {
-      background: rgba(255,255,255,0.45);
-      border: 1px solid var(--line);
-      padding: 1rem;
-    }
-    .stat b {
-      display: block;
-      font-family: "Bebas Neue", sans-serif;
-      font-size: 1.8rem;
-      letter-spacing: 0.03em;
-    }
-    .stat span { color: var(--muted); font-size: 0.85rem; }
-    main { max-width: 960px; margin: 0 auto; padding: 0 1.25rem 3rem; }
-    input {
-      width: 100%;
-      padding: 0.85rem 1rem;
-      border: 1px solid var(--line);
-      background: rgba(255,255,255,0.55);
-      font: inherit;
-      margin-bottom: 1rem;
-    }
-    .groups { display: flex; flex-direction: column; gap: 0.6rem; }
-    .group {
-      background: rgba(255,255,255,0.45);
-      border: 1px solid var(--line);
-    }
-    .group > summary {
-      list-style: none;
-      cursor: pointer;
-      padding: 0.85rem 1rem;
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      gap: 0.75rem;
-    }
-    .group > summary::-webkit-details-marker { display: none; }
-    .group > summary::before {
-      content: "▸";
-      color: var(--accent);
-      margin-right: 0.5rem;
-      flex-shrink: 0;
-    }
-    .group[open] > summary::before { content: "▾"; }
-    .group.line > summary {
-      background: rgba(255,255,255,0.35);
-      font-size: 1.02rem;
-    }
-    .group.line > .group-body { padding: 0.5rem 0.75rem 0.75rem; display: flex; flex-direction: column; gap: 0.45rem; }
-    .group.series {
-      margin-left: 0.25rem;
-      border-left: 3px solid rgba(196,92,38,0.45);
-    }
-    .group.series > summary { padding: 0.65rem 0.85rem; font-size: 0.92rem; }
-    .group-name { font-weight: 700; flex: 1; min-width: 0; }
-    .group-meta {
-      color: var(--muted);
-      font-size: 0.85rem;
-      white-space: nowrap;
-      font-variant-numeric: tabular-nums;
-    }
-    .group-meta b { color: var(--ink); font-weight: 600; }
-    .alias {
-      display: block;
-      font-size: 0.78rem;
-      color: var(--muted);
-      font-weight: 400;
-      margin-top: 0.15rem;
-    }
-    .group-body { padding: 0 1rem 0.85rem; overflow-x: auto; }
-    .series .group-body { padding: 0 0.75rem 0.65rem; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    th, td { text-align: left; padding: 0.45rem 0.35rem; border-bottom: 1px solid var(--line); }
-    th { color: var(--muted); font-weight: 600; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; }
-    .money { font-variant-numeric: tabular-nums; }
-    .err { color: #8b1e1e; padding: 1rem; }
-    .empty { color: var(--muted); padding: 1rem 0; }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="theme.css">
 </head>
 <body>
-  <header>
-    <h1 class="brand">PanelBook</h1>
-    <p class="tag" id="snapTag">Loading collection…</p>
-    <p style="margin:0.75rem 0 0;"><a href="scan.html" style="display:inline-block;background:#c45c26;color:#f3e6d4;text-decoration:none;font-weight:700;letter-spacing:0.02em;padding:0.7rem 1.1rem;border:1px solid #c45c26;">Scan a comic &rarr;</a></p>
-  </header>
+  <div class="sky" aria-hidden="true">
+    <canvas id="energy"></canvas>
+    <div class="bloom bloom-a"></div>
+    <div class="bloom bloom-b"></div>
+    <div class="bloom bloom-c"></div>
+    <div class="halftone"></div>
+    <div class="panel-grid"></div>
+    <div class="vignette"></div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-slash" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="eyebrow">Marvel collection vault</p>
+      <h1 class="brand">PanelBook</h1>
+      <p class="tagline">Your runs. Your gaps. Your shelves — in one kinetic ledger.</p>
+      <div class="cta-row">
+        <a class="cta cta-primary" href="#collection">Open the vault</a>
+        <a class="cta cta-ghost" href="scan.html">Scan a comic →</a>
+      </div>
+    </div>
+  </section>
+
   <div class="stats" id="stats"></div>
-  <main>
-    <input id="q" type="search" placeholder="Filter franchise, series or issue…" />
+
+  <main class="section" id="collection">
+    <p class="section-kicker">The collection</p>
+    <h2 class="section-title">Publishing lines</h2>
+    <p class="snap-tag" id="snapTag">Loading collection…</p>
+    <p style="margin:0.85rem 0 1.1rem;">
+      <a class="cta cta-ghost" href="buy.html" style="padding:0.65rem 1.05rem;font-size:0.85rem;">What to buy</a>
+    </p>
+    <input id="q" class="search" type="search" placeholder="Filter franchise, series or issue…" />
     <div id="out" class="err">Loading collection.json…</div>
   </main>
+
+  <script src="atmosphere.js"></script>
   <script>
     /* --- fuzzy series grouping --- */
     function normSeries(s) {
@@ -212,7 +121,6 @@
       return Number.isFinite(n) ? n : 999999;
     }
 
-    /* --- publishing-line / franchise detection (from series name, not character field) --- */
     function detectPublishingLine(series) {
       const s = String(series || "").toLowerCase();
 
@@ -240,7 +148,6 @@
       if (/black panther/.test(s)) return "Black Panther";
       if (/absolute carnage|king in black|empyre|secret wars|civil war|war of the realms|dark ages|\binfinity\b/.test(s)) return "Events";
 
-      // Standalone publishing title: use the part before the first colon
       const prefix = String(series || "").split(":")[0].trim();
       return prefix || series || "(unknown)";
     }
@@ -343,14 +250,14 @@
           const lines = filterLines(allLines, qq);
 
           if (!lines.length) {
-            out.innerHTML = '<p class="empty">No matching franchises, series or issues.</p>';
+            out.innerHTML = '<p class="empty">No comics match that search.</p>';
             return;
           }
 
           const seriesCount = lines.reduce((s, c) => s + c.series.length, 0);
           const issueCount = lines.reduce((s, c) => s + c.issueCount, 0);
 
-          out.innerHTML = `<div class="groups">${lines.map((line) => {
+          out.innerHTML = `<div class="groups">${lines.map((line, i) => {
             const seriesHtml = line.series.map((sg) => {
               const alias = sg.aliases.length
                 ? `<span class="alias">Also: ${sg.aliases.map(esc).join(", ")}</span>`
@@ -363,7 +270,7 @@
                 <div class="group-body">${renderIssueTable(sg.issues)}</div>
               </details>`;
             }).join("");
-            return `<details class="group line">
+            return `<details class="group line" style="animation-delay:${Math.min(i, 12) * 28}ms">
               <summary>
                 <span class="group-name">${esc(line.name)}</span>
                 <span class="group-meta"><b>${line.series.length}</b> titles · <b>${line.issueCount}</b> issues · £${line.value.toFixed(0)}</span>

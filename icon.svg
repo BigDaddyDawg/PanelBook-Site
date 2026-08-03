@@ -1,8 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="PanelBook Scan">
-  <rect width="512" height="512" fill="#2a211c"/>
-  <rect x="96" y="96" width="320" height="320" rx="24" fill="#e4d3bb"/>
-  <rect x="128" y="128" width="256" height="176" rx="8" fill="#c45c26"/>
-  <g fill="#1a1410">
+  <defs>
+    <linearGradient id="cover" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd24a"/>
+      <stop offset="55%" stop-color="#ff3b2f"/>
+      <stop offset="100%" stop-color="#c41e16"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4fd4c8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#07090f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="#07090f"/>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <rect x="96" y="88" width="320" height="336" rx="18" fill="#121826" stroke="#ffd24a" stroke-opacity="0.35" stroke-width="3"/>
+  <rect x="124" y="116" width="264" height="188" rx="8" fill="url(#cover)"/>
+  <g fill="#f2efe6" opacity="0.92">
     <rect x="160" y="336" width="12" height="56"/>
     <rect x="184" y="336" width="6" height="56"/>
     <rect x="200" y="336" width="14" height="56"/>
