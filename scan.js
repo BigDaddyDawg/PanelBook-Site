@@ -31,7 +31,9 @@
   let knownSeries = []; // { name, norm, grams }
   let seriesAliases = {}; // norm alias -> display name
   let issueYears = {}; // "Series|issue" -> "2025"
+  let issueBooks = {}; // "Series|issue" -> { year, series, volume, issue }
   const MIN_YEAR = 2009; // hard rule: collection is modern-only
+  const MAX_NEIGHBOR_GAP = 4; // infer year only across small same-vol holes
 
   const setStatus = (msg, kind = "") => {
     els.status.textContent = msg;
@@ -94,17 +96,81 @@
       if (res.ok) {
         const data = await res.json();
         issueYears = data.years || {};
+        issueBooks = data.books || {};
       }
     } catch (_) { /* years stay blank until catalog is published */ }
   }
 
-  function lookupYear(series, issue) {
-    const key = `${series}|${issue}`;
-    const y = issueYears[key] || issueYears[`${series}|${String(issue)}`] || "";
-    if (!y) return "";
+  function yearOk(y) {
     const n = parseInt(y, 10);
-    if (!n || n < MIN_YEAR) return "";
-    return String(n);
+    return n && n >= MIN_YEAR ? String(n) : "";
+  }
+
+  function lookupYearFlat(series, issue) {
+    const key = `${series}|${issue}`;
+    return yearOk(issueYears[key] || issueYears[`${series}|${String(issue)}`] || "");
+  }
+
+  /** If #N has no year but nearest known #s on both sides share a year, use it. */
+  function inferYearFromNeighbors(series, issue) {
+    const n = parseInt(issue, 10);
+    if (!Number.isFinite(n)) return "";
+    const prefix = `${series}|`;
+    const known = [];
+    for (const [key, y] of Object.entries(issueYears)) {
+      if (!key.startsWith(prefix)) continue;
+      const iss = key.slice(prefix.length);
+      if (!/^\d+$/.test(iss)) continue;
+      const yy = yearOk(y);
+      if (!yy) continue;
+      known.push({ n: parseInt(iss, 10), y: yy });
+    }
+    known.sort((a, b) => a.n - b.n);
+    let left = null, right = null;
+    for (const row of known) {
+      if (row.n < n) left = row;
+      else if (row.n > n) { right = row; break; }
+    }
+    if (!left || !right) return "";
+    if (right.n - left.n - 1 > MAX_NEIGHBOR_GAP) return "";
+    if (left.y !== right.y) return "";
+    const bl = issueBooks[`${series}|${left.n}`];
+    const br = issueBooks[`${series}|${right.n}`];
+    if (bl && br && (String(bl.volume) !== String(br.volume) || bl.series !== br.series)) {
+      return "";
+    }
+    return left.y;
+  }
+
+  /**
+   * Translate typed series+# into the physical book identity when known
+   * (e.g. Venom #241 → All-New Venom Vol 1 #2), including neighbor-inferred years.
+   */
+  function resolveBook(series, issue) {
+    const iss = String(issue);
+    const key = `${series}|${iss}`;
+    const b = issueBooks[key];
+    if (b) {
+      const y = yearOk(b.year) || inferYearFromNeighbors(series, iss);
+      if (y) {
+        const outSeries = b.series || series;
+        const outIssue = b.issue != null && b.issue !== "" ? String(b.issue) : iss;
+        const remapped = outSeries !== series || outIssue !== iss;
+        return {
+          series: outSeries,
+          issue: outIssue,
+          year: y,
+          volume: b.volume != null && b.volume !== "" ? String(b.volume) : "",
+          note: remapped ? `typed ${series} #${iss}` : "",
+        };
+      }
+    }
+    const year = lookupYearFlat(series, iss) || inferYearFromNeighbors(series, iss);
+    return { series, issue: iss, year, volume: "", note: "" };
+  }
+
+  function lookupYear(series, issue) {
+    return resolveBook(series, issue).year;
   }
 
   // Returns up to `n` best series matches for an OCR / typed blob.
@@ -174,14 +240,21 @@
     const rows = load();
     const now = new Date().toISOString();
     for (const e of entries) {
+      const book = resolveBook(e.series, e.issue);
+      const series = book.series;
+      const issue = book.issue;
+      const year = e.year || book.year || "";
+      const volume = e.volume || book.volume || "";
+      const noteBits = [e.notes, book.note].filter(Boolean);
       rows.push({
         source: "scan",
-        series: e.series,
-        issue_number: String(e.issue),
-        year: e.year || "",
-        title: e.series && e.issue ? `${e.series} #${e.issue}` : e.series,
+        series,
+        issue_number: String(issue),
+        year,
+        volume,
+        title: series && issue ? `${series} #${issue}` : series,
         upc: e.upc || "",
-        notes: e.notes || "",
+        notes: noteBits.join("; "),
         scanned_at: now,
         raw_ocr: e.raw || "",
       });
@@ -201,23 +274,27 @@
       setQuick(`Range too big (${span}). Max ${MAX_RANGE} issues at once.`, "warn");
       return;
     }
-    const series = resolveSeries(parsed.seriesRaw);
+    const typedSeries = resolveSeries(parsed.seriesRaw);
     const entries = [];
     let withYear = 0;
     for (let i = parsed.from; i <= parsed.to; i++) {
-      const year = lookupYear(series, i);
-      if (year) withYear++;
+      const book = resolveBook(typedSeries, i);
+      if (book.year) withYear++;
       entries.push({
-        series,
+        series: typedSeries,
         issue: i,
-        year,
+        year: book.year,
+        volume: book.volume,
         raw: `quick: ${els.quick.value.trim()}`,
       });
     }
     appendRows(entries);
+    const first = resolveBook(typedSeries, parsed.from);
     const label = span === 1
-      ? `Added ${series} #${parsed.from}${entries[0].year ? " (" + entries[0].year + ")" : ""}.`
-      : `Added ${series} #${parsed.from}–#${parsed.to} (${span}, ${withYear} with year).`;
+      ? `Added ${first.series} #${first.issue}` +
+        (first.volume ? ` Vol ${first.volume}` : "") +
+        (first.year ? ` (${first.year})` : "") + "."
+      : `Added ${typedSeries} #${parsed.from}–#${parsed.to} (${span}, ${withYear} with year).`;
     setQuick(label + " Next?", withYear === span ? "ok" : "warn");
     els.quick.value = "";
     els.quick.focus();
@@ -593,7 +670,7 @@
       const meta = document.createElement("div");
       meta.className = "meta";
       meta.innerHTML = `<strong>${escapeHtml(r.series || "(no series)")} #${escapeHtml(r.issue_number || "?")}</strong>` +
-        `<small>${[r.year, r.upc].filter(Boolean).map(escapeHtml).join(" · ")}</small>`;
+        `<small>${[r.volume ? "Vol " + r.volume : "", r.year, r.upc].filter(Boolean).map(escapeHtml).join(" · ")}</small>`;
       const del = document.createElement("button");
       del.type = "button"; del.textContent = "\u00d7"; del.title = "Remove";
       del.onclick = () => { const cur = load(); cur.splice(idx, 1); save(cur); render(); };
@@ -609,10 +686,12 @@
       setStatus("Nothing to add — type quick entry or fill a comic first.", "warn");
       return;
     }
+    const book = series && issue ? resolveBook(series, issue) : null;
     appendRows([{
       series,
       issue,
-      year: els.year.value.trim(),
+      year: els.year.value.trim() || (book && book.year) || "",
+      volume: (book && book.volume) || "",
       upc: els.upc.value.trim(),
       notes: els.notes.value.trim(),
       raw: els.raw.textContent.replace(/\s+/g, " ").trim(),
@@ -636,7 +715,7 @@
   }
 
   /* ---------- export ---------- */
-  const COLS = ["source", "series", "issue_number", "year", "title", "upc", "notes", "scanned_at", "raw_ocr"];
+  const COLS = ["source", "series", "issue_number", "year", "volume", "title", "upc", "notes", "scanned_at", "raw_ocr"];
   const csvCell = (v) => {
     const s = String(v ?? "");
     return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
@@ -687,6 +766,7 @@
       series: r.series || null,
       issue_number: r.issue_number || null,
       year: r.year || null,
+      volume: r.volume || null,
       title: r.title || null,
       upc: r.upc || null,
       notes: r.notes || null,

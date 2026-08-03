@@ -1,7 +1,8 @@
 {
   "built_from": "marvel_fandom_cache",
   "min_year": 2009,
-  "count": 1258,
+  "count": 1285,
+  "inferred_count": 25,
   "years": {
     "Absolute Carnage|1": "2019",
     "Absolute Carnage|2": "2019",
@@ -237,6 +238,7 @@
     "Avengers|42": "2015",
     "Avengers|43": "2021",
     "Avengers|44": "2021",
+    "Avengers|45": "2021",
     "Avengers|46": "2021",
     "Avengers|47": "2021",
     "Avengers|5": "2010",
@@ -277,13 +279,16 @@
     "Captain America|11": "2026",
     "Captain America|12": "2026",
     "Captain America|13": "2026",
+    "Captain America|14": "2026",
     "Captain America|15": "2026",
     "Captain America|18": "2020",
+    "Captain America|19": "2020",
     "Captain America|2": "2025",
     "Captain America|20": "2020",
     "Captain America|21": "2020",
     "Captain America|22": "2014",
     "Captain America|23": "2020",
+    "Captain America|24": "2020",
     "Captain America|25": "2020",
     "Captain America|3": "2025",
     "Captain America|4": "2025",
@@ -330,6 +335,7 @@
     "Civil War|4": "2015",
     "Civil War|5": "2015",
     "Cosmic Ghost Rider|1": "2023",
+    "Cosmic Ghost Rider|2": "2023",
     "Cosmic Ghost Rider|3": "2023",
     "Cosmic Ghost Rider|4": "2023",
     "Cosmic Ghost Rider|5": "2023",
@@ -352,6 +358,7 @@
     "Darth Vader|10": "2018",
     "Darth Vader|3": "2015",
     "Darth Vader|7": "2017",
+    "Darth Vader|8": "2017",
     "Darth Vader|9": "2017",
     "Death of Wolverine|1": "2014",
     "Death of Wolverine|2": "2014",
@@ -382,6 +389,7 @@
     "Fantastic Four|2": "2025",
     "Fantastic Four|3": "2025",
     "Fantastic Four|4": "2025",
+    "Fantastic Four|5": "2025",
     "Fantastic Four|6": "2025",
     "Fantastic Four|642": "2015",
     "Fantastic Four|9": "2026",
@@ -493,9 +501,13 @@
     "Iron Man|10": "2025",
     "Iron Man|11": "2021",
     "Iron Man|12": "2021",
+    "Iron Man|2": "2026",
+    "Iron Man|3": "2026",
+    "Iron Man|4": "2026",
     "Iron Man|5": "2026",
     "Iron Man|6": "2026",
     "Iron Man|7": "2026",
+    "Iron Man|8": "2026",
     "Iron Man|9": "2026",
     "Ironheart|1": "2018",
     "Ironheart|10": "2019",
@@ -594,6 +606,7 @@
     "Mortal Thor|12": "2026",
     "Mortal Thor|13": "2026",
     "Mortal Thor|14": "2026",
+    "Mortal Thor|2": "2025",
     "Mortal Thor|3": "2025",
     "Mortal Thor|4": "2025",
     "Mortal Thor|5": "2025",
@@ -670,10 +683,15 @@
     "Punisher|228": "2018",
     "Punisher|3": "2026",
     "Punisher|4": "2026",
+    "Punisher|5": "2026",
+    "Punisher|6": "2026",
     "Punisher|7": "2026",
     "Punisher|8": "2026",
     "Punisher|9": "2023",
     "Red Goblin|1": "2023",
+    "Red Goblin|2": "2023",
+    "Red Goblin|3": "2023",
+    "Red Goblin|4": "2023",
     "Red Goblin|5": "2023",
     "Red Goblin|6": "2023",
     "Red Goblin|7": "2023",
@@ -859,6 +877,7 @@
     "Star Wars: Darth Vader|17": "2021",
     "Star Wars: Darth Vader|18": "2021",
     "Star Wars: Darth Vader|19": "2021",
+    "Star Wars: Darth Vader|2": "2020",
     "Star Wars: Darth Vader|20": "2022",
     "Star Wars: Darth Vader|21": "2022",
     "Star Wars: Darth Vader|22": "2022",
@@ -880,6 +899,7 @@
     "Star Wars: Darth Vader|37": "2023",
     "Star Wars: Darth Vader|38": "2023",
     "Star Wars: Darth Vader|39": "2023",
+    "Star Wars: Darth Vader|4": "2020",
     "Star Wars: Darth Vader|40": "2023",
     "Star Wars: Darth Vader|41": "2023",
     "Star Wars: Darth Vader|42": "2024",
@@ -890,7 +910,9 @@
     "Star Wars: Darth Vader|47": "2024",
     "Star Wars: Darth Vader|48": "2024",
     "Star Wars: Darth Vader|49": "2024",
+    "Star Wars: Darth Vader|5": "2020",
     "Star Wars: Darth Vader|50": "2024",
+    "Star Wars: Darth Vader|6": "2020",
     "Star Wars: Darth Vader|7": "2020",
     "Star Wars: Darth Vader|8": "2020",
     "Star Wars: Darth Vader|9": "2021",
@@ -1000,6 +1022,7 @@
     "Superior Spider-Man|24": "2013",
     "Superior Spider-Man|25": "2014",
     "Superior Spider-Man|26": "2014",
+    "Superior Spider-Man|27": "2014",
     "Superior Spider-Man|28": "2014",
     "Superior Spider-Man|29": "2014",
     "Superior Spider-Man|3": "2024",
@@ -1033,13 +1056,16 @@
     "Thor|6": "2020",
     "Thor|600": "2009",
     "Thor|7": "2020",
+    "Thor|788": "2025",
     "Thor|8": "2020",
+    "Thor|9": "2020",
     "Tony Stark: Iron Man|1": "2018",
     "Tony Stark: Iron Man|10": "2019",
     "Tony Stark: Iron Man|11": "2019",
     "Tony Stark: Iron Man|12": "2019",
     "Tony Stark: Iron Man|13": "2019",
     "Tony Stark: Iron Man|14": "2019",
+    "Tony Stark: Iron Man|2": "2018",
     "Tony Stark: Iron Man|3": "2018",
     "Tony Stark: Iron Man|4": "2018",
     "Tony Stark: Iron Man|5": "2018",
@@ -1083,6 +1109,7 @@
     "Ultimate Endgame|4": "2026",
     "Ultimate Endgame|5": "2026",
     "Ultimate Invasion|1": "2023",
+    "Ultimate Invasion|2": "2023",
     "Ultimate Invasion|3": "2023",
     "Ultimate Invasion|4": "2023",
     "Ultimate Spider-Man: Incursion|1": "2025",
@@ -1246,6 +1273,7 @@
     "Venom|9": "2022",
     "Wolverine|1": "2024",
     "Wolverine|12": "2014",
+    "Wolverine|2": "2024",
     "Wolverine|28": "2026",
     "Wolverine|3": "2024",
     "Wolverine|50": "2024",
@@ -1261,5 +1289,7742 @@
     "X-23|7": "2018",
     "X-23|8": "2019",
     "X-23|9": "2019"
+  },
+  "books": {
+    "Absolute Carnage|1": {
+      "year": "2019",
+      "series": "Absolute Carnage",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Absolute Carnage|2": {
+      "year": "2019",
+      "series": "Absolute Carnage",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Absolute Carnage|3": {
+      "year": "2019",
+      "series": "Absolute Carnage",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Absolute Carnage|4": {
+      "year": "2019",
+      "series": "Absolute Carnage",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Absolute Carnage|5": {
+      "year": "2019",
+      "series": "Absolute Carnage",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Agents of S.H.I.E.L.D.|1": {
+      "year": "2016",
+      "series": "Agents of S.H.I.E.L.D.",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Agents of S.H.I.E.L.D.|10": {
+      "year": "2016",
+      "series": "Agents of S.H.I.E.L.D.",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Agents of S.H.I.E.L.D.|2": {
+      "year": "2016",
+      "series": "Agents of S.H.I.E.L.D.",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Agents of S.H.I.E.L.D.|3": {
+      "year": "2016",
+      "series": "Agents of S.H.I.E.L.D.",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Agents of S.H.I.E.L.D.|4": {
+      "year": "2016",
+      "series": "Agents of S.H.I.E.L.D.",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Agents of S.H.I.E.L.D.|5": {
+      "year": "2016",
+      "series": "Agents of S.H.I.E.L.D.",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Agents of S.H.I.E.L.D.|6": {
+      "year": "2016",
+      "series": "Agents of S.H.I.E.L.D.",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Agents of S.H.I.E.L.D.|7": {
+      "year": "2016",
+      "series": "Agents of S.H.I.E.L.D.",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Agents of S.H.I.E.L.D.|8": {
+      "year": "2016",
+      "series": "Agents of S.H.I.E.L.D.",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Agents of S.H.I.E.L.D.|9": {
+      "year": "2016",
+      "series": "Agents of S.H.I.E.L.D.",
+      "volume": "1",
+      "issue": "9"
+    },
+    "All-New Venom|1": {
+      "year": "2024",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "1"
+    },
+    "All-New Venom|10": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "10"
+    },
+    "All-New Venom|2": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "2"
+    },
+    "All-New Venom|3": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "3"
+    },
+    "All-New Venom|4": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "4"
+    },
+    "All-New Venom|5": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "5"
+    },
+    "All-New Venom|6": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "6"
+    },
+    "All-New Venom|7": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "7"
+    },
+    "All-New Venom|8": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "8"
+    },
+    "All-New Venom|9": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "9"
+    },
+    "All-New Wolverine|1": {
+      "year": "2015",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "1"
+    },
+    "All-New Wolverine|10": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "10"
+    },
+    "All-New Wolverine|11": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "11"
+    },
+    "All-New Wolverine|12": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "12"
+    },
+    "All-New Wolverine|13": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "13"
+    },
+    "All-New Wolverine|14": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "14"
+    },
+    "All-New Wolverine|15": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "15"
+    },
+    "All-New Wolverine|16": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "16"
+    },
+    "All-New Wolverine|17": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "17"
+    },
+    "All-New Wolverine|18": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "18"
+    },
+    "All-New Wolverine|19": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "19"
+    },
+    "All-New Wolverine|2": {
+      "year": "2015",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "2"
+    },
+    "All-New Wolverine|20": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "20"
+    },
+    "All-New Wolverine|21": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "21"
+    },
+    "All-New Wolverine|22": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "22"
+    },
+    "All-New Wolverine|23": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "23"
+    },
+    "All-New Wolverine|24": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "24"
+    },
+    "All-New Wolverine|25": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "25"
+    },
+    "All-New Wolverine|26": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "26"
+    },
+    "All-New Wolverine|27": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "27"
+    },
+    "All-New Wolverine|28": {
+      "year": "2017",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "28"
+    },
+    "All-New Wolverine|29": {
+      "year": "2018",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "29"
+    },
+    "All-New Wolverine|3": {
+      "year": "2015",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "3"
+    },
+    "All-New Wolverine|30": {
+      "year": "2018",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "30"
+    },
+    "All-New Wolverine|31": {
+      "year": "2018",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "31"
+    },
+    "All-New Wolverine|32": {
+      "year": "2018",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "32"
+    },
+    "All-New Wolverine|33": {
+      "year": "2018",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "33"
+    },
+    "All-New Wolverine|34": {
+      "year": "2018",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "34"
+    },
+    "All-New Wolverine|35": {
+      "year": "2018",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "35"
+    },
+    "All-New Wolverine|4": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "4"
+    },
+    "All-New Wolverine|5": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "5"
+    },
+    "All-New Wolverine|6": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "6"
+    },
+    "All-New Wolverine|7": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "7"
+    },
+    "All-New Wolverine|8": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "8"
+    },
+    "All-New Wolverine|9": {
+      "year": "2016",
+      "series": "All-New Wolverine",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Amazing Spider-Man|1": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "1"
+    },
+    "Amazing Spider-Man|10": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "10"
+    },
+    "Amazing Spider-Man|11": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "11"
+    },
+    "Amazing Spider-Man|12": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "12"
+    },
+    "Amazing Spider-Man|13": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "13"
+    },
+    "Amazing Spider-Man|14": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "14"
+    },
+    "Amazing Spider-Man|15": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "15"
+    },
+    "Amazing Spider-Man|16": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "16"
+    },
+    "Amazing Spider-Man|17": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "17"
+    },
+    "Amazing Spider-Man|18": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "18"
+    },
+    "Amazing Spider-Man|19": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "19"
+    },
+    "Amazing Spider-Man|2": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "2"
+    },
+    "Amazing Spider-Man|20": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "20"
+    },
+    "Amazing Spider-Man|21": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "21"
+    },
+    "Amazing Spider-Man|22": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "22"
+    },
+    "Amazing Spider-Man|23": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "23"
+    },
+    "Amazing Spider-Man|24": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "24"
+    },
+    "Amazing Spider-Man|25": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "25"
+    },
+    "Amazing Spider-Man|26": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "26"
+    },
+    "Amazing Spider-Man|27": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "27"
+    },
+    "Amazing Spider-Man|28": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "28"
+    },
+    "Amazing Spider-Man|29": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "29"
+    },
+    "Amazing Spider-Man|3": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "3"
+    },
+    "Amazing Spider-Man|30": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "30"
+    },
+    "Amazing Spider-Man|31": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "31"
+    },
+    "Amazing Spider-Man|32": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "32"
+    },
+    "Amazing Spider-Man|33": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "33"
+    },
+    "Amazing Spider-Man|34": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "34"
+    },
+    "Amazing Spider-Man|35": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "35"
+    },
+    "Amazing Spider-Man|36": {
+      "year": "2026",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "36"
+    },
+    "Amazing Spider-Man|37": {
+      "year": "2020",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "37"
+    },
+    "Amazing Spider-Man|38": {
+      "year": "2020",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "38"
+    },
+    "Amazing Spider-Man|39": {
+      "year": "2023",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "39"
+    },
+    "Amazing Spider-Man|4": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "4"
+    },
+    "Amazing Spider-Man|40": {
+      "year": "2023",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "40"
+    },
+    "Amazing Spider-Man|41": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "41"
+    },
+    "Amazing Spider-Man|42": {
+      "year": "2020",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "42"
+    },
+    "Amazing Spider-Man|43": {
+      "year": "2020",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "43"
+    },
+    "Amazing Spider-Man|44": {
+      "year": "2020",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "44"
+    },
+    "Amazing Spider-Man|45": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "45"
+    },
+    "Amazing Spider-Man|46": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "46"
+    },
+    "Amazing Spider-Man|47": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "47"
+    },
+    "Amazing Spider-Man|48": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "48"
+    },
+    "Amazing Spider-Man|49": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "49"
+    },
+    "Amazing Spider-Man|5": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "5"
+    },
+    "Amazing Spider-Man|50": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "50"
+    },
+    "Amazing Spider-Man|51": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "51"
+    },
+    "Amazing Spider-Man|52": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "52"
+    },
+    "Amazing Spider-Man|53": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "53"
+    },
+    "Amazing Spider-Man|54": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "54"
+    },
+    "Amazing Spider-Man|55": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "55"
+    },
+    "Amazing Spider-Man|56": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "56"
+    },
+    "Amazing Spider-Man|57": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "57"
+    },
+    "Amazing Spider-Man|58": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "58"
+    },
+    "Amazing Spider-Man|59": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "59"
+    },
+    "Amazing Spider-Man|6": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "6"
+    },
+    "Amazing Spider-Man|60": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "60"
+    },
+    "Amazing Spider-Man|600": {
+      "year": "2009",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "600"
+    },
+    "Amazing Spider-Man|61": {
+      "year": "2021",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "61"
+    },
+    "Amazing Spider-Man|62": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "62"
+    },
+    "Amazing Spider-Man|63": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "63"
+    },
+    "Amazing Spider-Man|64": {
+      "year": "2024",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "64"
+    },
+    "Amazing Spider-Man|65": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "65"
+    },
+    "Amazing Spider-Man|657": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "657"
+    },
+    "Amazing Spider-Man|658": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "658"
+    },
+    "Amazing Spider-Man|659": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "659"
+    },
+    "Amazing Spider-Man|66": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "66"
+    },
+    "Amazing Spider-Man|660": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "660"
+    },
+    "Amazing Spider-Man|661": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "661"
+    },
+    "Amazing Spider-Man|662": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "662"
+    },
+    "Amazing Spider-Man|663": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "663"
+    },
+    "Amazing Spider-Man|664": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "664"
+    },
+    "Amazing Spider-Man|665": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "665"
+    },
+    "Amazing Spider-Man|666": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "666"
+    },
+    "Amazing Spider-Man|667": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "667"
+    },
+    "Amazing Spider-Man|668": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "668"
+    },
+    "Amazing Spider-Man|669": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "669"
+    },
+    "Amazing Spider-Man|67": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "67"
+    },
+    "Amazing Spider-Man|670": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "670"
+    },
+    "Amazing Spider-Man|671": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "671"
+    },
+    "Amazing Spider-Man|672": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "672"
+    },
+    "Amazing Spider-Man|673": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "673"
+    },
+    "Amazing Spider-Man|674": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "674"
+    },
+    "Amazing Spider-Man|675": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "675"
+    },
+    "Amazing Spider-Man|676": {
+      "year": "2011",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "676"
+    },
+    "Amazing Spider-Man|677": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "677"
+    },
+    "Amazing Spider-Man|678": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "678"
+    },
+    "Amazing Spider-Man|679": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "679"
+    },
+    "Amazing Spider-Man|68": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "68"
+    },
+    "Amazing Spider-Man|680": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "680"
+    },
+    "Amazing Spider-Man|681": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "681"
+    },
+    "Amazing Spider-Man|682": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "682"
+    },
+    "Amazing Spider-Man|683": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "683"
+    },
+    "Amazing Spider-Man|684": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "684"
+    },
+    "Amazing Spider-Man|685": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "685"
+    },
+    "Amazing Spider-Man|686": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "686"
+    },
+    "Amazing Spider-Man|687": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "687"
+    },
+    "Amazing Spider-Man|688": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "688"
+    },
+    "Amazing Spider-Man|689": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "689"
+    },
+    "Amazing Spider-Man|69": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "69"
+    },
+    "Amazing Spider-Man|690": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "690"
+    },
+    "Amazing Spider-Man|691": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "691"
+    },
+    "Amazing Spider-Man|692": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "692"
+    },
+    "Amazing Spider-Man|693": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "693"
+    },
+    "Amazing Spider-Man|694": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "694"
+    },
+    "Amazing Spider-Man|695": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "695"
+    },
+    "Amazing Spider-Man|696": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "696"
+    },
+    "Amazing Spider-Man|697": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "697"
+    },
+    "Amazing Spider-Man|698": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "698"
+    },
+    "Amazing Spider-Man|699": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "699"
+    },
+    "Amazing Spider-Man|7": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "7"
+    },
+    "Amazing Spider-Man|70": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "6",
+      "issue": "70"
+    },
+    "Amazing Spider-Man|700": {
+      "year": "2012",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "700"
+    },
+    "Amazing Spider-Man|71": {
+      "year": "2021",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "71"
+    },
+    "Amazing Spider-Man|72": {
+      "year": "2021",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "72"
+    },
+    "Amazing Spider-Man|73": {
+      "year": "2021",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "73"
+    },
+    "Amazing Spider-Man|74": {
+      "year": "2021",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "74"
+    },
+    "Amazing Spider-Man|75": {
+      "year": "2021",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "75"
+    },
+    "Amazing Spider-Man|76": {
+      "year": "2021",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "76"
+    },
+    "Amazing Spider-Man|77": {
+      "year": "2021",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "77"
+    },
+    "Amazing Spider-Man|78": {
+      "year": "2021",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "78"
+    },
+    "Amazing Spider-Man|789": {
+      "year": "2017",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "789"
+    },
+    "Amazing Spider-Man|79": {
+      "year": "2021",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "79"
+    },
+    "Amazing Spider-Man|790": {
+      "year": "2017",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "790"
+    },
+    "Amazing Spider-Man|791": {
+      "year": "2017",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "791"
+    },
+    "Amazing Spider-Man|792": {
+      "year": "2017",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "792"
+    },
+    "Amazing Spider-Man|793": {
+      "year": "2017",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "793"
+    },
+    "Amazing Spider-Man|794": {
+      "year": "2018",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "794"
+    },
+    "Amazing Spider-Man|795": {
+      "year": "2018",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "795"
+    },
+    "Amazing Spider-Man|796": {
+      "year": "2018",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "796"
+    },
+    "Amazing Spider-Man|797": {
+      "year": "2018",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "797"
+    },
+    "Amazing Spider-Man|798": {
+      "year": "2018",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "798"
+    },
+    "Amazing Spider-Man|799": {
+      "year": "2018",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "799"
+    },
+    "Amazing Spider-Man|8": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "8"
+    },
+    "Amazing Spider-Man|80": {
+      "year": "2021",
+      "series": "Amazing Spider-Man",
+      "volume": "5",
+      "issue": "80"
+    },
+    "Amazing Spider-Man|800": {
+      "year": "2018",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "800"
+    },
+    "Amazing Spider-Man|801": {
+      "year": "2018",
+      "series": "Amazing Spider-Man",
+      "volume": "4",
+      "issue": "801"
+    },
+    "Amazing Spider-Man|9": {
+      "year": "2025",
+      "series": "Amazing Spider-Man",
+      "volume": "7",
+      "issue": "9"
+    },
+    "Avengers|0": {
+      "year": "2015",
+      "series": "Avengers",
+      "volume": "6",
+      "issue": "0"
+    },
+    "Avengers|1": {
+      "year": "2026",
+      "series": "Avengers",
+      "volume": "10",
+      "issue": "1"
+    },
+    "Avengers|10": {
+      "year": "2024",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "10"
+    },
+    "Avengers|11": {
+      "year": "2011",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "11"
+    },
+    "Avengers|12": {
+      "year": "2011",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "12"
+    },
+    "Avengers|13": {
+      "year": "2011",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "13"
+    },
+    "Avengers|14": {
+      "year": "2011",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "14"
+    },
+    "Avengers|15": {
+      "year": "2011",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "15"
+    },
+    "Avengers|16": {
+      "year": "2011",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "16"
+    },
+    "Avengers|17": {
+      "year": "2011",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "17"
+    },
+    "Avengers|18": {
+      "year": "2024",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "18"
+    },
+    "Avengers|19": {
+      "year": "2024",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "19"
+    },
+    "Avengers|20": {
+      "year": "2024",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "20"
+    },
+    "Avengers|21": {
+      "year": "2024",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "21"
+    },
+    "Avengers|22": {
+      "year": "2025",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "22"
+    },
+    "Avengers|23": {
+      "year": "2025",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "23"
+    },
+    "Avengers|24": {
+      "year": "2012",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "24"
+    },
+    "Avengers|25": {
+      "year": "2012",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "25"
+    },
+    "Avengers|26": {
+      "year": "2012",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "26"
+    },
+    "Avengers|27": {
+      "year": "2025",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "27"
+    },
+    "Avengers|28": {
+      "year": "2012",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "28"
+    },
+    "Avengers|29": {
+      "year": "2012",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "29"
+    },
+    "Avengers|30": {
+      "year": "2012",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "30"
+    },
+    "Avengers|31": {
+      "year": "2025",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "31"
+    },
+    "Avengers|32": {
+      "year": "2025",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "32"
+    },
+    "Avengers|33": {
+      "year": "2012",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "33"
+    },
+    "Avengers|34": {
+      "year": "2026",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "34"
+    },
+    "Avengers|35": {
+      "year": "2026",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "35"
+    },
+    "Avengers|38": {
+      "year": "2020",
+      "series": "Avengers",
+      "volume": "8",
+      "issue": "38"
+    },
+    "Avengers|39": {
+      "year": "2014",
+      "series": "Avengers",
+      "volume": "5",
+      "issue": "39"
+    },
+    "Avengers|4": {
+      "year": "2023",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "4"
+    },
+    "Avengers|40": {
+      "year": "2015",
+      "series": "Avengers",
+      "volume": "5",
+      "issue": "40"
+    },
+    "Avengers|41": {
+      "year": "2015",
+      "series": "Avengers",
+      "volume": "5",
+      "issue": "41"
+    },
+    "Avengers|42": {
+      "year": "2015",
+      "series": "Avengers",
+      "volume": "5",
+      "issue": "42"
+    },
+    "Avengers|43": {
+      "year": "2021",
+      "series": "Avengers",
+      "volume": "8",
+      "issue": "43"
+    },
+    "Avengers|44": {
+      "year": "2021",
+      "series": "Avengers",
+      "volume": "8",
+      "issue": "44"
+    },
+    "Avengers|45": {
+      "year": "2021",
+      "series": "Avengers",
+      "volume": "8",
+      "issue": "45",
+      "inferred": true
+    },
+    "Avengers|46": {
+      "year": "2021",
+      "series": "Avengers",
+      "volume": "8",
+      "issue": "46"
+    },
+    "Avengers|47": {
+      "year": "2021",
+      "series": "Avengers",
+      "volume": "8",
+      "issue": "47"
+    },
+    "Avengers|5": {
+      "year": "2010",
+      "series": "Avengers",
+      "volume": "4",
+      "issue": "5"
+    },
+    "Avengers|6": {
+      "year": "2023",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "6"
+    },
+    "Avengers|672": {
+      "year": "2017",
+      "series": "Avengers",
+      "volume": "7",
+      "issue": "672"
+    },
+    "Avengers|681": {
+      "year": "2018",
+      "series": "Avengers",
+      "volume": "7",
+      "issue": "681"
+    },
+    "Avengers|7": {
+      "year": "2023",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "7"
+    },
+    "Avengers|8": {
+      "year": "2023",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "8"
+    },
+    "Avengers|9": {
+      "year": "2024",
+      "series": "Avengers",
+      "volume": "9",
+      "issue": "9"
+    },
+    "Ben Reilly: Scarlet Spider|1": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Ben Reilly: Scarlet Spider|10": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Ben Reilly: Scarlet Spider|11": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Ben Reilly: Scarlet Spider|12": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "12"
+    },
+    "Ben Reilly: Scarlet Spider|13": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "13"
+    },
+    "Ben Reilly: Scarlet Spider|14": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "14"
+    },
+    "Ben Reilly: Scarlet Spider|15": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "15"
+    },
+    "Ben Reilly: Scarlet Spider|16": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "16"
+    },
+    "Ben Reilly: Scarlet Spider|17": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "17"
+    },
+    "Ben Reilly: Scarlet Spider|18": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "18"
+    },
+    "Ben Reilly: Scarlet Spider|19": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "19"
+    },
+    "Ben Reilly: Scarlet Spider|2": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Ben Reilly: Scarlet Spider|20": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "20"
+    },
+    "Ben Reilly: Scarlet Spider|21": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "21"
+    },
+    "Ben Reilly: Scarlet Spider|22": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "22"
+    },
+    "Ben Reilly: Scarlet Spider|23": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "23"
+    },
+    "Ben Reilly: Scarlet Spider|24": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "24"
+    },
+    "Ben Reilly: Scarlet Spider|25": {
+      "year": "2018",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "25"
+    },
+    "Ben Reilly: Scarlet Spider|3": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Ben Reilly: Scarlet Spider|4": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Ben Reilly: Scarlet Spider|5": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Ben Reilly: Scarlet Spider|6": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Ben Reilly: Scarlet Spider|7": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Ben Reilly: Scarlet Spider|8": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Ben Reilly: Scarlet Spider|9": {
+      "year": "2017",
+      "series": "Ben Reilly: Scarlet Spider",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Captain America|0": {
+      "year": "2022",
+      "series": "Captain America",
+      "volume": "11",
+      "issue": "0"
+    },
+    "Captain America|1": {
+      "year": "2025",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "1"
+    },
+    "Captain America|10": {
+      "year": "2026",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "10"
+    },
+    "Captain America|11": {
+      "year": "2026",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "11"
+    },
+    "Captain America|12": {
+      "year": "2026",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "12"
+    },
+    "Captain America|13": {
+      "year": "2026",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "13"
+    },
+    "Captain America|14": {
+      "year": "2026",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "14",
+      "inferred": true
+    },
+    "Captain America|15": {
+      "year": "2026",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "15"
+    },
+    "Captain America|18": {
+      "year": "2020",
+      "series": "Captain America",
+      "volume": "10",
+      "issue": "18"
+    },
+    "Captain America|19": {
+      "year": "2020",
+      "series": "Captain America",
+      "volume": "10",
+      "issue": "19",
+      "inferred": true
+    },
+    "Captain America|2": {
+      "year": "2025",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "2"
+    },
+    "Captain America|20": {
+      "year": "2020",
+      "series": "Captain America",
+      "volume": "10",
+      "issue": "20"
+    },
+    "Captain America|21": {
+      "year": "2020",
+      "series": "Captain America",
+      "volume": "10",
+      "issue": "21"
+    },
+    "Captain America|22": {
+      "year": "2014",
+      "series": "Captain America",
+      "volume": "7",
+      "issue": "22"
+    },
+    "Captain America|23": {
+      "year": "2020",
+      "series": "Captain America",
+      "volume": "10",
+      "issue": "23"
+    },
+    "Captain America|24": {
+      "year": "2020",
+      "series": "Captain America",
+      "volume": "10",
+      "issue": "24",
+      "inferred": true
+    },
+    "Captain America|25": {
+      "year": "2020",
+      "series": "Captain America",
+      "volume": "10",
+      "issue": "25"
+    },
+    "Captain America|3": {
+      "year": "2025",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "3"
+    },
+    "Captain America|4": {
+      "year": "2025",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "4"
+    },
+    "Captain America|5": {
+      "year": "2025",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "5"
+    },
+    "Captain America|600": {
+      "year": "2009",
+      "series": "Captain America",
+      "volume": "5",
+      "issue": "600"
+    },
+    "Captain America|695": {
+      "year": "2017",
+      "series": "Captain America",
+      "volume": "9",
+      "issue": "695"
+    },
+    "Captain America|696": {
+      "year": "2017",
+      "series": "Captain America",
+      "volume": "9",
+      "issue": "696"
+    },
+    "Captain America|697": {
+      "year": "2018",
+      "series": "Captain America",
+      "volume": "9",
+      "issue": "697"
+    },
+    "Captain America|698": {
+      "year": "2018",
+      "series": "Captain America",
+      "volume": "9",
+      "issue": "698"
+    },
+    "Captain America|699": {
+      "year": "2018",
+      "series": "Captain America",
+      "volume": "9",
+      "issue": "699"
+    },
+    "Captain America|700": {
+      "year": "2018",
+      "series": "Captain America",
+      "volume": "9",
+      "issue": "700"
+    },
+    "Captain America|701": {
+      "year": "2018",
+      "series": "Captain America",
+      "volume": "9",
+      "issue": "701"
+    },
+    "Captain America|702": {
+      "year": "2018",
+      "series": "Captain America",
+      "volume": "9",
+      "issue": "702"
+    },
+    "Captain America|703": {
+      "year": "2018",
+      "series": "Captain America",
+      "volume": "9",
+      "issue": "703"
+    },
+    "Captain America|704": {
+      "year": "2018",
+      "series": "Captain America",
+      "volume": "9",
+      "issue": "704"
+    },
+    "Captain America|750": {
+      "year": "2023",
+      "series": "Captain America",
+      "volume": "12",
+      "issue": "750"
+    },
+    "Captain America|8": {
+      "year": "2026",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "8"
+    },
+    "Captain America|9": {
+      "year": "2026",
+      "series": "Captain America",
+      "volume": "14",
+      "issue": "9"
+    },
+    "Carnage|1": {
+      "year": "2023",
+      "series": "Carnage",
+      "volume": "4",
+      "issue": "1"
+    },
+    "Carnage|10": {
+      "year": "2023",
+      "series": "Carnage",
+      "volume": "3",
+      "issue": "10"
+    },
+    "Carnage|11": {
+      "year": "2023",
+      "series": "Carnage",
+      "volume": "3",
+      "issue": "11"
+    },
+    "Carnage|12": {
+      "year": "2023",
+      "series": "Carnage",
+      "volume": "3",
+      "issue": "12"
+    },
+    "Carnage|13": {
+      "year": "2023",
+      "series": "Carnage",
+      "volume": "3",
+      "issue": "13"
+    },
+    "Carnage|14": {
+      "year": "2023",
+      "series": "Carnage",
+      "volume": "3",
+      "issue": "14"
+    },
+    "Carnage|15": {
+      "year": "2016",
+      "series": "Carnage",
+      "volume": "2",
+      "issue": "15"
+    },
+    "Carnage|16": {
+      "year": "2017",
+      "series": "Carnage",
+      "volume": "2",
+      "issue": "16"
+    },
+    "Carnage|2": {
+      "year": "2023",
+      "series": "Carnage",
+      "volume": "4",
+      "issue": "2"
+    },
+    "Carnage|3": {
+      "year": "2024",
+      "series": "Carnage",
+      "volume": "4",
+      "issue": "3"
+    },
+    "Carnage|4": {
+      "year": "2024",
+      "series": "Carnage",
+      "volume": "4",
+      "issue": "4"
+    },
+    "Carnage|5": {
+      "year": "2024",
+      "series": "Carnage",
+      "volume": "4",
+      "issue": "5"
+    },
+    "Carnage|6": {
+      "year": "2024",
+      "series": "Carnage",
+      "volume": "4",
+      "issue": "6"
+    },
+    "Carnage|7": {
+      "year": "2024",
+      "series": "Carnage",
+      "volume": "4",
+      "issue": "7"
+    },
+    "Carnage|8": {
+      "year": "2024",
+      "series": "Carnage",
+      "volume": "4",
+      "issue": "8"
+    },
+    "Carnage|9": {
+      "year": "2023",
+      "series": "Carnage",
+      "volume": "3",
+      "issue": "9"
+    },
+    "Civil War II|0": {
+      "year": "2016",
+      "series": "Civil War II",
+      "volume": "1",
+      "issue": "0"
+    },
+    "Civil War II|1": {
+      "year": "2016",
+      "series": "Civil War II",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Civil War II|2": {
+      "year": "2016",
+      "series": "Civil War II",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Civil War II|3": {
+      "year": "2016",
+      "series": "Civil War II",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Civil War II|4": {
+      "year": "2016",
+      "series": "Civil War II",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Civil War II|5": {
+      "year": "2016",
+      "series": "Civil War II",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Civil War|1": {
+      "year": "2015",
+      "series": "Civil War",
+      "volume": "2",
+      "issue": "1"
+    },
+    "Civil War|2": {
+      "year": "2015",
+      "series": "Civil War",
+      "volume": "2",
+      "issue": "2"
+    },
+    "Civil War|3": {
+      "year": "2015",
+      "series": "Civil War",
+      "volume": "2",
+      "issue": "3"
+    },
+    "Civil War|4": {
+      "year": "2015",
+      "series": "Civil War",
+      "volume": "2",
+      "issue": "4"
+    },
+    "Civil War|5": {
+      "year": "2015",
+      "series": "Civil War",
+      "volume": "2",
+      "issue": "5"
+    },
+    "Cosmic Ghost Rider|1": {
+      "year": "2023",
+      "series": "Cosmic Ghost Rider",
+      "volume": "2",
+      "issue": "1"
+    },
+    "Cosmic Ghost Rider|2": {
+      "year": "2023",
+      "series": "Cosmic Ghost Rider",
+      "volume": "2",
+      "issue": "2",
+      "inferred": true
+    },
+    "Cosmic Ghost Rider|3": {
+      "year": "2023",
+      "series": "Cosmic Ghost Rider",
+      "volume": "2",
+      "issue": "3"
+    },
+    "Cosmic Ghost Rider|4": {
+      "year": "2023",
+      "series": "Cosmic Ghost Rider",
+      "volume": "2",
+      "issue": "4"
+    },
+    "Cosmic Ghost Rider|5": {
+      "year": "2023",
+      "series": "Cosmic Ghost Rider",
+      "volume": "2",
+      "issue": "5"
+    },
+    "Daredevil|1": {
+      "year": "2026",
+      "series": "Daredevil",
+      "volume": "9",
+      "issue": "1"
+    },
+    "Daredevil|10": {
+      "year": "2023",
+      "series": "Daredevil",
+      "volume": "7",
+      "issue": "10"
+    },
+    "Daredevil|11": {
+      "year": "2023",
+      "series": "Daredevil",
+      "volume": "7",
+      "issue": "11"
+    },
+    "Daredevil|12": {
+      "year": "2024",
+      "series": "Daredevil",
+      "volume": "8",
+      "issue": "12"
+    },
+    "Daredevil|2": {
+      "year": "2026",
+      "series": "Daredevil",
+      "volume": "9",
+      "issue": "2"
+    },
+    "Daredevil|25": {
+      "year": "2025",
+      "series": "Daredevil",
+      "volume": "8",
+      "issue": "25"
+    },
+    "Daredevil|3": {
+      "year": "2026",
+      "series": "Daredevil",
+      "volume": "9",
+      "issue": "3"
+    },
+    "Daredevil|4": {
+      "year": "2026",
+      "series": "Daredevil",
+      "volume": "9",
+      "issue": "4"
+    },
+    "Daredevil|5": {
+      "year": "2026",
+      "series": "Daredevil",
+      "volume": "9",
+      "issue": "5"
+    },
+    "Daredevil|500": {
+      "year": "2009",
+      "series": "Daredevil",
+      "volume": "2",
+      "issue": "500"
+    },
+    "Daredevil|595": {
+      "year": "2017",
+      "series": "Daredevil",
+      "volume": "5",
+      "issue": "595"
+    },
+    "Daredevil|6": {
+      "year": "2026",
+      "series": "Daredevil",
+      "volume": "9",
+      "issue": "6"
+    },
+    "Daredevil|7": {
+      "year": "2026",
+      "series": "Daredevil",
+      "volume": "9",
+      "issue": "7"
+    },
+    "Daredevil|8": {
+      "year": "2024",
+      "series": "Daredevil",
+      "volume": "8",
+      "issue": "8"
+    },
+    "Daredevil|9": {
+      "year": "2023",
+      "series": "Daredevil",
+      "volume": "7",
+      "issue": "9"
+    },
+    "Darth Vader|1": {
+      "year": "2017",
+      "series": "Darth Vader",
+      "volume": "2",
+      "issue": "1"
+    },
+    "Darth Vader|10": {
+      "year": "2018",
+      "series": "Darth Vader",
+      "volume": "2",
+      "issue": "10"
+    },
+    "Darth Vader|3": {
+      "year": "2015",
+      "series": "Darth Vader",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Darth Vader|7": {
+      "year": "2017",
+      "series": "Darth Vader",
+      "volume": "2",
+      "issue": "7"
+    },
+    "Darth Vader|8": {
+      "year": "2017",
+      "series": "Darth Vader",
+      "volume": "2",
+      "issue": "8",
+      "inferred": true
+    },
+    "Darth Vader|9": {
+      "year": "2017",
+      "series": "Darth Vader",
+      "volume": "2",
+      "issue": "9"
+    },
+    "Death of Wolverine|1": {
+      "year": "2014",
+      "series": "Death of Wolverine",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Death of Wolverine|2": {
+      "year": "2014",
+      "series": "Death of Wolverine",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Death of Wolverine|3": {
+      "year": "2014",
+      "series": "Death of Wolverine",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Death of Wolverine|4": {
+      "year": "2014",
+      "series": "Death of Wolverine",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Eddie Brock: Carnage|1": {
+      "year": "2025",
+      "series": "Eddie Brock: Carnage",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Eddie Brock: Carnage|10": {
+      "year": "2025",
+      "series": "Eddie Brock: Carnage",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Eddie Brock: Carnage|2": {
+      "year": "2025",
+      "series": "Eddie Brock: Carnage",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Eddie Brock: Carnage|3": {
+      "year": "2025",
+      "series": "Eddie Brock: Carnage",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Eddie Brock: Carnage|4": {
+      "year": "2025",
+      "series": "Eddie Brock: Carnage",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Eddie Brock: Carnage|5": {
+      "year": "2025",
+      "series": "Eddie Brock: Carnage",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Eddie Brock: Carnage|6": {
+      "year": "2025",
+      "series": "Eddie Brock: Carnage",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Eddie Brock: Carnage|7": {
+      "year": "2025",
+      "series": "Eddie Brock: Carnage",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Eddie Brock: Carnage|8": {
+      "year": "2025",
+      "series": "Eddie Brock: Carnage",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Eddie Brock: Carnage|9": {
+      "year": "2025",
+      "series": "Eddie Brock: Carnage",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Empyre|1": {
+      "year": "2020",
+      "series": "Empyre",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Empyre|2": {
+      "year": "2020",
+      "series": "Empyre",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Empyre|3": {
+      "year": "2020",
+      "series": "Empyre",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Empyre|4": {
+      "year": "2020",
+      "series": "Empyre",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Empyre|5": {
+      "year": "2020",
+      "series": "Empyre",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Empyre|6": {
+      "year": "2020",
+      "series": "Empyre",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Fantastic Four|1": {
+      "year": "2025",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "1"
+    },
+    "Fantastic Four|10": {
+      "year": "2026",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "10"
+    },
+    "Fantastic Four|11": {
+      "year": "2026",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "11"
+    },
+    "Fantastic Four|12": {
+      "year": "2026",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "12"
+    },
+    "Fantastic Four|13": {
+      "year": "2026",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "13"
+    },
+    "Fantastic Four|14": {
+      "year": "2026",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "14"
+    },
+    "Fantastic Four|2": {
+      "year": "2025",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "2"
+    },
+    "Fantastic Four|3": {
+      "year": "2025",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "3"
+    },
+    "Fantastic Four|4": {
+      "year": "2025",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "4"
+    },
+    "Fantastic Four|5": {
+      "year": "2025",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "5",
+      "inferred": true
+    },
+    "Fantastic Four|6": {
+      "year": "2025",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "6"
+    },
+    "Fantastic Four|642": {
+      "year": "2015",
+      "series": "Fantastic Four",
+      "volume": "5",
+      "issue": "642"
+    },
+    "Fantastic Four|9": {
+      "year": "2026",
+      "series": "Fantastic Four",
+      "volume": "8",
+      "issue": "9"
+    },
+    "Friendly Neighborhood Spider-Man|1": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "1"
+    },
+    "Friendly Neighborhood Spider-Man|10": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "10"
+    },
+    "Friendly Neighborhood Spider-Man|11": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "11"
+    },
+    "Friendly Neighborhood Spider-Man|12": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "12"
+    },
+    "Friendly Neighborhood Spider-Man|2": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "2"
+    },
+    "Friendly Neighborhood Spider-Man|3": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "3"
+    },
+    "Friendly Neighborhood Spider-Man|4": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "4"
+    },
+    "Friendly Neighborhood Spider-Man|5": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "5"
+    },
+    "Friendly Neighborhood Spider-Man|6": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "6"
+    },
+    "Friendly Neighborhood Spider-Man|7": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "7"
+    },
+    "Friendly Neighborhood Spider-Man|8": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "8"
+    },
+    "Friendly Neighborhood Spider-Man|9": {
+      "year": "2019",
+      "series": "Friendly Neighborhood Spider-Man",
+      "volume": "2",
+      "issue": "9"
+    },
+    "Immortal Hulk|0": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "0"
+    },
+    "Immortal Hulk|1": {
+      "year": "2018",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Immortal Hulk|10": {
+      "year": "2018",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Immortal Hulk|11": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Immortal Hulk|12": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "12"
+    },
+    "Immortal Hulk|13": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "13"
+    },
+    "Immortal Hulk|14": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "14"
+    },
+    "Immortal Hulk|15": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "15"
+    },
+    "Immortal Hulk|16": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "16"
+    },
+    "Immortal Hulk|17": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "17"
+    },
+    "Immortal Hulk|18": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "18"
+    },
+    "Immortal Hulk|19": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "19"
+    },
+    "Immortal Hulk|2": {
+      "year": "2018",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Immortal Hulk|20": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "20"
+    },
+    "Immortal Hulk|21": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "21"
+    },
+    "Immortal Hulk|22": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "22"
+    },
+    "Immortal Hulk|23": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "23"
+    },
+    "Immortal Hulk|24": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "24"
+    },
+    "Immortal Hulk|25": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "25"
+    },
+    "Immortal Hulk|26": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "26"
+    },
+    "Immortal Hulk|27": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "27"
+    },
+    "Immortal Hulk|28": {
+      "year": "2019",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "28"
+    },
+    "Immortal Hulk|29": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "29"
+    },
+    "Immortal Hulk|3": {
+      "year": "2018",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Immortal Hulk|30": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "30"
+    },
+    "Immortal Hulk|31": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "31"
+    },
+    "Immortal Hulk|32": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "32"
+    },
+    "Immortal Hulk|33": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "33"
+    },
+    "Immortal Hulk|34": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "34"
+    },
+    "Immortal Hulk|35": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "35"
+    },
+    "Immortal Hulk|36": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "36"
+    },
+    "Immortal Hulk|37": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "37"
+    },
+    "Immortal Hulk|38": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "38"
+    },
+    "Immortal Hulk|39": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "39"
+    },
+    "Immortal Hulk|4": {
+      "year": "2018",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Immortal Hulk|40": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "40"
+    },
+    "Immortal Hulk|41": {
+      "year": "2020",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "41"
+    },
+    "Immortal Hulk|42": {
+      "year": "2021",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "42"
+    },
+    "Immortal Hulk|43": {
+      "year": "2021",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "43"
+    },
+    "Immortal Hulk|44": {
+      "year": "2021",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "44"
+    },
+    "Immortal Hulk|45": {
+      "year": "2021",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "45"
+    },
+    "Immortal Hulk|46": {
+      "year": "2021",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "46"
+    },
+    "Immortal Hulk|47": {
+      "year": "2021",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "47"
+    },
+    "Immortal Hulk|48": {
+      "year": "2021",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "48"
+    },
+    "Immortal Hulk|49": {
+      "year": "2021",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "49"
+    },
+    "Immortal Hulk|5": {
+      "year": "2018",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Immortal Hulk|6": {
+      "year": "2018",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Immortal Hulk|7": {
+      "year": "2018",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Immortal Hulk|8": {
+      "year": "2018",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Immortal Hulk|9": {
+      "year": "2018",
+      "series": "Immortal Hulk",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Infamous Iron Man|1": {
+      "year": "2016",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Infamous Iron Man|10": {
+      "year": "2017",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Infamous Iron Man|11": {
+      "year": "2017",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Infamous Iron Man|12": {
+      "year": "2017",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "12"
+    },
+    "Infamous Iron Man|2": {
+      "year": "2016",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Infamous Iron Man|3": {
+      "year": "2016",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Infamous Iron Man|4": {
+      "year": "2017",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Infamous Iron Man|5": {
+      "year": "2017",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Infamous Iron Man|6": {
+      "year": "2017",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Infamous Iron Man|7": {
+      "year": "2017",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Infamous Iron Man|8": {
+      "year": "2017",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Infamous Iron Man|9": {
+      "year": "2017",
+      "series": "Infamous Iron Man",
+      "volume": "1",
+      "issue": "9"
+    },
+    "International Iron Man|1": {
+      "year": "2016",
+      "series": "International Iron Man",
+      "volume": "1",
+      "issue": "1"
+    },
+    "International Iron Man|2": {
+      "year": "2016",
+      "series": "International Iron Man",
+      "volume": "1",
+      "issue": "2"
+    },
+    "International Iron Man|3": {
+      "year": "2016",
+      "series": "International Iron Man",
+      "volume": "1",
+      "issue": "3"
+    },
+    "International Iron Man|4": {
+      "year": "2016",
+      "series": "International Iron Man",
+      "volume": "1",
+      "issue": "4"
+    },
+    "International Iron Man|5": {
+      "year": "2016",
+      "series": "International Iron Man",
+      "volume": "1",
+      "issue": "5"
+    },
+    "International Iron Man|6": {
+      "year": "2016",
+      "series": "International Iron Man",
+      "volume": "1",
+      "issue": "6"
+    },
+    "International Iron Man|7": {
+      "year": "2016",
+      "series": "International Iron Man",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Invincible Iron Man|1": {
+      "year": "2022",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "1"
+    },
+    "Invincible Iron Man|10": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "10"
+    },
+    "Invincible Iron Man|11": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "11"
+    },
+    "Invincible Iron Man|12": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "12"
+    },
+    "Invincible Iron Man|13": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "13"
+    },
+    "Invincible Iron Man|14": {
+      "year": "2024",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "14"
+    },
+    "Invincible Iron Man|2": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "2"
+    },
+    "Invincible Iron Man|3": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "3"
+    },
+    "Invincible Iron Man|4": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "4"
+    },
+    "Invincible Iron Man|5": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "5"
+    },
+    "Invincible Iron Man|500": {
+      "year": "2011",
+      "series": "Invincible Iron Man",
+      "volume": "2",
+      "issue": "500"
+    },
+    "Invincible Iron Man|593": {
+      "year": "2017",
+      "series": "Invincible Iron Man",
+      "volume": "4",
+      "issue": "593"
+    },
+    "Invincible Iron Man|594": {
+      "year": "2017",
+      "series": "Invincible Iron Man",
+      "volume": "4",
+      "issue": "594"
+    },
+    "Invincible Iron Man|595": {
+      "year": "2017",
+      "series": "Invincible Iron Man",
+      "volume": "4",
+      "issue": "595"
+    },
+    "Invincible Iron Man|596": {
+      "year": "2018",
+      "series": "Invincible Iron Man",
+      "volume": "4",
+      "issue": "596"
+    },
+    "Invincible Iron Man|597": {
+      "year": "2018",
+      "series": "Invincible Iron Man",
+      "volume": "4",
+      "issue": "597"
+    },
+    "Invincible Iron Man|598": {
+      "year": "2018",
+      "series": "Invincible Iron Man",
+      "volume": "4",
+      "issue": "598"
+    },
+    "Invincible Iron Man|599": {
+      "year": "2018",
+      "series": "Invincible Iron Man",
+      "volume": "4",
+      "issue": "599"
+    },
+    "Invincible Iron Man|6": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "6"
+    },
+    "Invincible Iron Man|600": {
+      "year": "2018",
+      "series": "Invincible Iron Man",
+      "volume": "4",
+      "issue": "600"
+    },
+    "Invincible Iron Man|7": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "7"
+    },
+    "Invincible Iron Man|8": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "8"
+    },
+    "Invincible Iron Man|9": {
+      "year": "2023",
+      "series": "Invincible Iron Man",
+      "volume": "5",
+      "issue": "9"
+    },
+    "Iron Man|1": {
+      "year": "2026",
+      "series": "Iron Man",
+      "volume": "7",
+      "issue": "1"
+    },
+    "Iron Man|10": {
+      "year": "2025",
+      "series": "Iron Man",
+      "volume": "6",
+      "issue": "10"
+    },
+    "Iron Man|11": {
+      "year": "2021",
+      "series": "Iron Man",
+      "volume": "5",
+      "issue": "11"
+    },
+    "Iron Man|12": {
+      "year": "2021",
+      "series": "Iron Man",
+      "volume": "5",
+      "issue": "12"
+    },
+    "Iron Man|2": {
+      "year": "2026",
+      "series": "Iron Man",
+      "volume": "7",
+      "issue": "2",
+      "inferred": true
+    },
+    "Iron Man|3": {
+      "year": "2026",
+      "series": "Iron Man",
+      "volume": "7",
+      "issue": "3",
+      "inferred": true
+    },
+    "Iron Man|4": {
+      "year": "2026",
+      "series": "Iron Man",
+      "volume": "7",
+      "issue": "4",
+      "inferred": true
+    },
+    "Iron Man|5": {
+      "year": "2026",
+      "series": "Iron Man",
+      "volume": "7",
+      "issue": "5"
+    },
+    "Iron Man|6": {
+      "year": "2026",
+      "series": "Iron Man",
+      "volume": "7",
+      "issue": "6"
+    },
+    "Iron Man|7": {
+      "year": "2026",
+      "series": "Iron Man",
+      "volume": "7",
+      "issue": "7"
+    },
+    "Iron Man|8": {
+      "year": "2026",
+      "series": "Iron Man",
+      "volume": "7",
+      "issue": "8",
+      "inferred": true
+    },
+    "Iron Man|9": {
+      "year": "2026",
+      "series": "Iron Man",
+      "volume": "7",
+      "issue": "9"
+    },
+    "Ironheart|1": {
+      "year": "2018",
+      "series": "Ironheart",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Ironheart|10": {
+      "year": "2019",
+      "series": "Ironheart",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Ironheart|2": {
+      "year": "2019",
+      "series": "Ironheart",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Ironheart|3": {
+      "year": "2019",
+      "series": "Ironheart",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Ironheart|4": {
+      "year": "2019",
+      "series": "Ironheart",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Ironheart|5": {
+      "year": "2019",
+      "series": "Ironheart",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Ironheart|6": {
+      "year": "2019",
+      "series": "Ironheart",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Ironheart|7": {
+      "year": "2019",
+      "series": "Ironheart",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Ironheart|8": {
+      "year": "2019",
+      "series": "Ironheart",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Ironheart|9": {
+      "year": "2019",
+      "series": "Ironheart",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Knull|1": {
+      "year": "2026",
+      "series": "Knull",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Knull|2": {
+      "year": "2026",
+      "series": "Knull",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Knull|3": {
+      "year": "2026",
+      "series": "Knull",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Knull|4": {
+      "year": "2026",
+      "series": "Knull",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Knull|5": {
+      "year": "2026",
+      "series": "Knull",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Laura Kinney: Wolverine|1": {
+      "year": "2024",
+      "series": "Laura Kinney: Wolverine",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Laura Kinney: Wolverine|10": {
+      "year": "2025",
+      "series": "Laura Kinney: Wolverine",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Laura Kinney: Wolverine|2": {
+      "year": "2025",
+      "series": "Laura Kinney: Wolverine",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Laura Kinney: Wolverine|3": {
+      "year": "2025",
+      "series": "Laura Kinney: Wolverine",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Laura Kinney: Wolverine|4": {
+      "year": "2025",
+      "series": "Laura Kinney: Wolverine",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Laura Kinney: Wolverine|5": {
+      "year": "2025",
+      "series": "Laura Kinney: Wolverine",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Laura Kinney: Wolverine|6": {
+      "year": "2025",
+      "series": "Laura Kinney: Wolverine",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Laura Kinney: Wolverine|7": {
+      "year": "2025",
+      "series": "Laura Kinney: Wolverine",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Laura Kinney: Wolverine|8": {
+      "year": "2025",
+      "series": "Laura Kinney: Wolverine",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Laura Kinney: Wolverine|9": {
+      "year": "2025",
+      "series": "Laura Kinney: Wolverine",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Mighty Thor|1": {
+      "year": "2015",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "1"
+    },
+    "Mighty Thor|10": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "10"
+    },
+    "Mighty Thor|11": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "11"
+    },
+    "Mighty Thor|12": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "12"
+    },
+    "Mighty Thor|13": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "13"
+    },
+    "Mighty Thor|14": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "14"
+    },
+    "Mighty Thor|15": {
+      "year": "2017",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "15"
+    },
+    "Mighty Thor|16": {
+      "year": "2017",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "16"
+    },
+    "Mighty Thor|17": {
+      "year": "2017",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "17"
+    },
+    "Mighty Thor|18": {
+      "year": "2017",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "18"
+    },
+    "Mighty Thor|19": {
+      "year": "2017",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "19"
+    },
+    "Mighty Thor|2": {
+      "year": "2015",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "2"
+    },
+    "Mighty Thor|20": {
+      "year": "2017",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "20"
+    },
+    "Mighty Thor|21": {
+      "year": "2017",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "21"
+    },
+    "Mighty Thor|22": {
+      "year": "2017",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "22"
+    },
+    "Mighty Thor|23": {
+      "year": "2017",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "23"
+    },
+    "Mighty Thor|3": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "3"
+    },
+    "Mighty Thor|4": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "4"
+    },
+    "Mighty Thor|5": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "5"
+    },
+    "Mighty Thor|6": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "6"
+    },
+    "Mighty Thor|7": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "7"
+    },
+    "Mighty Thor|700": {
+      "year": "2017",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "700"
+    },
+    "Mighty Thor|8": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "8"
+    },
+    "Mighty Thor|9": {
+      "year": "2016",
+      "series": "Mighty Thor",
+      "volume": "2",
+      "issue": "9"
+    },
+    "Miles Morales: Spider-Man|1": {
+      "year": "2026",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "3",
+      "issue": "1"
+    },
+    "Miles Morales: Spider-Man|10": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "10"
+    },
+    "Miles Morales: Spider-Man|11": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "11"
+    },
+    "Miles Morales: Spider-Man|12": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "12"
+    },
+    "Miles Morales: Spider-Man|13": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "13"
+    },
+    "Miles Morales: Spider-Man|14": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "14"
+    },
+    "Miles Morales: Spider-Man|15": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "15"
+    },
+    "Miles Morales: Spider-Man|16": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "16"
+    },
+    "Miles Morales: Spider-Man|17": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "17"
+    },
+    "Miles Morales: Spider-Man|18": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "18"
+    },
+    "Miles Morales: Spider-Man|19": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "19"
+    },
+    "Miles Morales: Spider-Man|2": {
+      "year": "2026",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "3",
+      "issue": "2"
+    },
+    "Miles Morales: Spider-Man|20": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "20"
+    },
+    "Miles Morales: Spider-Man|21": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "21"
+    },
+    "Miles Morales: Spider-Man|22": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "22"
+    },
+    "Miles Morales: Spider-Man|23": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "23"
+    },
+    "Miles Morales: Spider-Man|24": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "24"
+    },
+    "Miles Morales: Spider-Man|25": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "25"
+    },
+    "Miles Morales: Spider-Man|26": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "26"
+    },
+    "Miles Morales: Spider-Man|27": {
+      "year": "2024",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "27"
+    },
+    "Miles Morales: Spider-Man|28": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "28"
+    },
+    "Miles Morales: Spider-Man|29": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "29"
+    },
+    "Miles Morales: Spider-Man|3": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "3"
+    },
+    "Miles Morales: Spider-Man|30": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "30"
+    },
+    "Miles Morales: Spider-Man|31": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "31"
+    },
+    "Miles Morales: Spider-Man|32": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "32"
+    },
+    "Miles Morales: Spider-Man|33": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "33"
+    },
+    "Miles Morales: Spider-Man|34": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "34"
+    },
+    "Miles Morales: Spider-Man|35": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "35"
+    },
+    "Miles Morales: Spider-Man|36": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "36"
+    },
+    "Miles Morales: Spider-Man|37": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "37"
+    },
+    "Miles Morales: Spider-Man|38": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "38"
+    },
+    "Miles Morales: Spider-Man|39": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "39"
+    },
+    "Miles Morales: Spider-Man|4": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "4"
+    },
+    "Miles Morales: Spider-Man|40": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "40"
+    },
+    "Miles Morales: Spider-Man|41": {
+      "year": "2025",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "41"
+    },
+    "Miles Morales: Spider-Man|42": {
+      "year": "2026",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "42"
+    },
+    "Miles Morales: Spider-Man|5": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "5"
+    },
+    "Miles Morales: Spider-Man|6": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "6"
+    },
+    "Miles Morales: Spider-Man|7": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "7"
+    },
+    "Miles Morales: Spider-Man|8": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "8"
+    },
+    "Miles Morales: Spider-Man|9": {
+      "year": "2023",
+      "series": "Miles Morales: Spider-Man",
+      "volume": "2",
+      "issue": "9"
+    },
+    "Mortal Thor|1": {
+      "year": "2025",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Mortal Thor|10": {
+      "year": "2026",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Mortal Thor|11": {
+      "year": "2026",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Mortal Thor|12": {
+      "year": "2026",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "12"
+    },
+    "Mortal Thor|13": {
+      "year": "2026",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "13"
+    },
+    "Mortal Thor|14": {
+      "year": "2026",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "14"
+    },
+    "Mortal Thor|2": {
+      "year": "2025",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Mortal Thor|3": {
+      "year": "2025",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Mortal Thor|4": {
+      "year": "2025",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Mortal Thor|5": {
+      "year": "2025",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Mortal Thor|6": {
+      "year": "2026",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Mortal Thor|7": {
+      "year": "2026",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Mortal Thor|8": {
+      "year": "2026",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Mortal Thor|9": {
+      "year": "2026",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Non-Stop Spider-Man|1": {
+      "year": "2021",
+      "series": "Non-Stop Spider-Man",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Non-Stop Spider-Man|2": {
+      "year": "2021",
+      "series": "Non-Stop Spider-Man",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Non-Stop Spider-Man|3": {
+      "year": "2021",
+      "series": "Non-Stop Spider-Man",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Old Man Logan|1": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "1"
+    },
+    "Old Man Logan|10": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "10"
+    },
+    "Old Man Logan|11": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "11"
+    },
+    "Old Man Logan|12": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "12"
+    },
+    "Old Man Logan|13": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "13"
+    },
+    "Old Man Logan|14": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "14"
+    },
+    "Old Man Logan|15": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "15"
+    },
+    "Old Man Logan|16": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "16"
+    },
+    "Old Man Logan|17": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "17"
+    },
+    "Old Man Logan|18": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "18"
+    },
+    "Old Man Logan|19": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "19"
+    },
+    "Old Man Logan|2": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "2"
+    },
+    "Old Man Logan|20": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "20"
+    },
+    "Old Man Logan|21": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "21"
+    },
+    "Old Man Logan|22": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "22"
+    },
+    "Old Man Logan|23": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "23"
+    },
+    "Old Man Logan|24": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "24"
+    },
+    "Old Man Logan|25": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "25"
+    },
+    "Old Man Logan|26": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "26"
+    },
+    "Old Man Logan|27": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "27"
+    },
+    "Old Man Logan|28": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "28"
+    },
+    "Old Man Logan|29": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "29"
+    },
+    "Old Man Logan|3": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "3"
+    },
+    "Old Man Logan|30": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "30"
+    },
+    "Old Man Logan|31": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "31"
+    },
+    "Old Man Logan|32": {
+      "year": "2017",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "32"
+    },
+    "Old Man Logan|33": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "33"
+    },
+    "Old Man Logan|34": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "34"
+    },
+    "Old Man Logan|35": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "35"
+    },
+    "Old Man Logan|36": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "36"
+    },
+    "Old Man Logan|37": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "37"
+    },
+    "Old Man Logan|38": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "38"
+    },
+    "Old Man Logan|39": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "39"
+    },
+    "Old Man Logan|4": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "4"
+    },
+    "Old Man Logan|40": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "40"
+    },
+    "Old Man Logan|41": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "41"
+    },
+    "Old Man Logan|42": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "42"
+    },
+    "Old Man Logan|43": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "43"
+    },
+    "Old Man Logan|44": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "44"
+    },
+    "Old Man Logan|45": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "45"
+    },
+    "Old Man Logan|46": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "46"
+    },
+    "Old Man Logan|47": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "47"
+    },
+    "Old Man Logan|48": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "48"
+    },
+    "Old Man Logan|49": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "49"
+    },
+    "Old Man Logan|5": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "5"
+    },
+    "Old Man Logan|50": {
+      "year": "2018",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "50"
+    },
+    "Old Man Logan|6": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "6"
+    },
+    "Old Man Logan|7": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "7"
+    },
+    "Old Man Logan|8": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "8"
+    },
+    "Old Man Logan|9": {
+      "year": "2016",
+      "series": "Old Man Logan",
+      "volume": "2",
+      "issue": "9"
+    },
+    "Punisher|1": {
+      "year": "2026",
+      "series": "Punisher",
+      "volume": "15",
+      "issue": "1"
+    },
+    "Punisher|10": {
+      "year": "2023",
+      "series": "Punisher",
+      "volume": "13",
+      "issue": "10"
+    },
+    "Punisher|11": {
+      "year": "2023",
+      "series": "Punisher",
+      "volume": "13",
+      "issue": "11"
+    },
+    "Punisher|12": {
+      "year": "2023",
+      "series": "Punisher",
+      "volume": "13",
+      "issue": "12"
+    },
+    "Punisher|13": {
+      "year": "2019",
+      "series": "Punisher",
+      "volume": "12",
+      "issue": "13"
+    },
+    "Punisher|14": {
+      "year": "2010",
+      "series": "Punisher",
+      "volume": "8",
+      "issue": "14"
+    },
+    "Punisher|15": {
+      "year": "2019",
+      "series": "Punisher",
+      "volume": "12",
+      "issue": "15"
+    },
+    "Punisher|2": {
+      "year": "2026",
+      "series": "Punisher",
+      "volume": "15",
+      "issue": "2"
+    },
+    "Punisher|218": {
+      "year": "2017",
+      "series": "Punisher",
+      "volume": "11",
+      "issue": "218"
+    },
+    "Punisher|224": {
+      "year": "2018",
+      "series": "Punisher",
+      "volume": "11",
+      "issue": "224"
+    },
+    "Punisher|225": {
+      "year": "2018",
+      "series": "Punisher",
+      "volume": "11",
+      "issue": "225"
+    },
+    "Punisher|226": {
+      "year": "2018",
+      "series": "Punisher",
+      "volume": "11",
+      "issue": "226"
+    },
+    "Punisher|227": {
+      "year": "2018",
+      "series": "Punisher",
+      "volume": "11",
+      "issue": "227"
+    },
+    "Punisher|228": {
+      "year": "2018",
+      "series": "Punisher",
+      "volume": "11",
+      "issue": "228"
+    },
+    "Punisher|3": {
+      "year": "2026",
+      "series": "Punisher",
+      "volume": "15",
+      "issue": "3"
+    },
+    "Punisher|4": {
+      "year": "2026",
+      "series": "Punisher",
+      "volume": "15",
+      "issue": "4"
+    },
+    "Punisher|5": {
+      "year": "2026",
+      "series": "Punisher",
+      "volume": "15",
+      "issue": "5",
+      "inferred": true
+    },
+    "Punisher|6": {
+      "year": "2026",
+      "series": "Punisher",
+      "volume": "15",
+      "issue": "6",
+      "inferred": true
+    },
+    "Punisher|7": {
+      "year": "2026",
+      "series": "Punisher",
+      "volume": "15",
+      "issue": "7"
+    },
+    "Punisher|8": {
+      "year": "2026",
+      "series": "Punisher",
+      "volume": "15",
+      "issue": "8"
+    },
+    "Punisher|9": {
+      "year": "2023",
+      "series": "Punisher",
+      "volume": "13",
+      "issue": "9"
+    },
+    "Red Goblin|1": {
+      "year": "2023",
+      "series": "Red Goblin",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Red Goblin|2": {
+      "year": "2023",
+      "series": "Red Goblin",
+      "volume": "1",
+      "issue": "2",
+      "inferred": true
+    },
+    "Red Goblin|3": {
+      "year": "2023",
+      "series": "Red Goblin",
+      "volume": "1",
+      "issue": "3",
+      "inferred": true
+    },
+    "Red Goblin|4": {
+      "year": "2023",
+      "series": "Red Goblin",
+      "volume": "1",
+      "issue": "4",
+      "inferred": true
+    },
+    "Red Goblin|5": {
+      "year": "2023",
+      "series": "Red Goblin",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Red Goblin|6": {
+      "year": "2023",
+      "series": "Red Goblin",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Red Goblin|7": {
+      "year": "2023",
+      "series": "Red Goblin",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Return of Wolverine|1": {
+      "year": "2018",
+      "series": "Return of Wolverine",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Return of Wolverine|2": {
+      "year": "2018",
+      "series": "Return of Wolverine",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Return of Wolverine|3": {
+      "year": "2018",
+      "series": "Return of Wolverine",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Return of Wolverine|4": {
+      "year": "2019",
+      "series": "Return of Wolverine",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Return of Wolverine|5": {
+      "year": "2019",
+      "series": "Return of Wolverine",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Savage Avengers|0": {
+      "year": "2020",
+      "series": "Savage Avengers",
+      "volume": "1",
+      "issue": "0"
+    },
+    "Savage Avengers|1": {
+      "year": "2022",
+      "series": "Savage Avengers",
+      "volume": "2",
+      "issue": "1"
+    },
+    "Savage Avengers|10": {
+      "year": "2020",
+      "series": "Savage Avengers",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Savage Avengers|11": {
+      "year": "2020",
+      "series": "Savage Avengers",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Savage Avengers|2": {
+      "year": "2022",
+      "series": "Savage Avengers",
+      "volume": "2",
+      "issue": "2"
+    },
+    "Savage Avengers|3": {
+      "year": "2022",
+      "series": "Savage Avengers",
+      "volume": "2",
+      "issue": "3"
+    },
+    "Savage Avengers|4": {
+      "year": "2022",
+      "series": "Savage Avengers",
+      "volume": "2",
+      "issue": "4"
+    },
+    "Savage Avengers|5": {
+      "year": "2022",
+      "series": "Savage Avengers",
+      "volume": "2",
+      "issue": "5"
+    },
+    "Savage Avengers|6": {
+      "year": "2019",
+      "series": "Savage Avengers",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Savage Avengers|7": {
+      "year": "2019",
+      "series": "Savage Avengers",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Savage Avengers|8": {
+      "year": "2019",
+      "series": "Savage Avengers",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Savage Avengers|9": {
+      "year": "2020",
+      "series": "Savage Avengers",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Scarlet Witch|1": {
+      "year": "2024",
+      "series": "Scarlet Witch",
+      "volume": "4",
+      "issue": "1"
+    },
+    "Scarlet Witch|2": {
+      "year": "2024",
+      "series": "Scarlet Witch",
+      "volume": "4",
+      "issue": "2"
+    },
+    "Scarlet Witch|3": {
+      "year": "2024",
+      "series": "Scarlet Witch",
+      "volume": "4",
+      "issue": "3"
+    },
+    "Scarlet Witch|4": {
+      "year": "2024",
+      "series": "Scarlet Witch",
+      "volume": "4",
+      "issue": "4"
+    },
+    "Silk|1": {
+      "year": "2023",
+      "series": "Silk",
+      "volume": "5",
+      "issue": "1"
+    },
+    "Silk|10": {
+      "year": "2016",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "10"
+    },
+    "Silk|11": {
+      "year": "2016",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "11"
+    },
+    "Silk|12": {
+      "year": "2016",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "12"
+    },
+    "Silk|13": {
+      "year": "2016",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "13"
+    },
+    "Silk|14": {
+      "year": "2016",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "14"
+    },
+    "Silk|15": {
+      "year": "2016",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "15"
+    },
+    "Silk|16": {
+      "year": "2017",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "16"
+    },
+    "Silk|17": {
+      "year": "2017",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "17"
+    },
+    "Silk|18": {
+      "year": "2017",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "18"
+    },
+    "Silk|19": {
+      "year": "2017",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "19"
+    },
+    "Silk|2": {
+      "year": "2023",
+      "series": "Silk",
+      "volume": "5",
+      "issue": "2"
+    },
+    "Silk|3": {
+      "year": "2023",
+      "series": "Silk",
+      "volume": "5",
+      "issue": "3"
+    },
+    "Silk|4": {
+      "year": "2023",
+      "series": "Silk",
+      "volume": "5",
+      "issue": "4"
+    },
+    "Silk|5": {
+      "year": "2023",
+      "series": "Silk",
+      "volume": "5",
+      "issue": "5"
+    },
+    "Silk|6": {
+      "year": "2016",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "6"
+    },
+    "Silk|7": {
+      "year": "2016",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "7"
+    },
+    "Silk|8": {
+      "year": "2016",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "8"
+    },
+    "Silk|9": {
+      "year": "2016",
+      "series": "Silk",
+      "volume": "2",
+      "issue": "9"
+    },
+    "Sinister War|1": {
+      "year": "2021",
+      "series": "Sinister War",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Sinister War|2": {
+      "year": "2021",
+      "series": "Sinister War",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Sinister War|3": {
+      "year": "2021",
+      "series": "Sinister War",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Spectacular Spider-Man|1000": {
+      "year": "2011",
+      "series": "Spectacular Spider-Man",
+      "volume": "1",
+      "issue": "1000"
+    },
+    "Spectacular Spider-Men|1": {
+      "year": "2024",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Spectacular Spider-Men|10": {
+      "year": "2024",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Spectacular Spider-Men|11": {
+      "year": "2025",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Spectacular Spider-Men|12": {
+      "year": "2025",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "12"
+    },
+    "Spectacular Spider-Men|2": {
+      "year": "2024",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Spectacular Spider-Men|3": {
+      "year": "2024",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Spectacular Spider-Men|4": {
+      "year": "2024",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Spectacular Spider-Men|5": {
+      "year": "2024",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Spectacular Spider-Men|6": {
+      "year": "2024",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Spectacular Spider-Men|7": {
+      "year": "2024",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Spectacular Spider-Men|8": {
+      "year": "2024",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Spectacular Spider-Men|9": {
+      "year": "2024",
+      "series": "Spectacular Spider-Men",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Spider-Force|1": {
+      "year": "2018",
+      "series": "Spider-Force",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Spider-Force|2": {
+      "year": "2018",
+      "series": "Spider-Force",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Spider-Force|3": {
+      "year": "2018",
+      "series": "Spider-Force",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Spider-Gwen|0": {
+      "year": "2015",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "0"
+    },
+    "Spider-Gwen|1": {
+      "year": "2015",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "1"
+    },
+    "Spider-Gwen|2": {
+      "year": "2015",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "2"
+    },
+    "Spider-Gwen|3": {
+      "year": "2015",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "3"
+    },
+    "Spider-Gwen|4": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "4"
+    },
+    "Spider-Gwen|5": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "5"
+    },
+    "Spider-Man 2099|1": {
+      "year": "2019",
+      "series": "Spider-Man 2099",
+      "volume": "4",
+      "issue": "1"
+    },
+    "Spider-Man 2099|10": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "10"
+    },
+    "Spider-Man 2099|11": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "11"
+    },
+    "Spider-Man 2099|12": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "12"
+    },
+    "Spider-Man 2099|13": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "13"
+    },
+    "Spider-Man 2099|14": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "14"
+    },
+    "Spider-Man 2099|15": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "15"
+    },
+    "Spider-Man 2099|16": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "16"
+    },
+    "Spider-Man 2099|17": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "17"
+    },
+    "Spider-Man 2099|18": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "18"
+    },
+    "Spider-Man 2099|19": {
+      "year": "2017",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "19"
+    },
+    "Spider-Man 2099|2": {
+      "year": "2015",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "2"
+    },
+    "Spider-Man 2099|20": {
+      "year": "2017",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "20"
+    },
+    "Spider-Man 2099|21": {
+      "year": "2017",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "21"
+    },
+    "Spider-Man 2099|22": {
+      "year": "2017",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "22"
+    },
+    "Spider-Man 2099|23": {
+      "year": "2017",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "23"
+    },
+    "Spider-Man 2099|24": {
+      "year": "2017",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "24"
+    },
+    "Spider-Man 2099|25": {
+      "year": "2017",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "25"
+    },
+    "Spider-Man 2099|3": {
+      "year": "2015",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "3"
+    },
+    "Spider-Man 2099|4": {
+      "year": "2015",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "4"
+    },
+    "Spider-Man 2099|5": {
+      "year": "2015",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "5"
+    },
+    "Spider-Man 2099|6": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "6"
+    },
+    "Spider-Man 2099|7": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "7"
+    },
+    "Spider-Man 2099|8": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "8"
+    },
+    "Spider-Man 2099|9": {
+      "year": "2016",
+      "series": "Spider-Man 2099",
+      "volume": "3",
+      "issue": "9"
+    },
+    "Spider-Man/Deadpool|1": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Spider-Man/Deadpool|10": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Spider-Man/Deadpool|11": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Spider-Man/Deadpool|12": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "12"
+    },
+    "Spider-Man/Deadpool|13": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "13"
+    },
+    "Spider-Man/Deadpool|14": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "14"
+    },
+    "Spider-Man/Deadpool|15": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "15"
+    },
+    "Spider-Man/Deadpool|16": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "16"
+    },
+    "Spider-Man/Deadpool|17": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "17"
+    },
+    "Spider-Man/Deadpool|18": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "18"
+    },
+    "Spider-Man/Deadpool|19": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "19"
+    },
+    "Spider-Man/Deadpool|2": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Spider-Man/Deadpool|20": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "20"
+    },
+    "Spider-Man/Deadpool|21": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "21"
+    },
+    "Spider-Man/Deadpool|22": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "22"
+    },
+    "Spider-Man/Deadpool|23": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "23"
+    },
+    "Spider-Man/Deadpool|24": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "24"
+    },
+    "Spider-Man/Deadpool|25": {
+      "year": "2017",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "25"
+    },
+    "Spider-Man/Deadpool|26": {
+      "year": "2018",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "26"
+    },
+    "Spider-Man/Deadpool|27": {
+      "year": "2018",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "27"
+    },
+    "Spider-Man/Deadpool|28": {
+      "year": "2018",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "28"
+    },
+    "Spider-Man/Deadpool|3": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Spider-Man/Deadpool|4": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Spider-Man/Deadpool|5": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Spider-Man/Deadpool|6": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Spider-Man/Deadpool|7": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Spider-Man/Deadpool|8": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Spider-Man/Deadpool|9": {
+      "year": "2016",
+      "series": "Spider-Man/Deadpool",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Spider-Man: Life Story|1": {
+      "year": "2019",
+      "series": "Spider-Man: Life Story",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Spider-Man: Life Story|2": {
+      "year": "2019",
+      "series": "Spider-Man: Life Story",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Spider-Man: Life Story|3": {
+      "year": "2019",
+      "series": "Spider-Man: Life Story",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Spider-Man: Life Story|4": {
+      "year": "2019",
+      "series": "Spider-Man: Life Story",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Spider-Man: Life Story|5": {
+      "year": "2019",
+      "series": "Spider-Man: Life Story",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Spider-Man|1": {
+      "year": "2022",
+      "series": "Spider-Man",
+      "volume": "4",
+      "issue": "1"
+    },
+    "Spider-Man|10": {
+      "year": "2023",
+      "series": "Spider-Man",
+      "volume": "4",
+      "issue": "10"
+    },
+    "Spider-Man|11": {
+      "year": "2023",
+      "series": "Spider-Man",
+      "volume": "4",
+      "issue": "11"
+    },
+    "Spider-Man|12": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "12"
+    },
+    "Spider-Man|13": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "13"
+    },
+    "Spider-Man|14": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "14"
+    },
+    "Spider-Man|15": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "15"
+    },
+    "Spider-Man|16": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "16"
+    },
+    "Spider-Man|17": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "17"
+    },
+    "Spider-Man|18": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "18"
+    },
+    "Spider-Man|19": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "19"
+    },
+    "Spider-Man|2": {
+      "year": "2022",
+      "series": "Spider-Man",
+      "volume": "4",
+      "issue": "2"
+    },
+    "Spider-Man|20": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "20"
+    },
+    "Spider-Man|21": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "21"
+    },
+    "Spider-Man|234": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "234"
+    },
+    "Spider-Man|235": {
+      "year": "2017",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "235"
+    },
+    "Spider-Man|236": {
+      "year": "2018",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "236"
+    },
+    "Spider-Man|237": {
+      "year": "2018",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "237"
+    },
+    "Spider-Man|238": {
+      "year": "2018",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "238"
+    },
+    "Spider-Man|239": {
+      "year": "2018",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "239"
+    },
+    "Spider-Man|240": {
+      "year": "2018",
+      "series": "Spider-Man",
+      "volume": "2",
+      "issue": "240"
+    },
+    "Spider-Man|3": {
+      "year": "2022",
+      "series": "Spider-Man",
+      "volume": "4",
+      "issue": "3"
+    },
+    "Spider-Man|4": {
+      "year": "2023",
+      "series": "Spider-Man",
+      "volume": "4",
+      "issue": "4"
+    },
+    "Spider-Man|5": {
+      "year": "2023",
+      "series": "Spider-Man",
+      "volume": "4",
+      "issue": "5"
+    },
+    "Spider-Man|6": {
+      "year": "2023",
+      "series": "Spider-Man",
+      "volume": "4",
+      "issue": "6"
+    },
+    "Spider-Man|7": {
+      "year": "2023",
+      "series": "Spider-Man",
+      "volume": "4",
+      "issue": "7"
+    },
+    "Spider-Man|8": {
+      "year": "2023",
+      "series": "Spider-Man",
+      "volume": "4",
+      "issue": "8"
+    },
+    "Spider-Man|9": {
+      "year": "2023",
+      "series": "Spider-Man",
+      "volume": "4",
+      "issue": "9"
+    },
+    "Spider-Men II|1": {
+      "year": "2017",
+      "series": "Spider-Men II",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Spider-Men II|2": {
+      "year": "2017",
+      "series": "Spider-Men II",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Spider-Men II|3": {
+      "year": "2017",
+      "series": "Spider-Men II",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Spider-Men II|4": {
+      "year": "2017",
+      "series": "Spider-Men II",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Spider-Men II|5": {
+      "year": "2017",
+      "series": "Spider-Men II",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Spider-Men|1": {
+      "year": "2012",
+      "series": "Spider-Men",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Spider-Men|2": {
+      "year": "2012",
+      "series": "Spider-Men",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Spider-Men|3": {
+      "year": "2012",
+      "series": "Spider-Men",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Spider-Men|4": {
+      "year": "2012",
+      "series": "Spider-Men",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Spider-Men|5": {
+      "year": "2012",
+      "series": "Spider-Men",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Spider-Woman|1": {
+      "year": "2023",
+      "series": "Spider-Woman",
+      "volume": "8",
+      "issue": "1"
+    },
+    "Spider-Woman|10": {
+      "year": "2024",
+      "series": "Spider-Woman",
+      "volume": "8",
+      "issue": "10"
+    },
+    "Spider-Woman|2": {
+      "year": "2023",
+      "series": "Spider-Woman",
+      "volume": "8",
+      "issue": "2"
+    },
+    "Spider-Woman|3": {
+      "year": "2024",
+      "series": "Spider-Woman",
+      "volume": "8",
+      "issue": "3"
+    },
+    "Spider-Woman|4": {
+      "year": "2024",
+      "series": "Spider-Woman",
+      "volume": "8",
+      "issue": "4"
+    },
+    "Spider-Woman|5": {
+      "year": "2024",
+      "series": "Spider-Woman",
+      "volume": "8",
+      "issue": "5"
+    },
+    "Spider-Woman|6": {
+      "year": "2024",
+      "series": "Spider-Woman",
+      "volume": "8",
+      "issue": "6"
+    },
+    "Spider-Woman|7": {
+      "year": "2024",
+      "series": "Spider-Woman",
+      "volume": "8",
+      "issue": "7"
+    },
+    "Spider-Woman|8": {
+      "year": "2024",
+      "series": "Spider-Woman",
+      "volume": "8",
+      "issue": "8"
+    },
+    "Spider-Woman|9": {
+      "year": "2024",
+      "series": "Spider-Woman",
+      "volume": "8",
+      "issue": "9"
+    },
+    "Star Wars: Darth Vader|1": {
+      "year": "2020",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Star Wars: Darth Vader|10": {
+      "year": "2021",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Star Wars: Darth Vader|11": {
+      "year": "2021",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Star Wars: Darth Vader|12": {
+      "year": "2021",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "12"
+    },
+    "Star Wars: Darth Vader|13": {
+      "year": "2021",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "13"
+    },
+    "Star Wars: Darth Vader|14": {
+      "year": "2021",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "14"
+    },
+    "Star Wars: Darth Vader|15": {
+      "year": "2021",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "15"
+    },
+    "Star Wars: Darth Vader|16": {
+      "year": "2021",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "16"
+    },
+    "Star Wars: Darth Vader|17": {
+      "year": "2021",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "17"
+    },
+    "Star Wars: Darth Vader|18": {
+      "year": "2021",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "18"
+    },
+    "Star Wars: Darth Vader|19": {
+      "year": "2021",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "19"
+    },
+    "Star Wars: Darth Vader|2": {
+      "year": "2020",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "2",
+      "inferred": true
+    },
+    "Star Wars: Darth Vader|20": {
+      "year": "2022",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "20"
+    },
+    "Star Wars: Darth Vader|21": {
+      "year": "2022",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "21"
+    },
+    "Star Wars: Darth Vader|22": {
+      "year": "2022",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "22"
+    },
+    "Star Wars: Darth Vader|23": {
+      "year": "2022",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "23"
+    },
+    "Star Wars: Darth Vader|24": {
+      "year": "2022",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "24"
+    },
+    "Star Wars: Darth Vader|25": {
+      "year": "2022",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "25"
+    },
+    "Star Wars: Darth Vader|26": {
+      "year": "2022",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "26"
+    },
+    "Star Wars: Darth Vader|27": {
+      "year": "2022",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "27"
+    },
+    "Star Wars: Darth Vader|28": {
+      "year": "2022",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "28"
+    },
+    "Star Wars: Darth Vader|29": {
+      "year": "2022",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "29"
+    },
+    "Star Wars: Darth Vader|3": {
+      "year": "2020",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Star Wars: Darth Vader|30": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "30"
+    },
+    "Star Wars: Darth Vader|31": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "31"
+    },
+    "Star Wars: Darth Vader|32": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "32"
+    },
+    "Star Wars: Darth Vader|33": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "33"
+    },
+    "Star Wars: Darth Vader|34": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "34"
+    },
+    "Star Wars: Darth Vader|35": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "35"
+    },
+    "Star Wars: Darth Vader|36": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "36"
+    },
+    "Star Wars: Darth Vader|37": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "37"
+    },
+    "Star Wars: Darth Vader|38": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "38"
+    },
+    "Star Wars: Darth Vader|39": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "39"
+    },
+    "Star Wars: Darth Vader|4": {
+      "year": "2020",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "4",
+      "inferred": true
+    },
+    "Star Wars: Darth Vader|40": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "40"
+    },
+    "Star Wars: Darth Vader|41": {
+      "year": "2023",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "41"
+    },
+    "Star Wars: Darth Vader|42": {
+      "year": "2024",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "42"
+    },
+    "Star Wars: Darth Vader|43": {
+      "year": "2024",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "43"
+    },
+    "Star Wars: Darth Vader|44": {
+      "year": "2024",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "44"
+    },
+    "Star Wars: Darth Vader|45": {
+      "year": "2024",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "45"
+    },
+    "Star Wars: Darth Vader|46": {
+      "year": "2024",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "46"
+    },
+    "Star Wars: Darth Vader|47": {
+      "year": "2024",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "47"
+    },
+    "Star Wars: Darth Vader|48": {
+      "year": "2024",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "48"
+    },
+    "Star Wars: Darth Vader|49": {
+      "year": "2024",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "49"
+    },
+    "Star Wars: Darth Vader|5": {
+      "year": "2020",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "5",
+      "inferred": true
+    },
+    "Star Wars: Darth Vader|50": {
+      "year": "2024",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "50"
+    },
+    "Star Wars: Darth Vader|6": {
+      "year": "2020",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "6",
+      "inferred": true
+    },
+    "Star Wars: Darth Vader|7": {
+      "year": "2020",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Star Wars: Darth Vader|8": {
+      "year": "2020",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Star Wars: Darth Vader|9": {
+      "year": "2021",
+      "series": "Star Wars: Darth Vader",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Star Wars: Hidden Empire|1": {
+      "year": "2022",
+      "series": "Star Wars: Hidden Empire",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Star Wars: Hidden Empire|2": {
+      "year": "2022",
+      "series": "Star Wars: Hidden Empire",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Star Wars: Hidden Empire|3": {
+      "year": "2023",
+      "series": "Star Wars: Hidden Empire",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Star Wars: Jedi Knights|1": {
+      "year": "2025",
+      "series": "Star Wars: Jedi Knights",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Star Wars: Jedi Knights|2": {
+      "year": "2025",
+      "series": "Star Wars: Jedi Knights",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Star Wars: Jedi Knights|3": {
+      "year": "2025",
+      "series": "Star Wars: Jedi Knights",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Star Wars: Jedi Knights|4": {
+      "year": "2025",
+      "series": "Star Wars: Jedi Knights",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Star Wars: Jedi Knights|5": {
+      "year": "2025",
+      "series": "Star Wars: Jedi Knights",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Star Wars: Jedi Knights|6": {
+      "year": "2025",
+      "series": "Star Wars: Jedi Knights",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Star Wars: Jedi Knights|7": {
+      "year": "2025",
+      "series": "Star Wars: Jedi Knights",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Star Wars: Legacy of Vader|1": {
+      "year": "2025",
+      "series": "Star Wars: Legacy of Vader",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Star Wars: Legacy of Vader|8": {
+      "year": "2025",
+      "series": "Star Wars: Legacy of Vader",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Star Wars: Obi-Wan Kenobi|1": {
+      "year": "2023",
+      "series": "Star Wars: Obi-Wan Kenobi",
+      "volume": "2",
+      "issue": "1"
+    },
+    "Star Wars: The High Republic|1": {
+      "year": "2023",
+      "series": "Star Wars: The High Republic",
+      "volume": "3",
+      "issue": "1"
+    },
+    "Star Wars: The High Republic|2": {
+      "year": "2023",
+      "series": "Star Wars: The High Republic",
+      "volume": "3",
+      "issue": "2"
+    },
+    "Star Wars: The High Republic|4": {
+      "year": "2024",
+      "series": "Star Wars: The High Republic",
+      "volume": "3",
+      "issue": "4"
+    },
+    "Star Wars: The Mandalorian|1": {
+      "year": "2022",
+      "series": "Star Wars: The Mandalorian",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Star Wars: Yoda|1": {
+      "year": "2022",
+      "series": "Star Wars: Yoda",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Star Wars: Yoda|10": {
+      "year": "2023",
+      "series": "Star Wars: Yoda",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Star Wars: Yoda|3": {
+      "year": "2023",
+      "series": "Star Wars: Yoda",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Star Wars: Yoda|4": {
+      "year": "2023",
+      "series": "Star Wars: Yoda",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Star Wars: Yoda|5": {
+      "year": "2023",
+      "series": "Star Wars: Yoda",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Star Wars: Yoda|6": {
+      "year": "2023",
+      "series": "Star Wars: Yoda",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Star Wars: Yoda|7": {
+      "year": "2023",
+      "series": "Star Wars: Yoda",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Star Wars: Yoda|8": {
+      "year": "2023",
+      "series": "Star Wars: Yoda",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Star Wars: Yoda|9": {
+      "year": "2023",
+      "series": "Star Wars: Yoda",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Star Wars|1": {
+      "year": "2025",
+      "series": "Star Wars",
+      "volume": "4",
+      "issue": "1"
+    },
+    "Star Wars|10": {
+      "year": "2026",
+      "series": "Star Wars",
+      "volume": "4",
+      "issue": "10"
+    },
+    "Star Wars|108": {
+      "year": "2019",
+      "series": "Star Wars",
+      "volume": "1",
+      "issue": "108"
+    },
+    "Star Wars|11": {
+      "year": "2021",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "11"
+    },
+    "Star Wars|12": {
+      "year": "2021",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "12"
+    },
+    "Star Wars|13": {
+      "year": "2021",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "13"
+    },
+    "Star Wars|14": {
+      "year": "2021",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "14"
+    },
+    "Star Wars|15": {
+      "year": "2021",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "15"
+    },
+    "Star Wars|16": {
+      "year": "2021",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "16"
+    },
+    "Star Wars|17": {
+      "year": "2021",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "17"
+    },
+    "Star Wars|18": {
+      "year": "2021",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "18"
+    },
+    "Star Wars|19": {
+      "year": "2021",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "19"
+    },
+    "Star Wars|2": {
+      "year": "2025",
+      "series": "Star Wars",
+      "volume": "4",
+      "issue": "2"
+    },
+    "Star Wars|20": {
+      "year": "2022",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "20"
+    },
+    "Star Wars|21": {
+      "year": "2022",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "21"
+    },
+    "Star Wars|22": {
+      "year": "2022",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "22"
+    },
+    "Star Wars|23": {
+      "year": "2022",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "23"
+    },
+    "Star Wars|24": {
+      "year": "2022",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "24"
+    },
+    "Star Wars|25": {
+      "year": "2022",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "25"
+    },
+    "Star Wars|26": {
+      "year": "2022",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "26"
+    },
+    "Star Wars|27": {
+      "year": "2022",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "27"
+    },
+    "Star Wars|28": {
+      "year": "2022",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "28"
+    },
+    "Star Wars|29": {
+      "year": "2022",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "29"
+    },
+    "Star Wars|3": {
+      "year": "2025",
+      "series": "Star Wars",
+      "volume": "4",
+      "issue": "3"
+    },
+    "Star Wars|30": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "30"
+    },
+    "Star Wars|31": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "31"
+    },
+    "Star Wars|32": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "32"
+    },
+    "Star Wars|33": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "33"
+    },
+    "Star Wars|34": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "34"
+    },
+    "Star Wars|35": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "35"
+    },
+    "Star Wars|36": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "36"
+    },
+    "Star Wars|37": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "37"
+    },
+    "Star Wars|38": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "38"
+    },
+    "Star Wars|39": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "39"
+    },
+    "Star Wars|4": {
+      "year": "2025",
+      "series": "Star Wars",
+      "volume": "4",
+      "issue": "4"
+    },
+    "Star Wars|40": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "40"
+    },
+    "Star Wars|41": {
+      "year": "2023",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "41"
+    },
+    "Star Wars|42": {
+      "year": "2024",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "42"
+    },
+    "Star Wars|43": {
+      "year": "2024",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "43"
+    },
+    "Star Wars|44": {
+      "year": "2024",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "44"
+    },
+    "Star Wars|45": {
+      "year": "2024",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "45"
+    },
+    "Star Wars|46": {
+      "year": "2024",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "46"
+    },
+    "Star Wars|47": {
+      "year": "2024",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "47"
+    },
+    "Star Wars|48": {
+      "year": "2024",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "48"
+    },
+    "Star Wars|49": {
+      "year": "2024",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "49"
+    },
+    "Star Wars|5": {
+      "year": "2025",
+      "series": "Star Wars",
+      "volume": "4",
+      "issue": "5"
+    },
+    "Star Wars|50": {
+      "year": "2024",
+      "series": "Star Wars",
+      "volume": "3",
+      "issue": "50"
+    },
+    "Star Wars|6": {
+      "year": "2025",
+      "series": "Star Wars",
+      "volume": "4",
+      "issue": "6"
+    },
+    "Star Wars|7": {
+      "year": "2025",
+      "series": "Star Wars",
+      "volume": "4",
+      "issue": "7"
+    },
+    "Star Wars|75": {
+      "year": "2019",
+      "series": "Star Wars",
+      "volume": "2",
+      "issue": "75"
+    },
+    "Star Wars|8": {
+      "year": "2025",
+      "series": "Star Wars",
+      "volume": "4",
+      "issue": "8"
+    },
+    "Star Wars|9": {
+      "year": "2026",
+      "series": "Star Wars",
+      "volume": "4",
+      "issue": "9"
+    },
+    "Superior Iron Man|1": {
+      "year": "2014",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Superior Iron Man|2": {
+      "year": "2014",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Superior Iron Man|3": {
+      "year": "2014",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Superior Iron Man|4": {
+      "year": "2015",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Superior Iron Man|5": {
+      "year": "2015",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Superior Iron Man|6": {
+      "year": "2015",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Superior Iron Man|7": {
+      "year": "2015",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Superior Iron Man|8": {
+      "year": "2015",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Superior Iron Man|9": {
+      "year": "2015",
+      "series": "Superior Iron Man",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Superior Spider-Man|1": {
+      "year": "2023",
+      "series": "Superior Spider-Man",
+      "volume": "3",
+      "issue": "1"
+    },
+    "Superior Spider-Man|10": {
+      "year": "2019",
+      "series": "Superior Spider-Man",
+      "volume": "2",
+      "issue": "10"
+    },
+    "Superior Spider-Man|11": {
+      "year": "2019",
+      "series": "Superior Spider-Man",
+      "volume": "2",
+      "issue": "11"
+    },
+    "Superior Spider-Man|12": {
+      "year": "2019",
+      "series": "Superior Spider-Man",
+      "volume": "2",
+      "issue": "12"
+    },
+    "Superior Spider-Man|13": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "13"
+    },
+    "Superior Spider-Man|14": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "14"
+    },
+    "Superior Spider-Man|15": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "15"
+    },
+    "Superior Spider-Man|16": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "16"
+    },
+    "Superior Spider-Man|17": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "17"
+    },
+    "Superior Spider-Man|18": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "18"
+    },
+    "Superior Spider-Man|19": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "19"
+    },
+    "Superior Spider-Man|2": {
+      "year": "2023",
+      "series": "Superior Spider-Man",
+      "volume": "3",
+      "issue": "2"
+    },
+    "Superior Spider-Man|20": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "20"
+    },
+    "Superior Spider-Man|21": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "21"
+    },
+    "Superior Spider-Man|22": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "22"
+    },
+    "Superior Spider-Man|23": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "23"
+    },
+    "Superior Spider-Man|24": {
+      "year": "2013",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "24"
+    },
+    "Superior Spider-Man|25": {
+      "year": "2014",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "25"
+    },
+    "Superior Spider-Man|26": {
+      "year": "2014",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "26"
+    },
+    "Superior Spider-Man|27": {
+      "year": "2014",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "27",
+      "inferred": true
+    },
+    "Superior Spider-Man|28": {
+      "year": "2014",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "28"
+    },
+    "Superior Spider-Man|29": {
+      "year": "2014",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "29"
+    },
+    "Superior Spider-Man|3": {
+      "year": "2024",
+      "series": "Superior Spider-Man",
+      "volume": "3",
+      "issue": "3"
+    },
+    "Superior Spider-Man|30": {
+      "year": "2014",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "30"
+    },
+    "Superior Spider-Man|31": {
+      "year": "2014",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "31"
+    },
+    "Superior Spider-Man|32": {
+      "year": "2014",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "32"
+    },
+    "Superior Spider-Man|33": {
+      "year": "2014",
+      "series": "Superior Spider-Man",
+      "volume": "1",
+      "issue": "33"
+    },
+    "Superior Spider-Man|4": {
+      "year": "2024",
+      "series": "Superior Spider-Man",
+      "volume": "3",
+      "issue": "4"
+    },
+    "Superior Spider-Man|5": {
+      "year": "2024",
+      "series": "Superior Spider-Man",
+      "volume": "3",
+      "issue": "5"
+    },
+    "Superior Spider-Man|6": {
+      "year": "2024",
+      "series": "Superior Spider-Man",
+      "volume": "3",
+      "issue": "6"
+    },
+    "Superior Spider-Man|7": {
+      "year": "2024",
+      "series": "Superior Spider-Man",
+      "volume": "3",
+      "issue": "7"
+    },
+    "Superior Spider-Man|8": {
+      "year": "2024",
+      "series": "Superior Spider-Man",
+      "volume": "3",
+      "issue": "8"
+    },
+    "Superior Spider-Man|9": {
+      "year": "2019",
+      "series": "Superior Spider-Man",
+      "volume": "2",
+      "issue": "9"
+    },
+    "Symbiote Spider-Man|1": {
+      "year": "2019",
+      "series": "Symbiote Spider-Man",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Symbiote Spider-Man|2": {
+      "year": "2019",
+      "series": "Symbiote Spider-Man",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Symbiote Spider-Man|3": {
+      "year": "2019",
+      "series": "Symbiote Spider-Man",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Symbiote Spider-Man|4": {
+      "year": "2019",
+      "series": "Symbiote Spider-Man",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Symbiote Spider-Man|5": {
+      "year": "2019",
+      "series": "Symbiote Spider-Man",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Thor|1": {
+      "year": "2020",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "1"
+    },
+    "Thor|10": {
+      "year": "2020",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "10"
+    },
+    "Thor|13": {
+      "year": "2021",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "13"
+    },
+    "Thor|14": {
+      "year": "2021",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "14"
+    },
+    "Thor|15": {
+      "year": "2021",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "15"
+    },
+    "Thor|16": {
+      "year": "2021",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "16"
+    },
+    "Thor|17": {
+      "year": "2021",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "17"
+    },
+    "Thor|18": {
+      "year": "2021",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "18"
+    },
+    "Thor|2": {
+      "year": "2020",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "2"
+    },
+    "Thor|3": {
+      "year": "2020",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "3"
+    },
+    "Thor|4": {
+      "year": "2020",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "4"
+    },
+    "Thor|5": {
+      "year": "2020",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "5"
+    },
+    "Thor|6": {
+      "year": "2020",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "6"
+    },
+    "Thor|600": {
+      "year": "2009",
+      "series": "Thor",
+      "volume": "3",
+      "issue": "600"
+    },
+    "Thor|7": {
+      "year": "2020",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "7"
+    },
+    "Thor|788": {
+      "year": "2025",
+      "series": "Mortal Thor",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Thor|8": {
+      "year": "2020",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "8"
+    },
+    "Thor|9": {
+      "year": "2020",
+      "series": "Thor",
+      "volume": "6",
+      "issue": "9",
+      "inferred": true
+    },
+    "Tony Stark: Iron Man|1": {
+      "year": "2018",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Tony Stark: Iron Man|10": {
+      "year": "2019",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Tony Stark: Iron Man|11": {
+      "year": "2019",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Tony Stark: Iron Man|12": {
+      "year": "2019",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "12"
+    },
+    "Tony Stark: Iron Man|13": {
+      "year": "2019",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "13"
+    },
+    "Tony Stark: Iron Man|14": {
+      "year": "2019",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "14"
+    },
+    "Tony Stark: Iron Man|2": {
+      "year": "2018",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "2",
+      "inferred": true
+    },
+    "Tony Stark: Iron Man|3": {
+      "year": "2018",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Tony Stark: Iron Man|4": {
+      "year": "2018",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Tony Stark: Iron Man|5": {
+      "year": "2018",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Tony Stark: Iron Man|6": {
+      "year": "2018",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Tony Stark: Iron Man|7": {
+      "year": "2019",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Tony Stark: Iron Man|8": {
+      "year": "2019",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Tony Stark: Iron Man|9": {
+      "year": "2019",
+      "series": "Tony Stark: Iron Man",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Ultimate Comics Ultimates|1": {
+      "year": "2011",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Ultimate Comics Ultimates|10": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Ultimate Comics Ultimates|11": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Ultimate Comics Ultimates|12": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "12"
+    },
+    "Ultimate Comics Ultimates|13": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "13"
+    },
+    "Ultimate Comics Ultimates|14": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "14"
+    },
+    "Ultimate Comics Ultimates|15": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "15"
+    },
+    "Ultimate Comics Ultimates|16": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "16"
+    },
+    "Ultimate Comics Ultimates|17": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "17"
+    },
+    "Ultimate Comics Ultimates|18": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "18"
+    },
+    "Ultimate Comics Ultimates|19": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "19"
+    },
+    "Ultimate Comics Ultimates|2": {
+      "year": "2011",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Ultimate Comics Ultimates|20": {
+      "year": "2013",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "20"
+    },
+    "Ultimate Comics Ultimates|21": {
+      "year": "2013",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "21"
+    },
+    "Ultimate Comics Ultimates|22": {
+      "year": "2013",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "22"
+    },
+    "Ultimate Comics Ultimates|23": {
+      "year": "2013",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "23"
+    },
+    "Ultimate Comics Ultimates|24": {
+      "year": "2013",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "24"
+    },
+    "Ultimate Comics Ultimates|25": {
+      "year": "2013",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "25"
+    },
+    "Ultimate Comics Ultimates|26": {
+      "year": "2013",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "26"
+    },
+    "Ultimate Comics Ultimates|27": {
+      "year": "2013",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "27"
+    },
+    "Ultimate Comics Ultimates|28": {
+      "year": "2013",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "28"
+    },
+    "Ultimate Comics Ultimates|29": {
+      "year": "2013",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "29"
+    },
+    "Ultimate Comics Ultimates|3": {
+      "year": "2011",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Ultimate Comics Ultimates|30": {
+      "year": "2013",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "30"
+    },
+    "Ultimate Comics Ultimates|4": {
+      "year": "2011",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Ultimate Comics Ultimates|5": {
+      "year": "2011",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Ultimate Comics Ultimates|6": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Ultimate Comics Ultimates|7": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Ultimate Comics Ultimates|8": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Ultimate Comics Ultimates|9": {
+      "year": "2012",
+      "series": "Ultimate Comics Ultimates",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Ultimate Endgame|1": {
+      "year": "2025",
+      "series": "Ultimate Endgame",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Ultimate Endgame|2": {
+      "year": "2026",
+      "series": "Ultimate Endgame",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Ultimate Endgame|3": {
+      "year": "2026",
+      "series": "Ultimate Endgame",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Ultimate Endgame|4": {
+      "year": "2026",
+      "series": "Ultimate Endgame",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Ultimate Endgame|5": {
+      "year": "2026",
+      "series": "Ultimate Endgame",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Ultimate Invasion|1": {
+      "year": "2023",
+      "series": "Ultimate Invasion",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Ultimate Invasion|2": {
+      "year": "2023",
+      "series": "Ultimate Invasion",
+      "volume": "1",
+      "issue": "2",
+      "inferred": true
+    },
+    "Ultimate Invasion|3": {
+      "year": "2023",
+      "series": "Ultimate Invasion",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Ultimate Invasion|4": {
+      "year": "2023",
+      "series": "Ultimate Invasion",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Ultimate Spider-Man: Incursion|1": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man: Incursion",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Ultimate Spider-Man: Incursion|2": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man: Incursion",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Ultimate Spider-Man: Incursion|3": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man: Incursion",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Ultimate Spider-Man: Incursion|4": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man: Incursion",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Ultimate Spider-Man: Incursion|5": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man: Incursion",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Ultimate Spider-Man|1": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "1"
+    },
+    "Ultimate Spider-Man|10": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "10"
+    },
+    "Ultimate Spider-Man|11": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "11"
+    },
+    "Ultimate Spider-Man|12": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "12"
+    },
+    "Ultimate Spider-Man|13": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "13"
+    },
+    "Ultimate Spider-Man|14": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "14"
+    },
+    "Ultimate Spider-Man|15": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "15"
+    },
+    "Ultimate Spider-Man|150": {
+      "year": "2010",
+      "series": "Ultimate Spider-Man",
+      "volume": "2",
+      "issue": "150"
+    },
+    "Ultimate Spider-Man|155": {
+      "year": "2011",
+      "series": "Ultimate Spider-Man",
+      "volume": "2",
+      "issue": "155"
+    },
+    "Ultimate Spider-Man|16": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "16"
+    },
+    "Ultimate Spider-Man|17": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "17"
+    },
+    "Ultimate Spider-Man|18": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "18"
+    },
+    "Ultimate Spider-Man|19": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "19"
+    },
+    "Ultimate Spider-Man|2": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "2"
+    },
+    "Ultimate Spider-Man|20": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "20"
+    },
+    "Ultimate Spider-Man|200": {
+      "year": "2014",
+      "series": "Ultimate Spider-Man",
+      "volume": "1",
+      "issue": "200"
+    },
+    "Ultimate Spider-Man|21": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "21"
+    },
+    "Ultimate Spider-Man|22": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "22"
+    },
+    "Ultimate Spider-Man|23": {
+      "year": "2025",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "23"
+    },
+    "Ultimate Spider-Man|24": {
+      "year": "2026",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "24"
+    },
+    "Ultimate Spider-Man|3": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "3"
+    },
+    "Ultimate Spider-Man|4": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "4"
+    },
+    "Ultimate Spider-Man|5": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "5"
+    },
+    "Ultimate Spider-Man|6": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "6"
+    },
+    "Ultimate Spider-Man|7": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "7"
+    },
+    "Ultimate Spider-Man|8": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "8"
+    },
+    "Ultimate Spider-Man|9": {
+      "year": "2024",
+      "series": "Ultimate Spider-Man",
+      "volume": "3",
+      "issue": "9"
+    },
+    "Ultimate Wolverine|1": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Ultimate Wolverine|10": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Ultimate Wolverine|11": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "11"
+    },
+    "Ultimate Wolverine|12": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "12"
+    },
+    "Ultimate Wolverine|13": {
+      "year": "2026",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "13"
+    },
+    "Ultimate Wolverine|14": {
+      "year": "2026",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "14"
+    },
+    "Ultimate Wolverine|15": {
+      "year": "2026",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "15"
+    },
+    "Ultimate Wolverine|16": {
+      "year": "2026",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "16"
+    },
+    "Ultimate Wolverine|2": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Ultimate Wolverine|3": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Ultimate Wolverine|4": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Ultimate Wolverine|5": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Ultimate Wolverine|6": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Ultimate Wolverine|7": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Ultimate Wolverine|8": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Ultimate Wolverine|9": {
+      "year": "2025",
+      "series": "Ultimate Wolverine",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Ultimates|1": {
+      "year": "2024",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "1"
+    },
+    "Ultimates|10": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "10"
+    },
+    "Ultimates|11": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "11"
+    },
+    "Ultimates|12": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "12"
+    },
+    "Ultimates|13": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "13"
+    },
+    "Ultimates|14": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "14"
+    },
+    "Ultimates|15": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "15"
+    },
+    "Ultimates|16": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "16"
+    },
+    "Ultimates|17": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "17"
+    },
+    "Ultimates|18": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "18"
+    },
+    "Ultimates|19": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "19"
+    },
+    "Ultimates|2": {
+      "year": "2024",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "2"
+    },
+    "Ultimates|20": {
+      "year": "2026",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "20"
+    },
+    "Ultimates|21": {
+      "year": "2026",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "21"
+    },
+    "Ultimates|22": {
+      "year": "2026",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "22"
+    },
+    "Ultimates|23": {
+      "year": "2026",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "23"
+    },
+    "Ultimates|24": {
+      "year": "2026",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "24"
+    },
+    "Ultimates|3": {
+      "year": "2024",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "3"
+    },
+    "Ultimates|4": {
+      "year": "2024",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "4"
+    },
+    "Ultimates|5": {
+      "year": "2024",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "5"
+    },
+    "Ultimates|6": {
+      "year": "2024",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "6"
+    },
+    "Ultimates|7": {
+      "year": "2024",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "7"
+    },
+    "Ultimates|8": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "8"
+    },
+    "Ultimates|9": {
+      "year": "2025",
+      "series": "Ultimates",
+      "volume": "3",
+      "issue": "9"
+    },
+    "Unworthy Thor|1": {
+      "year": "2016",
+      "series": "Unworthy Thor",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Unworthy Thor|2": {
+      "year": "2016",
+      "series": "Unworthy Thor",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Unworthy Thor|3": {
+      "year": "2017",
+      "series": "Unworthy Thor",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Unworthy Thor|4": {
+      "year": "2017",
+      "series": "Unworthy Thor",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Unworthy Thor|5": {
+      "year": "2017",
+      "series": "Unworthy Thor",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Venom War|1": {
+      "year": "2024",
+      "series": "Venom War",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Venom War|2": {
+      "year": "2024",
+      "series": "Venom War",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Venom War|3": {
+      "year": "2024",
+      "series": "Venom War",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Venom War|4": {
+      "year": "2024",
+      "series": "Venom War",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Venom War|5": {
+      "year": "2024",
+      "series": "Venom War",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Venom: First Host|1": {
+      "year": "2018",
+      "series": "Venom: First Host",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Venom: First Host|2": {
+      "year": "2018",
+      "series": "Venom: First Host",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Venom: First Host|3": {
+      "year": "2018",
+      "series": "Venom: First Host",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Venom: First Host|4": {
+      "year": "2018",
+      "series": "Venom: First Host",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Venom: First Host|5": {
+      "year": "2018",
+      "series": "Venom: First Host",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Venom|1": {
+      "year": "2021",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "1"
+    },
+    "Venom|10": {
+      "year": "2022",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "10"
+    },
+    "Venom|11": {
+      "year": "2022",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "11"
+    },
+    "Venom|12": {
+      "year": "2022",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "12"
+    },
+    "Venom|13": {
+      "year": "2022",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "13"
+    },
+    "Venom|14": {
+      "year": "2022",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "14"
+    },
+    "Venom|15": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "15"
+    },
+    "Venom|150": {
+      "year": "2017",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "150"
+    },
+    "Venom|151": {
+      "year": "2017",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "151"
+    },
+    "Venom|152": {
+      "year": "2017",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "152"
+    },
+    "Venom|153": {
+      "year": "2017",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "153"
+    },
+    "Venom|154": {
+      "year": "2017",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "154"
+    },
+    "Venom|155": {
+      "year": "2017",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "155"
+    },
+    "Venom|156": {
+      "year": "2017",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "156"
+    },
+    "Venom|157": {
+      "year": "2017",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "157"
+    },
+    "Venom|158": {
+      "year": "2017",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "158"
+    },
+    "Venom|159": {
+      "year": "2017",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "159"
+    },
+    "Venom|16": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "16"
+    },
+    "Venom|160": {
+      "year": "2018",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "160"
+    },
+    "Venom|161": {
+      "year": "2018",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "161"
+    },
+    "Venom|162": {
+      "year": "2018",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "162"
+    },
+    "Venom|163": {
+      "year": "2018",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "163"
+    },
+    "Venom|164": {
+      "year": "2018",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "164"
+    },
+    "Venom|165": {
+      "year": "2018",
+      "series": "Venom",
+      "volume": "3",
+      "issue": "165"
+    },
+    "Venom|17": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "17"
+    },
+    "Venom|18": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "18"
+    },
+    "Venom|19": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "19"
+    },
+    "Venom|2": {
+      "year": "2021",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "2"
+    },
+    "Venom|20": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "20"
+    },
+    "Venom|21": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "21"
+    },
+    "Venom|22": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "22"
+    },
+    "Venom|23": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "23"
+    },
+    "Venom|24": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "24"
+    },
+    "Venom|240": {
+      "year": "2024",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Venom|241": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Venom|242": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Venom|243": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Venom|244": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Venom|245": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Venom|246": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Venom|247": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Venom|248": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Venom|249": {
+      "year": "2025",
+      "series": "All-New Venom",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Venom|25": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "25"
+    },
+    "Venom|250": {
+      "year": "2025",
+      "series": "Venom",
+      "volume": "6",
+      "issue": "250"
+    },
+    "Venom|251": {
+      "year": "2025",
+      "series": "Venom",
+      "volume": "6",
+      "issue": "251"
+    },
+    "Venom|252": {
+      "year": "2025",
+      "series": "Venom",
+      "volume": "6",
+      "issue": "252"
+    },
+    "Venom|253": {
+      "year": "2026",
+      "series": "Venom",
+      "volume": "6",
+      "issue": "253"
+    },
+    "Venom|254": {
+      "year": "2026",
+      "series": "Venom",
+      "volume": "6",
+      "issue": "254"
+    },
+    "Venom|255": {
+      "year": "2026",
+      "series": "Venom",
+      "volume": "6",
+      "issue": "255"
+    },
+    "Venom|256": {
+      "year": "2026",
+      "series": "Venom",
+      "volume": "6",
+      "issue": "256"
+    },
+    "Venom|26": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "26"
+    },
+    "Venom|27": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "27"
+    },
+    "Venom|28": {
+      "year": "2023",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "28"
+    },
+    "Venom|29": {
+      "year": "2024",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "29"
+    },
+    "Venom|3": {
+      "year": "2021",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "3"
+    },
+    "Venom|30": {
+      "year": "2024",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "30"
+    },
+    "Venom|31": {
+      "year": "2024",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "31"
+    },
+    "Venom|32": {
+      "year": "2024",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "32"
+    },
+    "Venom|33": {
+      "year": "2024",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "33"
+    },
+    "Venom|34": {
+      "year": "2024",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "34"
+    },
+    "Venom|35": {
+      "year": "2024",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "35"
+    },
+    "Venom|36": {
+      "year": "2024",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "36"
+    },
+    "Venom|37": {
+      "year": "2024",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "37"
+    },
+    "Venom|38": {
+      "year": "2024",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "38"
+    },
+    "Venom|39": {
+      "year": "2024",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "39"
+    },
+    "Venom|4": {
+      "year": "2022",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "4"
+    },
+    "Venom|5": {
+      "year": "2022",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "5"
+    },
+    "Venom|6": {
+      "year": "2022",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "6"
+    },
+    "Venom|7": {
+      "year": "2022",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "7"
+    },
+    "Venom|8": {
+      "year": "2022",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "8"
+    },
+    "Venom|9": {
+      "year": "2022",
+      "series": "Venom",
+      "volume": "5",
+      "issue": "9"
+    },
+    "Wolverine|1": {
+      "year": "2024",
+      "series": "Wolverine",
+      "volume": "8",
+      "issue": "1"
+    },
+    "Wolverine|12": {
+      "year": "2014",
+      "series": "Wolverine",
+      "volume": "6",
+      "issue": "12"
+    },
+    "Wolverine|2": {
+      "year": "2024",
+      "series": "Wolverine",
+      "volume": "8",
+      "issue": "2",
+      "inferred": true
+    },
+    "Wolverine|28": {
+      "year": "2026",
+      "series": "Wolverine",
+      "volume": "8",
+      "issue": "28"
+    },
+    "Wolverine|3": {
+      "year": "2024",
+      "series": "Wolverine",
+      "volume": "8",
+      "issue": "3"
+    },
+    "Wolverine|50": {
+      "year": "2024",
+      "series": "Wolverine",
+      "volume": "7",
+      "issue": "50"
+    },
+    "X-23|1": {
+      "year": "2018",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "1"
+    },
+    "X-23|10": {
+      "year": "2019",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "10"
+    },
+    "X-23|11": {
+      "year": "2019",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "11"
+    },
+    "X-23|12": {
+      "year": "2019",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "12"
+    },
+    "X-23|2": {
+      "year": "2018",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "2"
+    },
+    "X-23|3": {
+      "year": "2018",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "3"
+    },
+    "X-23|4": {
+      "year": "2018",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "4"
+    },
+    "X-23|5": {
+      "year": "2018",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "5"
+    },
+    "X-23|6": {
+      "year": "2018",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "6"
+    },
+    "X-23|7": {
+      "year": "2018",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "7"
+    },
+    "X-23|8": {
+      "year": "2019",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "8"
+    },
+    "X-23|9": {
+      "year": "2019",
+      "series": "X-23",
+      "volume": "4",
+      "issue": "9"
+    }
   }
 }
