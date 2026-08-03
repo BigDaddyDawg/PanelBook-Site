@@ -1,11 +1,10 @@
 {
-  "name": "PanelBook Scan",
-  "short_name": "PB Scan",
-  "description": "Scan comic barcodes and covers to log ownership.",
-  "start_url": "scan.html",
-  "scope": ".",
+  "name": "PanelBook",
+  "short_name": "PanelBook",
+  "description": "Marvel comic collection vault — browse, scan, and track gaps.",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
   "background_color": "#07090f",
   "theme_color": "#07090f",
   "icons": [

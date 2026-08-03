@@ -4,10 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#07090f">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="PanelBook">
   <title>What to buy · PanelBook</title>
+  <link rel="manifest" href="manifest.webmanifest?v=1">
+  <link rel="icon" href="icon.svg?v=1" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg?v=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="theme.css?v=1">
   <style>
     :root {
       --accent: #ffd24a;
@@ -532,6 +539,7 @@
     updateKindCounts();
     renderBars();
   </script>
-  <script src="atmosphere.js"></script>
+  <script src="atmosphere.js?v=1"></script>
+  <script src="pwa.js?v=1"></script>
 </body>
 </html>
