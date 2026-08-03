@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1311,
+  "count": 1345,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -187,7 +187,21 @@
     "Amazing Spider-Man|72": "2021",
     "Amazing Spider-Man|73": "2021",
     "Amazing Spider-Man|734": "2014",
+    "Amazing Spider-Man|735": "2014",
+    "Amazing Spider-Man|736": "2014",
+    "Amazing Spider-Man|737": "2014",
+    "Amazing Spider-Man|738": "2014",
+    "Amazing Spider-Man|739": "2014",
     "Amazing Spider-Man|74": "2021",
+    "Amazing Spider-Man|740": "2014",
+    "Amazing Spider-Man|741": "2014",
+    "Amazing Spider-Man|742": "2014",
+    "Amazing Spider-Man|743": "2014",
+    "Amazing Spider-Man|744": "2014",
+    "Amazing Spider-Man|745": "2015",
+    "Amazing Spider-Man|746": "2015",
+    "Amazing Spider-Man|747": "2015",
+    "Amazing Spider-Man|748": "2015",
     "Amazing Spider-Man|75": "2021",
     "Amazing Spider-Man|76": "2021",
     "Amazing Spider-Man|77": "2021",
@@ -381,6 +395,11 @@
     "Eddie Brock: Carnage|7": "2025",
     "Eddie Brock: Carnage|8": "2025",
     "Eddie Brock: Carnage|9": "2025",
+    "Edge of Spider-Verse|1": "2014",
+    "Edge of Spider-Verse|2": "2014",
+    "Edge of Spider-Verse|3": "2014",
+    "Edge of Spider-Verse|4": "2014",
+    "Edge of Spider-Verse|5": "2014",
     "Empyre|1": "2020",
     "Empyre|2": "2020",
     "Empyre|3": "2020",
@@ -727,6 +746,8 @@
     "Savage Avengers|7": "2019",
     "Savage Avengers|8": "2019",
     "Savage Avengers|9": "2020",
+    "Scarlet Spiders|1": "2014",
+    "Scarlet Spiders|2": "2014",
     "Scarlet Witch|1": "2024",
     "Scarlet Witch|2": "2024",
     "Scarlet Witch|3": "2024",
@@ -796,6 +817,10 @@
     "Spider-Man 2099|3": "2015",
     "Spider-Man 2099|4": "2015",
     "Spider-Man 2099|5": "2015",
+    "Spider-Man 2099|52": "2014",
+    "Spider-Man 2099|53": "2014",
+    "Spider-Man 2099|54": "2015",
+    "Spider-Man 2099|55": "2015",
     "Spider-Man 2099|6": "2016",
     "Spider-Man 2099|7": "2016",
     "Spider-Man 2099|8": "2016",
@@ -871,6 +896,11 @@
     "Spider-Men|3": "2012",
     "Spider-Men|4": "2012",
     "Spider-Men|5": "2012",
+    "Spider-Verse Team-Up|1": "2014",
+    "Spider-Verse Team-Up|2": "2014",
+    "Spider-Verse Team-Up|3": "2015",
+    "Spider-Verse|1": "2015",
+    "Spider-Verse|2": "2015",
     "Spider-Woman|1": "2023",
     "Spider-Woman|10": "2024",
     "Spider-Woman|2": "2023",
@@ -878,7 +908,11 @@
     "Spider-Woman|4": "2024",
     "Spider-Woman|5": "2024",
     "Spider-Woman|6": "2024",
+    "Spider-Woman|69": "2014",
     "Spider-Woman|7": "2024",
+    "Spider-Woman|70": "2014",
+    "Spider-Woman|71": "2015",
+    "Spider-Woman|72": "2015",
     "Spider-Woman|8": "2024",
     "Spider-Woman|9": "2024",
     "Star Wars: Darth Vader|1": "2020",
@@ -2410,11 +2444,95 @@
       "volume": "3",
       "issue": "1"
     },
+    "Amazing Spider-Man|735": {
+      "year": "2014",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "2"
+    },
+    "Amazing Spider-Man|736": {
+      "year": "2014",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "3"
+    },
+    "Amazing Spider-Man|737": {
+      "year": "2014",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "4"
+    },
+    "Amazing Spider-Man|738": {
+      "year": "2014",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "5"
+    },
+    "Amazing Spider-Man|739": {
+      "year": "2014",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "6"
+    },
     "Amazing Spider-Man|74": {
       "year": "2021",
       "series": "Amazing Spider-Man",
       "volume": "5",
       "issue": "74"
+    },
+    "Amazing Spider-Man|740": {
+      "year": "2014",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "7"
+    },
+    "Amazing Spider-Man|741": {
+      "year": "2014",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "8"
+    },
+    "Amazing Spider-Man|742": {
+      "year": "2014",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "9"
+    },
+    "Amazing Spider-Man|743": {
+      "year": "2014",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "10"
+    },
+    "Amazing Spider-Man|744": {
+      "year": "2014",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "11"
+    },
+    "Amazing Spider-Man|745": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "12"
+    },
+    "Amazing Spider-Man|746": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "13"
+    },
+    "Amazing Spider-Man|747": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "14"
+    },
+    "Amazing Spider-Man|748": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "15"
     },
     "Amazing Spider-Man|75": {
       "year": "2021",
@@ -3579,6 +3697,36 @@
       "series": "Eddie Brock: Carnage",
       "volume": "1",
       "issue": "9"
+    },
+    "Edge of Spider-Verse|1": {
+      "year": "2014",
+      "series": "Edge of Spider-Verse",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Edge of Spider-Verse|2": {
+      "year": "2014",
+      "series": "Edge of Spider-Verse",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Edge of Spider-Verse|3": {
+      "year": "2014",
+      "series": "Edge of Spider-Verse",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Edge of Spider-Verse|4": {
+      "year": "2014",
+      "series": "Edge of Spider-Verse",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Edge of Spider-Verse|5": {
+      "year": "2014",
+      "series": "Edge of Spider-Verse",
+      "volume": "1",
+      "issue": "5"
     },
     "Empyre|1": {
       "year": "2020",
@@ -5666,6 +5814,18 @@
       "volume": "1",
       "issue": "9"
     },
+    "Scarlet Spiders|1": {
+      "year": "2014",
+      "series": "Scarlet Spiders",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Scarlet Spiders|2": {
+      "year": "2014",
+      "series": "Scarlet Spiders",
+      "volume": "1",
+      "issue": "2"
+    },
     "Scarlet Witch|1": {
       "year": "2024",
       "series": "Scarlet Witch",
@@ -6079,6 +6239,30 @@
       "series": "Spider-Man 2099",
       "volume": "3",
       "issue": "5"
+    },
+    "Spider-Man 2099|52": {
+      "year": "2014",
+      "series": "Spider-Man 2099",
+      "volume": "2",
+      "issue": "5"
+    },
+    "Spider-Man 2099|53": {
+      "year": "2014",
+      "series": "Spider-Man 2099",
+      "volume": "2",
+      "issue": "6"
+    },
+    "Spider-Man 2099|54": {
+      "year": "2015",
+      "series": "Spider-Man 2099",
+      "volume": "2",
+      "issue": "7"
+    },
+    "Spider-Man 2099|55": {
+      "year": "2015",
+      "series": "Spider-Man 2099",
+      "volume": "2",
+      "issue": "8"
     },
     "Spider-Man 2099|6": {
       "year": "2016",
@@ -6530,6 +6714,36 @@
       "volume": "1",
       "issue": "5"
     },
+    "Spider-Verse Team-Up|1": {
+      "year": "2014",
+      "series": "Spider-Verse Team-Up",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Spider-Verse Team-Up|2": {
+      "year": "2014",
+      "series": "Spider-Verse Team-Up",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Spider-Verse Team-Up|3": {
+      "year": "2015",
+      "series": "Spider-Verse Team-Up",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Spider-Verse|1": {
+      "year": "2015",
+      "series": "Spider-Verse",
+      "volume": "2",
+      "issue": "1"
+    },
+    "Spider-Verse|2": {
+      "year": "2015",
+      "series": "Spider-Verse",
+      "volume": "2",
+      "issue": "2"
+    },
     "Spider-Woman|1": {
       "year": "2023",
       "series": "Spider-Woman",
@@ -6572,11 +6786,35 @@
       "volume": "8",
       "issue": "6"
     },
+    "Spider-Woman|69": {
+      "year": "2014",
+      "series": "Spider-Woman",
+      "volume": "5",
+      "issue": "1"
+    },
     "Spider-Woman|7": {
       "year": "2024",
       "series": "Spider-Woman",
       "volume": "8",
       "issue": "7"
+    },
+    "Spider-Woman|70": {
+      "year": "2014",
+      "series": "Spider-Woman",
+      "volume": "5",
+      "issue": "2"
+    },
+    "Spider-Woman|71": {
+      "year": "2015",
+      "series": "Spider-Woman",
+      "volume": "5",
+      "issue": "3"
+    },
+    "Spider-Woman|72": {
+      "year": "2015",
+      "series": "Spider-Woman",
+      "volume": "5",
+      "issue": "4"
     },
     "Spider-Woman|8": {
       "year": "2024",
