@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-03T17:58:27.531841+00:00",
+  "exported_at": "2026-08-03T18:00:50.649704+00:00",
   "totals": {
     "issues": 27,
     "estimated_value_gbp": 118.81,
@@ -7,7 +7,7 @@
   },
   "collection": [
     {
-      "id": 8479,
+      "id": 8506,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 1.0,
@@ -34,7 +34,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8480,
+      "id": 8507,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 2.0,
@@ -61,7 +61,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8481,
+      "id": 8508,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 3.0,
@@ -88,7 +88,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8482,
+      "id": 8509,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 4.0,
@@ -115,7 +115,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8483,
+      "id": 8510,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 5.0,
@@ -142,7 +142,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8484,
+      "id": 8511,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 6.0,
@@ -169,7 +169,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8485,
+      "id": 8512,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 7.0,
@@ -196,7 +196,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8486,
+      "id": 8513,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 8.0,
@@ -223,7 +223,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8468,
+      "id": 8495,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 1.0,
@@ -250,7 +250,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8469,
+      "id": 8496,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 2.0,
@@ -277,7 +277,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8470,
+      "id": 8497,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 3.0,
@@ -304,7 +304,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8471,
+      "id": 8498,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 4.0,
@@ -331,7 +331,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8472,
+      "id": 8499,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 5.0,
@@ -358,7 +358,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8473,
+      "id": 8500,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 6.0,
@@ -385,7 +385,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8474,
+      "id": 8501,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 7.0,
@@ -412,7 +412,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8475,
+      "id": 8502,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 8.0,
@@ -439,7 +439,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8476,
+      "id": 8503,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 9.0,
@@ -466,7 +466,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8477,
+      "id": 8504,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 10.0,
@@ -493,7 +493,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8478,
+      "id": 8505,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 11.0,
@@ -520,7 +520,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8460,
+      "id": 8487,
       "source": "scan",
       "series": "Venom",
       "issue_number": 250.0,
@@ -547,7 +547,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8461,
+      "id": 8488,
       "source": "scan",
       "series": "Venom",
       "issue_number": 251.0,
@@ -574,7 +574,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8462,
+      "id": 8489,
       "source": "scan",
       "series": "Venom",
       "issue_number": 252.0,
@@ -601,7 +601,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8463,
+      "id": 8490,
       "source": "scan",
       "series": "Venom",
       "issue_number": 253.0,
@@ -628,7 +628,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8464,
+      "id": 8491,
       "source": "scan",
       "series": "Venom",
       "issue_number": 254.0,
@@ -655,7 +655,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8465,
+      "id": 8492,
       "source": "scan",
       "series": "Venom",
       "issue_number": 255.0,
@@ -682,7 +682,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8466,
+      "id": 8493,
       "source": "scan",
       "series": "Venom",
       "issue_number": 258.0,
@@ -709,7 +709,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8467,
+      "id": 8494,
       "source": "scan",
       "series": "Venom",
       "issue_number": 259.0,
@@ -738,7 +738,7 @@
   ],
   "gaps": [
     {
-      "id": 993,
+      "id": 1117,
       "series": "Empyre",
       "fandom_series": "Empyre",
       "fandom_volume": "Empyre Vol 1",
@@ -751,7 +751,7 @@
       "copy_years": "2020-2020"
     },
     {
-      "id": 994,
+      "id": 1118,
       "series": "Invincible Iron Man",
       "fandom_series": "Invincible Iron Man",
       "fandom_volume": "Invincible Iron Man Vol 3",
@@ -764,7 +764,7 @@
       "copy_years": "2015-2016"
     },
     {
-      "id": 995,
+      "id": 1119,
       "series": "Star Wars: Yoda",
       "fandom_series": "Star Wars: Yoda",
       "fandom_volume": "Star Wars: Yoda Vol 1",
@@ -777,7 +777,7 @@
       "copy_years": "2022-2023"
     },
     {
-      "id": 996,
+      "id": 1120,
       "series": "Ultimates",
       "fandom_series": "Ultimates",
       "fandom_volume": "Ultimates Vol 3",
@@ -790,7 +790,7 @@
       "copy_years": "2024-2026"
     },
     {
-      "id": 997,
+      "id": 1121,
       "series": "Venom War",
       "fandom_series": "Venom War",
       "fandom_volume": "Venom War Vol 1",
@@ -803,7 +803,7 @@
       "copy_years": "2024-2024"
     },
     {
-      "id": 998,
+      "id": 1122,
       "series": "Amazing Spider-Man (2099)",
       "fandom_series": "Spider-Man 2099",
       "fandom_volume": "Spider-Man 2099 Vol 1",
@@ -816,7 +816,7 @@
       "copy_years": "2019-2020"
     },
     {
-      "id": 999,
+      "id": 1123,
       "series": "Fantastic Four",
       "fandom_series": "Fantastic Four",
       "fandom_volume": "Fantastic Four Vol 6",
@@ -829,7 +829,7 @@
       "copy_years": "2018-2019"
     },
     {
-      "id": 1000,
+      "id": 1124,
       "series": "Iron Man",
       "fandom_series": "Iron Man",
       "fandom_volume": "Iron Man Vol 5",
@@ -842,7 +842,7 @@
       "copy_years": "2020-2021"
     },
     {
-      "id": 1001,
+      "id": 1125,
       "series": "Red Goblin",
       "fandom_series": "Red Goblin",
       "fandom_volume": "Red Goblin Vol 1",
@@ -855,7 +855,7 @@
       "copy_years": "2023-2023"
     },
     {
-      "id": 1002,
+      "id": 1126,
       "series": "Savage Avengers",
       "fandom_series": "Savage Avengers",
       "fandom_volume": "Savage Avengers Vol 1",
@@ -868,7 +868,7 @@
       "copy_years": "2019-2020"
     },
     {
-      "id": 1003,
+      "id": 1127,
       "series": "Spectacular Spider-Men",
       "fandom_series": "Spectacular Spider-Men",
       "fandom_volume": "Spectacular Spider-Men Vol 1",
@@ -881,7 +881,7 @@
       "copy_years": "2024-2024"
     },
     {
-      "id": 1004,
+      "id": 1128,
       "series": "Star Wars",
       "fandom_series": "Star Wars",
       "fandom_volume": "Star Wars Vol 3",
@@ -894,7 +894,7 @@
       "copy_years": "2021-2024"
     },
     {
-      "id": 1005,
+      "id": 1129,
       "series": "Star Wars: Darth Vader",
       "fandom_series": "Star Wars: Darth Vader",
       "fandom_volume": "Star Wars: Darth Vader Vol 1",
@@ -907,7 +907,7 @@
       "copy_years": "2020-2024"
     },
     {
-      "id": 1006,
+      "id": 1130,
       "series": "Star Wars: Hidden Empire",
       "fandom_series": "Star Wars: Hidden Empire",
       "fandom_volume": "Star Wars: Hidden Empire Vol 1",
@@ -920,7 +920,7 @@
       "copy_years": "2022-2022"
     },
     {
-      "id": 1007,
+      "id": 1131,
       "series": "The Avengers",
       "fandom_series": "Avengers",
       "fandom_volume": "Avengers Vol 8",
@@ -933,7 +933,7 @@
       "copy_years": "2018-2021"
     },
     {
-      "id": 1008,
+      "id": 1132,
       "series": "The Immortal Hulk",
       "fandom_series": "Immortal Hulk",
       "fandom_volume": "Immortal Hulk Vol 1",
@@ -946,7 +946,7 @@
       "copy_years": "2018-2021"
     },
     {
-      "id": 1009,
+      "id": 1133,
       "series": "Tony Stark: Iron Man",
       "fandom_series": "Tony Stark: Iron Man",
       "fandom_volume": "Tony Stark: Iron Man Vol 1",
@@ -959,7 +959,7 @@
       "copy_years": "2018-2019"
     },
     {
-      "id": 1010,
+      "id": 1134,
       "series": "Civil War 2",
       "fandom_series": "Civil War II",
       "fandom_volume": "Civil War II Vol 1",
@@ -972,7 +972,7 @@
       "copy_years": "2015-2015"
     },
     {
-      "id": 1011,
+      "id": 1135,
       "series": "Friendly Neighborhood Spider-Man",
       "fandom_series": "Friendly Neighborhood Spider-Man",
       "fandom_volume": "Friendly Neighborhood Spider-Man Vol 2",
@@ -985,7 +985,7 @@
       "copy_years": "2019-2019"
     },
     {
-      "id": 1012,
+      "id": 1136,
       "series": "Invincible Iron Man",
       "fandom_series": "Invincible Iron Man",
       "fandom_volume": "Invincible Iron Man Vol 4 #1-11",
@@ -998,7 +998,7 @@
       "copy_years": "2016-2016"
     },
     {
-      "id": 1013,
+      "id": 1137,
       "series": "Ironheart",
       "fandom_series": "Ironheart",
       "fandom_volume": "Ironheart Vol 1",
@@ -1011,7 +1011,7 @@
       "copy_years": "2018-2019"
     },
     {
-      "id": 1014,
+      "id": 1138,
       "series": "Non-Stop Spider-Man",
       "fandom_series": "Non-Stop Spider-Man",
       "fandom_volume": "Non-Stop Spider-Man Vol 1",
@@ -1024,7 +1024,7 @@
       "copy_years": "2020-2021"
     },
     {
-      "id": 1015,
+      "id": 1139,
       "series": "Scarlet Witch",
       "fandom_series": "Scarlet Witch",
       "fandom_volume": "Scarlet Witch Vol 3",
@@ -1037,7 +1037,7 @@
       "copy_years": "2022-2023"
     },
     {
-      "id": 1016,
+      "id": 1140,
       "series": "Sinister War",
       "fandom_series": "Sinister War",
       "fandom_volume": "Sinister War Vol 1",
@@ -1050,7 +1050,7 @@
       "copy_years": "2021-2021"
     },
     {
-      "id": 1017,
+      "id": 1141,
       "series": "Spider-Gwen",
       "fandom_series": "Spider-Gwen",
       "fandom_volume": "Spider-Gwen Vol 2",
@@ -1063,7 +1063,7 @@
       "copy_years": "2015-2016"
     },
     {
-      "id": 1018,
+      "id": 1142,
       "series": "Spider-Man/Deadpool",
       "fandom_series": "Spider-Man/Deadpool",
       "fandom_volume": "Spider-Man/Deadpool Vol 1",
@@ -1076,7 +1076,7 @@
       "copy_years": "2016-2018"
     },
     {
-      "id": 1019,
+      "id": 1143,
       "series": "Spider-Man: Life Story",
       "fandom_series": "Spider-Man: Life Story",
       "fandom_volume": "Spider-Man: Life Story Vol 1",
@@ -1089,7 +1089,7 @@
       "copy_years": "2019-2019"
     },
     {
-      "id": 1020,
+      "id": 1144,
       "series": "Star Wars: Jedi Knights",
       "fandom_series": "Star Wars: Jedi Knights",
       "fandom_volume": "Star Wars: Jedi Knights Vol 1",
@@ -1102,7 +1102,7 @@
       "copy_years": "2025-2025"
     },
     {
-      "id": 1021,
+      "id": 1145,
       "series": "The Mortal Thor",
       "fandom_series": "Mortal Thor",
       "fandom_volume": "Mortal Thor Vol 1",
@@ -1115,7 +1115,7 @@
       "copy_years": "2025-2026"
     },
     {
-      "id": 1022,
+      "id": 1146,
       "series": "The Spectacular Spider-Man",
       "fandom_series": "Spectacular Spider-Man",
       "fandom_volume": "Spectacular Spider-Man Vol 2",
@@ -1128,7 +1128,7 @@
       "copy_years": "2017-2017"
     },
     {
-      "id": 1023,
+      "id": 1147,
       "series": "Laura Kinney: Wolverine",
       "fandom_series": "Laura Kinney: Wolverine",
       "fandom_volume": "Laura Kinney: Wolverine Vol 1",
@@ -1141,7 +1141,7 @@
       "copy_years": "2024-2025"
     },
     {
-      "id": 1024,
+      "id": 1148,
       "series": "Old Man Logan",
       "fandom_series": "Old Man Logan",
       "fandom_volume": "Old Man Logan Vol 2",
@@ -1154,7 +1154,7 @@
       "copy_years": "2016-2018"
     },
     {
-      "id": 1025,
+      "id": 1149,
       "series": "Spider-Man 2099",
       "fandom_series": "Spider-Man 2099",
       "fandom_volume": "Spider-Man 2099 Vol 3",
@@ -1167,7 +1167,7 @@
       "copy_years": "2016-2017"
     },
     {
-      "id": 1026,
+      "id": 1150,
       "series": "Absolute Carnage",
       "fandom_series": "Absolute Carnage",
       "fandom_volume": "Absolute Carnage Vol 1",
@@ -1180,7 +1180,7 @@
       "copy_years": "2019-2019"
     },
     {
-      "id": 1027,
+      "id": 1151,
       "series": "Agents of S.H.I.E.L.D",
       "fandom_series": "Agents of S.H.I.E.L.D.",
       "fandom_volume": "Agents of S.H.I.E.L.D. Vol 1",
@@ -1193,7 +1193,7 @@
       "copy_years": "2016-2016"
     },
     {
-      "id": 1028,
+      "id": 1152,
       "series": "All-New Venom",
       "fandom_series": "All-New Venom",
       "fandom_volume": "All-New Venom Vol 1",
@@ -1206,7 +1206,7 @@
       "copy_years": "2024-2025"
     },
     {
-      "id": 1029,
+      "id": 1153,
       "series": "All-New Wolverine",
       "fandom_series": "All-New Wolverine",
       "fandom_volume": "All-New Wolverine Vol 1",
@@ -1219,7 +1219,7 @@
       "copy_years": "2016-2018"
     },
     {
-      "id": 1030,
+      "id": 1154,
       "series": "Ben Reilly: Scarlet Spider",
       "fandom_series": "Ben Reilly: Scarlet Spider",
       "fandom_volume": "Ben Reilly: Scarlet Spider Vol 1",
@@ -1232,7 +1232,7 @@
       "copy_years": "2017-2018"
     },
     {
-      "id": 1031,
+      "id": 1155,
       "series": "Carnage",
       "fandom_series": "Carnage",
       "fandom_volume": "Carnage Vol 2",
@@ -1245,7 +1245,7 @@
       "copy_years": "2016-2017"
     },
     {
-      "id": 1032,
+      "id": 1156,
       "series": "Civil War",
       "fandom_series": "Civil War",
       "fandom_volume": "Civil War Vol 1",
@@ -1258,7 +1258,7 @@
       "copy_years": "2006-2007"
     },
     {
-      "id": 1033,
+      "id": 1157,
       "series": "Cosmic Ghost Rider",
       "fandom_series": "Cosmic Ghost Rider",
       "fandom_volume": "Cosmic Ghost Rider Vol 1",
@@ -1271,7 +1271,7 @@
       "copy_years": "2018-2018"
     },
     {
-      "id": 1034,
+      "id": 1158,
       "series": "Death of Wolverine",
       "fandom_series": "Death of Wolverine",
       "fandom_volume": "Death of Wolverine Vol 1",
@@ -1284,7 +1284,7 @@
       "copy_years": "2014-2014"
     },
     {
-      "id": 1035,
+      "id": 1159,
       "series": "Eddie Brock: Carnage",
       "fandom_series": "Eddie Brock: Carnage",
       "fandom_volume": "Eddie Brock: Carnage Vol 1",
@@ -1297,7 +1297,7 @@
       "copy_years": "2025-2025"
     },
     {
-      "id": 1036,
+      "id": 1160,
       "series": "Infamous Iron Man",
       "fandom_series": "Infamous Iron Man",
       "fandom_volume": "Infamous Iron Man Vol 1",
@@ -1310,7 +1310,7 @@
       "copy_years": "2016-2017"
     },
     {
-      "id": 1037,
+      "id": 1161,
       "series": "International Iron Man",
       "fandom_series": "International Iron Man",
       "fandom_volume": "International Iron Man Vol 1",
@@ -1323,7 +1323,7 @@
       "copy_years": "2016-2016"
     },
     {
-      "id": 1038,
+      "id": 1162,
       "series": "Invincible Iron Man",
       "fandom_series": "Invincible Iron Man",
       "fandom_volume": "Invincible Iron Man Vol 4 #593-600",
@@ -1336,7 +1336,7 @@
       "copy_years": "2017-2018"
     },
     {
-      "id": 1039,
+      "id": 1163,
       "series": "Knull",
       "fandom_series": "Knull",
       "fandom_volume": "Knull Vol 1",
@@ -1349,7 +1349,7 @@
       "copy_years": "2025-2026"
     },
     {
-      "id": 1040,
+      "id": 1164,
       "series": "Old Man Logan",
       "fandom_series": "Old Man Logan",
       "fandom_volume": "Old Man Logan Vol 1",
@@ -1362,7 +1362,7 @@
       "copy_years": "2015-2015"
     },
     {
-      "id": 1041,
+      "id": 1165,
       "series": "Return Of Wolverine",
       "fandom_series": "Return of Wolverine",
       "fandom_volume": "Return of Wolverine Vol 1",
@@ -1375,7 +1375,7 @@
       "copy_years": "2018-2018"
     },
     {
-      "id": 1042,
+      "id": 1166,
       "series": "Spider-Force",
       "fandom_series": "Spider-Force",
       "fandom_volume": "Spider-Force Vol 1",
@@ -1388,7 +1388,7 @@
       "copy_years": "2018-2018"
     },
     {
-      "id": 1043,
+      "id": 1167,
       "series": "Spider-Gwen",
       "fandom_series": "Spider-Gwen",
       "fandom_volume": "Spider-Gwen Vol 1",
@@ -1401,7 +1401,7 @@
       "copy_years": "2015-2015"
     },
     {
-      "id": 1044,
+      "id": 1168,
       "series": "Spider-Man 2099",
       "fandom_series": "Spider-Man 2099",
       "fandom_volume": "Spider-Man 2099 Vol 2",
@@ -1414,7 +1414,7 @@
       "copy_years": "2014-2015"
     },
     {
-      "id": 1045,
+      "id": 1169,
       "series": "Spider-Men",
       "fandom_series": "Spider-Men",
       "fandom_volume": "Spider-Men Vol 1",
@@ -1427,7 +1427,7 @@
       "copy_years": "2012-2012"
     },
     {
-      "id": 1046,
+      "id": 1170,
       "series": "Spider-Men 2",
       "fandom_series": "Spider-Men II",
       "fandom_volume": "Spider-Men II Vol 1",
@@ -1440,7 +1440,7 @@
       "copy_years": "2017-2017"
     },
     {
-      "id": 1047,
+      "id": 1171,
       "series": "Spider-Woman",
       "fandom_series": "Spider-Woman",
       "fandom_volume": "Spider-Woman Vol 5",
@@ -1453,7 +1453,7 @@
       "copy_years": "2014-2015"
     },
     {
-      "id": 1048,
+      "id": 1172,
       "series": "Star Wars",
       "fandom_series": "Star Wars",
       "fandom_volume": "Star Wars Vol 4",
@@ -1466,7 +1466,7 @@
       "copy_years": "2025-2025"
     },
     {
-      "id": 1049,
+      "id": 1173,
       "series": "Superior Iron Man",
       "fandom_series": "Superior Iron Man",
       "fandom_volume": "Superior Iron Man Vol 1",
@@ -1479,7 +1479,7 @@
       "copy_years": "2015-2015"
     },
     {
-      "id": 1050,
+      "id": 1174,
       "series": "Symbiote Spider-Man",
       "fandom_series": "Symbiote Spider-Man",
       "fandom_volume": "Symbiote Spider-Man Vol 1",
@@ -1492,7 +1492,7 @@
       "copy_years": "2019-2019"
     },
     {
-      "id": 1051,
+      "id": 1175,
       "series": "The Mighty Thor",
       "fandom_series": "Mighty Thor",
       "fandom_volume": "Mighty Thor Vol 2 #1-23",
@@ -1505,7 +1505,7 @@
       "copy_years": "2016-2017"
     },
     {
-      "id": 1052,
+      "id": 1176,
       "series": "Ultimate Comics: The Ultimates",
       "fandom_series": "Ultimate Comics Ultimates",
       "fandom_volume": "Ultimate Comics Ultimates Vol 1",
@@ -1518,7 +1518,7 @@
       "copy_years": "2011-2013"
     },
     {
-      "id": 1053,
+      "id": 1177,
       "series": "Ultimate Endgame",
       "fandom_series": "Ultimate Endgame",
       "fandom_volume": "Ultimate Endgame Vol 1",
@@ -1531,7 +1531,7 @@
       "copy_years": "2025-2026"
     },
     {
-      "id": 1054,
+      "id": 1178,
       "series": "Ultimate Invasion",
       "fandom_series": "Ultimate Invasion",
       "fandom_volume": "Ultimate Invasion Vol 1",
@@ -1544,7 +1544,7 @@
       "copy_years": "2023-2023"
     },
     {
-      "id": 1055,
+      "id": 1179,
       "series": "Ultimate Spider-Man: Incursion",
       "fandom_series": "Ultimate Spider-Man: Incursion",
       "fandom_volume": "Ultimate Spider-Man: Incursion Vol 1",
@@ -1557,7 +1557,7 @@
       "copy_years": "2025-2025"
     },
     {
-      "id": 1056,
+      "id": 1180,
       "series": "Ultimate Wolverine",
       "fandom_series": "Ultimate Wolverine",
       "fandom_volume": "Ultimate Wolverine Vol 1",
@@ -1570,7 +1570,7 @@
       "copy_years": "2024-2026"
     },
     {
-      "id": 1057,
+      "id": 1181,
       "series": "Unworthy Thor",
       "fandom_series": "Unworthy Thor",
       "fandom_volume": "Unworthy Thor Vol 1",
@@ -1583,7 +1583,7 @@
       "copy_years": "2016-2016"
     },
     {
-      "id": 1058,
+      "id": 1182,
       "series": "Venom: First Host",
       "fandom_series": "Venom: First Host",
       "fandom_volume": "Venom: First Host Vol 1",
@@ -1596,7 +1596,7 @@
       "copy_years": "2018-2018"
     },
     {
-      "id": 1059,
+      "id": 1183,
       "series": "X-23",
       "fandom_series": "X-23",
       "fandom_volume": "X-23 Vol 4",
@@ -1609,7 +1609,7 @@
       "copy_years": "2018-2019"
     },
     {
-      "id": 1060,
+      "id": 1184,
       "series": "Fantastic Four",
       "fandom_series": "Fantastic Four",
       "fandom_volume": "nan",
@@ -1622,7 +1622,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1061,
+      "id": 1185,
       "series": "The Avengers",
       "fandom_series": "Avengers",
       "fandom_volume": "nan",
@@ -1635,7 +1635,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1062,
+      "id": 1186,
       "series": "The Spectacular Spider-Man",
       "fandom_series": "Spectacular Spider-Man",
       "fandom_volume": "nan",
@@ -1648,7 +1648,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1063,
+      "id": 1187,
       "series": "Tony Stark: Iron Man",
       "fandom_series": "Tony Stark: Iron Man",
       "fandom_volume": "nan",
@@ -1661,7 +1661,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1064,
+      "id": 1188,
       "series": "Edge Of Spider-Geddon",
       "fandom_series": "Edge Of Spider-Geddon",
       "fandom_volume": "nan",
@@ -1674,7 +1674,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1065,
+      "id": 1189,
       "series": "Hallows Eve",
       "fandom_series": "Hallows Eve",
       "fandom_volume": "nan",
@@ -1687,7 +1687,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1066,
+      "id": 1190,
       "series": "Iron Man: 2020",
       "fandom_series": "Iron Man: 2020",
       "fandom_volume": "nan",
@@ -1700,7 +1700,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1067,
+      "id": 1191,
       "series": "King In Black",
       "fandom_series": "King In Black",
       "fandom_volume": "nan",
@@ -1713,7 +1713,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1068,
+      "id": 1192,
       "series": "Lilo & Stitch",
       "fandom_series": "Lilo & Stitch",
       "fandom_volume": "nan",
@@ -1726,7 +1726,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1069,
+      "id": 1193,
       "series": "Miles Morales: The Ultimate Spider-Man",
       "fandom_series": "Miles Morales: The Ultimate Spider-Man",
       "fandom_volume": "nan",
@@ -1739,7 +1739,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1070,
+      "id": 1194,
       "series": "Star Wars: High Republic",
       "fandom_series": "Star Wars: High Republic",
       "fandom_volume": "nan",
@@ -1752,7 +1752,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1071,
+      "id": 1195,
       "series": "Star Wars: Legacy Of Vader",
       "fandom_series": "Star Wars: Legacy of Vader",
       "fandom_volume": "nan",
@@ -1765,7 +1765,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1072,
+      "id": 1196,
       "series": "Star Wars: The Battle Of Jakku: Last Stand",
       "fandom_series": "Star Wars: The Battle Of Jakku: Last Stand",
       "fandom_volume": "nan",
@@ -1778,7 +1778,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1073,
+      "id": 1197,
       "series": "Steve Rogers: Captain America",
       "fandom_series": "Steve Rogers: Captain America",
       "fandom_volume": "nan",
@@ -1791,7 +1791,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1074,
+      "id": 1198,
       "series": "The Amazing Spider-Man - Dead No More: A Clone Conspiracy",
       "fandom_series": "Amazing Spider-Man - Dead No More: A Clone Conspiracy",
       "fandom_volume": "nan",
@@ -1804,7 +1804,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1075,
+      "id": 1199,
       "series": "The Amazing Spider-Man and Silk",
       "fandom_series": "Amazing Spider-Man & Silk The Spider(fly) Effect",
       "fandom_volume": "nan",
@@ -1817,7 +1817,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1076,
+      "id": 1200,
       "series": "Vault Of Spiders",
       "fandom_series": "Vault Of Spiders",
       "fandom_volume": "nan",
@@ -1830,7 +1830,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1077,
+      "id": 1201,
       "series": "War Of Realms",
       "fandom_series": "War Of Realms",
       "fandom_volume": "nan",
@@ -1843,7 +1843,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1078,
+      "id": 1202,
       "series": "Captain America",
       "fandom_series": "Captain America",
       "fandom_volume": "Captain America Vol 10",
@@ -1856,7 +1856,7 @@
       "copy_years": "2018-2020"
     },
     {
-      "id": 1079,
+      "id": 1203,
       "series": "Captain America",
       "fandom_series": "Captain America",
       "fandom_volume": "Captain America Vol 9",
@@ -1869,7 +1869,7 @@
       "copy_years": "2018-2018"
     },
     {
-      "id": 1080,
+      "id": 1204,
       "series": "Captain America",
       "fandom_series": "Captain America",
       "fandom_volume": "nan",
@@ -1882,7 +1882,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1081,
+      "id": 1205,
       "series": "Daredevil",
       "fandom_series": "Daredevil",
       "fandom_volume": "Daredevil Vol 7",
@@ -1895,7 +1895,7 @@
       "copy_years": "2022-2023"
     },
     {
-      "id": 1082,
+      "id": 1206,
       "series": "Daredevil",
       "fandom_series": "Daredevil",
       "fandom_volume": "Daredevil Vol 9",
@@ -1908,7 +1908,7 @@
       "copy_years": "2026-2026"
     },
     {
-      "id": 1083,
+      "id": 1207,
       "series": "Miles Morales: Spider-Man",
       "fandom_series": "Miles Morales: Spider-Man",
       "fandom_volume": "Miles Morales: Spider-Man Vol 2",
@@ -1921,7 +1921,7 @@
       "copy_years": "2022-2025"
     },
     {
-      "id": 1084,
+      "id": 1208,
       "series": "Miles Morales: Spider-Man",
       "fandom_series": "Miles Morales: Spider-Man",
       "fandom_volume": "Miles Morales: Spider-Man Vol 1",
@@ -1934,7 +1934,7 @@
       "copy_years": "2019-2021"
     },
     {
-      "id": 1085,
+      "id": 1209,
       "series": "Miles Morales: Spider-Man",
       "fandom_series": "Miles Morales: Spider-Man",
       "fandom_volume": "nan",
@@ -1947,7 +1947,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1086,
+      "id": 1210,
       "series": "Silk",
       "fandom_series": "Silk",
       "fandom_volume": "Silk Vol 2",
@@ -1960,7 +1960,7 @@
       "copy_years": "2015-2017"
     },
     {
-      "id": 1087,
+      "id": 1211,
       "series": "Silk",
       "fandom_series": "Silk",
       "fandom_volume": "Silk Vol 1",
@@ -1973,7 +1973,7 @@
       "copy_years": "2015-2015"
     },
     {
-      "id": 1088,
+      "id": 1212,
       "series": "Silk",
       "fandom_series": "Silk",
       "fandom_volume": "Silk Vol 3",
@@ -1986,7 +1986,7 @@
       "copy_years": "2021-2021"
     },
     {
-      "id": 1089,
+      "id": 1213,
       "series": "Silk",
       "fandom_series": "Silk",
       "fandom_volume": "Silk Vol 5",
@@ -1999,7 +1999,7 @@
       "copy_years": "2023-2023"
     },
     {
-      "id": 1090,
+      "id": 1214,
       "series": "Spider-Man",
       "fandom_series": "Spider-Man",
       "fandom_volume": "Spider-Man Vol 2 #1-21",
@@ -2012,7 +2012,7 @@
       "copy_years": "2016-2017"
     },
     {
-      "id": 1091,
+      "id": 1215,
       "series": "Spider-Man",
       "fandom_series": "Spider-Man",
       "fandom_volume": "Spider-Man Vol 2 #234-240",
@@ -2025,7 +2025,7 @@
       "copy_years": "2017-2018"
     },
     {
-      "id": 1092,
+      "id": 1216,
       "series": "Spider-Man",
       "fandom_series": "Spider-Man",
       "fandom_volume": "Spider-Man Vol 4",
@@ -2038,7 +2038,7 @@
       "copy_years": "2022-2023"
     },
     {
-      "id": 1093,
+      "id": 1217,
       "series": "The Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "Amazing Spider-Man Vol 5",
@@ -2051,7 +2051,7 @@
       "copy_years": "2018-2021"
     },
     {
-      "id": 1094,
+      "id": 1218,
       "series": "The Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "Amazing Spider-Man Vol 7",
@@ -2064,7 +2064,7 @@
       "copy_years": "2025-2026"
     },
     {
-      "id": 1095,
+      "id": 1219,
       "series": "The Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "Amazing Spider-Man Vol 2 #500-700",
@@ -2077,7 +2077,7 @@
       "copy_years": "2011-2012"
     },
     {
-      "id": 1096,
+      "id": 1220,
       "series": "The Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "Amazing Spider-Man Vol 6",
@@ -2090,7 +2090,7 @@
       "copy_years": "2022-2025"
     },
     {
-      "id": 1097,
+      "id": 1221,
       "series": "The Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "Amazing Spider-Man Vol 3",
@@ -2103,7 +2103,7 @@
       "copy_years": "2014-2015"
     },
     {
-      "id": 1098,
+      "id": 1222,
       "series": "The Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "Amazing Spider-Man Vol 4 #1-32",
@@ -2116,7 +2116,7 @@
       "copy_years": "2015-2017"
     },
     {
-      "id": 1099,
+      "id": 1223,
       "series": "The Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "Amazing Spider-Man Vol 4 #789-801",
@@ -2129,7 +2129,7 @@
       "copy_years": "2017-2018"
     },
     {
-      "id": 1100,
+      "id": 1224,
       "series": "The Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "nan",
@@ -2142,7 +2142,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1101,
+      "id": 1225,
       "series": "The Punisher",
       "fandom_series": "Punisher",
       "fandom_volume": "Punisher Vol 12",
@@ -2155,7 +2155,7 @@
       "copy_years": "2018-2019"
     },
     {
-      "id": 1102,
+      "id": 1226,
       "series": "The Punisher",
       "fandom_series": "Punisher",
       "fandom_volume": "Punisher Vol 11 #218-228",
@@ -2168,7 +2168,7 @@
       "copy_years": "2018-2018"
     },
     {
-      "id": 1103,
+      "id": 1227,
       "series": "The Punisher",
       "fandom_series": "Punisher",
       "fandom_volume": "nan",
@@ -2181,7 +2181,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1104,
+      "id": 1228,
       "series": "The Superior Spider-Man",
       "fandom_series": "Superior Spider-Man",
       "fandom_volume": "Superior Spider-Man Vol 1",
@@ -2194,7 +2194,7 @@
       "copy_years": "2013-2014"
     },
     {
-      "id": 1105,
+      "id": 1229,
       "series": "The Superior Spider-Man",
       "fandom_series": "Superior Spider-Man",
       "fandom_volume": "Superior Spider-Man Vol 2",
@@ -2207,7 +2207,7 @@
       "copy_years": "2018-2019"
     },
     {
-      "id": 1106,
+      "id": 1230,
       "series": "The Superior Spider-Man",
       "fandom_series": "Superior Spider-Man",
       "fandom_volume": "nan",
@@ -2220,7 +2220,7 @@
       "copy_years": "nan"
     },
     {
-      "id": 1107,
+      "id": 1231,
       "series": "Thor",
       "fandom_series": "Thor",
       "fandom_volume": "Thor Vol 6",
@@ -2233,7 +2233,7 @@
       "copy_years": "2020-2025"
     },
     {
-      "id": 1108,
+      "id": 1232,
       "series": "Thor",
       "fandom_series": "Thor",
       "fandom_volume": "Thor Vol 4",
@@ -2246,7 +2246,7 @@
       "copy_years": "2014-2015"
     },
     {
-      "id": 1109,
+      "id": 1233,
       "series": "Ultimate Spider-Man",
       "fandom_series": "Ultimate Spider-Man",
       "fandom_volume": "Ultimate Spider-Man Vol 3",
@@ -2259,7 +2259,7 @@
       "copy_years": "2024-2025"
     },
     {
-      "id": 1110,
+      "id": 1234,
       "series": "Ultimate Spider-Man",
       "fandom_series": "Ultimate Spider-Man",
       "fandom_volume": "Ultimate Spider-Man Vol 2 #1-15",
@@ -2272,7 +2272,7 @@
       "copy_years": "2012-2012"
     },
     {
-      "id": 1111,
+      "id": 1235,
       "series": "Ultimate Spider-Man",
       "fandom_series": "Ultimate Spider-Man",
       "fandom_volume": "Ultimate Spider-Man Vol 1 #1-133",
@@ -2285,7 +2285,7 @@
       "copy_years": "2012-2013"
     },
     {
-      "id": 1112,
+      "id": 1236,
       "series": "Venom",
       "fandom_series": "Venom",
       "fandom_volume": "Venom Vol 5",
@@ -2298,7 +2298,7 @@
       "copy_years": "2022-2024"
     },
     {
-      "id": 1113,
+      "id": 1237,
       "series": "Venom",
       "fandom_series": "Venom",
       "fandom_volume": "Venom Vol 3 #150-165",
@@ -2311,7 +2311,7 @@
       "copy_years": "2017-2018"
     },
     {
-      "id": 1114,
+      "id": 1238,
       "series": "Venom",
       "fandom_series": "Venom",
       "fandom_volume": "Venom Vol 4",
@@ -2324,7 +2324,7 @@
       "copy_years": "2018-2020"
     },
     {
-      "id": 1115,
+      "id": 1239,
       "series": "Venom",
       "fandom_series": "Venom",
       "fandom_volume": "Venom Vol 3 #1-6",
@@ -2337,7 +2337,7 @@
       "copy_years": "2016-2017"
     },
     {
-      "id": 1116,
+      "id": 1240,
       "series": "Venom",
       "fandom_series": "Venom",
       "fandom_volume": "nan",
