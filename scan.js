@@ -17,7 +17,7 @@
     exportBtn: $("exportBtn"), copyBtn: $("copyBtn"),
     pushBtn: $("pushBtn"), pushStatus: $("pushStatus"),
     quick: $("quick"), quickBtn: $("quickBtn"), quickClear: $("quickClear"),
-    quickStatus: $("quickStatus"),
+    quickStatus: $("quickStatus"), quickPick: $("quickPick"),
   };
 
   const CFG = (window.PANELBOOK_CONFIG || {});
@@ -34,6 +34,8 @@
   let issueBooks = {}; // "Series|issue" -> { year, series, volume, issue }
   const MIN_YEAR = 2009; // hard rule: collection is modern-only
   const MAX_NEIGHBOR_GAP = 4; // infer year only across small same-vol holes
+  const YEAR_HINT_SLACK = 3; // search give-or-take a few years around typed hints
+  let pendingQuick = null; // bulk add waiting for run pick
 
   const setStatus = (msg, kind = "") => {
     els.status.textContent = msg;
@@ -145,9 +147,34 @@
   /**
    * Translate typed series+# into the physical book identity when known
    * (e.g. Venom #241 → All-New Venom Vol 1 #2), including neighbor-inferred years.
+   * Optional lockedRun { series, volume } forces a chosen reboot.
    */
-  function resolveBook(series, issue) {
+  function resolveBook(series, issue, lockedRun) {
     const iss = String(issue);
+    if (lockedRun && lockedRun.series) {
+      const runKey = `${lockedRun.series}|${iss}`;
+      const b = issueBooks[runKey];
+      if (b && yearOk(b.year)) {
+        return {
+          series: b.series || lockedRun.series,
+          issue: b.issue != null && b.issue !== "" ? String(b.issue) : iss,
+          year: String(b.year),
+          volume: b.volume != null && b.volume !== "" ? String(b.volume) : String(lockedRun.volume || ""),
+          note: lockedRun.series !== series ? `typed ${series} #${iss}` : "",
+        };
+      }
+      // Issue not in index for this run — still commit the chosen identity.
+      return {
+        series: lockedRun.series,
+        issue: iss,
+        year: "",
+        volume: lockedRun.volume != null && lockedRun.volume !== "" ? String(lockedRun.volume) : "",
+        note: [
+          lockedRun.series !== series ? `typed ${series} #${iss}` : "",
+          "needs_year",
+        ].filter(Boolean).join("; "),
+      };
+    }
     const key = `${series}|${iss}`;
     const b = issueBooks[key];
     if (b) {
@@ -171,6 +198,19 @@
 
   function lookupYear(series, issue) {
     return resolveBook(series, issue).year;
+  }
+
+  function seriesAffinity(typed, candidate) {
+    const a = norm(typed), b = norm(candidate);
+    if (!a || !b) return 0;
+    if (a === b) return 100;
+    if (b.includes(a) || a.includes(b)) return 85;
+    const at = new Set(a.split(" ").filter(Boolean));
+    const bt = b.split(" ").filter(Boolean);
+    let inter = 0;
+    for (const t of bt) if (at.has(t)) inter++;
+    if (!inter) return 0;
+    return 40 + Math.round((30 * inter) / Math.max(at.size, bt.size));
   }
 
   // Returns up to `n` best series matches for an OCR / typed blob.
@@ -217,30 +257,169 @@
     return prettySeries(raw);
   }
 
-  /* ---------- quick type: "venom 241" / "venom 241-250" ---------- */
+  /* ---------- quick type: single, range, comma list, optional year hint ---------- */
   const MAX_RANGE = 150;
 
+  function clearQuickPick() {
+    pendingQuick = null;
+    if (els.quickPick) els.quickPick.innerHTML = "";
+  }
+
+  function parseYearHints(parenBody) {
+    const years = [...String(parenBody || "").matchAll(/\b((?:19|20)\d{2})\b/g)]
+      .map((m) => parseInt(m[1], 10))
+      .filter((y) => y >= MIN_YEAR);
+    return [...new Set(years)].sort((a, b) => a - b);
+  }
+
+  function parseIssueTokens(listText) {
+    const parts = String(listText || "").split(/[,;]+/).map((p) => p.trim()).filter(Boolean);
+    if (!parts.length) return null;
+    const issues = [];
+    for (const part of parts) {
+      let m = part.match(/^(\d{1,4})\s*(?:[-–—]|to)\s*(\d{1,4})$/i);
+      if (m) {
+        const a = parseInt(m[1], 10), b = parseInt(m[2], 10);
+        const lo = Math.min(a, b), hi = Math.max(a, b);
+        if (hi - lo + 1 > MAX_RANGE) return null;
+        for (let n = lo; n <= hi; n++) issues.push(n);
+        continue;
+      }
+      if (/^\d{1,4}$/.test(part)) {
+        issues.push(parseInt(part, 10));
+        continue;
+      }
+      return null;
+    }
+    return [...new Set(issues)].sort((a, b) => a - b);
+  }
+
   function parseQuick(text) {
-    const t = String(text || "").trim().replace(/\s+/g, " ");
+    let t = String(text || "").trim().replace(/\s+/g, " ");
     if (!t) return null;
-    let m = t.match(/^(.*?)[\s#]+(\d{1,4})\s*(?:[-–—]|to)\s*(\d{1,4})\s*$/i);
+    let yearHints = [];
+    const paren = t.match(/\(([^)]*)\)\s*$/);
+    if (paren) {
+      yearHints = parseYearHints(paren[1]);
+      t = t.slice(0, paren.index).trim();
+    }
+
+    // "Ultimates: 4, 7, 9, 11" or "Ultimates: 4-6, 9"
+    let m = t.match(/^(.+?)\s*:\s*(.+)$/);
+    if (m) {
+      const issues = parseIssueTokens(m[2]);
+      if (issues && issues.length) {
+        return { seriesRaw: m[1].trim(), issues, yearHints };
+      }
+    }
+
+    // "Ultimates 4, 7, 9, 11"
+    m = t.match(/^(.+?)\s+(\d{1,4}(?:\s*[,;]\s*\d{1,4}(?:\s*(?:[-–—]|to)\s*\d{1,4})?)+)$/i);
+    if (m) {
+      const issues = parseIssueTokens(m[2]);
+      if (issues && issues.length) {
+        return { seriesRaw: m[1].trim(), issues, yearHints };
+      }
+    }
+
+    m = t.match(/^(.*?)[\s#]+(\d{1,4})\s*(?:[-–—]|to)\s*(\d{1,4})\s*$/i);
     if (m) {
       const a = parseInt(m[2], 10), b = parseInt(m[3], 10);
-      return { seriesRaw: m[1].trim(), from: Math.min(a, b), to: Math.max(a, b) };
+      const lo = Math.min(a, b), hi = Math.max(a, b);
+      const issues = [];
+      for (let n = lo; n <= hi; n++) issues.push(n);
+      return { seriesRaw: m[1].trim(), issues, yearHints };
     }
     m = t.match(/^(.*?)[\s#]+(\d{1,4})\s*$/);
     if (m) {
-      const n = parseInt(m[2], 10);
-      return { seriesRaw: m[1].trim(), from: n, to: n };
+      return { seriesRaw: m[1].trim(), issues: [parseInt(m[2], 10)], yearHints };
     }
     return null;
+  }
+
+  function findRunCandidates(typedSeries, issues, yearHints) {
+    const want = new Set((issues || []).map(String));
+    const hints = (yearHints || []).filter((y) => y >= MIN_YEAR);
+    const lo = hints.length ? Math.min(...hints) - YEAR_HINT_SLACK : null;
+    const hi = hints.length ? Math.max(...hints) + YEAR_HINT_SLACK : null;
+
+    // series||volume -> aggregate
+    const runs = new Map();
+    for (const [key, b] of Object.entries(issueBooks)) {
+      const pipe = key.lastIndexOf("|");
+      if (pipe < 0) continue;
+      const keyIssue = key.slice(pipe + 1);
+      if (!/^\d+$/.test(keyIssue)) continue;
+      const seriesName = String(b.series || key.slice(0, pipe));
+      const aff = seriesAffinity(typedSeries, seriesName);
+      if (aff < 40) continue;
+      const y = parseInt(b.year, 10);
+      if (!y || y < MIN_YEAR) continue;
+      const vol = b.volume != null && b.volume !== "" ? String(b.volume) : "";
+      const rkey = `${seriesName}||${vol}`;
+      let run = runs.get(rkey);
+      if (!run) {
+        run = {
+          series: seriesName,
+          volume: vol,
+          affinity: aff,
+          years: [],
+          hitIssues: [],
+          inWindow: 0,
+        };
+        runs.set(rkey, run);
+      }
+      run.years.push(y);
+      if (want.has(keyIssue)) run.hitIssues.push(parseInt(keyIssue, 10));
+      if (lo == null || (y >= lo && y <= hi)) run.inWindow += 1;
+    }
+
+    let list = [...runs.values()].map((r) => {
+      const ymin = Math.min(...r.years);
+      const ymax = Math.max(...r.years);
+      const overlapsHint = lo == null || (ymax >= lo && ymin <= hi);
+      const hit = [...new Set(r.hitIssues)].sort((a, b) => a - b);
+      return {
+        series: r.series,
+        volume: r.volume,
+        affinity: r.affinity,
+        yearMin: ymin,
+        yearMax: ymax,
+        hitIssues: hit,
+        inWindow: r.inWindow,
+        overlapsHint,
+        label:
+          `${r.series}` +
+          (r.volume ? ` Vol ${r.volume}` : "") +
+          ` (${ymin === ymax ? ymin : ymin + "–" + ymax})` +
+          (hit.length ? ` · has #${hit.slice(0, 4).join(",")}${hit.length > 4 ? "…" : ""}` : ""),
+      };
+    });
+
+    if (hints.length) {
+      // Prefer runs that overlap the fuzzy year window; if none, fall back to name matches.
+      const windowed = list.filter((r) => r.overlapsHint);
+      if (windowed.length) list = windowed;
+    } else {
+      // No hint: only bother the user when multiple distinct runs hit the typed issues.
+      list = list.filter((r) => r.hitIssues.length > 0);
+    }
+
+    list.sort((a, b) =>
+      (b.overlapsHint === a.overlapsHint ? 0 : b.overlapsHint ? 1 : -1) ||
+      b.hitIssues.length - a.hitIssues.length ||
+      b.inWindow - a.inWindow ||
+      b.affinity - a.affinity ||
+      a.yearMin - b.yearMin
+    );
+    return list.slice(0, 8);
   }
 
   function appendRows(entries) {
     const rows = load();
     const now = new Date().toISOString();
     for (const e of entries) {
-      const book = resolveBook(e.series, e.issue);
+      const book = resolveBook(e.series, e.issue, e.lockedRun);
       const series = book.series;
       const issue = book.issue;
       const year = e.year || book.year || "";
@@ -263,41 +442,97 @@
     render();
   }
 
+  function commitQuick(typedSeries, issues, lockedRun, rawText, yearHints) {
+    const entries = issues.map((i) => ({
+      series: typedSeries,
+      issue: i,
+      lockedRun: lockedRun || null,
+      notes: (!lockedRun && yearHints && yearHints.length)
+        ? `year_hint:${yearHints[0]}${yearHints.length > 1 ? "-" + yearHints[yearHints.length - 1] : ""}`
+        : "",
+      raw: `quick: ${rawText}`,
+    }));
+    appendRows(entries);
+    const sample = resolveBook(typedSeries, issues[0], lockedRun || null);
+    const withYear = entries.reduce((n, e) => {
+      const b = resolveBook(e.series, e.issue, e.lockedRun);
+      return n + (b.year ? 1 : 0);
+    }, 0);
+    const runLabel = lockedRun
+      ? `${lockedRun.series}${lockedRun.volume ? " Vol " + lockedRun.volume : ""}`
+      : typedSeries;
+    const label = issues.length === 1
+      ? `Added ${sample.series} #${sample.issue}` +
+        (sample.volume ? ` Vol ${sample.volume}` : "") +
+        (sample.year ? ` (${sample.year})` : "") + "."
+      : `Added ${runLabel}: ${issues.length} issues (${withYear} with year).`;
+    setQuick(label + " Next?", withYear === issues.length ? "ok" : "warn");
+    els.quick.value = "";
+    clearQuickPick();
+    els.quick.focus();
+  }
+
+  function renderQuickPick(candidates, typedSeries, issues, yearHints, rawText) {
+    if (!els.quickPick) return;
+    els.quickPick.innerHTML = "";
+    pendingQuick = { typedSeries, issues, yearHints, rawText, candidates };
+
+    const hintLabel = yearHints.length
+      ? ` around ${yearHints[0]}${yearHints.length > 1 ? "–" + yearHints[yearHints.length - 1] : ""} (±${YEAR_HINT_SLACK})`
+      : "";
+    setQuick(
+      candidates.length
+        ? `Which run is this${hintLabel}? Tap one:`
+        : `No catalog run near those years — pick how to save:`,
+      "warn"
+    );
+
+    const addChip = (label, onClick) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "chip";
+      b.textContent = label;
+      b.onclick = onClick;
+      els.quickPick.appendChild(b);
+    };
+
+    for (const c of candidates) {
+      addChip(c.label, () => {
+        commitQuick(typedSeries, issues, { series: c.series, volume: c.volume }, rawText, yearHints);
+      });
+    }
+    addChip(`Keep typed “${typedSeries}” (resolve later)`, () => {
+      commitQuick(typedSeries, issues, null, rawText, yearHints);
+    });
+  }
+
   function addQuick() {
-    const parsed = parseQuick(els.quick.value);
-    if (!parsed || !parsed.seriesRaw) {
-      setQuick("Try: venom 241   or   venom 241-250", "warn");
+    clearQuickPick();
+    const rawText = els.quick.value.trim();
+    const parsed = parseQuick(rawText);
+    if (!parsed || !parsed.seriesRaw || !parsed.issues || !parsed.issues.length) {
+      setQuick('Try: venom 241   or   ultimates: 4, 7, 9 (2011 or 2012)', "warn");
       return;
     }
-    const span = parsed.to - parsed.from + 1;
-    if (span > MAX_RANGE) {
-      setQuick(`Range too big (${span}). Max ${MAX_RANGE} issues at once.`, "warn");
+    if (parsed.issues.length > MAX_RANGE) {
+      setQuick(`Too many issues (${parsed.issues.length}). Max ${MAX_RANGE} at once.`, "warn");
       return;
     }
     const typedSeries = resolveSeries(parsed.seriesRaw);
-    const entries = [];
-    let withYear = 0;
-    for (let i = parsed.from; i <= parsed.to; i++) {
-      const book = resolveBook(typedSeries, i);
-      if (book.year) withYear++;
-      entries.push({
-        series: typedSeries,
-        issue: i,
-        year: book.year,
-        volume: book.volume,
-        raw: `quick: ${els.quick.value.trim()}`,
-      });
+    const yearHints = parsed.yearHints || [];
+    const candidates = findRunCandidates(typedSeries, parsed.issues, yearHints);
+
+    // Year hint (or multiple plausible runs) → ask the human. Don't auto-guess reboots.
+    if (yearHints.length || candidates.length > 1) {
+      renderQuickPick(candidates, typedSeries, parsed.issues, yearHints, rawText);
+      return;
     }
-    appendRows(entries);
-    const first = resolveBook(typedSeries, parsed.from);
-    const label = span === 1
-      ? `Added ${first.series} #${first.issue}` +
-        (first.volume ? ` Vol ${first.volume}` : "") +
-        (first.year ? ` (${first.year})` : "") + "."
-      : `Added ${typedSeries} #${parsed.from}–#${parsed.to} (${span}, ${withYear} with year).`;
-    setQuick(label + " Next?", withYear === span ? "ok" : "warn");
-    els.quick.value = "";
-    els.quick.focus();
+
+    // Unambiguous single/range with one catalog run (or none) — add directly.
+    const locked = candidates.length === 1
+      ? { series: candidates[0].series, volume: candidates[0].volume }
+      : null;
+    commitQuick(typedSeries, parsed.issues, locked, rawText, yearHints);
   }
 
   /* ---------- camera + barcode ---------- */
@@ -818,7 +1053,12 @@
     if (f) readFromFile(f);
   };
   els.quickBtn.onclick = addQuick;
-  els.quickClear.onclick = () => { els.quick.value = ""; setQuick("Type series + issue (or a range) and hit Add / Enter."); els.quick.focus(); };
+  els.quickClear.onclick = () => {
+    els.quick.value = "";
+    clearQuickPick();
+    setQuick("Series + issues, optional year hint. Ambiguous runs ask you to pick.");
+    els.quick.focus();
+  };
   els.quick.addEventListener("keydown", (e) => {
     if (e.key === "Enter") { e.preventDefault(); addQuick(); }
   });

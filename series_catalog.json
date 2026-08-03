@@ -121,6 +121,7 @@
     "Thor",
     "Tony Stark: Iron Man",
     "Ultimate Comics: The Ultimates",
+    "Ultimate Comics Ultimates",
     "Ultimate Endgame",
     "Ultimate Invasion",
     "Ultimate Spider-Man",
@@ -153,6 +154,8 @@
     "spider man": "Amazing Spider-Man",
     "xmen": "X-Men",
     "x men": "X-Men",
-    "uf": "Ultimate Fantastic Four"
+    "uf": "Ultimate Fantastic Four",
+    "ultimate comics the ultimates": "Ultimate Comics Ultimates",
+    "ultimate comics: the ultimates": "Ultimate Comics Ultimates"
   }
 }

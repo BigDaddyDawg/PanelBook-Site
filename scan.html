@@ -191,12 +191,13 @@
     <div class="card">
       <label for="quick">Quick type</label>
       <input id="quick" type="text" autocomplete="off" autocapitalize="off" spellcheck="false"
-        placeholder="venom 241   or   venom 241-250" />
+        placeholder='ultimates: 4, 7, 9, 11 (2011 or 2012)' />
       <div class="btn-row" style="margin-top:0.65rem;">
         <button id="quickBtn" class="btn accent" type="button">Add</button>
         <button id="quickClear" class="btn ghost" type="button">Clear</button>
       </div>
-      <p id="quickStatus" class="status">Type series + issue (or a range) and hit Add / Enter.</p>
+      <p id="quickStatus" class="status">Series + issues, optional year hint. Ambiguous runs ask you to pick.</p>
+      <div id="quickPick" class="chips" style="margin-top:0.45rem;"></div>
     </div>
 
     <div class="card">
@@ -262,6 +263,6 @@
   <script src="pwa.js?v=1"></script>
   <script src="config.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
-  <script src="scan.js?v=4"></script>
+  <script src="scan.js?v=5"></script>
 </body>
 </html>
