@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1355,
+  "count": 1368,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -231,6 +231,15 @@
     "Amazing Spider-Man|800": "2018",
     "Amazing Spider-Man|801": "2018",
     "Amazing Spider-Man|9": "2025",
+    "Avengers & X-Men: AXIS|1": "2014",
+    "Avengers & X-Men: AXIS|2": "2014",
+    "Avengers & X-Men: AXIS|3": "2014",
+    "Avengers & X-Men: AXIS|4": "2014",
+    "Avengers & X-Men: AXIS|5": "2014",
+    "Avengers & X-Men: AXIS|6": "2014",
+    "Avengers & X-Men: AXIS|7": "2014",
+    "Avengers & X-Men: AXIS|8": "2014",
+    "Avengers & X-Men: AXIS|9": "2014",
     "Avengers|0": "2015",
     "Avengers|1": "2026",
     "Avengers|10": "2024",
@@ -277,6 +286,10 @@
     "Avengers|7": "2023",
     "Avengers|8": "2023",
     "Avengers|9": "2024",
+    "AXIS: Revolutions|1": "2014",
+    "AXIS: Revolutions|2": "2014",
+    "AXIS: Revolutions|3": "2014",
+    "AXIS: Revolutions|4": "2014",
     "Ben Reilly: Scarlet Spider|1": "2017",
     "Ben Reilly: Scarlet Spider|10": "2017",
     "Ben Reilly: Scarlet Spider|11": "2017",
@@ -2718,6 +2731,60 @@
       "volume": "7",
       "issue": "9"
     },
+    "Avengers & X-Men: AXIS|1": {
+      "year": "2014",
+      "series": "Avengers & X-Men: AXIS",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Avengers & X-Men: AXIS|2": {
+      "year": "2014",
+      "series": "Avengers & X-Men: AXIS",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Avengers & X-Men: AXIS|3": {
+      "year": "2014",
+      "series": "Avengers & X-Men: AXIS",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Avengers & X-Men: AXIS|4": {
+      "year": "2014",
+      "series": "Avengers & X-Men: AXIS",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Avengers & X-Men: AXIS|5": {
+      "year": "2014",
+      "series": "Avengers & X-Men: AXIS",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Avengers & X-Men: AXIS|6": {
+      "year": "2014",
+      "series": "Avengers & X-Men: AXIS",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Avengers & X-Men: AXIS|7": {
+      "year": "2014",
+      "series": "Avengers & X-Men: AXIS",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Avengers & X-Men: AXIS|8": {
+      "year": "2014",
+      "series": "Avengers & X-Men: AXIS",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Avengers & X-Men: AXIS|9": {
+      "year": "2014",
+      "series": "Avengers & X-Men: AXIS",
+      "volume": "1",
+      "issue": "9"
+    },
     "Avengers|0": {
       "year": "2015",
       "series": "Avengers",
@@ -2994,6 +3061,30 @@
       "series": "Avengers",
       "volume": "9",
       "issue": "9"
+    },
+    "AXIS: Revolutions|1": {
+      "year": "2014",
+      "series": "AXIS: Revolutions",
+      "volume": "1",
+      "issue": "1"
+    },
+    "AXIS: Revolutions|2": {
+      "year": "2014",
+      "series": "AXIS: Revolutions",
+      "volume": "1",
+      "issue": "2"
+    },
+    "AXIS: Revolutions|3": {
+      "year": "2014",
+      "series": "AXIS: Revolutions",
+      "volume": "1",
+      "issue": "3"
+    },
+    "AXIS: Revolutions|4": {
+      "year": "2014",
+      "series": "AXIS: Revolutions",
+      "volume": "1",
+      "issue": "4"
     },
     "Ben Reilly: Scarlet Spider|1": {
       "year": "2017",
