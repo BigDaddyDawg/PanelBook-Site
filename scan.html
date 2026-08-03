@@ -189,6 +189,17 @@
   </header>
   <main class="section">
     <div class="card">
+      <label for="quick">Quick type</label>
+      <input id="quick" type="text" autocomplete="off" autocapitalize="off" spellcheck="false"
+        placeholder="venom 241   or   venom 241-250" />
+      <div class="btn-row" style="margin-top:0.65rem;">
+        <button id="quickBtn" class="btn accent" type="button">Add</button>
+        <button id="quickClear" class="btn ghost" type="button">Clear</button>
+      </div>
+      <p id="quickStatus" class="status">Type series + issue (or a range) and hit Add / Enter.</p>
+    </div>
+
+    <div class="card">
       <div class="camwrap" id="camwrap">
         <video id="video" playsinline muted></video>
         <img id="still" alt="Cover preview" />
@@ -197,7 +208,7 @@
       <button id="scanBtn" class="btn accent" type="button" disabled style="margin-top:2rem;">Start camera</button>
       <button id="uploadBtn" class="btn ghost" type="button" style="margin-top:0.6rem;">Use a photo instead</button>
       <input id="fileInput" type="file" accept="image/*" hidden />
-      <p id="status" class="status">Tap “Start camera” or “Use a photo”. One comic per shot works best.</p>
+      <p id="status" class="status">Optional: camera/photo if you want UPC help.</p>
       <p class="status" style="margin-top:0.35rem;">Only text is saved (series, issue, UPC) — never photos.</p>
     </div>
 
@@ -251,6 +262,6 @@
   <script src="pwa.js?v=1"></script>
   <script src="config.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
-  <script src="scan.js?v=1"></script>
+  <script src="scan.js?v=2"></script>
 </body>
 </html>

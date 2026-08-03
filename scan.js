@@ -16,6 +16,8 @@
     list: $("list"), count: $("count"),
     exportBtn: $("exportBtn"), copyBtn: $("copyBtn"),
     pushBtn: $("pushBtn"), pushStatus: $("pushStatus"),
+    quick: $("quick"), quickBtn: $("quickBtn"), quickClear: $("quickClear"),
+    quickStatus: $("quickStatus"),
   };
 
   const CFG = (window.PANELBOOK_CONFIG || {});
@@ -27,10 +29,15 @@
   let detectTimer = null;
   let ocrWorker = null;
   let knownSeries = []; // { name, norm, grams }
+  let seriesAliases = {}; // norm alias -> display name
 
   const setStatus = (msg, kind = "") => {
     els.status.textContent = msg;
     els.status.className = "status" + (kind ? " " + kind : "");
+  };
+  const setQuick = (msg, kind = "") => {
+    els.quickStatus.textContent = msg;
+    els.quickStatus.className = "status" + (kind ? " " + kind : "");
   };
 
   /* ---------- known-series index (for fuzzy matching) ---------- */
@@ -49,29 +56,52 @@
     return (2 * inter) / (aGrams.size + b.size);
   };
 
+  function indexSeriesNames(names) {
+    const byNorm = new Map(knownSeries.map((k) => [k.norm, k]));
+    for (const name of names) {
+      const n = norm(name);
+      if (!n || byNorm.has(n)) continue;
+      const row = { name: String(name), norm: n, grams: bigrams(n) };
+      knownSeries.push(row);
+      byNorm.set(n, row);
+    }
+  }
+
   async function loadKnownSeries() {
+    // Prefer the static catalog (works even when collection is empty / wiped).
+    try {
+      const res = await fetch("series_catalog.json", { cache: "no-store" });
+      if (res.ok) {
+        const data = await res.json();
+        indexSeriesNames(data.series || []);
+        const aliases = data.aliases || {};
+        for (const [k, v] of Object.entries(aliases)) seriesAliases[norm(k)] = v;
+      }
+    } catch (_) { /* optional */ }
     try {
       const res = await fetch("collection.json", { cache: "no-store" });
       if (!res.ok) return;
       const data = await res.json();
-      const names = new Set();
-      for (const r of data.collection || []) if (r.series) names.add(String(r.series));
-      knownSeries = [...names].map((name) => {
-        const n = norm(name);
-        return { name, norm: n, grams: bigrams(n) };
-      });
-    } catch (_) { /* matching just degrades to manual entry */ }
+      const names = [];
+      for (const r of data.collection || []) if (r.series) names.push(String(r.series));
+      indexSeriesNames(names);
+    } catch (_) { /* matching just degrades to typed text */ }
   }
 
-  // Returns up to `n` best series matches for an OCR blob.
+  // Returns up to `n` best series matches for an OCR / typed blob.
   function matchSeries(text, n = 3) {
     const candidate = norm(text);
     if (!candidate || !knownSeries.length) return [];
     const scored = knownSeries
-      .map((k) => ({ name: k.name, score: dice(k.grams, candidate) }))
+      .map((k) => {
+        let score = dice(k.grams, candidate);
+        if (k.norm === candidate) score = 1;
+        else if (k.norm.startsWith(candidate) || candidate.startsWith(k.norm)) score = Math.max(score, 0.92);
+        else if (k.norm.includes(candidate) || candidate.includes(k.norm)) score = Math.max(score, 0.75);
+        return { name: k.name, score };
+      })
       .filter((x) => x.score >= 0.34)
-      .sort((a, b) => b.score - a.score);
-    // de-dupe by name, keep top n
+      .sort((a, b) => b.score - a.score || a.name.length - b.name.length);
     const seen = new Set();
     const out = [];
     for (const s of scored) {
@@ -81,6 +111,93 @@
       if (out.length >= n) break;
     }
     return out;
+  }
+
+  function prettySeries(s) {
+    return String(s || "").trim().replace(/\s+/g, " ").split(" ")
+      .map((word) => word.split("-")
+        .map((p) => (p ? p.charAt(0).toUpperCase() + p.slice(1).toLowerCase() : p))
+        .join("-"))
+      .join(" ");
+  }
+
+  function resolveSeries(raw) {
+    const n = norm(raw);
+    if (!n) return "";
+    if (seriesAliases[n]) return seriesAliases[n];
+    const exact = knownSeries.find((k) => k.norm === n);
+    if (exact) return exact.name;
+    const matches = matchSeries(raw, 1);
+    if (matches.length && matches[0].score >= 0.55) return matches[0].name;
+    return prettySeries(raw);
+  }
+
+  /* ---------- quick type: "venom 241" / "venom 241-250" ---------- */
+  const MAX_RANGE = 150;
+
+  function parseQuick(text) {
+    const t = String(text || "").trim().replace(/\s+/g, " ");
+    if (!t) return null;
+    let m = t.match(/^(.*?)[\s#]+(\d{1,4})\s*(?:[-–—]|to)\s*(\d{1,4})\s*$/i);
+    if (m) {
+      const a = parseInt(m[2], 10), b = parseInt(m[3], 10);
+      return { seriesRaw: m[1].trim(), from: Math.min(a, b), to: Math.max(a, b) };
+    }
+    m = t.match(/^(.*?)[\s#]+(\d{1,4})\s*$/);
+    if (m) {
+      const n = parseInt(m[2], 10);
+      return { seriesRaw: m[1].trim(), from: n, to: n };
+    }
+    return null;
+  }
+
+  function appendRows(entries) {
+    const rows = load();
+    const now = new Date().toISOString();
+    for (const e of entries) {
+      rows.push({
+        source: "scan",
+        series: e.series,
+        issue_number: String(e.issue),
+        year: e.year || "",
+        title: e.series && e.issue ? `${e.series} #${e.issue}` : e.series,
+        upc: e.upc || "",
+        notes: e.notes || "",
+        scanned_at: now,
+        raw_ocr: e.raw || "",
+      });
+    }
+    save(rows);
+    render();
+  }
+
+  function addQuick() {
+    const parsed = parseQuick(els.quick.value);
+    if (!parsed || !parsed.seriesRaw) {
+      setQuick("Try: venom 241   or   venom 241-250", "warn");
+      return;
+    }
+    const span = parsed.to - parsed.from + 1;
+    if (span > MAX_RANGE) {
+      setQuick(`Range too big (${span}). Max ${MAX_RANGE} issues at once.`, "warn");
+      return;
+    }
+    const series = resolveSeries(parsed.seriesRaw);
+    const entries = [];
+    for (let i = parsed.from; i <= parsed.to; i++) {
+      entries.push({
+        series,
+        issue: i,
+        raw: `quick: ${els.quick.value.trim()}`,
+      });
+    }
+    appendRows(entries);
+    const label = span === 1
+      ? `Added ${series} #${parsed.from}.`
+      : `Added ${series} #${parsed.from}–#${parsed.to} (${span}).`;
+    setQuick(label + " Next?", "ok");
+    els.quick.value = "";
+    els.quick.focus();
   }
 
   /* ---------- camera + barcode ---------- */
@@ -466,25 +583,20 @@
     const series = els.series.value.trim();
     const issue = els.issue.value.trim();
     if (!series && !issue && !els.upc.value.trim()) {
-      setStatus("Nothing to add — scan or type a comic first.", "warn");
+      setStatus("Nothing to add — type quick entry or fill a comic first.", "warn");
       return;
     }
-    const rows = load();
-    rows.push({
-      source: "scan",
+    appendRows([{
       series,
-      issue_number: issue,
+      issue,
       year: els.year.value.trim(),
-      title: series && issue ? `${series} #${issue}` : series,
       upc: els.upc.value.trim(),
       notes: els.notes.value.trim(),
-      scanned_at: new Date().toISOString(),
-      raw_ocr: els.raw.textContent.replace(/\s+/g, " ").trim(),
-    });
-    save(rows);
-    render();
+      raw: els.raw.textContent.replace(/\s+/g, " ").trim(),
+    }]);
     clearFields();
-    setStatus("Added. Scan the next one.", "ok");
+    setStatus("Added. Next one.", "ok");
+    if (els.quick) els.quick.focus();
   }
 
   function clearFields() {
@@ -602,6 +714,11 @@
     const f = els.fileInput.files && els.fileInput.files[0];
     if (f) readFromFile(f);
   };
+  els.quickBtn.onclick = addQuick;
+  els.quickClear.onclick = () => { els.quick.value = ""; setQuick("Type series + issue (or a range) and hit Add / Enter."); els.quick.focus(); };
+  els.quick.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") { e.preventDefault(); addQuick(); }
+  });
   els.addBtn.onclick = addCurrent;
   els.clearBtn.onclick = clearFields;
   els.wipeBtn.onclick = () => {
@@ -617,6 +734,8 @@
     renderSuggestions(matchSeries(els.series.value));
   });
 
-  loadKnownSeries();
+  loadKnownSeries().then(() => {
+    els.quick.focus();
+  });
   render();
 })();
