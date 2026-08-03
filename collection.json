@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-03T18:11:05.332530+00:00",
+  "exported_at": "2026-08-03T18:15:58.383574+00:00",
   "totals": {
     "issues": 96,
     "estimated_value_gbp": 325.81,
@@ -7,7 +7,7 @@
   },
   "collection": [
     {
-      "id": 8867,
+      "id": 9059,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 1.0,
@@ -34,7 +34,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8868,
+      "id": 9060,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 2.0,
@@ -61,7 +61,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8869,
+      "id": 9061,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 3.0,
@@ -88,7 +88,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8870,
+      "id": 9062,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 4.0,
@@ -115,7 +115,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8808,
+      "id": 9000,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -142,7 +142,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8809,
+      "id": 9001,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -169,7 +169,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8810,
+      "id": 9002,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -196,7 +196,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8811,
+      "id": 9003,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -223,7 +223,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8812,
+      "id": 9004,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -250,7 +250,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8813,
+      "id": 9005,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -277,7 +277,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8814,
+      "id": 9006,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 2.0,
@@ -304,7 +304,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8815,
+      "id": 9007,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 3.0,
@@ -331,7 +331,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8816,
+      "id": 9008,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 4.0,
@@ -358,7 +358,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8817,
+      "id": 9009,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 5.0,
@@ -385,7 +385,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8818,
+      "id": 9010,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 6.0,
@@ -412,7 +412,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8819,
+      "id": 9011,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 7.0,
@@ -439,7 +439,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8820,
+      "id": 9012,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 8.0,
@@ -466,7 +466,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8821,
+      "id": 9013,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 9.0,
@@ -493,7 +493,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8822,
+      "id": 9014,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 10.0,
@@ -520,7 +520,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8823,
+      "id": 9015,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 11.0,
@@ -547,7 +547,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8824,
+      "id": 9016,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 12.0,
@@ -574,7 +574,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8825,
+      "id": 9017,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 13.0,
@@ -601,7 +601,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8826,
+      "id": 9018,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 14.0,
@@ -628,7 +628,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8827,
+      "id": 9019,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 15.0,
@@ -655,7 +655,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8850,
+      "id": 9042,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 16.0,
@@ -682,7 +682,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8851,
+      "id": 9043,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 16.0,
@@ -709,7 +709,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8852,
+      "id": 9044,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 17.0,
@@ -736,7 +736,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8853,
+      "id": 9045,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 17.0,
@@ -763,7 +763,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8854,
+      "id": 9046,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 18.0,
@@ -790,7 +790,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8855,
+      "id": 9047,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 18.0,
@@ -817,7 +817,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8856,
+      "id": 9048,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 19.0,
@@ -844,7 +844,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8857,
+      "id": 9049,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 20.0,
@@ -871,7 +871,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8858,
+      "id": 9050,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 1.0,
@@ -898,7 +898,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8859,
+      "id": 9051,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 2.0,
@@ -925,7 +925,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8860,
+      "id": 9052,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 3.0,
@@ -952,7 +952,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8861,
+      "id": 9053,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 4.0,
@@ -979,7 +979,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8862,
+      "id": 9054,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 5.0,
@@ -1006,7 +1006,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8863,
+      "id": 9055,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 6.0,
@@ -1033,7 +1033,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8864,
+      "id": 9056,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 7.0,
@@ -1060,7 +1060,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8865,
+      "id": 9057,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 8.0,
@@ -1087,7 +1087,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8866,
+      "id": 9058,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 9.0,
@@ -1114,7 +1114,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8828,
+      "id": 9020,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 1.0,
@@ -1141,7 +1141,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8829,
+      "id": 9021,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 2.0,
@@ -1168,7 +1168,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8830,
+      "id": 9022,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 3.0,
@@ -1195,7 +1195,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8831,
+      "id": 9023,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 4.0,
@@ -1222,7 +1222,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8832,
+      "id": 9024,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 5.0,
@@ -1249,7 +1249,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8800,
+      "id": 8992,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 1.0,
@@ -1276,7 +1276,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8801,
+      "id": 8993,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 2.0,
@@ -1303,7 +1303,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8802,
+      "id": 8994,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 3.0,
@@ -1330,7 +1330,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8803,
+      "id": 8995,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 4.0,
@@ -1357,7 +1357,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8804,
+      "id": 8996,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 5.0,
@@ -1384,7 +1384,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8805,
+      "id": 8997,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 6.0,
@@ -1411,7 +1411,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8806,
+      "id": 8998,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 7.0,
@@ -1438,7 +1438,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8807,
+      "id": 8999,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 8.0,
@@ -1465,7 +1465,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8789,
+      "id": 8981,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 1.0,
@@ -1492,7 +1492,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8790,
+      "id": 8982,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 2.0,
@@ -1519,7 +1519,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8791,
+      "id": 8983,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 3.0,
@@ -1546,7 +1546,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8792,
+      "id": 8984,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 4.0,
@@ -1573,7 +1573,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8793,
+      "id": 8985,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 5.0,
@@ -1600,7 +1600,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8794,
+      "id": 8986,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 6.0,
@@ -1627,7 +1627,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8795,
+      "id": 8987,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 7.0,
@@ -1654,7 +1654,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8796,
+      "id": 8988,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 8.0,
@@ -1681,7 +1681,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8797,
+      "id": 8989,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 9.0,
@@ -1708,7 +1708,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8798,
+      "id": 8990,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 10.0,
@@ -1735,7 +1735,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8799,
+      "id": 8991,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 11.0,
@@ -1762,7 +1762,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8842,
+      "id": 9034,
       "source": "scan",
       "series": "Scarlet Spiders",
       "issue_number": 1.0,
@@ -1789,7 +1789,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8843,
+      "id": 9035,
       "source": "scan",
       "series": "Scarlet Spiders",
       "issue_number": 2.0,
@@ -1816,7 +1816,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8833,
+      "id": 9025,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 5.0,
@@ -1843,7 +1843,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8834,
+      "id": 9026,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 6.0,
@@ -1870,7 +1870,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8835,
+      "id": 9027,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 7.0,
@@ -1897,7 +1897,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8836,
+      "id": 9028,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 8.0,
@@ -1924,7 +1924,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8840,
+      "id": 9032,
       "source": "scan",
       "series": "Spider-Verse",
       "issue_number": 1.0,
@@ -1951,7 +1951,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8841,
+      "id": 9033,
       "source": "scan",
       "series": "Spider-Verse",
       "issue_number": 2.0,
@@ -1978,7 +1978,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8837,
+      "id": 9029,
       "source": "scan",
       "series": "Spider-Verse Team-Up",
       "issue_number": 1.0,
@@ -2005,7 +2005,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8838,
+      "id": 9030,
       "source": "scan",
       "series": "Spider-Verse Team-Up",
       "issue_number": 2.0,
@@ -2032,7 +2032,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8839,
+      "id": 9031,
       "source": "scan",
       "series": "Spider-Verse Team-Up",
       "issue_number": 3.0,
@@ -2059,7 +2059,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8844,
+      "id": 9036,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 1.0,
@@ -2086,7 +2086,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8845,
+      "id": 9037,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 2.0,
@@ -2113,7 +2113,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8846,
+      "id": 9038,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 3.0,
@@ -2140,7 +2140,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8847,
+      "id": 9039,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 4.0,
@@ -2167,7 +2167,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8874,
+      "id": 9066,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 1.0,
@@ -2194,7 +2194,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8875,
+      "id": 9067,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 2.0,
@@ -2221,7 +2221,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8876,
+      "id": 9068,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 3.0,
@@ -2248,7 +2248,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8871,
+      "id": 9063,
       "source": "scan",
       "series": "Thor",
       "issue_number": 1.0,
@@ -2275,7 +2275,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8872,
+      "id": 9064,
       "source": "scan",
       "series": "Thor",
       "issue_number": 2.0,
@@ -2302,7 +2302,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8873,
+      "id": 9065,
       "source": "scan",
       "series": "Thor",
       "issue_number": 3.0,
@@ -2329,7 +2329,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8781,
+      "id": 8973,
       "source": "scan",
       "series": "Venom",
       "issue_number": 250.0,
@@ -2356,7 +2356,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8782,
+      "id": 8974,
       "source": "scan",
       "series": "Venom",
       "issue_number": 251.0,
@@ -2383,7 +2383,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8783,
+      "id": 8975,
       "source": "scan",
       "series": "Venom",
       "issue_number": 252.0,
@@ -2410,7 +2410,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8784,
+      "id": 8976,
       "source": "scan",
       "series": "Venom",
       "issue_number": 253.0,
@@ -2437,7 +2437,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8785,
+      "id": 8977,
       "source": "scan",
       "series": "Venom",
       "issue_number": 254.0,
@@ -2464,7 +2464,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8786,
+      "id": 8978,
       "source": "scan",
       "series": "Venom",
       "issue_number": 255.0,
@@ -2491,7 +2491,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8787,
+      "id": 8979,
       "source": "scan",
       "series": "Venom",
       "issue_number": 258.0,
@@ -2518,7 +2518,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8788,
+      "id": 8980,
       "source": "scan",
       "series": "Venom",
       "issue_number": 259.0,
@@ -2545,7 +2545,7 @@
       "estimated_value": 4.99
     },
     {
-      "id": 8848,
+      "id": 9040,
       "source": "scan",
       "series": "Web Warriors",
       "issue_number": 1.0,
@@ -2572,7 +2572,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 8849,
+      "id": 9041,
       "source": "scan",
       "series": "Web Warriors",
       "issue_number": 3.0,
@@ -2601,1616 +2601,30 @@
   ],
   "gaps": [
     {
-      "id": 1737,
-      "series": "Empyre",
-      "fandom_series": "Empyre",
-      "fandom_volume": "Empyre Vol 1",
+      "id": 1861,
+      "series": "Venom",
+      "fandom_series": "Venom",
+      "fandom_volume": "Venom Vol 6",
       "status": "HOLES",
-      "owned_range": "1-6",
-      "owned_count": 3,
-      "owned_issues": "1,4,6",
-      "internal_holes": "2,3,5",
-      "missing_after": "nan",
-      "copy_years": "2020-2020"
-    },
-    {
-      "id": 1738,
-      "series": "Invincible Iron Man",
-      "fandom_series": "Invincible Iron Man",
-      "fandom_volume": "Invincible Iron Man Vol 3",
-      "status": "HOLES",
-      "owned_range": "1-14",
-      "owned_count": 12,
-      "owned_issues": "1,2,5,6,7,8,9,10,11,12,13,14",
-      "internal_holes": "3,4",
-      "missing_after": "nan",
-      "copy_years": "2015-2016"
-    },
-    {
-      "id": 1739,
-      "series": "Star Wars: Yoda",
-      "fandom_series": "Star Wars: Yoda",
-      "fandom_volume": "Star Wars: Yoda Vol 1",
-      "status": "HOLES",
-      "owned_range": "3-10",
-      "owned_count": 6,
-      "owned_issues": "3,4,5,8,9,10",
-      "internal_holes": "6,7",
-      "missing_after": "nan",
-      "copy_years": "2022-2023"
-    },
-    {
-      "id": 1740,
-      "series": "Ultimates",
-      "fandom_series": "Ultimates",
-      "fandom_volume": "Ultimates Vol 3",
-      "status": "HOLES",
-      "owned_range": "1-24",
-      "owned_count": 23,
-      "owned_issues": "1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
-      "internal_holes": "6",
-      "missing_after": "nan",
-      "copy_years": "2024-2026"
-    },
-    {
-      "id": 1741,
-      "series": "Venom War",
-      "fandom_series": "Venom War",
-      "fandom_volume": "Venom War Vol 1",
-      "status": "HOLES",
-      "owned_range": "2-5",
-      "owned_count": 3,
-      "owned_issues": "2,3,5",
-      "internal_holes": "4",
-      "missing_after": "nan",
-      "copy_years": "2024-2024"
-    },
-    {
-      "id": 1742,
-      "series": "Amazing Spider-Man (2099)",
-      "fandom_series": "Spider-Man 2099",
-      "fandom_volume": "Spider-Man 2099 Vol 1",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "36-41",
-      "owned_count": 4,
-      "owned_issues": "36,39,40,41",
-      "internal_holes": "37,38",
-      "missing_after": "42,43,44,45,46",
-      "copy_years": "2019-2020"
-    },
-    {
-      "id": 1743,
-      "series": "Fantastic Four",
-      "fandom_series": "Fantastic Four",
-      "fandom_volume": "Fantastic Four Vol 6",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "1-14",
-      "owned_count": 11,
-      "owned_issues": "1,2,3,4,6,9,10,11,12,13,14",
-      "internal_holes": "5,7,8",
-      "missing_after": "15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39",
-      "copy_years": "2018-2019"
-    },
-    {
-      "id": 1744,
-      "series": "Iron Man",
-      "fandom_series": "Iron Man",
-      "fandom_volume": "Iron Man Vol 5",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "5-12",
-      "owned_count": 7,
-      "owned_issues": "5,6,7,9,10,11,12",
-      "internal_holes": "8",
-      "missing_after": "13,14,15,16,17,18,19,20,21,22,23,24,25",
-      "copy_years": "2020-2021"
-    },
-    {
-      "id": 1745,
-      "series": "Red Goblin",
-      "fandom_series": "Red Goblin",
-      "fandom_volume": "Red Goblin Vol 1",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "5-7",
-      "owned_count": 2,
-      "owned_issues": "5,7",
-      "internal_holes": "6",
-      "missing_after": "8,9,10",
-      "copy_years": "2023-2023"
-    },
-    {
-      "id": 1746,
-      "series": "Savage Avengers",
-      "fandom_series": "Savage Avengers",
-      "fandom_volume": "Savage Avengers Vol 1",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "1-11",
-      "owned_count": 6,
-      "owned_issues": "1,2,3,4,5,11",
-      "internal_holes": "6,7,8,9,10",
-      "missing_after": "12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28",
-      "copy_years": "2019-2020"
-    },
-    {
-      "id": 1747,
-      "series": "Spectacular Spider-Men",
-      "fandom_series": "Spectacular Spider-Men",
-      "fandom_volume": "Spectacular Spider-Men Vol 1",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "1-12",
-      "owned_count": 9,
-      "owned_issues": "1,4,5,6,8,9,10,11,12",
-      "internal_holes": "2,3,7",
-      "missing_after": "13,14,15",
-      "copy_years": "2024-2024"
-    },
-    {
-      "id": 1748,
-      "series": "Star Wars",
-      "fandom_series": "Star Wars",
-      "fandom_volume": "Star Wars Vol 3",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "12-49",
-      "owned_count": 6,
-      "owned_issues": "12,20,35,41,42,49",
-      "internal_holes": "13,14,15,16,17,18,19,21,22,23,24,25,26,27,28,29,30,31,32,33,34,36,37,38,39,40,43,44,45,46,47,48",
-      "missing_after": "50",
-      "copy_years": "2021-2024"
-    },
-    {
-      "id": 1749,
-      "series": "Star Wars: Darth Vader",
-      "fandom_series": "Star Wars: Darth Vader",
-      "fandom_volume": "Star Wars: Darth Vader Vol 1",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "7-49",
+      "owned_range": "250-259",
       "owned_count": 8,
-      "owned_issues": "7,9,10,39,40,42,48,49",
-      "internal_holes": "8,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,41,43,44,45,46,47",
-      "missing_after": "50",
-      "copy_years": "2020-2024"
+      "owned_issues": "250,251,252,253,254,255,258,259",
+      "internal_holes": "256,257",
+      "missing_after": "",
+      "copy_years": "2025-2026"
     },
     {
-      "id": 1750,
-      "series": "Star Wars: Hidden Empire",
-      "fandom_series": "Star Wars: Hidden Empire",
-      "fandom_volume": "Star Wars: Hidden Empire Vol 1",
-      "status": "HOLES_AND_UNFINISHED",
+      "id": 1862,
+      "series": "Web Warriors",
+      "fandom_series": "Web Warriors",
+      "fandom_volume": "Web Warriors Vol 1",
+      "status": "HOLES",
       "owned_range": "1-3",
       "owned_count": 2,
       "owned_issues": "1,3",
       "internal_holes": "2",
-      "missing_after": "4,5",
-      "copy_years": "2022-2022"
-    },
-    {
-      "id": 1751,
-      "series": "The Avengers",
-      "fandom_series": "Avengers",
-      "fandom_volume": "Avengers Vol 8",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "1-47",
-      "owned_count": 23,
-      "owned_issues": "1,4,6,7,8,9,10,18,19,20,21,22,23,27,31,32,34,35,38,43,44,46,47",
-      "internal_holes": "2,3,5,11,12,13,14,15,16,17,24,25,26,28,29,30,33,36,37,39,40,41,42,45",
-      "missing_after": "48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66",
-      "copy_years": "2018-2021"
-    },
-    {
-      "id": 1752,
-      "series": "The Immortal Hulk",
-      "fandom_series": "Immortal Hulk",
-      "fandom_volume": "Immortal Hulk Vol 1",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "1-49",
-      "owned_count": 38,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,29,30,33,34,35,36,37,38,39,41,42,44,45,46,49",
-      "internal_holes": "24,25,26,27,28,31,32,40,43,47,48",
-      "missing_after": "50",
-      "copy_years": "2018-2021"
-    },
-    {
-      "id": 1753,
-      "series": "Tony Stark: Iron Man",
-      "fandom_series": "Tony Stark: Iron Man",
-      "fandom_volume": "Tony Stark: Iron Man Vol 1",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "3-14",
-      "owned_count": 10,
-      "owned_issues": "3,4,5,6,9,10,11,12,13,14",
-      "internal_holes": "7,8",
-      "missing_after": "15,16,17,18,19",
-      "copy_years": "2018-2019"
-    },
-    {
-      "id": 1754,
-      "series": "Civil War 2",
-      "fandom_series": "Civil War II",
-      "fandom_volume": "Civil War II Vol 1",
-      "status": "UNFINISHED",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "6,7,8",
-      "copy_years": "2015-2015"
-    },
-    {
-      "id": 1755,
-      "series": "Friendly Neighborhood Spider-Man",
-      "fandom_series": "Friendly Neighborhood Spider-Man",
-      "fandom_volume": "Friendly Neighborhood Spider-Man Vol 2",
-      "status": "UNFINISHED",
-      "owned_range": "1-12",
-      "owned_count": 12,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12",
-      "internal_holes": "nan",
-      "missing_after": "13,14",
-      "copy_years": "2019-2019"
-    },
-    {
-      "id": 1756,
-      "series": "Invincible Iron Man",
-      "fandom_series": "Invincible Iron Man",
-      "fandom_volume": "Invincible Iron Man Vol 4 #1-11",
-      "status": "UNFINISHED",
-      "owned_range": "3-4",
-      "owned_count": 2,
-      "owned_issues": "3,4",
-      "internal_holes": "nan",
-      "missing_after": "5,6,7,8,9,10,11",
-      "copy_years": "2016-2016"
-    },
-    {
-      "id": 1757,
-      "series": "Ironheart",
-      "fandom_series": "Ironheart",
-      "fandom_volume": "Ironheart Vol 1",
-      "status": "UNFINISHED",
-      "owned_range": "1-10",
-      "owned_count": 10,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10",
-      "internal_holes": "nan",
-      "missing_after": "11,12",
-      "copy_years": "2018-2019"
-    },
-    {
-      "id": 1758,
-      "series": "Non-Stop Spider-Man",
-      "fandom_series": "Non-Stop Spider-Man",
-      "fandom_volume": "Non-Stop Spider-Man Vol 1",
-      "status": "UNFINISHED",
-      "owned_range": "1-3",
-      "owned_count": 3,
-      "owned_issues": "1,2,3",
-      "internal_holes": "nan",
-      "missing_after": "4,5",
-      "copy_years": "2020-2021"
-    },
-    {
-      "id": 1759,
-      "series": "Scarlet Witch",
-      "fandom_series": "Scarlet Witch",
-      "fandom_volume": "Scarlet Witch Vol 3",
-      "status": "UNFINISHED",
-      "owned_range": "2-4",
-      "owned_count": 3,
-      "owned_issues": "2,3,4",
-      "internal_holes": "nan",
-      "missing_after": "5,6,7,8,9,10",
-      "copy_years": "2022-2023"
-    },
-    {
-      "id": 1760,
-      "series": "Sinister War",
-      "fandom_series": "Sinister War",
-      "fandom_volume": "Sinister War Vol 1",
-      "status": "UNFINISHED",
-      "owned_range": "2-3",
-      "owned_count": 2,
-      "owned_issues": "2,3",
-      "internal_holes": "nan",
-      "missing_after": "4",
-      "copy_years": "2021-2021"
-    },
-    {
-      "id": 1761,
-      "series": "Spider-Gwen",
-      "fandom_series": "Spider-Gwen",
-      "fandom_volume": "Spider-Gwen Vol 2",
-      "status": "UNFINISHED",
-      "owned_range": "0-3",
-      "owned_count": 4,
-      "owned_issues": "0,1,2,3",
-      "internal_holes": "nan",
-      "missing_after": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28",
+      "missing_after": "",
       "copy_years": "2015-2016"
-    },
-    {
-      "id": 1762,
-      "series": "Spider-Man/Deadpool",
-      "fandom_series": "Spider-Man/Deadpool",
-      "fandom_volume": "Spider-Man/Deadpool Vol 1",
-      "status": "UNFINISHED",
-      "owned_range": "1-28",
-      "owned_count": 28,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28",
-      "internal_holes": "nan",
-      "missing_after": "29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50",
-      "copy_years": "2016-2018"
-    },
-    {
-      "id": 1763,
-      "series": "Spider-Man: Life Story",
-      "fandom_series": "Spider-Man: Life Story",
-      "fandom_volume": "Spider-Man: Life Story Vol 1",
-      "status": "UNFINISHED",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "6",
-      "copy_years": "2019-2019"
-    },
-    {
-      "id": 1764,
-      "series": "Star Wars: Jedi Knights",
-      "fandom_series": "Star Wars: Jedi Knights",
-      "fandom_volume": "Star Wars: Jedi Knights Vol 1",
-      "status": "UNFINISHED",
-      "owned_range": "1-7",
-      "owned_count": 7,
-      "owned_issues": "1,2,3,4,5,6,7",
-      "internal_holes": "nan",
-      "missing_after": "8,9,10",
-      "copy_years": "2025-2025"
-    },
-    {
-      "id": 1765,
-      "series": "The Mortal Thor",
-      "fandom_series": "Mortal Thor",
-      "fandom_volume": "Mortal Thor Vol 1",
-      "status": "UNFINISHED",
-      "owned_range": "3-14",
-      "owned_count": 12,
-      "owned_issues": "3,4,5,6,7,8,9,10,11,12,13,14",
-      "internal_holes": "nan",
-      "missing_after": "15",
-      "copy_years": "2025-2026"
-    },
-    {
-      "id": 1766,
-      "series": "The Spectacular Spider-Man",
-      "fandom_series": "Spectacular Spider-Man",
-      "fandom_volume": "Spectacular Spider-Man Vol 2",
-      "status": "UNFINISHED",
-      "owned_range": "1-6",
-      "owned_count": 6,
-      "owned_issues": "1,2,3,4,5,6",
-      "internal_holes": "nan",
-      "missing_after": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27",
-      "copy_years": "2017-2017"
-    },
-    {
-      "id": 1767,
-      "series": "Laura Kinney: Wolverine",
-      "fandom_series": "Laura Kinney: Wolverine",
-      "fandom_volume": "Laura Kinney: Wolverine Vol 1",
-      "status": "PARTIAL",
-      "owned_range": "2-10",
-      "owned_count": 9,
-      "owned_issues": "2,3,4,5,6,7,8,9,10",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2024-2025"
-    },
-    {
-      "id": 1768,
-      "series": "Old Man Logan",
-      "fandom_series": "Old Man Logan",
-      "fandom_volume": "Old Man Logan Vol 2",
-      "status": "PARTIAL",
-      "owned_range": "6-50",
-      "owned_count": 45,
-      "owned_issues": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2016-2018"
-    },
-    {
-      "id": 1769,
-      "series": "Spider-Man 2099",
-      "fandom_series": "Spider-Man 2099",
-      "fandom_volume": "Spider-Man 2099 Vol 3",
-      "status": "PARTIAL",
-      "owned_range": "13-25",
-      "owned_count": 13,
-      "owned_issues": "13,14,15,16,17,18,19,20,21,22,23,24,25",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2016-2017"
-    },
-    {
-      "id": 1770,
-      "series": "Absolute Carnage",
-      "fandom_series": "Absolute Carnage",
-      "fandom_volume": "Absolute Carnage Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2019-2019"
-    },
-    {
-      "id": 1771,
-      "series": "Agents of S.H.I.E.L.D",
-      "fandom_series": "Agents of S.H.I.E.L.D.",
-      "fandom_volume": "Agents of S.H.I.E.L.D. Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-10",
-      "owned_count": 10,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2016-2016"
-    },
-    {
-      "id": 1772,
-      "series": "All-New Venom",
-      "fandom_series": "All-New Venom",
-      "fandom_volume": "All-New Venom Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-10",
-      "owned_count": 10,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2024-2025"
-    },
-    {
-      "id": 1773,
-      "series": "All-New Wolverine",
-      "fandom_series": "All-New Wolverine",
-      "fandom_volume": "All-New Wolverine Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-35",
-      "owned_count": 35,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2016-2018"
-    },
-    {
-      "id": 1774,
-      "series": "Ben Reilly: Scarlet Spider",
-      "fandom_series": "Ben Reilly: Scarlet Spider",
-      "fandom_volume": "Ben Reilly: Scarlet Spider Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-25",
-      "owned_count": 25,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2017-2018"
-    },
-    {
-      "id": 1775,
-      "series": "Carnage",
-      "fandom_series": "Carnage",
-      "fandom_volume": "Carnage Vol 2",
-      "status": "COMPLETE",
-      "owned_range": "1-16",
-      "owned_count": 16,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2016-2017"
-    },
-    {
-      "id": 1776,
-      "series": "Civil War",
-      "fandom_series": "Civil War",
-      "fandom_volume": "Civil War Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-7",
-      "owned_count": 7,
-      "owned_issues": "1,2,3,4,5,6,7",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2006-2007"
-    },
-    {
-      "id": 1777,
-      "series": "Cosmic Ghost Rider",
-      "fandom_series": "Cosmic Ghost Rider",
-      "fandom_volume": "Cosmic Ghost Rider Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "3-5",
-      "owned_count": 3,
-      "owned_issues": "3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2018-2018"
-    },
-    {
-      "id": 1778,
-      "series": "Death of Wolverine",
-      "fandom_series": "Death of Wolverine",
-      "fandom_volume": "Death of Wolverine Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-4",
-      "owned_count": 4,
-      "owned_issues": "1,2,3,4",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2014-2014"
-    },
-    {
-      "id": 1779,
-      "series": "Eddie Brock: Carnage",
-      "fandom_series": "Eddie Brock: Carnage",
-      "fandom_volume": "Eddie Brock: Carnage Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-10",
-      "owned_count": 10,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2025-2025"
-    },
-    {
-      "id": 1780,
-      "series": "Infamous Iron Man",
-      "fandom_series": "Infamous Iron Man",
-      "fandom_volume": "Infamous Iron Man Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-12",
-      "owned_count": 12,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2016-2017"
-    },
-    {
-      "id": 1781,
-      "series": "International Iron Man",
-      "fandom_series": "International Iron Man",
-      "fandom_volume": "International Iron Man Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-7",
-      "owned_count": 7,
-      "owned_issues": "1,2,3,4,5,6,7",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2016-2016"
-    },
-    {
-      "id": 1782,
-      "series": "Invincible Iron Man",
-      "fandom_series": "Invincible Iron Man",
-      "fandom_volume": "Invincible Iron Man Vol 4 #593-600",
-      "status": "COMPLETE",
-      "owned_range": "593-600",
-      "owned_count": 8,
-      "owned_issues": "593,594,595,596,597,598,599,600",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2017-2018"
-    },
-    {
-      "id": 1783,
-      "series": "Knull",
-      "fandom_series": "Knull",
-      "fandom_volume": "Knull Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2025-2026"
-    },
-    {
-      "id": 1784,
-      "series": "Old Man Logan",
-      "fandom_series": "Old Man Logan",
-      "fandom_volume": "Old Man Logan Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2015-2015"
-    },
-    {
-      "id": 1785,
-      "series": "Return Of Wolverine",
-      "fandom_series": "Return of Wolverine",
-      "fandom_volume": "Return of Wolverine Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2018-2018"
-    },
-    {
-      "id": 1786,
-      "series": "Spider-Force",
-      "fandom_series": "Spider-Force",
-      "fandom_volume": "Spider-Force Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-3",
-      "owned_count": 3,
-      "owned_issues": "1,2,3",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2018-2018"
-    },
-    {
-      "id": 1787,
-      "series": "Spider-Gwen",
-      "fandom_series": "Spider-Gwen",
-      "fandom_volume": "Spider-Gwen Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "4-5",
-      "owned_count": 2,
-      "owned_issues": "4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2015-2015"
-    },
-    {
-      "id": 1788,
-      "series": "Spider-Man 2099",
-      "fandom_series": "Spider-Man 2099",
-      "fandom_volume": "Spider-Man 2099 Vol 2",
-      "status": "COMPLETE",
-      "owned_range": "1-12",
-      "owned_count": 12,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2014-2015"
-    },
-    {
-      "id": 1789,
-      "series": "Spider-Men",
-      "fandom_series": "Spider-Men",
-      "fandom_volume": "Spider-Men Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2012-2012"
-    },
-    {
-      "id": 1790,
-      "series": "Spider-Men 2",
-      "fandom_series": "Spider-Men II",
-      "fandom_volume": "Spider-Men II Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2017-2017"
-    },
-    {
-      "id": 1791,
-      "series": "Spider-Woman",
-      "fandom_series": "Spider-Woman",
-      "fandom_volume": "Spider-Woman Vol 5",
-      "status": "COMPLETE",
-      "owned_range": "1-10",
-      "owned_count": 10,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2014-2015"
-    },
-    {
-      "id": 1792,
-      "series": "Star Wars",
-      "fandom_series": "Star Wars",
-      "fandom_volume": "Star Wars Vol 4",
-      "status": "COMPLETE",
-      "owned_range": "1-10",
-      "owned_count": 10,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2025-2025"
-    },
-    {
-      "id": 1793,
-      "series": "Superior Iron Man",
-      "fandom_series": "Superior Iron Man",
-      "fandom_volume": "Superior Iron Man Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-9",
-      "owned_count": 9,
-      "owned_issues": "1,2,3,4,5,6,7,8,9",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2015-2015"
-    },
-    {
-      "id": 1794,
-      "series": "Symbiote Spider-Man",
-      "fandom_series": "Symbiote Spider-Man",
-      "fandom_volume": "Symbiote Spider-Man Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2019-2019"
-    },
-    {
-      "id": 1795,
-      "series": "The Mighty Thor",
-      "fandom_series": "Mighty Thor",
-      "fandom_volume": "Mighty Thor Vol 2 #1-23",
-      "status": "COMPLETE",
-      "owned_range": "1-23",
-      "owned_count": 23,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2016-2017"
-    },
-    {
-      "id": 1796,
-      "series": "Ultimate Comics: The Ultimates",
-      "fandom_series": "Ultimate Comics Ultimates",
-      "fandom_volume": "Ultimate Comics Ultimates Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-30",
-      "owned_count": 30,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2011-2013"
-    },
-    {
-      "id": 1797,
-      "series": "Ultimate Endgame",
-      "fandom_series": "Ultimate Endgame",
-      "fandom_volume": "Ultimate Endgame Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2025-2026"
-    },
-    {
-      "id": 1798,
-      "series": "Ultimate Invasion",
-      "fandom_series": "Ultimate Invasion",
-      "fandom_volume": "Ultimate Invasion Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "3-4",
-      "owned_count": 2,
-      "owned_issues": "3,4",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2023-2023"
-    },
-    {
-      "id": 1799,
-      "series": "Ultimate Spider-Man: Incursion",
-      "fandom_series": "Ultimate Spider-Man: Incursion",
-      "fandom_volume": "Ultimate Spider-Man: Incursion Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2025-2025"
-    },
-    {
-      "id": 1800,
-      "series": "Ultimate Wolverine",
-      "fandom_series": "Ultimate Wolverine",
-      "fandom_volume": "Ultimate Wolverine Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-16",
-      "owned_count": 16,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2024-2026"
-    },
-    {
-      "id": 1801,
-      "series": "Unworthy Thor",
-      "fandom_series": "Unworthy Thor",
-      "fandom_volume": "Unworthy Thor Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2016-2016"
-    },
-    {
-      "id": 1802,
-      "series": "Venom: First Host",
-      "fandom_series": "Venom: First Host",
-      "fandom_volume": "Venom: First Host Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-5",
-      "owned_count": 5,
-      "owned_issues": "1,2,3,4,5",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2018-2018"
-    },
-    {
-      "id": 1803,
-      "series": "X-23",
-      "fandom_series": "X-23",
-      "fandom_volume": "X-23 Vol 4",
-      "status": "COMPLETE",
-      "owned_range": "1-12",
-      "owned_count": 12,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2018-2019"
-    },
-    {
-      "id": 1804,
-      "series": "Fantastic Four",
-      "fandom_series": "Fantastic Four",
-      "fandom_volume": "nan",
-      "status": "UNASSIGNED_COPIES",
-      "owned_range": "nan",
-      "owned_count": 14,
-      "owned_issues": "646,647,648,649,650,651,652,653,654,655,656,657,658,659",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1805,
-      "series": "The Avengers",
-      "fandom_series": "Avengers",
-      "fandom_volume": "nan",
-      "status": "UNASSIGNED_COPIES",
-      "owned_range": "nan",
-      "owned_count": 24,
-      "owned_issues": "691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1806,
-      "series": "The Spectacular Spider-Man",
-      "fandom_series": "Spectacular Spider-Man",
-      "fandom_volume": "nan",
-      "status": "UNASSIGNED_COPIES",
-      "owned_range": "nan",
-      "owned_count": 17,
-      "owned_issues": "297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1807,
-      "series": "Tony Stark: Iron Man",
-      "fandom_series": "Tony Stark: Iron Man",
-      "fandom_volume": "nan",
-      "status": "UNASSIGNED_COPIES",
-      "owned_range": "nan",
-      "owned_count": 14,
-      "owned_issues": "601,602,603,604,605,606,607,608,609,610,611,612,613,614",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1808,
-      "series": "Edge Of Spider-Geddon",
-      "fandom_series": "Edge Of Spider-Geddon",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 4,
-      "owned_issues": "1,2,3,4",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1809,
-      "series": "Hallows Eve",
-      "fandom_series": "Hallows Eve",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 2,
-      "owned_issues": "2,4",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1810,
-      "series": "Iron Man: 2020",
-      "fandom_series": "Iron Man: 2020",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 4,
-      "owned_issues": "3,4,5,6",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1811,
-      "series": "King In Black",
-      "fandom_series": "King In Black",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 3,
-      "owned_issues": "1,3,4",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1812,
-      "series": "Lilo & Stitch",
-      "fandom_series": "Lilo & Stitch",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 2,
-      "owned_issues": "1,4",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1813,
-      "series": "Miles Morales: The Ultimate Spider-Man",
-      "fandom_series": "Miles Morales: The Ultimate Spider-Man",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 12,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1814,
-      "series": "Star Wars: High Republic",
-      "fandom_series": "Star Wars: High Republic",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 2,
-      "owned_issues": "2,4",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1815,
-      "series": "Star Wars: Legacy Of Vader",
-      "fandom_series": "Star Wars: Legacy of Vader",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 8,
-      "owned_issues": "1,2,3,4,5,6,7,8",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1816,
-      "series": "Star Wars: The Battle Of Jakku: Last Stand",
-      "fandom_series": "Star Wars: The Battle Of Jakku: Last Stand",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 3,
-      "owned_issues": "2,3,4",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1817,
-      "series": "Steve Rogers: Captain America",
-      "fandom_series": "Steve Rogers: Captain America",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 19,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1818,
-      "series": "The Amazing Spider-Man - Dead No More: A Clone Conspiracy",
-      "fandom_series": "Amazing Spider-Man - Dead No More: A Clone Conspiracy",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 6,
-      "owned_issues": "1,2,3,4,5,6",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1819,
-      "series": "The Amazing Spider-Man and Silk",
-      "fandom_series": "Amazing Spider-Man & Silk The Spider(fly) Effect",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 4,
-      "owned_issues": "1,2,3,4",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1820,
-      "series": "Vault Of Spiders",
-      "fandom_series": "Vault Of Spiders",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 2,
-      "owned_issues": "1,2",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1821,
-      "series": "War Of Realms",
-      "fandom_series": "War Of Realms",
-      "fandom_volume": "nan",
-      "status": "UNMATCHED",
-      "owned_range": "nan",
-      "owned_count": 3,
-      "owned_issues": "1,2,4",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1822,
-      "series": "Captain America",
-      "fandom_series": "Captain America",
-      "fandom_volume": "Captain America Vol 10",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "1-25",
-      "owned_count": 17,
-      "owned_issues": "1,2,3,4,5,8,9,10,11,12,13,15,18,20,21,23,25",
-      "internal_holes": "6,7,14,16,17,19,22,24",
-      "missing_after": "26,27,28,29,30",
-      "copy_years": "2018-2020"
-    },
-    {
-      "id": 1823,
-      "series": "Captain America",
-      "fandom_series": "Captain America",
-      "fandom_volume": "Captain America Vol 9",
-      "status": "PARTIAL",
-      "owned_range": "696-704",
-      "owned_count": 9,
-      "owned_issues": "696,697,698,699,700,701,702,703,704",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2018-2018"
-    },
-    {
-      "id": 1824,
-      "series": "Captain America",
-      "fandom_series": "Captain America",
-      "fandom_volume": "nan",
-      "status": "UNASSIGNED_COPIES",
-      "owned_range": "nan",
-      "owned_count": 14,
-      "owned_issues": "705,706,707,708,709,710,711,712,713,714,715,716,717,718",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1825,
-      "series": "Daredevil",
-      "fandom_series": "Daredevil",
-      "fandom_volume": "Daredevil Vol 7",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "2-12",
-      "owned_count": 8,
-      "owned_issues": "2,3,4,5,6,7,8,12",
-      "internal_holes": "9,10,11",
-      "missing_after": "13,14",
-      "copy_years": "2022-2023"
-    },
-    {
-      "id": 1826,
-      "series": "Daredevil",
-      "fandom_series": "Daredevil",
-      "fandom_volume": "Daredevil Vol 9",
-      "status": "UNFINISHED",
-      "owned_range": "1-6",
-      "owned_count": 6,
-      "owned_issues": "1,2,3,4,5,6",
-      "internal_holes": "nan",
-      "missing_after": "7",
-      "copy_years": "2026-2026"
-    },
-    {
-      "id": 1827,
-      "series": "Miles Morales: Spider-Man",
-      "fandom_series": "Miles Morales: Spider-Man",
-      "fandom_volume": "Miles Morales: Spider-Man Vol 2",
-      "status": "HOLES",
-      "owned_range": "1-42",
-      "owned_count": 28,
-      "owned_issues": "1,2,3,5,7,8,11,12,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42",
-      "internal_holes": "4,6,9,10,13,14,15,16,17,18,19,20,21,22",
-      "missing_after": "nan",
-      "copy_years": "2022-2025"
-    },
-    {
-      "id": 1828,
-      "series": "Miles Morales: Spider-Man",
-      "fandom_series": "Miles Morales: Spider-Man",
-      "fandom_volume": "Miles Morales: Spider-Man Vol 1",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "2-28",
-      "owned_count": 18,
-      "owned_issues": "2,3,5,6,7,8,9,10,13,18,19,20,21,22,23,24,26,28",
-      "internal_holes": "4,11,12,14,15,16,17,25,27",
-      "missing_after": "29,30,31,32,33,34,35,36,37,38,39,40,41,42",
-      "copy_years": "2019-2021"
-    },
-    {
-      "id": 1829,
-      "series": "Miles Morales: Spider-Man",
-      "fandom_series": "Miles Morales: Spider-Man",
-      "fandom_volume": "nan",
-      "status": "UNASSIGNED_COPIES",
-      "owned_range": "nan",
-      "owned_count": 10,
-      "owned_issues": "241,242,243,244,245,246,247,248,249,250",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1830,
-      "series": "Silk",
-      "fandom_series": "Silk",
-      "fandom_volume": "Silk Vol 2",
-      "status": "HOLES",
-      "owned_range": "1-19",
-      "owned_count": 14,
-      "owned_issues": "1,2,8,9,10,11,12,13,14,15,16,17,18,19",
-      "internal_holes": "3,4,5,6,7",
-      "missing_after": "nan",
-      "copy_years": "2015-2017"
-    },
-    {
-      "id": 1831,
-      "series": "Silk",
-      "fandom_series": "Silk",
-      "fandom_volume": "Silk Vol 1",
-      "status": "PARTIAL",
-      "owned_range": "3-7",
-      "owned_count": 5,
-      "owned_issues": "3,4,5,6,7",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2015-2015"
-    },
-    {
-      "id": 1832,
-      "series": "Silk",
-      "fandom_series": "Silk",
-      "fandom_volume": "Silk Vol 3",
-      "status": "HOLES",
-      "owned_range": "1-5",
-      "owned_count": 4,
-      "owned_issues": "1,2,3,5",
-      "internal_holes": "4",
-      "missing_after": "nan",
-      "copy_years": "2021-2021"
-    },
-    {
-      "id": 1833,
-      "series": "Silk",
-      "fandom_series": "Silk",
-      "fandom_volume": "Silk Vol 5",
-      "status": "HOLES",
-      "owned_range": "3-5",
-      "owned_count": 2,
-      "owned_issues": "3,5",
-      "internal_holes": "4",
-      "missing_after": "nan",
-      "copy_years": "2023-2023"
-    },
-    {
-      "id": 1834,
-      "series": "Spider-Man",
-      "fandom_series": "Spider-Man",
-      "fandom_volume": "Spider-Man Vol 2 #1-21",
-      "status": "COMPLETE",
-      "owned_range": "1-21",
-      "owned_count": 21,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2016-2017"
-    },
-    {
-      "id": 1835,
-      "series": "Spider-Man",
-      "fandom_series": "Spider-Man",
-      "fandom_volume": "Spider-Man Vol 2 #234-240",
-      "status": "COMPLETE",
-      "owned_range": "234-240",
-      "owned_count": 7,
-      "owned_issues": "234,235,236,237,238,239,240",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2017-2018"
-    },
-    {
-      "id": 1836,
-      "series": "Spider-Man",
-      "fandom_series": "Spider-Man",
-      "fandom_volume": "Spider-Man Vol 4",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "1-10",
-      "owned_count": 4,
-      "owned_issues": "1,2,5,10",
-      "internal_holes": "3,4,6,7,8,9",
-      "missing_after": "11",
-      "copy_years": "2022-2023"
-    },
-    {
-      "id": 1837,
-      "series": "The Amazing Spider-Man",
-      "fandom_series": "Amazing Spider-Man",
-      "fandom_volume": "Amazing Spider-Man Vol 5",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "1-64",
-      "owned_count": 36,
-      "owned_issues": "1,2,3,4,5,7,8,9,10,11,13,15,17,18,19,20,21,23,24,26,28,30,31,45,46,47,48,49,50,51,52,53,54,60,63,64",
-      "internal_holes": "6,12,14,16,22,25,27,29,32,33,34,35,36,37,38,39,40,41,42,43,44,55,56,57,58,59,61,62",
-      "missing_after": "65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89",
-      "copy_years": "2018-2021"
-    },
-    {
-      "id": 1838,
-      "series": "The Amazing Spider-Man",
-      "fandom_series": "Amazing Spider-Man",
-      "fandom_volume": "Amazing Spider-Man Vol 7",
-      "status": "HOLES",
-      "owned_range": "1-36",
-      "owned_count": 35,
-      "owned_issues": "1,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36",
-      "internal_holes": "3",
-      "missing_after": "nan",
-      "copy_years": "2025-2026"
-    },
-    {
-      "id": 1839,
-      "series": "The Amazing Spider-Man",
-      "fandom_series": "Amazing Spider-Man",
-      "fandom_volume": "Amazing Spider-Man Vol 2 #500-700",
-      "status": "PARTIAL",
-      "owned_range": "666-700",
-      "owned_count": 35,
-      "owned_issues": "666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2011-2012"
-    },
-    {
-      "id": 1840,
-      "series": "The Amazing Spider-Man",
-      "fandom_series": "Amazing Spider-Man",
-      "fandom_volume": "Amazing Spider-Man Vol 6",
-      "status": "HOLES",
-      "owned_range": "1-70",
-      "owned_count": 31,
-      "owned_issues": "1,3,5,7,8,9,16,17,18,20,21,24,47,50,52,53,54,55,56,57,58,59,60,62,63,65,66,67,68,69,70",
-      "internal_holes": "2,4,6,10,11,12,13,14,15,19,22,23,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,48,49,51,61,64",
-      "missing_after": "nan",
-      "copy_years": "2022-2025"
-    },
-    {
-      "id": 1841,
-      "series": "The Amazing Spider-Man",
-      "fandom_series": "Amazing Spider-Man",
-      "fandom_volume": "Amazing Spider-Man Vol 3",
-      "status": "COMPLETE",
-      "owned_range": "1-18",
-      "owned_count": 18,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2014-2015"
-    },
-    {
-      "id": 1842,
-      "series": "The Amazing Spider-Man",
-      "fandom_series": "Amazing Spider-Man",
-      "fandom_volume": "Amazing Spider-Man Vol 4 #1-32",
-      "status": "PARTIAL",
-      "owned_range": "19-32",
-      "owned_count": 14,
-      "owned_issues": "19,20,21,22,23,24,25,26,27,28,29,30,31,32",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2015-2017"
-    },
-    {
-      "id": 1843,
-      "series": "The Amazing Spider-Man",
-      "fandom_series": "Amazing Spider-Man",
-      "fandom_volume": "Amazing Spider-Man Vol 4 #789-801",
-      "status": "COMPLETE",
-      "owned_range": "789-801",
-      "owned_count": 13,
-      "owned_issues": "789,790,791,792,793,794,795,796,797,798,799,800,801",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2017-2018"
-    },
-    {
-      "id": 1844,
-      "series": "The Amazing Spider-Man",
-      "fandom_series": "Amazing Spider-Man",
-      "fandom_volume": "nan",
-      "status": "UNASSIGNED_COPIES",
-      "owned_range": "nan",
-      "owned_count": 30,
-      "owned_issues": "802,803,804,805,806,807,808,809,810,811,812,813,814,815,816,817,818,819,820,821,822,823,824,825,826,827,828,829,830,831",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1845,
-      "series": "The Punisher",
-      "fandom_series": "Punisher",
-      "fandom_volume": "Punisher Vol 12",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "1-15",
-      "owned_count": 12,
-      "owned_issues": "1,2,3,4,7,8,9,10,11,12,13,15",
-      "internal_holes": "5,6,14",
-      "missing_after": "16",
-      "copy_years": "2018-2019"
-    },
-    {
-      "id": 1846,
-      "series": "The Punisher",
-      "fandom_series": "Punisher",
-      "fandom_volume": "Punisher Vol 11 #218-228",
-      "status": "PARTIAL",
-      "owned_range": "224-228",
-      "owned_count": 5,
-      "owned_issues": "224,225,226,227,228",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2018-2018"
-    },
-    {
-      "id": 1847,
-      "series": "The Punisher",
-      "fandom_series": "Punisher",
-      "fandom_volume": "nan",
-      "status": "UNASSIGNED_COPIES",
-      "owned_range": "nan",
-      "owned_count": 15,
-      "owned_issues": "229,230,231,232,233,234,235,236,237,238,239,240,241,242,243",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1848,
-      "series": "The Superior Spider-Man",
-      "fandom_series": "Superior Spider-Man",
-      "fandom_volume": "Superior Spider-Man Vol 1",
-      "status": "COMPLETE",
-      "owned_range": "1-33",
-      "owned_count": 32,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,28,29,30,31,32,33",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2013-2014"
-    },
-    {
-      "id": 1849,
-      "series": "The Superior Spider-Man",
-      "fandom_series": "Superior Spider-Man",
-      "fandom_volume": "Superior Spider-Man Vol 2",
-      "status": "UNFINISHED",
-      "owned_range": "2-10",
-      "owned_count": 9,
-      "owned_issues": "2,3,4,5,6,7,8,9,10",
-      "internal_holes": "nan",
-      "missing_after": "11,12",
-      "copy_years": "2018-2019"
-    },
-    {
-      "id": 1850,
-      "series": "The Superior Spider-Man",
-      "fandom_series": "Superior Spider-Man",
-      "fandom_volume": "nan",
-      "status": "UNASSIGNED_COPIES",
-      "owned_range": "nan",
-      "owned_count": 1,
-      "owned_issues": "27",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
-    },
-    {
-      "id": 1851,
-      "series": "Thor",
-      "fandom_series": "Thor",
-      "fandom_volume": "Thor Vol 6",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "1-18",
-      "owned_count": 12,
-      "owned_issues": "1,2,4,6,8,10,13,14,15,16,17,18",
-      "internal_holes": "3,5,7,9,11,12",
-      "missing_after": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35",
-      "copy_years": "2020-2025"
-    },
-    {
-      "id": 1852,
-      "series": "Thor",
-      "fandom_series": "Thor",
-      "fandom_volume": "Thor Vol 4",
-      "status": "COMPLETE",
-      "owned_range": "1-8",
-      "owned_count": 8,
-      "owned_issues": "1,2,3,4,5,6,7,8",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2014-2015"
-    },
-    {
-      "id": 1853,
-      "series": "Ultimate Spider-Man",
-      "fandom_series": "Ultimate Spider-Man",
-      "fandom_volume": "Ultimate Spider-Man Vol 3",
-      "status": "PARTIAL",
-      "owned_range": "3-24",
-      "owned_count": 22,
-      "owned_issues": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2024-2025"
-    },
-    {
-      "id": 1854,
-      "series": "Ultimate Spider-Man",
-      "fandom_series": "Ultimate Spider-Man",
-      "fandom_volume": "Ultimate Spider-Man Vol 2 #1-15",
-      "status": "COMPLETE",
-      "owned_range": "1-15",
-      "owned_count": 15,
-      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2012-2012"
-    },
-    {
-      "id": 1855,
-      "series": "Ultimate Spider-Man",
-      "fandom_series": "Ultimate Spider-Man",
-      "fandom_volume": "Ultimate Spider-Man Vol 1 #1-133",
-      "status": "UNFINISHED",
-      "owned_range": "16-28",
-      "owned_count": 13,
-      "owned_issues": "16,17,18,19,20,21,22,23,24,25,26,27,28",
-      "internal_holes": "nan",
-      "missing_after": "29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53",
-      "copy_years": "2012-2013"
-    },
-    {
-      "id": 1856,
-      "series": "Venom",
-      "fandom_series": "Venom",
-      "fandom_volume": "Venom Vol 5",
-      "status": "HOLES",
-      "owned_range": "15-39",
-      "owned_count": 19,
-      "owned_issues": "15,16,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39",
-      "internal_holes": "17,18,19,20,21,22",
-      "missing_after": "nan",
-      "copy_years": "2022-2024"
-    },
-    {
-      "id": 1857,
-      "series": "Venom",
-      "fandom_series": "Venom",
-      "fandom_volume": "Venom Vol 3 #150-165",
-      "status": "COMPLETE",
-      "owned_range": "150-165",
-      "owned_count": 16,
-      "owned_issues": "150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "2017-2018"
-    },
-    {
-      "id": 1858,
-      "series": "Venom",
-      "fandom_series": "Venom",
-      "fandom_volume": "Venom Vol 4",
-      "status": "HOLES_AND_UNFINISHED",
-      "owned_range": "4-26",
-      "owned_count": 11,
-      "owned_issues": "4,5,6,7,8,13,14,15,18,25,26",
-      "internal_holes": "9,10,11,12,16,17,19,20,21,22,23,24",
-      "missing_after": "27,28,29,30,31,32,33,34,35",
-      "copy_years": "2018-2020"
-    },
-    {
-      "id": 1859,
-      "series": "Venom",
-      "fandom_series": "Venom",
-      "fandom_volume": "Venom Vol 3 #1-6",
-      "status": "UNFINISHED",
-      "owned_range": "1-3",
-      "owned_count": 3,
-      "owned_issues": "1,2,3",
-      "internal_holes": "nan",
-      "missing_after": "4,5,6",
-      "copy_years": "2016-2017"
-    },
-    {
-      "id": 1860,
-      "series": "Venom",
-      "fandom_series": "Venom",
-      "fandom_volume": "nan",
-      "status": "UNASSIGNED_COPIES",
-      "owned_range": "nan",
-      "owned_count": 18,
-      "owned_issues": "166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183",
-      "internal_holes": "nan",
-      "missing_after": "nan",
-      "copy_years": "nan"
     }
   ]
 }
