@@ -1442,7 +1442,18 @@
     "All-New, All-Different Avengers Vol 1|2": "2015",
     "All-New, All-Different Avengers|2": "2015",
     "All-New, All-Different Avengers Vol 1|3": "2016",
-    "All-New, All-Different Avengers|3": "2016"
+    "All-New, All-Different Avengers|3": "2016",
+    "Amazing Spider-Man Vol 4|6": "2015",
+    "Superior Iron Man Vol 1|4": "2015",
+    "Superior Iron Man Vol 1|5": "2015",
+    "Superior Iron Man Vol 1|6": "2015",
+    "Superior Iron Man Vol 1|7": "2015",
+    "Superior Iron Man Vol 1|8": "2015",
+    "Superior Iron Man Vol 1|9": "2015",
+    "Invincible Iron Man Vol 3|1": "2015",
+    "Invincible Iron Man Vol 3|2": "2015",
+    "Invincible Iron Man Vol 3|3": "2015",
+    "Invincible Iron Man Vol 3|4": "2015"
   },
   "books": {
     "Absolute Carnage|1": {
@@ -2196,9 +2207,9 @@
       "issue": "59"
     },
     "Amazing Spider-Man|6": {
-      "year": "2025",
+      "year": "2015",
       "series": "Amazing Spider-Man",
-      "volume": "7",
+      "volume": "4",
       "issue": "6"
     },
     "Amazing Spider-Man|60": {
@@ -4549,9 +4560,9 @@
       "issue": "7"
     },
     "Invincible Iron Man|1": {
-      "year": "2022",
+      "year": "2015",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "1"
     },
     "Invincible Iron Man|10": {
@@ -4585,21 +4596,21 @@
       "issue": "14"
     },
     "Invincible Iron Man|2": {
-      "year": "2023",
+      "year": "2015",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "2"
     },
     "Invincible Iron Man|3": {
-      "year": "2023",
+      "year": "2015",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "3"
     },
     "Invincible Iron Man|4": {
-      "year": "2023",
+      "year": "2015",
       "series": "Invincible Iron Man",
-      "volume": "5",
+      "volume": "3",
       "issue": "4"
     },
     "Invincible Iron Man|5": {
