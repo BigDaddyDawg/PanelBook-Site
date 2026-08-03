@@ -1,5 +1,4 @@
-/* PanelBook scanner config.
-   Fill these in to enable the "Push to master" button (sync scans to Supabase).
+/* PanelBook scanner — Family Vault hub (shared Supabase with gallery apps).
    The anon/public key is safe to expose in a static site: it only allows the
    inserts permitted by your Row Level Security policy. Leave blank to keep the
    scanner local-only (Export CSV still works). */
