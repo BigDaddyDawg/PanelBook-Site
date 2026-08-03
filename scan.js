@@ -7,7 +7,8 @@
 
   const $ = (id) => document.getElementById(id);
   const els = {
-    video: $("video"), scanBtn: $("scanBtn"),
+    video: $("video"), still: $("still"), camwrap: $("camwrap"),
+    scanBtn: $("scanBtn"), uploadBtn: $("uploadBtn"), fileInput: $("fileInput"),
     status: $("status"), series: $("series"), suggest: $("suggest"),
     matchNote: $("matchNote"), issue: $("issue"), year: $("year"),
     upc: $("upc"), notes: $("notes"), raw: $("raw"),
@@ -85,6 +86,7 @@
   /* ---------- camera + barcode ---------- */
   async function startCamera() {
     setStatus("Starting camera…");
+    els.camwrap.classList.remove("using-photo");
     try {
       stream = await navigator.mediaDevices.getUserMedia({
         video: { facingMode: { ideal: "environment" } },
@@ -123,20 +125,39 @@
   }
 
   // Main UPC identifies the series; a 5-digit add-on (if present) encodes the issue.
-  function applyBarcode(raw) {
+  function applyBarcode(raw, { overwriteIssue = false } = {}) {
     const digits = String(raw).replace(/\D/g, "");
-    if (!digits) return;
+    if (!digits) return null;
     const main = digits.slice(0, 12);
     if (!els.upc.value || els.upc.value !== main) {
       els.upc.value = main;
       setStatus("Barcode read: " + main, "ok");
     }
-    // If a 5-digit supplement rode along, first 3 digits are the issue number.
+    // If a 5-digit supplement rode along, first 3 digits are the volume issue number.
+    let addonIssue = null;
     if (digits.length >= 17) {
       const addon = digits.slice(12, 17);
       const iss = parseInt(addon.slice(0, 3), 10);
-      if (iss && !els.issue.value) els.issue.value = String(iss);
+      if (iss) {
+        addonIssue = String(iss);
+        if (overwriteIssue || !els.issue.value) els.issue.value = addonIssue;
+      }
     }
+    return { upc: main, addonIssue };
+  }
+
+  async function detectBarcodeOn(source) {
+    if (!("BarcodeDetector" in window)) return null;
+    try {
+      if (!detector) {
+        detector = new window.BarcodeDetector({
+          formats: ["upc_a", "ean_13", "upc_e", "ean_8"],
+        });
+      }
+      const codes = await detector.detect(source);
+      if (codes && codes.length) return applyBarcode(codes[0].rawValue || "", { overwriteIssue: false });
+    } catch (_) { /* unsupported source or transient */ }
+    return null;
   }
 
   /* ---------- capture + OCR ---------- */
@@ -147,10 +168,17 @@
     return ocrWorker;
   }
 
+  function sourceSize(source) {
+    return {
+      w: source.videoWidth || source.naturalWidth || source.width || 0,
+      h: source.videoHeight || source.naturalHeight || source.height || 0,
+    };
+  }
+
   // Throwaway canvas for OCR — never persisted, never uploaded.
-  function cropToCanvas(topFrac, bottomFrac) {
-    const v = els.video;
-    const vw = v.videoWidth, vh = v.videoHeight;
+  function cropToCanvas(source, topFrac, bottomFrac) {
+    const { w: vw, h: vh } = sourceSize(source);
+    if (!vw || !vh) throw new Error("Image not ready");
     const y0 = Math.floor(vh * topFrac);
     const y1 = Math.floor(vh * bottomFrac);
     const h = Math.max(1, y1 - y0);
@@ -159,7 +187,7 @@
     c.width = Math.floor(vw * scale);
     c.height = Math.floor(h * scale);
     const ctx = c.getContext("2d");
-    ctx.drawImage(v, 0, y0, vw, h, 0, 0, c.width, c.height);
+    ctx.drawImage(source, 0, y0, vw, h, 0, 0, c.width, c.height);
     // grayscale + contrast boost helps OCR on print
     const img = ctx.getImageData(0, 0, c.width, c.height);
     const d = img.data;
@@ -173,33 +201,197 @@
     return c;
   }
 
+  function resetScanFields() {
+    els.series.value = "";
+    els.issue.value = "";
+    els.year.value = "";
+    els.upc.value = "";
+    els.notes.value = "";
+    els.suggest.innerHTML = "";
+    els.matchNote.textContent = "";
+  }
+
+  async function readFromSource(source) {
+    resetScanFields();
+    const worker = await ensureWorker();
+
+    setStatus("Reading barcode…");
+    await detectBarcodeOn(source);
+
+    // Title band is wider than the live reticle: seller photos often crop oddly,
+    // and landmark numbers ("900") sit mid-cover as often as in the header.
+    setStatus("Reading title…");
+    const titleCanvas = cropToCanvas(source, 0.0, 0.55);
+    await worker.setParameters({ tessedit_char_whitelist: "" });
+    const tTitle = (await worker.recognize(titleCanvas)).data.text || "";
+
+    setStatus("Reading barcode digits…");
+    const numCanvas = cropToCanvas(source, 0.70, 1.0);
+    await worker.setParameters({ tessedit_char_whitelist: "0123456789 #No.LGYISSUE" });
+    const tNum = (await worker.recognize(numCanvas)).data.text || "";
+
+    titleCanvas.width = titleCanvas.height = 0;
+    numCanvas.width = numCanvas.height = 0;
+
+    const detail = applyOcr(tTitle, tNum);
+    const filled = [els.series.value && "series", els.issue.value && "issue", els.year.value && "year"]
+      .filter(Boolean).join(", ");
+    let msg = filled
+      ? `Filled ${filled}. Check, then “Add to list”.`
+      : "Couldn't read series/issue — type them in (raw OCR below).";
+    if (detail && detail.altIssue) msg += ` (also saw #${detail.altIssue})`;
+    setStatus(msg, filled ? "ok" : "warn");
+  }
+
   async function captureAndRead() {
     if (!els.video.videoWidth) { setStatus("Camera not ready yet.", "warn"); return; }
+    els.camwrap.classList.remove("using-photo");
     els.scanBtn.disabled = true;
+    els.uploadBtn.disabled = true;
     try {
-      const worker = await ensureWorker();
-
-      setStatus("Reading title…");
-      const titleCanvas = cropToCanvas(0.0, 0.42, false);
-      await worker.setParameters({ tessedit_char_whitelist: "" });
-      const tTitle = (await worker.recognize(titleCanvas)).data.text || "";
-
-      setStatus("Reading barcode digits…");
-      const numCanvas = cropToCanvas(0.72, 1.0, true);
-      await worker.setParameters({ tessedit_char_whitelist: "0123456789 #No." });
-      const tNum = (await worker.recognize(numCanvas)).data.text || "";
-
-      // Release pixel memory immediately — we only keep the OCR text below.
-      titleCanvas.width = titleCanvas.height = 0;
-      numCanvas.width = numCanvas.height = 0;
-
-      applyOcr(tTitle, tNum);
-      setStatus("Check the fields, then “Add to list”.", "ok");
+      await readFromSource(els.video);
     } catch (e) {
       setStatus("OCR failed: " + (e.message || e), "warn");
     } finally {
       els.scanBtn.disabled = false;
+      els.uploadBtn.disabled = false;
     }
+  }
+
+  async function readFromFile(file) {
+    if (!file || !file.type.startsWith("image/")) {
+      setStatus("Pick a cover photo (jpg/png/heic).", "warn");
+      return;
+    }
+    els.scanBtn.disabled = true;
+    els.uploadBtn.disabled = true;
+    let bitmap = null;
+    try {
+      setStatus("Loading photo…");
+      // Object URL preview (not stored beyond this session)
+      if (els.still.dataset.url) URL.revokeObjectURL(els.still.dataset.url);
+      const url = URL.createObjectURL(file);
+      els.still.dataset.url = url;
+      els.still.src = url;
+      els.camwrap.classList.add("using-photo");
+      await new Promise((resolve, reject) => {
+        els.still.onload = resolve;
+        els.still.onerror = () => reject(new Error("Couldn't open that photo"));
+      });
+      bitmap = await createImageBitmap(els.still);
+      await readFromSource(bitmap);
+    } catch (e) {
+      setStatus("OCR failed: " + (e.message || e), "warn");
+    } finally {
+      if (bitmap && bitmap.close) bitmap.close();
+      els.scanBtn.disabled = false;
+      els.uploadBtn.disabled = false;
+      els.fileInput.value = "";
+    }
+  }
+
+  // Prefer a cover line that looks like a title, not "#300" or a year alone.
+  function draftSeriesFromOcr(lines) {
+    for (const line of lines) {
+      const cleaned = line
+        .replace(/#\s*\d{1,4}/g, "")
+        .replace(/\bNO\.?\s*\d{1,4}\b/gi, "")
+        .replace(/\b(?:LGY|LEGACY|LANDMARK(?:\s+ISSUE)?)\s*#?\s*\d{1,4}\b/gi, "")
+        .replace(/\bVARIANT(?:\s+EDITION)?\b/gi, "")
+        .replace(/\b(19[3-9]\d|20[0-4]\d)\b/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+      if (cleaned.replace(/[^a-z0-9]/gi, "").length >= 3) return cleaned;
+    }
+    return lines[0] || "";
+  }
+
+  // Strip retailer ratio text so "1:25" / "1 for 25" never becomes the issue.
+  function scrubRatioNoise(text) {
+    return String(text || "")
+      .replace(/\b1\s*[:\/]\s*\d{1,3}\b/gi, " ")
+      .replace(/\b1\s+for\s+\d{1,3}\b/gi, " ")
+      .replace(/\b\d{1,3}\s*[-–]\s*copy\b/gi, " ");
+  }
+
+  // Cover volume # beats LGY footnotes (ASM #21 + LGY #915 → 21).
+  // Landmark art/LGY only wins when the big number is not merely a tiny LGY tag.
+  function pickIssue(titleText, numText) {
+    const text = scrubRatioNoise(titleText);
+    const cands = [];
+    const add = (raw, source, weight) => {
+      const n = parseInt(String(raw).replace(/\D/g, ""), 10);
+      if (!n || n > 9999) return;
+      if (n >= 1930 && n <= 2039) return; // years, not issues
+      cands.push({ value: String(n), source, weight, n });
+    };
+
+    // LGY is a small Marvel trade-dress footnote — weaker than #N / ISSUE.
+    for (const m of text.matchAll(/\b(?:LGY|LEGACY)\s*#?\s*(\d{1,4})\b/gi)) {
+      add(m[1], "legacy", 45);
+    }
+    // Marvel issue box is often "MARVEL 21 LGY #915" — volume # sits beside LGY, no hash.
+    for (const m of text.matchAll(/\b(\d{1,3})\s+LGY\b/gi)) {
+      add(m[1], "beside-lgy", 88);
+    }
+    for (const m of text.matchAll(/\bMARVEL\s+(\d{1,3})\b/gi)) {
+      add(m[1], "marvel-box", 85);
+    }
+    for (const m of text.matchAll(/\bLANDMARK(?:\s+ISSUE)?\s*#?\s*(\d{1,4})\b/gi)) {
+      add(m[1], "landmark", 95);
+    }
+    for (const m of text.matchAll(/\bISSUE\s*#?\s*(\d{1,4})\b/gi)) {
+      add(m[1], "issue-word", 90);
+    }
+    // Don't treat "LGY #915" as a normal #915 issue hit.
+    const withoutLgy = text.replace(/\b(?:LGY|LEGACY)\s*#?\s*\d{1,4}\b/gi, " ");
+    for (const m of withoutLgy.matchAll(/#\s*(\d{1,4})\b/g)) {
+      add(m[1], "hash", 80);
+    }
+    for (const m of withoutLgy.matchAll(/\bNO\.?\s*(\d{1,4})\b/gi)) {
+      add(m[1], "no", 70);
+    }
+    // Big cover art numbers (e.g. ASM "900") with no # — weaker than #N.
+    for (const m of withoutLgy.matchAll(/\b(\d{3,4})\b/g)) {
+      add(m[1], "bare", 55);
+    }
+
+    const groups = (scrubRatioNoise(numText).match(/\d{5}/g) || [])
+      .filter((g) => els.upc.value.indexOf(g) === -1);
+    if (groups.length) {
+      const iss = parseInt(groups[groups.length - 1].slice(0, 3), 10);
+      if (iss) add(iss, "barcode-ocr", 40);
+    }
+    if (els.issue.value) add(els.issue.value, "barcode-api", 35);
+
+    if (!cands.length) return { issue: null, altIssue: null, lgy: null };
+
+    cands.sort((a, b) => b.weight - a.weight || b.n - a.n);
+    let best = cands[0];
+    const cover = cands.filter((c) => c.source !== "barcode-ocr" && c.source !== "barcode-api");
+    if (cover.length >= 2) {
+      const hi = cover.reduce((a, b) => (a.n > b.n ? a : b));
+      const lo = cover.reduce((a, b) => (a.n < b.n ? a : b));
+      // ASM #6 / #900 style — only promote a large number that isn't a lone LGY footnote.
+      const hiIsLandmark = hi.source === "landmark" || hi.source === "bare" ||
+        hi.source === "hash" || hi.source === "issue-word";
+      if (lo.n <= 99 && hi.n >= 100 && hi.n >= lo.n * 10 && hiIsLandmark) best = hi;
+    }
+    const lgy = cands.find((c) => c.source === "legacy");
+    const alt = cands.find((c) => c.value !== best.value);
+    return {
+      issue: best.value,
+      altIssue: alt ? alt.value : null,
+      lgy: lgy ? lgy.value : null,
+    };
+  }
+
+  function fillVariantNotes(titleText, picked) {
+    if (els.notes.value.trim()) return; // don't clobber typed notes
+    const bits = [];
+    if (/\bVARIANT\b/i.test(titleText)) bits.push("Variant");
+    if (picked.lgy && picked.lgy !== picked.issue) bits.push(`LGY #${picked.lgy}`);
+    if (bits.length) els.notes.value = bits.join(" · ");
   }
 
   function applyOcr(titleText, numText) {
@@ -214,29 +406,25 @@
       if (m.length && (!best.length || m[0].score > best[0].score)) best = m;
     }
     renderSuggestions(best);
-    if (best.length && !els.series.value) els.series.value = best[0].name;
+    if (best.length) els.series.value = best[0].name;
+    else if (lines.length) els.series.value = draftSeriesFromOcr(lines);
 
-    // Issue: prefer an explicit "#N" on the cover, else the barcode add-on.
-    const issFromTitle = titleText.match(/#\s*(\d{1,4})/) || titleText.match(/\bNO\.?\s*(\d{1,4})/i);
-    if (issFromTitle && !els.issue.value) els.issue.value = issFromTitle[1];
-    if (!els.issue.value) {
-      const groups = (numText.match(/\d{5}/g) || []).filter((g) => els.upc.value.indexOf(g) === -1);
-      if (groups.length) {
-        const iss = parseInt(groups[groups.length - 1].slice(0, 3), 10);
-        if (iss) els.issue.value = String(iss);
-      }
-    }
+    const picked = pickIssue(titleText, numText);
+    if (picked.issue) els.issue.value = picked.issue;
+    fillVariantNotes(titleText, picked);
 
-    // Year: any plausible 19xx/20xx on the cover.
     const yr = titleText.match(/\b(19[3-9]\d|20[0-4]\d)\b/);
-    if (yr && !els.year.value) els.year.value = yr[1];
+    if (yr) els.year.value = yr[1];
+    return picked;
   }
 
   function renderSuggestions(matches) {
     els.suggest.innerHTML = "";
     if (!matches.length) {
       els.matchNote.textContent = knownSeries.length
-        ? "No confident series match — type it in."
+        ? (els.series.value
+          ? "No match in collection — OCR draft filled in (edit if needed)."
+          : "No confident series match — type it in.")
         : "";
       return;
     }
@@ -304,6 +492,12 @@
     els.suggest.innerHTML = "";
     els.matchNote.textContent = "";
     els.raw.textContent = "";
+    els.camwrap.classList.remove("using-photo");
+    if (els.still.dataset.url) {
+      URL.revokeObjectURL(els.still.dataset.url);
+      delete els.still.dataset.url;
+    }
+    els.still.removeAttribute("src");
   }
 
   /* ---------- export ---------- */
@@ -403,6 +597,11 @@
   els.scanBtn.disabled = false;
   els.scanBtn.textContent = "Start camera";
   els.scanBtn.onclick = startCamera;
+  els.uploadBtn.onclick = () => els.fileInput.click();
+  els.fileInput.onchange = () => {
+    const f = els.fileInput.files && els.fileInput.files[0];
+    if (f) readFromFile(f);
+  };
   els.addBtn.onclick = addCurrent;
   els.clearBtn.onclick = clearFields;
   els.wipeBtn.onclick = () => {

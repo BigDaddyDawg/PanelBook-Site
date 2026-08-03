@@ -66,7 +66,11 @@
       overflow: hidden;
       border: 1px solid var(--line);
     }
-    video { width: 100%; height: 100%; object-fit: cover; display: block; }
+    video, #still { width: 100%; height: 100%; object-fit: cover; display: block; }
+    #still { display: none; position: absolute; inset: 0; }
+    .camwrap.using-photo video { visibility: hidden; }
+    .camwrap.using-photo #still { display: block; }
+    .camwrap.using-photo .reticle { display: none; }
     .reticle {
       position: absolute; inset: 12% 8%;
       border: 2px dashed rgba(255,255,255,0.6);
@@ -74,7 +78,7 @@
       pointer-events: none;
     }
     .reticle::after {
-      content: "aim at cover · keep barcode in frame";
+      content: "one comic · title + barcode in frame";
       position: absolute; left: 0; right: 0; bottom: -1.6rem;
       text-align: center; color: rgba(255,255,255,0.85); font-size: 0.75rem;
     }
@@ -129,13 +133,16 @@
   </header>
   <main>
     <div class="card">
-      <div class="camwrap">
+      <div class="camwrap" id="camwrap">
         <video id="video" playsinline muted></video>
+        <img id="still" alt="Cover preview" />
         <div class="reticle"></div>
       </div>
       <button id="scanBtn" class="btn accent" type="button" disabled>Start camera</button>
-      <p id="status" class="status">Tap “Start camera” to begin.</p>
-      <p class="status" style="margin-top:0.35rem;">Only text is saved on your phone (series, issue, UPC) — never photos.</p>
+      <button id="uploadBtn" class="btn ghost" type="button" style="margin-top:0.6rem;">Use a photo instead</button>
+      <input id="fileInput" type="file" accept="image/*" hidden />
+      <p id="status" class="status">Tap “Start camera” or “Use a photo”. One comic per shot works best.</p>
+      <p class="status" style="margin-top:0.35rem;">Only text is saved (series, issue, UPC) — never photos.</p>
     </div>
 
     <div class="card">
