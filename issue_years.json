@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1345,
+  "count": 1355,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -78,11 +78,16 @@
     "Amazing Spider-Man|14": "2025",
     "Amazing Spider-Man|15": "2025",
     "Amazing Spider-Man|16": "2025",
+    "Amazing Spider-Man|16.1": "2015",
     "Amazing Spider-Man|17": "2025",
+    "Amazing Spider-Man|17.1": "2015",
     "Amazing Spider-Man|18": "2025",
+    "Amazing Spider-Man|18.1": "2015",
     "Amazing Spider-Man|19": "2026",
+    "Amazing Spider-Man|19.1": "2015",
     "Amazing Spider-Man|2": "2025",
     "Amazing Spider-Man|20": "2026",
+    "Amazing Spider-Man|20.1": "2015",
     "Amazing Spider-Man|21": "2026",
     "Amazing Spider-Man|22": "2026",
     "Amazing Spider-Man|23": "2026",
@@ -202,7 +207,10 @@
     "Amazing Spider-Man|746": "2015",
     "Amazing Spider-Man|747": "2015",
     "Amazing Spider-Man|748": "2015",
+    "Amazing Spider-Man|749": "2015",
     "Amazing Spider-Man|75": "2021",
+    "Amazing Spider-Man|750": "2015",
+    "Amazing Spider-Man|751": "2015",
     "Amazing Spider-Man|76": "2021",
     "Amazing Spider-Man|77": "2021",
     "Amazing Spider-Man|78": "2021",
@@ -1332,6 +1340,8 @@
     "Venom|7": "2022",
     "Venom|8": "2022",
     "Venom|9": "2022",
+    "Web Warriors|1": "2015",
+    "Web Warriors|3": "2016",
     "Wolverine|1": "2024",
     "Wolverine|12": "2014",
     "Wolverine|2": "2024",
@@ -1790,11 +1800,23 @@
       "volume": "7",
       "issue": "16"
     },
+    "Amazing Spider-Man|16.1": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "16.1"
+    },
     "Amazing Spider-Man|17": {
       "year": "2025",
       "series": "Amazing Spider-Man",
       "volume": "7",
       "issue": "17"
+    },
+    "Amazing Spider-Man|17.1": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "17.1"
     },
     "Amazing Spider-Man|18": {
       "year": "2025",
@@ -1802,11 +1824,23 @@
       "volume": "7",
       "issue": "18"
     },
+    "Amazing Spider-Man|18.1": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "18.1"
+    },
     "Amazing Spider-Man|19": {
       "year": "2026",
       "series": "Amazing Spider-Man",
       "volume": "7",
       "issue": "19"
+    },
+    "Amazing Spider-Man|19.1": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "19.1"
     },
     "Amazing Spider-Man|2": {
       "year": "2025",
@@ -1819,6 +1853,12 @@
       "series": "Amazing Spider-Man",
       "volume": "7",
       "issue": "20"
+    },
+    "Amazing Spider-Man|20.1": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "20.1"
     },
     "Amazing Spider-Man|21": {
       "year": "2026",
@@ -2534,11 +2574,29 @@
       "volume": "3",
       "issue": "15"
     },
+    "Amazing Spider-Man|749": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "16"
+    },
     "Amazing Spider-Man|75": {
       "year": "2021",
       "series": "Amazing Spider-Man",
       "volume": "5",
       "issue": "75"
+    },
+    "Amazing Spider-Man|750": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "17"
+    },
+    "Amazing Spider-Man|751": {
+      "year": "2015",
+      "series": "Amazing Spider-Man",
+      "volume": "3",
+      "issue": "18"
     },
     "Amazing Spider-Man|76": {
       "year": "2021",
@@ -9341,6 +9399,18 @@
       "series": "Venom",
       "volume": "5",
       "issue": "9"
+    },
+    "Web Warriors|1": {
+      "year": "2015",
+      "series": "Web Warriors",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Web Warriors|3": {
+      "year": "2016",
+      "series": "Web Warriors",
+      "volume": "1",
+      "issue": "3"
     },
     "Wolverine|1": {
       "year": "2024",
