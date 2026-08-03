@@ -1378,7 +1378,12 @@
     "X-23|6": "2018",
     "X-23|7": "2018",
     "X-23|8": "2019",
-    "X-23|9": "2019"
+    "X-23|9": "2019",
+    "Amazing Spider-Man|700.1": "2013",
+    "Amazing Spider-Man|700.2": "2013",
+    "Amazing Spider-Man|700.3": "2013",
+    "Amazing Spider-Man|700.4": "2013",
+    "Amazing Spider-Man|700.5": "2013"
   },
   "books": {
     "Absolute Carnage|1": {
@@ -9653,6 +9658,36 @@
       "series": "X-23",
       "volume": "4",
       "issue": "9"
+    },
+    "Amazing Spider-Man|700.1": {
+      "year": "2013",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "700.1"
+    },
+    "Amazing Spider-Man|700.2": {
+      "year": "2013",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "700.2"
+    },
+    "Amazing Spider-Man|700.3": {
+      "year": "2013",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "700.3"
+    },
+    "Amazing Spider-Man|700.4": {
+      "year": "2013",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "700.4"
+    },
+    "Amazing Spider-Man|700.5": {
+      "year": "2013",
+      "series": "Amazing Spider-Man",
+      "volume": "2",
+      "issue": "700.5"
     }
   }
 }
