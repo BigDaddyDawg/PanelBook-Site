@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1587,
+  "count": 1599,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -1591,7 +1591,19 @@
     "Steve Rogers: Captain America|3": "2016",
     "Steve Rogers: Captain America|5": "2016",
     "Steve Rogers: Captain America|6": "2016",
-    "Steve Rogers: Captain America|7": "2016"
+    "Steve Rogers: Captain America|7": "2016",
+    "All-New, All-Different Avengers|4": "2016",
+    "All-New, All-Different Avengers|5": "2016",
+    "All-New, All-Different Avengers|6": "2016",
+    "All-New, All-Different Avengers|7": "2016",
+    "All-New, All-Different Avengers|8": "2016",
+    "All-New, All-Different Avengers|9": "2016",
+    "All-New, All-Different Avengers|10": "2016",
+    "All-New, All-Different Avengers|11": "2016",
+    "All-New, All-Different Avengers|12": "2016",
+    "All-New, All-Different Avengers|13": "2016",
+    "All-New, All-Different Avengers|14": "2016",
+    "All-New, All-Different Avengers|15": "2016"
   },
   "books": {
     "Absolute Carnage|1": {
@@ -10435,6 +10447,78 @@
       "series": "Steve Rogers: Captain America",
       "volume": "1",
       "issue": "7"
+    },
+    "All-New, All-Different Avengers|4": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "4"
+    },
+    "All-New, All-Different Avengers|5": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "5"
+    },
+    "All-New, All-Different Avengers|6": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "6"
+    },
+    "All-New, All-Different Avengers|7": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "7"
+    },
+    "All-New, All-Different Avengers|8": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "8"
+    },
+    "All-New, All-Different Avengers|9": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "9"
+    },
+    "All-New, All-Different Avengers|10": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "10"
+    },
+    "All-New, All-Different Avengers|11": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "11"
+    },
+    "All-New, All-Different Avengers|12": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "12"
+    },
+    "All-New, All-Different Avengers|13": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "13"
+    },
+    "All-New, All-Different Avengers|14": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "14"
+    },
+    "All-New, All-Different Avengers|15": {
+      "year": "2016",
+      "series": "All-New, All-Different Avengers",
+      "volume": "1",
+      "issue": "15"
     }
   }
 }
