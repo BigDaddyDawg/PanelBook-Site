@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1572,
+  "count": 1581,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -1576,7 +1576,16 @@
     "The Mighty Thor|11": "2016",
     "The Mighty Thor|12": "2016",
     "The Mighty Thor|13": "2016",
-    "The Mighty Thor|14": "2016"
+    "The Mighty Thor|14": "2016",
+    "Civil War 2|0": "2016",
+    "Civil War 2|1": "2016",
+    "Civil War 2|2": "2016",
+    "Civil War 2|3": "2016",
+    "Civil War 2|4": "2016",
+    "Civil War 2|5": "2016",
+    "Civil War 2|6": "2016",
+    "Civil War 2|7": "2016",
+    "Civil War 2|8": "2016"
   },
   "books": {
     "Absolute Carnage|1": {
@@ -10330,6 +10339,60 @@
       "series": "The Mighty Thor",
       "volume": "2",
       "issue": "14"
+    },
+    "Civil War 2|0": {
+      "year": "2016",
+      "series": "Civil War 2",
+      "volume": "1",
+      "issue": "0"
+    },
+    "Civil War 2|1": {
+      "year": "2016",
+      "series": "Civil War 2",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Civil War 2|2": {
+      "year": "2016",
+      "series": "Civil War 2",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Civil War 2|3": {
+      "year": "2016",
+      "series": "Civil War 2",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Civil War 2|4": {
+      "year": "2016",
+      "series": "Civil War 2",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Civil War 2|5": {
+      "year": "2016",
+      "series": "Civil War 2",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Civil War 2|6": {
+      "year": "2016",
+      "series": "Civil War 2",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Civil War 2|7": {
+      "year": "2016",
+      "series": "Civil War 2",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Civil War 2|8": {
+      "year": "2016",
+      "series": "Civil War 2",
+      "volume": "1",
+      "issue": "8"
     }
   }
 }
