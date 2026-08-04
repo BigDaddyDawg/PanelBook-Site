@@ -1,5 +1,6 @@
 {
   "series": [
+    "1872",
     "Absolute Carnage",
     "Agents of S.H.I.E.L.D",
     "All New Venom",
@@ -82,6 +83,7 @@
     "Spider-Men",
     "Spider-Men 2",
     "Spider-Woman",
+    "Spider-Women Omega",
     "Spidergeddon",
     "Spidey & His Amazing Friends",
     "Star Wars",
@@ -120,8 +122,8 @@
     "The Union",
     "Thor",
     "Tony Stark: Iron Man",
-    "Ultimate Comics: The Ultimates",
     "Ultimate Comics Ultimates",
+    "Ultimate Comics: The Ultimates",
     "Ultimate Endgame",
     "Ultimate Invasion",
     "Ultimate Spider-Man",
@@ -159,6 +161,11 @@
     "miles morales: the ultimate spider-man": "Miles Morales: Ultimate Spider-Man",
     "miles morales ultimate spider man": "Miles Morales: Ultimate Spider-Man",
     "ultimate comics the ultimates": "Ultimate Comics Ultimates",
-    "ultimate comics: the ultimates": "Ultimate Comics Ultimates"
+    "ultimate comics: the ultimates": "Ultimate Comics Ultimates",
+    "radioactive spider gwen": "Spider-Gwen",
+    "radioactive spider-gwen": "Spider-Gwen",
+    "spider men 2": "Spider-Men 2",
+    "spider-men ii": "Spider-Men 2",
+    "spider men ii": "Spider-Men 2"
   }
 }
