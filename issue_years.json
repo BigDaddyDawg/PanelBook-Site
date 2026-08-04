@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1604,
+  "count": 1615,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -1608,7 +1608,18 @@
     "The Amazing Spider-Man and Silk|2": "2016",
     "The Amazing Spider-Man and Silk|3": "2016",
     "The Amazing Spider-Man and Silk|4": "2016",
-    "Spider-Women Alpha|1": "2016"
+    "Spider-Women Alpha|1": "2016",
+    "Spider-Gwen|6": "2016",
+    "Spider-Gwen|7": "2016",
+    "Spider-Gwen|8": "2016",
+    "Spider-Gwen|9": "2016",
+    "Spider-Gwen|10": "2016",
+    "Spider-Gwen|11": "2016",
+    "Spider-Gwen|12": "2016",
+    "Spider-Gwen|13": "2016",
+    "Spider-Gwen|14": "2016",
+    "Spider-Gwen|15": "2016",
+    "Spider-Gwen|16": "2017"
   },
   "books": {
     "Absolute Carnage|1": {
@@ -10554,6 +10565,72 @@
       "series": "Spider-Women Alpha",
       "volume": "1",
       "issue": "1"
+    },
+    "Spider-Gwen|6": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "6"
+    },
+    "Spider-Gwen|7": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "7"
+    },
+    "Spider-Gwen|8": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "8"
+    },
+    "Spider-Gwen|9": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "9"
+    },
+    "Spider-Gwen|10": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "10"
+    },
+    "Spider-Gwen|11": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "11"
+    },
+    "Spider-Gwen|12": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "12"
+    },
+    "Spider-Gwen|13": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "13"
+    },
+    "Spider-Gwen|14": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "14"
+    },
+    "Spider-Gwen|15": {
+      "year": "2016",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "15"
+    },
+    "Spider-Gwen|16": {
+      "year": "2017",
+      "series": "Spider-Gwen",
+      "volume": "2",
+      "issue": "16"
     }
   }
 }
