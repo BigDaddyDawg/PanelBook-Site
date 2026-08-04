@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1558,
+  "count": 1572,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -1562,7 +1562,21 @@
     "Spider-Men 2|2": "2017",
     "Spider-Men 2|3": "2017",
     "Spider-Men 2|4": "2017",
-    "Spider-Men 2|5": "2017"
+    "Spider-Men 2|5": "2017",
+    "Thor Annual|1": "2015",
+    "The Mighty Thor|1": "2015",
+    "The Mighty Thor|2": "2015",
+    "The Mighty Thor|3": "2016",
+    "The Mighty Thor|4": "2016",
+    "The Mighty Thor|5": "2016",
+    "The Mighty Thor|6": "2016",
+    "The Mighty Thor|7": "2016",
+    "The Mighty Thor|8": "2016",
+    "The Mighty Thor|9": "2016",
+    "The Mighty Thor|11": "2016",
+    "The Mighty Thor|12": "2016",
+    "The Mighty Thor|13": "2016",
+    "The Mighty Thor|14": "2016"
   },
   "books": {
     "Absolute Carnage|1": {
@@ -10232,6 +10246,90 @@
       "series": "Spider-Men 2",
       "volume": "1",
       "issue": "5"
+    },
+    "Thor Annual|1": {
+      "year": "2015",
+      "series": "Thor Annual",
+      "volume": "1",
+      "issue": "1"
+    },
+    "The Mighty Thor|1": {
+      "year": "2015",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "1"
+    },
+    "The Mighty Thor|2": {
+      "year": "2015",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "2"
+    },
+    "The Mighty Thor|3": {
+      "year": "2016",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "3"
+    },
+    "The Mighty Thor|4": {
+      "year": "2016",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "4"
+    },
+    "The Mighty Thor|5": {
+      "year": "2016",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "5"
+    },
+    "The Mighty Thor|6": {
+      "year": "2016",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "6"
+    },
+    "The Mighty Thor|7": {
+      "year": "2016",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "7"
+    },
+    "The Mighty Thor|8": {
+      "year": "2016",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "8"
+    },
+    "The Mighty Thor|9": {
+      "year": "2016",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "9"
+    },
+    "The Mighty Thor|11": {
+      "year": "2016",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "11"
+    },
+    "The Mighty Thor|12": {
+      "year": "2016",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "12"
+    },
+    "The Mighty Thor|13": {
+      "year": "2016",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "13"
+    },
+    "The Mighty Thor|14": {
+      "year": "2016",
+      "series": "The Mighty Thor",
+      "volume": "2",
+      "issue": "14"
     }
   }
 }
