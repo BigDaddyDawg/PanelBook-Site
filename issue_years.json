@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1599,
+  "count": 1604,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -1603,7 +1603,12 @@
     "All-New, All-Different Avengers|12": "2016",
     "All-New, All-Different Avengers|13": "2016",
     "All-New, All-Different Avengers|14": "2016",
-    "All-New, All-Different Avengers|15": "2016"
+    "All-New, All-Different Avengers|15": "2016",
+    "The Amazing Spider-Man and Silk|1": "2016",
+    "The Amazing Spider-Man and Silk|2": "2016",
+    "The Amazing Spider-Man and Silk|3": "2016",
+    "The Amazing Spider-Man and Silk|4": "2016",
+    "Spider-Women Alpha|1": "2016"
   },
   "books": {
     "Absolute Carnage|1": {
@@ -10519,6 +10524,36 @@
       "series": "All-New, All-Different Avengers",
       "volume": "1",
       "issue": "15"
+    },
+    "The Amazing Spider-Man and Silk|1": {
+      "year": "2016",
+      "series": "The Amazing Spider-Man and Silk",
+      "volume": "1",
+      "issue": "1"
+    },
+    "The Amazing Spider-Man and Silk|2": {
+      "year": "2016",
+      "series": "The Amazing Spider-Man and Silk",
+      "volume": "1",
+      "issue": "2"
+    },
+    "The Amazing Spider-Man and Silk|3": {
+      "year": "2016",
+      "series": "The Amazing Spider-Man and Silk",
+      "volume": "1",
+      "issue": "3"
+    },
+    "The Amazing Spider-Man and Silk|4": {
+      "year": "2016",
+      "series": "The Amazing Spider-Man and Silk",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Spider-Women Alpha|1": {
+      "year": "2016",
+      "series": "Spider-Women Alpha",
+      "volume": "1",
+      "issue": "1"
     }
   }
 }
