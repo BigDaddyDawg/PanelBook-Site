@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1581,
+  "count": 1587,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -1585,7 +1585,13 @@
     "Civil War 2|5": "2016",
     "Civil War 2|6": "2016",
     "Civil War 2|7": "2016",
-    "Civil War 2|8": "2016"
+    "Civil War 2|8": "2016",
+    "Steve Rogers: Captain America|1": "2016",
+    "Steve Rogers: Captain America|2": "2016",
+    "Steve Rogers: Captain America|3": "2016",
+    "Steve Rogers: Captain America|5": "2016",
+    "Steve Rogers: Captain America|6": "2016",
+    "Steve Rogers: Captain America|7": "2016"
   },
   "books": {
     "Absolute Carnage|1": {
@@ -10393,6 +10399,42 @@
       "series": "Civil War 2",
       "volume": "1",
       "issue": "8"
+    },
+    "Steve Rogers: Captain America|1": {
+      "year": "2016",
+      "series": "Steve Rogers: Captain America",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Steve Rogers: Captain America|2": {
+      "year": "2016",
+      "series": "Steve Rogers: Captain America",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Steve Rogers: Captain America|3": {
+      "year": "2016",
+      "series": "Steve Rogers: Captain America",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Steve Rogers: Captain America|5": {
+      "year": "2016",
+      "series": "Steve Rogers: Captain America",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Steve Rogers: Captain America|6": {
+      "year": "2016",
+      "series": "Steve Rogers: Captain America",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Steve Rogers: Captain America|7": {
+      "year": "2016",
+      "series": "Steve Rogers: Captain America",
+      "volume": "1",
+      "issue": "7"
     }
   }
 }
