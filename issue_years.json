@@ -1,7 +1,7 @@
 {
   "built_from": "marvel_fandom_cache+marvel.com",
   "min_year": 2009,
-  "count": 1615,
+  "count": 1628,
   "inferred_count": 25,
   "secondary_count": 4,
   "years": {
@@ -1619,7 +1619,20 @@
     "Spider-Gwen|13": "2016",
     "Spider-Gwen|14": "2016",
     "Spider-Gwen|15": "2016",
-    "Spider-Gwen|16": "2017"
+    "Spider-Gwen|16": "2017",
+    "Steve Rogers: Captain America|25": "2017",
+    "Secret Empire|0": "2017",
+    "Secret Empire|1": "2017",
+    "Secret Empire|2": "2017",
+    "Secret Empire|3": "2017",
+    "Secret Empire|4": "2017",
+    "Secret Empire|5": "2017",
+    "Secret Empire|6": "2017",
+    "Secret Empire|7": "2017",
+    "Secret Empire|8": "2017",
+    "Secret Empire|9": "2017",
+    "Secret Empire|10": "2017",
+    "Secret Empire Omega|1": "2017"
   },
   "books": {
     "Absolute Carnage|1": {
@@ -10631,6 +10644,84 @@
       "series": "Spider-Gwen",
       "volume": "2",
       "issue": "16"
+    },
+    "Steve Rogers: Captain America|25": {
+      "year": "2017",
+      "series": "Steve Rogers: Captain America",
+      "volume": "1",
+      "issue": "25"
+    },
+    "Secret Empire|0": {
+      "year": "2017",
+      "series": "Secret Empire",
+      "volume": "1",
+      "issue": "0"
+    },
+    "Secret Empire|1": {
+      "year": "2017",
+      "series": "Secret Empire",
+      "volume": "1",
+      "issue": "1"
+    },
+    "Secret Empire|2": {
+      "year": "2017",
+      "series": "Secret Empire",
+      "volume": "1",
+      "issue": "2"
+    },
+    "Secret Empire|3": {
+      "year": "2017",
+      "series": "Secret Empire",
+      "volume": "1",
+      "issue": "3"
+    },
+    "Secret Empire|4": {
+      "year": "2017",
+      "series": "Secret Empire",
+      "volume": "1",
+      "issue": "4"
+    },
+    "Secret Empire|5": {
+      "year": "2017",
+      "series": "Secret Empire",
+      "volume": "1",
+      "issue": "5"
+    },
+    "Secret Empire|6": {
+      "year": "2017",
+      "series": "Secret Empire",
+      "volume": "1",
+      "issue": "6"
+    },
+    "Secret Empire|7": {
+      "year": "2017",
+      "series": "Secret Empire",
+      "volume": "1",
+      "issue": "7"
+    },
+    "Secret Empire|8": {
+      "year": "2017",
+      "series": "Secret Empire",
+      "volume": "1",
+      "issue": "8"
+    },
+    "Secret Empire|9": {
+      "year": "2017",
+      "series": "Secret Empire",
+      "volume": "1",
+      "issue": "9"
+    },
+    "Secret Empire|10": {
+      "year": "2017",
+      "series": "Secret Empire",
+      "volume": "1",
+      "issue": "10"
+    },
+    "Secret Empire Omega|1": {
+      "year": "2017",
+      "series": "Secret Empire Omega",
+      "volume": "1",
+      "issue": "1"
     }
   }
 }
