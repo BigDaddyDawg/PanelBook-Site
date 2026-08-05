@@ -1,13 +1,13 @@
 {
-  "exported_at": "2026-08-05T18:19:40.590999+00:00",
+  "exported_at": "2026-08-05T18:22:43.232701+00:00",
   "totals": {
-    "issues": 555,
-    "estimated_value_gbp": 1665.0,
+    "issues": 569,
+    "estimated_value_gbp": 1707.0,
     "paid_known_gbp": 0.0
   },
   "collection": [
     {
-      "id": 19849,
+      "id": 20404,
       "source": "scan",
       "series": "1872",
       "issue_number": 1.0,
@@ -34,7 +34,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19850,
+      "id": 20405,
       "source": "scan",
       "series": "1872",
       "issue_number": 2.0,
@@ -61,7 +61,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19852,
+      "id": 20407,
       "source": "scan",
       "series": "1872",
       "issue_number": 3.0,
@@ -88,7 +88,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19853,
+      "id": 20408,
       "source": "scan",
       "series": "1872",
       "issue_number": 4.0,
@@ -115,7 +115,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19670,
+      "id": 20225,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 1.0,
@@ -142,7 +142,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19671,
+      "id": 20226,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 2.0,
@@ -169,7 +169,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19672,
+      "id": 20227,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 3.0,
@@ -196,7 +196,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19673,
+      "id": 20228,
       "source": "scan",
       "series": "AXIS: Revolutions",
       "issue_number": 4.0,
@@ -223,7 +223,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19953,
+      "id": 20508,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 1.0,
@@ -250,7 +250,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19954,
+      "id": 20509,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 2.0,
@@ -277,7 +277,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19955,
+      "id": 20510,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 3.0,
@@ -304,7 +304,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19956,
+      "id": 20511,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 4.0,
@@ -331,7 +331,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19957,
+      "id": 20512,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 5.0,
@@ -358,7 +358,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19958,
+      "id": 20513,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 6.0,
@@ -385,7 +385,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19959,
+      "id": 20514,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 7.0,
@@ -412,7 +412,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19960,
+      "id": 20515,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 8.0,
@@ -439,7 +439,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19961,
+      "id": 20516,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 9.0,
@@ -466,7 +466,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19962,
+      "id": 20517,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 10.0,
@@ -493,7 +493,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19963,
+      "id": 20518,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 11.0,
@@ -520,7 +520,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19964,
+      "id": 20519,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 12.0,
@@ -547,7 +547,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19965,
+      "id": 20520,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 13.0,
@@ -574,7 +574,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19966,
+      "id": 20521,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 14.0,
@@ -601,7 +601,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20098,
+      "id": 20653,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 16.0,
@@ -628,7 +628,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20099,
+      "id": 20654,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 17.0,
@@ -655,7 +655,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20100,
+      "id": 20655,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 18.0,
@@ -682,7 +682,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20101,
+      "id": 20656,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 19.0,
@@ -709,7 +709,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20102,
+      "id": 20657,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 20.0,
@@ -736,7 +736,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20103,
+      "id": 20658,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 21.0,
@@ -763,7 +763,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20104,
+      "id": 20659,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 22.0,
@@ -790,7 +790,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20105,
+      "id": 20660,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 23.0,
@@ -817,7 +817,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20106,
+      "id": 20661,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 24.0,
@@ -844,7 +844,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20107,
+      "id": 20662,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 25.0,
@@ -871,7 +871,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20108,
+      "id": 20663,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 26.0,
@@ -898,7 +898,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20109,
+      "id": 20664,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 27.0,
@@ -925,7 +925,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20110,
+      "id": 20665,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 28.0,
@@ -952,7 +952,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20111,
+      "id": 20666,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 29.0,
@@ -979,7 +979,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20112,
+      "id": 20667,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 30.0,
@@ -1006,7 +1006,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20113,
+      "id": 20668,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 31.0,
@@ -1033,7 +1033,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20114,
+      "id": 20669,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 32.0,
@@ -1060,7 +1060,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20115,
+      "id": 20670,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 33.0,
@@ -1087,7 +1087,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20116,
+      "id": 20671,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 34.0,
@@ -1114,7 +1114,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20117,
+      "id": 20672,
       "source": "scan",
       "series": "All-New Wolverine",
       "issue_number": 35.0,
@@ -1141,7 +1141,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19758,
+      "id": 20313,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 1.0,
@@ -1168,7 +1168,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19759,
+      "id": 20314,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 2.0,
@@ -1195,7 +1195,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19760,
+      "id": 20315,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 3.0,
@@ -1222,7 +1222,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19975,
+      "id": 20530,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 4.0,
@@ -1249,7 +1249,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19976,
+      "id": 20531,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 5.0,
@@ -1276,7 +1276,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19977,
+      "id": 20532,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 6.0,
@@ -1303,7 +1303,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19978,
+      "id": 20533,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 7.0,
@@ -1330,7 +1330,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19979,
+      "id": 20534,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 8.0,
@@ -1357,7 +1357,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19980,
+      "id": 20535,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 9.0,
@@ -1384,7 +1384,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19981,
+      "id": 20536,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 10.0,
@@ -1411,7 +1411,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19982,
+      "id": 20537,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 11.0,
@@ -1438,7 +1438,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19983,
+      "id": 20538,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 12.0,
@@ -1465,7 +1465,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19984,
+      "id": 20539,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 13.0,
@@ -1492,7 +1492,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19985,
+      "id": 20540,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 14.0,
@@ -1519,7 +1519,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19986,
+      "id": 20541,
       "source": "scan",
       "series": "All-New, All-Different Avengers",
       "issue_number": 15.0,
@@ -1546,7 +1546,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19611,
+      "id": 20166,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.0,
@@ -1573,7 +1573,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19612,
+      "id": 20167,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.1,
@@ -1600,7 +1600,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19765,
+      "id": 20320,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.1,
@@ -1627,7 +1627,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19613,
+      "id": 20168,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.2,
@@ -1654,7 +1654,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19766,
+      "id": 20321,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.2,
@@ -1681,7 +1681,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19614,
+      "id": 20169,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.3,
@@ -1708,7 +1708,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19767,
+      "id": 20322,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.3,
@@ -1735,7 +1735,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19615,
+      "id": 20170,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.4,
@@ -1762,7 +1762,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19768,
+      "id": 20323,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.4,
@@ -1789,7 +1789,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19616,
+      "id": 20171,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.5,
@@ -1816,7 +1816,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19769,
+      "id": 20324,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.5,
@@ -1843,7 +1843,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19770,
+      "id": 20325,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 1.6,
@@ -1870,7 +1870,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19617,
+      "id": 20172,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 2.0,
@@ -1897,7 +1897,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19618,
+      "id": 20173,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 3.0,
@@ -1924,7 +1924,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19619,
+      "id": 20174,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 4.0,
@@ -1951,7 +1951,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19620,
+      "id": 20175,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 5.0,
@@ -1978,7 +1978,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19621,
+      "id": 20176,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 6.0,
@@ -2005,7 +2005,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19771,
+      "id": 20326,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 6.0,
@@ -2032,7 +2032,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19622,
+      "id": 20177,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 7.0,
@@ -2059,7 +2059,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19623,
+      "id": 20178,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 8.0,
@@ -2086,7 +2086,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19624,
+      "id": 20179,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 9.0,
@@ -2113,7 +2113,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19625,
+      "id": 20180,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 10.0,
@@ -2140,7 +2140,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19626,
+      "id": 20181,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 11.0,
@@ -2167,7 +2167,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19627,
+      "id": 20182,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 12.0,
@@ -2194,7 +2194,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19628,
+      "id": 20183,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 13.0,
@@ -2221,7 +2221,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19629,
+      "id": 20184,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 14.0,
@@ -2248,7 +2248,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19630,
+      "id": 20185,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 15.0,
@@ -2275,7 +2275,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19653,
+      "id": 20208,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 16.0,
@@ -2302,7 +2302,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19654,
+      "id": 20209,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 16.1,
@@ -2329,7 +2329,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19655,
+      "id": 20210,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 17.0,
@@ -2356,7 +2356,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19656,
+      "id": 20211,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 17.1,
@@ -2383,7 +2383,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19657,
+      "id": 20212,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 18.0,
@@ -2410,7 +2410,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19658,
+      "id": 20213,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 18.1,
@@ -2437,7 +2437,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20055,
+      "id": 20610,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 19.0,
@@ -2464,7 +2464,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19659,
+      "id": 20214,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 19.1,
@@ -2491,7 +2491,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19660,
+      "id": 20215,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 20.1,
@@ -2518,7 +2518,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19680,
+      "id": 20235,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 657.0,
@@ -2545,7 +2545,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19681,
+      "id": 20236,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 658.0,
@@ -2572,7 +2572,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19682,
+      "id": 20237,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 659.0,
@@ -2599,7 +2599,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19683,
+      "id": 20238,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 660.0,
@@ -2626,7 +2626,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19684,
+      "id": 20239,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 661.0,
@@ -2653,7 +2653,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19685,
+      "id": 20240,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 662.0,
@@ -2680,7 +2680,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19973,
+      "id": 20528,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 663.0,
@@ -2707,7 +2707,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19686,
+      "id": 20241,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 664.0,
@@ -2734,7 +2734,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19687,
+      "id": 20242,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 665.0,
@@ -2761,7 +2761,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20057,
+      "id": 20612,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 666.0,
@@ -2788,7 +2788,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20058,
+      "id": 20613,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 667.0,
@@ -2815,7 +2815,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20059,
+      "id": 20614,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 668.0,
@@ -2842,7 +2842,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20060,
+      "id": 20615,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 669.0,
@@ -2869,7 +2869,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20061,
+      "id": 20616,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 670.0,
@@ -2896,7 +2896,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20062,
+      "id": 20617,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 671.0,
@@ -2923,7 +2923,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20063,
+      "id": 20618,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 672.0,
@@ -2950,7 +2950,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20064,
+      "id": 20619,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 673.0,
@@ -2977,7 +2977,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19688,
+      "id": 20243,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 674.0,
@@ -3004,7 +3004,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19689,
+      "id": 20244,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 675.0,
@@ -3031,7 +3031,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19690,
+      "id": 20245,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 676.0,
@@ -3058,7 +3058,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19691,
+      "id": 20246,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 677.0,
@@ -3085,7 +3085,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19692,
+      "id": 20247,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 678.0,
@@ -3112,7 +3112,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19693,
+      "id": 20248,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 679.0,
@@ -3139,7 +3139,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19694,
+      "id": 20249,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 680.0,
@@ -3166,7 +3166,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19695,
+      "id": 20250,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 681.0,
@@ -3193,7 +3193,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19696,
+      "id": 20251,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 682.0,
@@ -3220,7 +3220,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19697,
+      "id": 20252,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 683.0,
@@ -3247,7 +3247,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19698,
+      "id": 20253,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 684.0,
@@ -3274,7 +3274,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19699,
+      "id": 20254,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 685.0,
@@ -3301,7 +3301,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19700,
+      "id": 20255,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 686.0,
@@ -3328,7 +3328,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19701,
+      "id": 20256,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 687.0,
@@ -3355,7 +3355,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19702,
+      "id": 20257,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 688.0,
@@ -3382,7 +3382,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19703,
+      "id": 20258,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 689.0,
@@ -3409,7 +3409,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19704,
+      "id": 20259,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 690.0,
@@ -3436,7 +3436,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19705,
+      "id": 20260,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 691.0,
@@ -3463,7 +3463,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19706,
+      "id": 20261,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 692.0,
@@ -3490,7 +3490,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19707,
+      "id": 20262,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 693.0,
@@ -3517,7 +3517,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19708,
+      "id": 20263,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 694.0,
@@ -3544,7 +3544,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19709,
+      "id": 20264,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 695.0,
@@ -3571,7 +3571,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19710,
+      "id": 20265,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 696.0,
@@ -3598,7 +3598,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19711,
+      "id": 20266,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 697.0,
@@ -3625,7 +3625,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19712,
+      "id": 20267,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 698.0,
@@ -3652,7 +3652,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19713,
+      "id": 20268,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 699.0,
@@ -3679,7 +3679,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19714,
+      "id": 20269,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.0,
@@ -3706,7 +3706,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19715,
+      "id": 20270,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.1,
@@ -3733,7 +3733,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19716,
+      "id": 20271,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.2,
@@ -3760,7 +3760,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19717,
+      "id": 20272,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.3,
@@ -3787,7 +3787,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19718,
+      "id": 20273,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.4,
@@ -3814,7 +3814,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19719,
+      "id": 20274,
       "source": "scan",
       "series": "Amazing Spider-Man",
       "issue_number": 700.5,
@@ -3841,7 +3841,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19817,
+      "id": 20372,
       "source": "scan",
       "series": "Amazing Spider-Man: Renew Your Vows",
       "issue_number": 1.0,
@@ -3868,7 +3868,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19818,
+      "id": 20373,
       "source": "scan",
       "series": "Amazing Spider-Man: Renew Your Vows",
       "issue_number": 2.0,
@@ -3895,7 +3895,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19819,
+      "id": 20374,
       "source": "scan",
       "series": "Amazing Spider-Man: Renew Your Vows",
       "issue_number": 3.0,
@@ -3922,7 +3922,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19820,
+      "id": 20375,
       "source": "scan",
       "series": "Amazing Spider-Man: Renew Your Vows",
       "issue_number": 4.0,
@@ -3949,7 +3949,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19821,
+      "id": 20376,
       "source": "scan",
       "series": "Amazing Spider-Man: Renew Your Vows",
       "issue_number": 5.0,
@@ -3976,7 +3976,34 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19757,
+      "id": 20706,
+      "source": "scan",
+      "series": "Amazing Spider-Man: Venom Inc. Alpha",
+      "issue_number": 1.0,
+      "title": "Amazing Spider-Man: Venom Inc. Alpha #1",
+      "year": 2017,
+      "volume": "1",
+      "edition": "",
+      "event": "Venom Inc.",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20312,
       "source": "scan",
       "series": "Avengers",
       "issue_number": 0.0,
@@ -4003,7 +4030,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19661,
+      "id": 20216,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 1.0,
@@ -4030,7 +4057,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19662,
+      "id": 20217,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 2.0,
@@ -4057,7 +4084,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19663,
+      "id": 20218,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 3.0,
@@ -4084,7 +4111,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19664,
+      "id": 20219,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 4.0,
@@ -4111,7 +4138,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19665,
+      "id": 20220,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 5.0,
@@ -4138,7 +4165,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19666,
+      "id": 20221,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 6.0,
@@ -4165,7 +4192,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19667,
+      "id": 20222,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 7.0,
@@ -4192,7 +4219,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19668,
+      "id": 20223,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 8.0,
@@ -4219,7 +4246,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19669,
+      "id": 20224,
       "source": "scan",
       "series": "Avengers & X-Men: AXIS",
       "issue_number": 9.0,
@@ -4246,7 +4273,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20085,
+      "id": 20640,
       "source": "scan",
       "series": "Captain America",
       "issue_number": 696.0,
@@ -4273,7 +4300,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19892,
+      "id": 20447,
       "source": "scan",
       "series": "Carnage",
       "issue_number": 1.0,
@@ -4300,7 +4327,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19893,
+      "id": 20448,
       "source": "scan",
       "series": "Carnage",
       "issue_number": 2.0,
@@ -4327,7 +4354,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19894,
+      "id": 20449,
       "source": "scan",
       "series": "Carnage",
       "issue_number": 3.0,
@@ -4354,7 +4381,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19895,
+      "id": 20450,
       "source": "scan",
       "series": "Carnage",
       "issue_number": 4.0,
@@ -4381,7 +4408,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19896,
+      "id": 20451,
       "source": "scan",
       "series": "Carnage",
       "issue_number": 5.0,
@@ -4408,7 +4435,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19897,
+      "id": 20452,
       "source": "scan",
       "series": "Carnage",
       "issue_number": 6.0,
@@ -4435,7 +4462,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19898,
+      "id": 20453,
       "source": "scan",
       "series": "Carnage",
       "issue_number": 7.0,
@@ -4462,7 +4489,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19899,
+      "id": 20454,
       "source": "scan",
       "series": "Carnage",
       "issue_number": 8.0,
@@ -4489,7 +4516,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19900,
+      "id": 20455,
       "source": "scan",
       "series": "Carnage",
       "issue_number": 9.0,
@@ -4516,7 +4543,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19901,
+      "id": 20456,
       "source": "scan",
       "series": "Carnage",
       "issue_number": 10.0,
@@ -4543,7 +4570,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19825,
+      "id": 20380,
       "source": "scan",
       "series": "Civil War",
       "issue_number": 1.0,
@@ -4570,7 +4597,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19826,
+      "id": 20381,
       "source": "scan",
       "series": "Civil War",
       "issue_number": 2.0,
@@ -4597,7 +4624,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19827,
+      "id": 20382,
       "source": "scan",
       "series": "Civil War",
       "issue_number": 3.0,
@@ -4624,7 +4651,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19828,
+      "id": 20383,
       "source": "scan",
       "series": "Civil War",
       "issue_number": 4.0,
@@ -4651,7 +4678,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19829,
+      "id": 20384,
       "source": "scan",
       "series": "Civil War",
       "issue_number": 5.0,
@@ -4678,7 +4705,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19929,
+      "id": 20484,
       "source": "scan",
       "series": "Civil War 2",
       "issue_number": 0.0,
@@ -4705,7 +4732,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19930,
+      "id": 20485,
       "source": "scan",
       "series": "Civil War 2",
       "issue_number": 1.0,
@@ -4732,7 +4759,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19931,
+      "id": 20486,
       "source": "scan",
       "series": "Civil War 2",
       "issue_number": 2.0,
@@ -4759,7 +4786,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19932,
+      "id": 20487,
       "source": "scan",
       "series": "Civil War 2",
       "issue_number": 3.0,
@@ -4786,7 +4813,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19933,
+      "id": 20488,
       "source": "scan",
       "series": "Civil War 2",
       "issue_number": 4.0,
@@ -4813,7 +4840,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19934,
+      "id": 20489,
       "source": "scan",
       "series": "Civil War 2",
       "issue_number": 5.0,
@@ -4840,7 +4867,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19935,
+      "id": 20490,
       "source": "scan",
       "series": "Civil War 2",
       "issue_number": 6.0,
@@ -4867,7 +4894,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19936,
+      "id": 20491,
       "source": "scan",
       "series": "Civil War 2",
       "issue_number": 7.0,
@@ -4894,7 +4921,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19937,
+      "id": 20492,
       "source": "scan",
       "series": "Civil War 2",
       "issue_number": 8.0,
@@ -4921,7 +4948,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19720,
+      "id": 20275,
       "source": "scan",
       "series": "Death of Wolverine",
       "issue_number": 1.0,
@@ -4948,7 +4975,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19721,
+      "id": 20276,
       "source": "scan",
       "series": "Death of Wolverine",
       "issue_number": 2.0,
@@ -4975,7 +5002,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19722,
+      "id": 20277,
       "source": "scan",
       "series": "Death of Wolverine",
       "issue_number": 3.0,
@@ -5002,7 +5029,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19723,
+      "id": 20278,
       "source": "scan",
       "series": "Death of Wolverine",
       "issue_number": 4.0,
@@ -5029,7 +5056,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19631,
+      "id": 20186,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 1.0,
@@ -5056,7 +5083,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19632,
+      "id": 20187,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 2.0,
@@ -5083,7 +5110,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19633,
+      "id": 20188,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 3.0,
@@ -5110,7 +5137,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19634,
+      "id": 20189,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 4.0,
@@ -5137,7 +5164,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19635,
+      "id": 20190,
       "source": "scan",
       "series": "Edge of Spider-Verse",
       "issue_number": 5.0,
@@ -5164,7 +5191,61 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19822,
+      "id": 20703,
+      "source": "scan",
+      "series": "Edge of Venomverse",
+      "issue_number": 1.0,
+      "title": "Edge of Venomverse #1",
+      "year": 2017,
+      "volume": "1",
+      "edition": "",
+      "event": "Venomverse",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20704,
+      "source": "scan",
+      "series": "Edge of Venomverse",
+      "issue_number": 2.0,
+      "title": "Edge of Venomverse #2",
+      "year": 2017,
+      "volume": "1",
+      "edition": "",
+      "event": "Venomverse",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20377,
       "source": "scan",
       "series": "Inhumans: Attilan Rising",
       "issue_number": 2.0,
@@ -5191,7 +5272,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19823,
+      "id": 20378,
       "source": "scan",
       "series": "Inhumans: Attilan Rising",
       "issue_number": 3.0,
@@ -5218,7 +5299,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19824,
+      "id": 20379,
       "source": "scan",
       "series": "Inhumans: Attilan Rising",
       "issue_number": 4.0,
@@ -5245,7 +5326,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19902,
+      "id": 20457,
       "source": "scan",
       "series": "International Iron Man",
       "issue_number": 1.0,
@@ -5272,7 +5353,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19903,
+      "id": 20458,
       "source": "scan",
       "series": "International Iron Man",
       "issue_number": 2.0,
@@ -5299,7 +5380,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19904,
+      "id": 20459,
       "source": "scan",
       "series": "International Iron Man",
       "issue_number": 3.0,
@@ -5326,7 +5407,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19905,
+      "id": 20460,
       "source": "scan",
       "series": "International Iron Man",
       "issue_number": 4.0,
@@ -5353,7 +5434,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19906,
+      "id": 20461,
       "source": "scan",
       "series": "International Iron Man",
       "issue_number": 5.0,
@@ -5380,7 +5461,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19907,
+      "id": 20462,
       "source": "scan",
       "series": "International Iron Man",
       "issue_number": 6.0,
@@ -5407,7 +5488,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19908,
+      "id": 20463,
       "source": "scan",
       "series": "International Iron Man",
       "issue_number": 7.0,
@@ -5434,7 +5515,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19909,
+      "id": 20464,
       "source": "scan",
       "series": "International Iron Man",
       "issue_number": 8.0,
@@ -5461,7 +5542,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19778,
+      "id": 20333,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 1.0,
@@ -5488,7 +5569,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19779,
+      "id": 20334,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 2.0,
@@ -5515,7 +5596,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19780,
+      "id": 20335,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 3.0,
@@ -5542,7 +5623,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19781,
+      "id": 20336,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 4.0,
@@ -5569,7 +5650,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19782,
+      "id": 20337,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 5.0,
@@ -5596,7 +5677,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19783,
+      "id": 20338,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 6.0,
@@ -5623,7 +5704,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19784,
+      "id": 20339,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 7.0,
@@ -5650,7 +5731,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19785,
+      "id": 20340,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 8.0,
@@ -5677,7 +5758,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19786,
+      "id": 20341,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 9.0,
@@ -5704,7 +5785,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19787,
+      "id": 20342,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 10.0,
@@ -5731,7 +5812,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19788,
+      "id": 20343,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 11.0,
@@ -5758,7 +5839,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19789,
+      "id": 20344,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 12.0,
@@ -5785,7 +5866,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19790,
+      "id": 20345,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 13.0,
@@ -5812,7 +5893,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19791,
+      "id": 20346,
       "source": "scan",
       "series": "Invincible Iron Man",
       "issue_number": 14.0,
@@ -5839,7 +5920,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19603,
+      "id": 20158,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 1.0,
@@ -5866,7 +5947,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19604,
+      "id": 20159,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 2.0,
@@ -5893,7 +5974,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19605,
+      "id": 20160,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 3.0,
@@ -5920,7 +6001,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19606,
+      "id": 20161,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 4.0,
@@ -5947,7 +6028,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19607,
+      "id": 20162,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 5.0,
@@ -5974,7 +6055,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19608,
+      "id": 20163,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 6.0,
@@ -6001,7 +6082,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19609,
+      "id": 20164,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 7.0,
@@ -6028,7 +6109,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19610,
+      "id": 20165,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 8.0,
@@ -6055,7 +6136,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19761,
+      "id": 20316,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 9.0,
@@ -6082,7 +6163,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19762,
+      "id": 20317,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 10.0,
@@ -6109,7 +6190,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19763,
+      "id": 20318,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 11.0,
@@ -6136,7 +6217,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19764,
+      "id": 20319,
       "source": "scan",
       "series": "Miles Morales: Ultimate Spider-Man",
       "issue_number": 12.0,
@@ -6163,7 +6244,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19592,
+      "id": 20147,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 1.0,
@@ -6190,7 +6271,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19593,
+      "id": 20148,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 2.0,
@@ -6217,7 +6298,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19594,
+      "id": 20149,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 3.0,
@@ -6244,7 +6325,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19595,
+      "id": 20150,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 4.0,
@@ -6271,7 +6352,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19596,
+      "id": 20151,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 5.0,
@@ -6298,7 +6379,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19597,
+      "id": 20152,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 6.0,
@@ -6325,7 +6406,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19598,
+      "id": 20153,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 7.0,
@@ -6352,7 +6433,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19599,
+      "id": 20154,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 8.0,
@@ -6379,7 +6460,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19600,
+      "id": 20155,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 9.0,
@@ -6406,7 +6487,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19601,
+      "id": 20156,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 10.0,
@@ -6433,7 +6514,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19602,
+      "id": 20157,
       "source": "scan",
       "series": "Mortal Thor",
       "issue_number": 11.0,
@@ -6460,7 +6541,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19830,
+      "id": 20385,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 1.0,
@@ -6487,7 +6568,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19938,
+      "id": 20493,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 1.0,
@@ -6514,7 +6595,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19831,
+      "id": 20386,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 2.0,
@@ -6541,7 +6622,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19939,
+      "id": 20494,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 2.0,
@@ -6568,7 +6649,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19832,
+      "id": 20387,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 3.0,
@@ -6595,7 +6676,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19940,
+      "id": 20495,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 3.0,
@@ -6622,7 +6703,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19833,
+      "id": 20388,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 4.0,
@@ -6649,7 +6730,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19941,
+      "id": 20496,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 4.0,
@@ -6676,7 +6757,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19834,
+      "id": 20389,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 5.0,
@@ -6703,7 +6784,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19942,
+      "id": 20497,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 5.0,
@@ -6730,7 +6811,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19943,
+      "id": 20498,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 6.0,
@@ -6757,7 +6838,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19944,
+      "id": 20499,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 7.0,
@@ -6784,7 +6865,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19945,
+      "id": 20500,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 8.0,
@@ -6811,7 +6892,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19946,
+      "id": 20501,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 9.0,
@@ -6838,7 +6919,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19947,
+      "id": 20502,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 10.0,
@@ -6865,7 +6946,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19948,
+      "id": 20503,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 11.0,
@@ -6892,7 +6973,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19949,
+      "id": 20504,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 12.0,
@@ -6919,7 +7000,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19950,
+      "id": 20505,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 13.0,
@@ -6946,7 +7027,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19951,
+      "id": 20506,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 14.0,
@@ -6973,7 +7054,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19952,
+      "id": 20507,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 15.0,
@@ -7000,7 +7081,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20118,
+      "id": 20673,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 16.0,
@@ -7027,7 +7108,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20119,
+      "id": 20674,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 17.0,
@@ -7054,7 +7135,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20120,
+      "id": 20675,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 18.0,
@@ -7081,7 +7162,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20121,
+      "id": 20676,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 19.0,
@@ -7108,7 +7189,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20122,
+      "id": 20677,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 20.0,
@@ -7135,7 +7216,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20123,
+      "id": 20678,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 21.0,
@@ -7162,7 +7243,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20124,
+      "id": 20679,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 22.0,
@@ -7189,7 +7270,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20125,
+      "id": 20680,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 23.0,
@@ -7216,7 +7297,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20126,
+      "id": 20681,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 24.0,
@@ -7243,7 +7324,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20127,
+      "id": 20682,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 25.0,
@@ -7270,7 +7351,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20128,
+      "id": 20683,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 26.0,
@@ -7297,7 +7378,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20129,
+      "id": 20684,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 27.0,
@@ -7324,7 +7405,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20130,
+      "id": 20685,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 28.0,
@@ -7351,7 +7432,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20131,
+      "id": 20686,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 29.0,
@@ -7378,7 +7459,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20132,
+      "id": 20687,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 30.0,
@@ -7405,7 +7486,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20133,
+      "id": 20688,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 31.0,
@@ -7432,7 +7513,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20134,
+      "id": 20689,
       "source": "scan",
       "series": "Old Man Logan",
       "issue_number": 32.0,
@@ -7459,7 +7540,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19645,
+      "id": 20200,
       "source": "scan",
       "series": "Scarlet Spiders",
       "issue_number": 1.0,
@@ -7486,7 +7567,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19646,
+      "id": 20201,
       "source": "scan",
       "series": "Scarlet Spiders",
       "issue_number": 2.0,
@@ -7513,7 +7594,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20086,
+      "id": 20641,
       "source": "scan",
       "series": "Secret Empire",
       "issue_number": 0.0,
@@ -7540,7 +7621,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20087,
+      "id": 20642,
       "source": "scan",
       "series": "Secret Empire",
       "issue_number": 1.0,
@@ -7567,7 +7648,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20088,
+      "id": 20643,
       "source": "scan",
       "series": "Secret Empire",
       "issue_number": 2.0,
@@ -7594,7 +7675,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20089,
+      "id": 20644,
       "source": "scan",
       "series": "Secret Empire",
       "issue_number": 3.0,
@@ -7621,7 +7702,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20090,
+      "id": 20645,
       "source": "scan",
       "series": "Secret Empire",
       "issue_number": 4.0,
@@ -7648,7 +7729,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20091,
+      "id": 20646,
       "source": "scan",
       "series": "Secret Empire",
       "issue_number": 5.0,
@@ -7675,7 +7756,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20092,
+      "id": 20647,
       "source": "scan",
       "series": "Secret Empire",
       "issue_number": 6.0,
@@ -7702,7 +7783,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20093,
+      "id": 20648,
       "source": "scan",
       "series": "Secret Empire",
       "issue_number": 7.0,
@@ -7729,7 +7810,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20094,
+      "id": 20649,
       "source": "scan",
       "series": "Secret Empire",
       "issue_number": 8.0,
@@ -7756,7 +7837,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20095,
+      "id": 20650,
       "source": "scan",
       "series": "Secret Empire",
       "issue_number": 9.0,
@@ -7783,7 +7864,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20096,
+      "id": 20651,
       "source": "scan",
       "series": "Secret Empire",
       "issue_number": 10.0,
@@ -7810,7 +7891,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20097,
+      "id": 20652,
       "source": "scan",
       "series": "Secret Empire Omega",
       "issue_number": 1.0,
@@ -7837,7 +7918,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19805,
+      "id": 20360,
       "source": "scan",
       "series": "Secret Wars",
       "issue_number": 1.0,
@@ -7864,7 +7945,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19851,
+      "id": 20406,
       "source": "scan",
       "series": "Secret Wars",
       "issue_number": 1.0,
@@ -7891,7 +7972,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19806,
+      "id": 20361,
       "source": "scan",
       "series": "Secret Wars",
       "issue_number": 2.0,
@@ -7918,7 +7999,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19807,
+      "id": 20362,
       "source": "scan",
       "series": "Secret Wars",
       "issue_number": 3.0,
@@ -7945,7 +8026,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19808,
+      "id": 20363,
       "source": "scan",
       "series": "Secret Wars",
       "issue_number": 4.0,
@@ -7972,7 +8053,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19809,
+      "id": 20364,
       "source": "scan",
       "series": "Secret Wars",
       "issue_number": 5.0,
@@ -7999,7 +8080,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19810,
+      "id": 20365,
       "source": "scan",
       "series": "Secret Wars",
       "issue_number": 6.0,
@@ -8026,7 +8107,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19811,
+      "id": 20366,
       "source": "scan",
       "series": "Secret Wars",
       "issue_number": 7.0,
@@ -8053,7 +8134,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19812,
+      "id": 20367,
       "source": "scan",
       "series": "Secret Wars",
       "issue_number": 8.0,
@@ -8080,7 +8161,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19813,
+      "id": 20368,
       "source": "scan",
       "series": "Secret Wars",
       "issue_number": 9.0,
@@ -8107,7 +8188,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19835,
+      "id": 20390,
       "source": "scan",
       "series": "Secret Wars 2099",
       "issue_number": 1.0,
@@ -8134,7 +8215,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19836,
+      "id": 20391,
       "source": "scan",
       "series": "Secret Wars 2099",
       "issue_number": 2.0,
@@ -8161,7 +8242,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19814,
+      "id": 20369,
       "source": "scan",
       "series": "Secret Wars: Battleworld",
       "issue_number": 1.0,
@@ -8188,7 +8269,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19815,
+      "id": 20370,
       "source": "scan",
       "series": "Secret Wars: Battleworld",
       "issue_number": 3.0,
@@ -8215,7 +8296,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19816,
+      "id": 20371,
       "source": "scan",
       "series": "Secret Wars: Battleworld",
       "issue_number": 4.0,
@@ -8242,7 +8323,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19874,
+      "id": 20429,
       "source": "scan",
       "series": "Silk",
       "issue_number": 1.0,
@@ -8269,7 +8350,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19999,
+      "id": 20554,
       "source": "scan",
       "series": "Silk",
       "issue_number": 1.0,
@@ -8296,7 +8377,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19875,
+      "id": 20430,
       "source": "scan",
       "series": "Silk",
       "issue_number": 2.0,
@@ -8323,7 +8404,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20000,
+      "id": 20555,
       "source": "scan",
       "series": "Silk",
       "issue_number": 2.0,
@@ -8350,7 +8431,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19876,
+      "id": 20431,
       "source": "scan",
       "series": "Silk",
       "issue_number": 3.0,
@@ -8377,7 +8458,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20001,
+      "id": 20556,
       "source": "scan",
       "series": "Silk",
       "issue_number": 3.0,
@@ -8404,7 +8485,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19877,
+      "id": 20432,
       "source": "scan",
       "series": "Silk",
       "issue_number": 4.0,
@@ -8431,7 +8512,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20002,
+      "id": 20557,
       "source": "scan",
       "series": "Silk",
       "issue_number": 4.0,
@@ -8458,7 +8539,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19878,
+      "id": 20433,
       "source": "scan",
       "series": "Silk",
       "issue_number": 5.0,
@@ -8485,7 +8566,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20003,
+      "id": 20558,
       "source": "scan",
       "series": "Silk",
       "issue_number": 5.0,
@@ -8512,7 +8593,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19879,
+      "id": 20434,
       "source": "scan",
       "series": "Silk",
       "issue_number": 6.0,
@@ -8539,7 +8620,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20004,
+      "id": 20559,
       "source": "scan",
       "series": "Silk",
       "issue_number": 6.0,
@@ -8566,7 +8647,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19880,
+      "id": 20435,
       "source": "scan",
       "series": "Silk",
       "issue_number": 7.0,
@@ -8593,7 +8674,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20005,
+      "id": 20560,
       "source": "scan",
       "series": "Silk",
       "issue_number": 7.0,
@@ -8620,7 +8701,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20006,
+      "id": 20561,
       "source": "scan",
       "series": "Silk",
       "issue_number": 8.0,
@@ -8647,7 +8728,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20007,
+      "id": 20562,
       "source": "scan",
       "series": "Silk",
       "issue_number": 9.0,
@@ -8674,7 +8755,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20008,
+      "id": 20563,
       "source": "scan",
       "series": "Silk",
       "issue_number": 10.0,
@@ -8701,7 +8782,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20009,
+      "id": 20564,
       "source": "scan",
       "series": "Silk",
       "issue_number": 11.0,
@@ -8728,7 +8809,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20010,
+      "id": 20565,
       "source": "scan",
       "series": "Silk",
       "issue_number": 12.0,
@@ -8755,7 +8836,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20011,
+      "id": 20566,
       "source": "scan",
       "series": "Silk",
       "issue_number": 13.0,
@@ -8782,7 +8863,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20012,
+      "id": 20567,
       "source": "scan",
       "series": "Silk",
       "issue_number": 14.0,
@@ -8809,7 +8890,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20013,
+      "id": 20568,
       "source": "scan",
       "series": "Silk",
       "issue_number": 15.0,
@@ -8836,7 +8917,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20014,
+      "id": 20569,
       "source": "scan",
       "series": "Silk",
       "issue_number": 16.0,
@@ -8863,7 +8944,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20015,
+      "id": 20570,
       "source": "scan",
       "series": "Silk",
       "issue_number": 17.0,
@@ -8890,7 +8971,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20016,
+      "id": 20571,
       "source": "scan",
       "series": "Silk",
       "issue_number": 18.0,
@@ -8917,7 +8998,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20017,
+      "id": 20572,
       "source": "scan",
       "series": "Silk",
       "issue_number": 19.0,
@@ -8944,7 +9025,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19869,
+      "id": 20424,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 0.0,
@@ -8971,7 +9052,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19870,
+      "id": 20425,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 1.0,
@@ -8998,7 +9079,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20050,
+      "id": 20605,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 1.0,
@@ -9025,7 +9106,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20051,
+      "id": 20606,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 2.0,
@@ -9052,7 +9133,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19871,
+      "id": 20426,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 3.0,
@@ -9079,7 +9160,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20052,
+      "id": 20607,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 3.0,
@@ -9106,7 +9187,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19872,
+      "id": 20427,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 4.0,
@@ -9133,7 +9214,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20053,
+      "id": 20608,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 4.0,
@@ -9160,7 +9241,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19873,
+      "id": 20428,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 5.0,
@@ -9187,7 +9268,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20054,
+      "id": 20609,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 5.0,
@@ -9214,7 +9295,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20039,
+      "id": 20594,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 6.0,
@@ -9241,7 +9322,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20040,
+      "id": 20595,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 7.0,
@@ -9268,7 +9349,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20041,
+      "id": 20596,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 8.0,
@@ -9295,7 +9376,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20042,
+      "id": 20597,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 9.0,
@@ -9322,7 +9403,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20043,
+      "id": 20598,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 10.0,
@@ -9349,7 +9430,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20044,
+      "id": 20599,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 11.0,
@@ -9376,7 +9457,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20045,
+      "id": 20600,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 12.0,
@@ -9403,7 +9484,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20046,
+      "id": 20601,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 13.0,
@@ -9430,7 +9511,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20047,
+      "id": 20602,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 14.0,
@@ -9457,7 +9538,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20048,
+      "id": 20603,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 15.0,
@@ -9484,7 +9565,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20049,
+      "id": 20604,
       "source": "scan",
       "series": "Spider-Gwen",
       "issue_number": 16.0,
@@ -9511,7 +9592,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19844,
+      "id": 20399,
       "source": "scan",
       "series": "Spider-Island",
       "issue_number": 1.0,
@@ -9538,7 +9619,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19845,
+      "id": 20400,
       "source": "scan",
       "series": "Spider-Island",
       "issue_number": 2.0,
@@ -9565,7 +9646,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19846,
+      "id": 20401,
       "source": "scan",
       "series": "Spider-Island",
       "issue_number": 3.0,
@@ -9592,7 +9673,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19847,
+      "id": 20402,
       "source": "scan",
       "series": "Spider-Island",
       "issue_number": 4.0,
@@ -9619,7 +9700,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19848,
+      "id": 20403,
       "source": "scan",
       "series": "Spider-Island",
       "issue_number": 5.0,
@@ -9646,7 +9727,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19881,
+      "id": 20436,
       "source": "scan",
       "series": "Spider-Man",
       "issue_number": 1.0,
@@ -9673,7 +9754,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19882,
+      "id": 20437,
       "source": "scan",
       "series": "Spider-Man",
       "issue_number": 2.0,
@@ -9700,7 +9781,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19883,
+      "id": 20438,
       "source": "scan",
       "series": "Spider-Man",
       "issue_number": 3.0,
@@ -9727,7 +9808,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19884,
+      "id": 20439,
       "source": "scan",
       "series": "Spider-Man",
       "issue_number": 4.0,
@@ -9754,7 +9835,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19885,
+      "id": 20440,
       "source": "scan",
       "series": "Spider-Man",
       "issue_number": 5.0,
@@ -9781,7 +9862,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19886,
+      "id": 20441,
       "source": "scan",
       "series": "Spider-Man",
       "issue_number": 6.0,
@@ -9808,7 +9889,34 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19854,
+      "id": 20707,
+      "source": "scan",
+      "series": "Spider-Man",
+      "issue_number": 235.0,
+      "title": "Spider-Man #235",
+      "year": 2018,
+      "volume": "2",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20409,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 1.0,
@@ -9835,7 +9943,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19855,
+      "id": 20410,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 2.0,
@@ -9862,7 +9970,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19856,
+      "id": 20411,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 3.0,
@@ -9889,7 +9997,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19857,
+      "id": 20412,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 4.0,
@@ -9916,7 +10024,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19636,
+      "id": 20191,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 5.0,
@@ -9943,7 +10051,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19858,
+      "id": 20413,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 5.0,
@@ -9970,7 +10078,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19637,
+      "id": 20192,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 6.0,
@@ -9997,7 +10105,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20018,
+      "id": 20573,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 6.0,
@@ -10024,7 +10132,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19638,
+      "id": 20193,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 7.0,
@@ -10051,7 +10159,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20019,
+      "id": 20574,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 7.0,
@@ -10078,7 +10186,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19639,
+      "id": 20194,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 8.0,
@@ -10105,7 +10213,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20020,
+      "id": 20575,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 8.0,
@@ -10132,7 +10240,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19859,
+      "id": 20414,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 9.0,
@@ -10159,7 +10267,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19860,
+      "id": 20415,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 10.0,
@@ -10186,7 +10294,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19861,
+      "id": 20416,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 11.0,
@@ -10213,7 +10321,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19862,
+      "id": 20417,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 12.0,
@@ -10240,7 +10348,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20021,
+      "id": 20576,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 13.0,
@@ -10267,7 +10375,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20022,
+      "id": 20577,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 14.0,
@@ -10294,7 +10402,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20023,
+      "id": 20578,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 15.0,
@@ -10321,7 +10429,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20024,
+      "id": 20579,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 16.0,
@@ -10348,7 +10456,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20025,
+      "id": 20580,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 17.0,
@@ -10375,7 +10483,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20026,
+      "id": 20581,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 18.0,
@@ -10402,7 +10510,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20027,
+      "id": 20582,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 19.0,
@@ -10429,7 +10537,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20028,
+      "id": 20583,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 20.0,
@@ -10456,7 +10564,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20029,
+      "id": 20584,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 21.0,
@@ -10483,7 +10591,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20030,
+      "id": 20585,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 22.0,
@@ -10510,7 +10618,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20031,
+      "id": 20586,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 23.0,
@@ -10537,7 +10645,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20032,
+      "id": 20587,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 24.0,
@@ -10564,7 +10672,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20033,
+      "id": 20588,
       "source": "scan",
       "series": "Spider-Man 2099",
       "issue_number": 25.0,
@@ -10591,7 +10699,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19987,
+      "id": 20542,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 1.0,
@@ -10618,7 +10726,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19988,
+      "id": 20543,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 2.0,
@@ -10645,7 +10753,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19989,
+      "id": 20544,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 3.0,
@@ -10672,7 +10780,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19990,
+      "id": 20545,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 4.0,
@@ -10699,7 +10807,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19991,
+      "id": 20546,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 5.0,
@@ -10726,7 +10834,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19992,
+      "id": 20547,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 6.0,
@@ -10753,7 +10861,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19993,
+      "id": 20548,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 7.0,
@@ -10780,7 +10888,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19994,
+      "id": 20549,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 8.0,
@@ -10807,7 +10915,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19995,
+      "id": 20550,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 9.0,
@@ -10834,7 +10942,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19996,
+      "id": 20551,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 10.0,
@@ -10861,7 +10969,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19997,
+      "id": 20552,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 11.0,
@@ -10888,7 +10996,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19998,
+      "id": 20553,
       "source": "scan",
       "series": "Spider-Man/Deadpool",
       "issue_number": 12.0,
@@ -10915,7 +11023,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19887,
+      "id": 20442,
       "source": "scan",
       "series": "Spider-Men 2",
       "issue_number": 1.0,
@@ -10942,7 +11050,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19888,
+      "id": 20443,
       "source": "scan",
       "series": "Spider-Men 2",
       "issue_number": 2.0,
@@ -10969,7 +11077,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19889,
+      "id": 20444,
       "source": "scan",
       "series": "Spider-Men 2",
       "issue_number": 3.0,
@@ -10996,7 +11104,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19890,
+      "id": 20445,
       "source": "scan",
       "series": "Spider-Men 2",
       "issue_number": 4.0,
@@ -11023,7 +11131,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19891,
+      "id": 20446,
       "source": "scan",
       "series": "Spider-Men 2",
       "issue_number": 5.0,
@@ -11050,7 +11158,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19643,
+      "id": 20198,
       "source": "scan",
       "series": "Spider-Verse",
       "issue_number": 1.0,
@@ -11077,7 +11185,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19644,
+      "id": 20199,
       "source": "scan",
       "series": "Spider-Verse",
       "issue_number": 2.0,
@@ -11104,7 +11212,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19841,
+      "id": 20396,
       "source": "scan",
       "series": "Spider-Verse",
       "issue_number": 3.0,
@@ -11131,7 +11239,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19842,
+      "id": 20397,
       "source": "scan",
       "series": "Spider-Verse",
       "issue_number": 4.0,
@@ -11158,7 +11266,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19843,
+      "id": 20398,
       "source": "scan",
       "series": "Spider-Verse",
       "issue_number": 5.0,
@@ -11185,7 +11293,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19640,
+      "id": 20195,
       "source": "scan",
       "series": "Spider-Verse Team-Up",
       "issue_number": 1.0,
@@ -11212,7 +11320,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19641,
+      "id": 20196,
       "source": "scan",
       "series": "Spider-Verse Team-Up",
       "issue_number": 2.0,
@@ -11239,7 +11347,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19642,
+      "id": 20197,
       "source": "scan",
       "series": "Spider-Verse Team-Up",
       "issue_number": 3.0,
@@ -11266,7 +11374,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19647,
+      "id": 20202,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 1.0,
@@ -11293,7 +11401,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19648,
+      "id": 20203,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 2.0,
@@ -11320,7 +11428,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19649,
+      "id": 20204,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 3.0,
@@ -11347,7 +11455,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19650,
+      "id": 20205,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 4.0,
@@ -11374,7 +11482,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19864,
+      "id": 20419,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 5.0,
@@ -11401,7 +11509,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19865,
+      "id": 20420,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 6.0,
@@ -11428,7 +11536,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19866,
+      "id": 20421,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 7.0,
@@ -11455,7 +11563,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19867,
+      "id": 20422,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 8.0,
@@ -11482,7 +11590,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19868,
+      "id": 20423,
       "source": "scan",
       "series": "Spider-Woman",
       "issue_number": 9.0,
@@ -11509,7 +11617,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20038,
+      "id": 20593,
       "source": "scan",
       "series": "Spider-Women Alpha",
       "issue_number": 1.0,
@@ -11536,7 +11644,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19863,
+      "id": 20418,
       "source": "scan",
       "series": "Spider-Women Omega",
       "issue_number": 1.0,
@@ -11563,7 +11671,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19967,
+      "id": 20522,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 1.0,
@@ -11590,7 +11698,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19968,
+      "id": 20523,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 2.0,
@@ -11617,7 +11725,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19969,
+      "id": 20524,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 3.0,
@@ -11644,7 +11752,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20056,
+      "id": 20611,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 4.0,
@@ -11671,7 +11779,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19970,
+      "id": 20525,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 5.0,
@@ -11698,7 +11806,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19971,
+      "id": 20526,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 6.0,
@@ -11725,7 +11833,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19972,
+      "id": 20527,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 7.0,
@@ -11752,7 +11860,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20074,
+      "id": 20629,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 10.0,
@@ -11779,7 +11887,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20075,
+      "id": 20630,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 11.0,
@@ -11806,7 +11914,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20076,
+      "id": 20631,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 12.0,
@@ -11833,7 +11941,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20077,
+      "id": 20632,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 13.0,
@@ -11860,7 +11968,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20078,
+      "id": 20633,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 14.0,
@@ -11887,7 +11995,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20079,
+      "id": 20634,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 15.0,
@@ -11914,7 +12022,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20080,
+      "id": 20635,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 16.0,
@@ -11941,7 +12049,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20081,
+      "id": 20636,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 17.0,
@@ -11968,7 +12076,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20082,
+      "id": 20637,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 18.0,
@@ -11995,7 +12103,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20083,
+      "id": 20638,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 19.0,
@@ -12022,7 +12130,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20084,
+      "id": 20639,
       "source": "scan",
       "series": "Steve Rogers: Captain America",
       "issue_number": 25.0,
@@ -12049,7 +12157,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19677,
+      "id": 20232,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 1.0,
@@ -12076,7 +12184,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19678,
+      "id": 20233,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 2.0,
@@ -12103,7 +12211,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19679,
+      "id": 20234,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 3.0,
@@ -12130,7 +12238,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19772,
+      "id": 20327,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 4.0,
@@ -12157,7 +12265,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19773,
+      "id": 20328,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 5.0,
@@ -12184,7 +12292,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19774,
+      "id": 20329,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 6.0,
@@ -12211,7 +12319,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19775,
+      "id": 20330,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 7.0,
@@ -12238,7 +12346,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19776,
+      "id": 20331,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 8.0,
@@ -12265,7 +12373,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19777,
+      "id": 20332,
       "source": "scan",
       "series": "Superior Iron Man",
       "issue_number": 9.0,
@@ -12292,7 +12400,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19724,
+      "id": 20279,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 1.0,
@@ -12319,7 +12427,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19725,
+      "id": 20280,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 2.0,
@@ -12346,7 +12454,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19726,
+      "id": 20281,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 3.0,
@@ -12373,7 +12481,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19727,
+      "id": 20282,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 4.0,
@@ -12400,7 +12508,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19728,
+      "id": 20283,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 5.0,
@@ -12427,7 +12535,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19729,
+      "id": 20284,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 6.0,
@@ -12454,7 +12562,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19730,
+      "id": 20285,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 7.0,
@@ -12481,7 +12589,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19731,
+      "id": 20286,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 8.0,
@@ -12508,7 +12616,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19732,
+      "id": 20287,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 9.0,
@@ -12535,7 +12643,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19733,
+      "id": 20288,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 10.0,
@@ -12562,7 +12670,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19734,
+      "id": 20289,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 11.0,
@@ -12589,7 +12697,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19735,
+      "id": 20290,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 12.0,
@@ -12616,7 +12724,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19736,
+      "id": 20291,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 13.0,
@@ -12643,7 +12751,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19737,
+      "id": 20292,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 14.0,
@@ -12670,7 +12778,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19738,
+      "id": 20293,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 15.0,
@@ -12697,7 +12805,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19739,
+      "id": 20294,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 16.0,
@@ -12724,7 +12832,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19740,
+      "id": 20295,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 17.0,
@@ -12751,7 +12859,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19741,
+      "id": 20296,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 18.0,
@@ -12778,7 +12886,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19742,
+      "id": 20297,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 19.0,
@@ -12805,7 +12913,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19743,
+      "id": 20298,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 20.0,
@@ -12832,7 +12940,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19744,
+      "id": 20299,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 21.0,
@@ -12859,7 +12967,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19745,
+      "id": 20300,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 22.0,
@@ -12886,7 +12994,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19746,
+      "id": 20301,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 23.0,
@@ -12913,7 +13021,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19747,
+      "id": 20302,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 24.0,
@@ -12940,7 +13048,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19748,
+      "id": 20303,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 25.0,
@@ -12967,7 +13075,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19749,
+      "id": 20304,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 26.0,
@@ -12994,7 +13102,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19750,
+      "id": 20305,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 27.0,
@@ -13021,7 +13129,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19751,
+      "id": 20306,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 28.0,
@@ -13048,7 +13156,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19752,
+      "id": 20307,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 29.0,
@@ -13075,7 +13183,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19753,
+      "id": 20308,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 30.0,
@@ -13102,7 +13210,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19754,
+      "id": 20309,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 31.0,
@@ -13129,7 +13237,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19755,
+      "id": 20310,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 32.0,
@@ -13156,7 +13264,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19756,
+      "id": 20311,
       "source": "scan",
       "series": "Superior Spider-Man",
       "issue_number": 33.0,
@@ -13183,7 +13291,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20034,
+      "id": 20589,
       "source": "scan",
       "series": "The Amazing Spider-Man and Silk",
       "issue_number": 1.0,
@@ -13210,7 +13318,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20035,
+      "id": 20590,
       "source": "scan",
       "series": "The Amazing Spider-Man and Silk",
       "issue_number": 2.0,
@@ -13237,7 +13345,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20036,
+      "id": 20591,
       "source": "scan",
       "series": "The Amazing Spider-Man and Silk",
       "issue_number": 3.0,
@@ -13264,7 +13372,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20037,
+      "id": 20592,
       "source": "scan",
       "series": "The Amazing Spider-Man and Silk",
       "issue_number": 4.0,
@@ -13291,7 +13399,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19916,
+      "id": 20471,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 1.0,
@@ -13318,7 +13426,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19917,
+      "id": 20472,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 2.0,
@@ -13345,7 +13453,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19918,
+      "id": 20473,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 3.0,
@@ -13372,7 +13480,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19919,
+      "id": 20474,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 4.0,
@@ -13399,7 +13507,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19920,
+      "id": 20475,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 5.0,
@@ -13426,7 +13534,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19921,
+      "id": 20476,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 6.0,
@@ -13453,7 +13561,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19922,
+      "id": 20477,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 7.0,
@@ -13480,7 +13588,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19923,
+      "id": 20478,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 8.0,
@@ -13507,7 +13615,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19924,
+      "id": 20479,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 9.0,
@@ -13534,7 +13642,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19925,
+      "id": 20480,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 11.0,
@@ -13561,7 +13669,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19926,
+      "id": 20481,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 12.0,
@@ -13588,7 +13696,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19927,
+      "id": 20482,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 13.0,
@@ -13615,7 +13723,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19928,
+      "id": 20483,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 14.0,
@@ -13642,7 +13750,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20065,
+      "id": 20620,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 15.0,
@@ -13669,7 +13777,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20066,
+      "id": 20621,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 16.0,
@@ -13696,7 +13804,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20067,
+      "id": 20622,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 17.0,
@@ -13723,7 +13831,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20068,
+      "id": 20623,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 18.0,
@@ -13750,7 +13858,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20069,
+      "id": 20624,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 19.0,
@@ -13777,7 +13885,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20070,
+      "id": 20625,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 20.0,
@@ -13804,7 +13912,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20071,
+      "id": 20626,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 21.0,
@@ -13831,7 +13939,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20072,
+      "id": 20627,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 22.0,
@@ -13858,7 +13966,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20073,
+      "id": 20628,
       "source": "scan",
       "series": "The Mighty Thor",
       "issue_number": 23.0,
@@ -13885,7 +13993,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19674,
+      "id": 20229,
       "source": "scan",
       "series": "Thor",
       "issue_number": 1.0,
@@ -13912,7 +14020,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19675,
+      "id": 20230,
       "source": "scan",
       "series": "Thor",
       "issue_number": 2.0,
@@ -13939,7 +14047,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19676,
+      "id": 20231,
       "source": "scan",
       "series": "Thor",
       "issue_number": 3.0,
@@ -13966,7 +14074,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19795,
+      "id": 20350,
       "source": "scan",
       "series": "Thor",
       "issue_number": 4.0,
@@ -13993,7 +14101,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19796,
+      "id": 20351,
       "source": "scan",
       "series": "Thor",
       "issue_number": 5.0,
@@ -14020,7 +14128,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19797,
+      "id": 20352,
       "source": "scan",
       "series": "Thor",
       "issue_number": 6.0,
@@ -14047,7 +14155,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19798,
+      "id": 20353,
       "source": "scan",
       "series": "Thor",
       "issue_number": 7.0,
@@ -14074,7 +14182,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19799,
+      "id": 20354,
       "source": "scan",
       "series": "Thor",
       "issue_number": 8.0,
@@ -14101,7 +14209,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19915,
+      "id": 20470,
       "source": "scan",
       "series": "Thor Annual",
       "issue_number": 1.0,
@@ -14128,7 +14236,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19792,
+      "id": 20347,
       "source": "scan",
       "series": "Tony Stark: Iron Man",
       "issue_number": 15.0,
@@ -14155,7 +14263,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19793,
+      "id": 20348,
       "source": "scan",
       "series": "Tony Stark: Iron Man",
       "issue_number": 16.0,
@@ -14182,7 +14290,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19794,
+      "id": 20349,
       "source": "scan",
       "series": "Tony Stark: Iron Man",
       "issue_number": 17.0,
@@ -14209,7 +14317,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19800,
+      "id": 20355,
       "source": "scan",
       "series": "Ultimate End",
       "issue_number": 1.0,
@@ -14236,7 +14344,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19801,
+      "id": 20356,
       "source": "scan",
       "series": "Ultimate End",
       "issue_number": 2.0,
@@ -14263,7 +14371,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19802,
+      "id": 20357,
       "source": "scan",
       "series": "Ultimate End",
       "issue_number": 3.0,
@@ -14290,7 +14398,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19803,
+      "id": 20358,
       "source": "scan",
       "series": "Ultimate End",
       "issue_number": 4.0,
@@ -14317,7 +14425,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19804,
+      "id": 20359,
       "source": "scan",
       "series": "Ultimate End",
       "issue_number": 5.0,
@@ -14344,7 +14452,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19910,
+      "id": 20465,
       "source": "scan",
       "series": "Unworthy Thor",
       "issue_number": 1.0,
@@ -14371,7 +14479,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19911,
+      "id": 20466,
       "source": "scan",
       "series": "Unworthy Thor",
       "issue_number": 2.0,
@@ -14398,7 +14506,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19912,
+      "id": 20467,
       "source": "scan",
       "series": "Unworthy Thor",
       "issue_number": 3.0,
@@ -14425,7 +14533,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19913,
+      "id": 20468,
       "source": "scan",
       "series": "Unworthy Thor",
       "issue_number": 4.0,
@@ -14452,7 +14560,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19914,
+      "id": 20469,
       "source": "scan",
       "series": "Unworthy Thor",
       "issue_number": 5.0,
@@ -14479,7 +14587,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20135,
+      "id": 20690,
       "source": "scan",
       "series": "Venom",
       "issue_number": 4.0,
@@ -14506,7 +14614,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20136,
+      "id": 20691,
       "source": "scan",
       "series": "Venom",
       "issue_number": 5.0,
@@ -14533,7 +14641,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20137,
+      "id": 20692,
       "source": "scan",
       "series": "Venom",
       "issue_number": 6.0,
@@ -14560,7 +14668,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 20138,
+      "id": 20693,
       "source": "scan",
       "series": "Venom",
       "issue_number": 150.0,
@@ -14587,7 +14695,250 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19584,
+      "id": 20694,
+      "source": "scan",
+      "series": "Venom",
+      "issue_number": 151.0,
+      "title": "Venom #151",
+      "year": 2017,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20695,
+      "source": "scan",
+      "series": "Venom",
+      "issue_number": 152.0,
+      "title": "Venom #152",
+      "year": 2017,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20696,
+      "source": "scan",
+      "series": "Venom",
+      "issue_number": 153.0,
+      "title": "Venom #153",
+      "year": 2017,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20697,
+      "source": "scan",
+      "series": "Venom",
+      "issue_number": 154.0,
+      "title": "Venom #154",
+      "year": 2017,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20698,
+      "source": "scan",
+      "series": "Venom",
+      "issue_number": 155.0,
+      "title": "Venom #155",
+      "year": 2017,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20699,
+      "source": "scan",
+      "series": "Venom",
+      "issue_number": 156.0,
+      "title": "Venom #156",
+      "year": 2018,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20700,
+      "source": "scan",
+      "series": "Venom",
+      "issue_number": 157.0,
+      "title": "Venom #157",
+      "year": 2018,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20701,
+      "source": "scan",
+      "series": "Venom",
+      "issue_number": 158.0,
+      "title": "Venom #158",
+      "year": 2018,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20702,
+      "source": "scan",
+      "series": "Venom",
+      "issue_number": 159.0,
+      "title": "Venom #159",
+      "year": 2018,
+      "volume": "3",
+      "edition": "",
+      "event": "",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20139,
       "source": "scan",
       "series": "Venom",
       "issue_number": 250.0,
@@ -14614,7 +14965,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19585,
+      "id": 20140,
       "source": "scan",
       "series": "Venom",
       "issue_number": 251.0,
@@ -14641,7 +14992,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19586,
+      "id": 20141,
       "source": "scan",
       "series": "Venom",
       "issue_number": 252.0,
@@ -14668,7 +15019,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19587,
+      "id": 20142,
       "source": "scan",
       "series": "Venom",
       "issue_number": 253.0,
@@ -14695,7 +15046,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19588,
+      "id": 20143,
       "source": "scan",
       "series": "Venom",
       "issue_number": 254.0,
@@ -14722,7 +15073,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19589,
+      "id": 20144,
       "source": "scan",
       "series": "Venom",
       "issue_number": 255.0,
@@ -14749,7 +15100,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19974,
+      "id": 20529,
       "source": "scan",
       "series": "Venom",
       "issue_number": 256.0,
@@ -14776,7 +15127,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19590,
+      "id": 20145,
       "source": "scan",
       "series": "Venom",
       "issue_number": 258.0,
@@ -14803,7 +15154,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19591,
+      "id": 20146,
       "source": "scan",
       "series": "Venom",
       "issue_number": 259.0,
@@ -14830,7 +15181,34 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19651,
+      "id": 20705,
+      "source": "scan",
+      "series": "Venomverse",
+      "issue_number": 1.0,
+      "title": "Venomverse #1",
+      "year": 2017,
+      "volume": "1",
+      "edition": "",
+      "event": "Venomverse",
+      "character": "",
+      "detail": "",
+      "qty": 1,
+      "unit_price": null,
+      "grade": null,
+      "graded": 0,
+      "kind": "comic",
+      "is_key": 0,
+      "key_note": "",
+      "key_source": "",
+      "order_date": "",
+      "upc": "",
+      "market_price": null,
+      "market_source": null,
+      "market_as_of": null,
+      "estimated_value": 3.0
+    },
+    {
+      "id": 20206,
       "source": "scan",
       "series": "Web Warriors",
       "issue_number": 1.0,
@@ -14857,7 +15235,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19652,
+      "id": 20207,
       "source": "scan",
       "series": "Web Warriors",
       "issue_number": 3.0,
@@ -14884,7 +15262,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19837,
+      "id": 20392,
       "source": "scan",
       "series": "Years of Future Past",
       "issue_number": 1.0,
@@ -14911,7 +15289,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19838,
+      "id": 20393,
       "source": "scan",
       "series": "Years of Future Past",
       "issue_number": 2.0,
@@ -14938,7 +15316,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19839,
+      "id": 20394,
       "source": "scan",
       "series": "Years of Future Past",
       "issue_number": 3.0,
@@ -14965,7 +15343,7 @@
       "estimated_value": 3.0
     },
     {
-      "id": 19840,
+      "id": 20395,
       "source": "scan",
       "series": "Years of Future Past",
       "issue_number": 4.0,
@@ -14994,7 +15372,7 @@
   ],
   "gaps": [
     {
-      "id": 2032,
+      "id": 2039,
       "series": "All-New Wolverine",
       "fandom_series": "All-New Wolverine",
       "fandom_volume": "All-New Wolverine Vol 1",
@@ -15007,7 +15385,7 @@
       "copy_years": "2015-2018"
     },
     {
-      "id": 2033,
+      "id": 2040,
       "series": "Secret Wars: Battleworld",
       "fandom_series": "Secret Wars: Battleworld",
       "fandom_volume": "Secret Wars: Battleworld Vol 1",
@@ -15020,7 +15398,7 @@
       "copy_years": "2015-2015"
     },
     {
-      "id": 2034,
+      "id": 2041,
       "series": "Spider-Gwen",
       "fandom_series": "Spider-Gwen",
       "fandom_volume": "Spider-Gwen Vol 2",
@@ -15033,7 +15411,7 @@
       "copy_years": "2015-2017"
     },
     {
-      "id": 2035,
+      "id": 2042,
       "series": "Steve Rogers: Captain America",
       "fandom_series": "Steve Rogers: Captain America",
       "fandom_volume": "Steve Rogers: Captain America Vol 1",
@@ -15046,7 +15424,7 @@
       "copy_years": "2016-2017"
     },
     {
-      "id": 2036,
+      "id": 2043,
       "series": "The Mighty Thor",
       "fandom_series": "The Mighty Thor",
       "fandom_volume": "The Mighty Thor Vol 2",
@@ -15059,7 +15437,7 @@
       "copy_years": "2015-2017"
     },
     {
-      "id": 2037,
+      "id": 2044,
       "series": "Venom",
       "fandom_series": "Venom",
       "fandom_volume": "Venom Vol 6",
@@ -15072,7 +15450,7 @@
       "copy_years": "2025-2026"
     },
     {
-      "id": 2038,
+      "id": 2045,
       "series": "Web Warriors",
       "fandom_series": "Web Warriors",
       "fandom_volume": "Web Warriors Vol 1",
