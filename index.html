@@ -129,6 +129,27 @@
       return Number.isFinite(n) ? n : 999999;
     }
 
+    function yearNum(v) {
+      const n = parseInt(v, 10);
+      return Number.isFinite(n) ? n : null;
+    }
+
+    function volumeNum(v) {
+      const n = parseFloat(v);
+      return Number.isFinite(n) ? n : null;
+    }
+
+    /** Chronological within a series cluster: year → volume → issue # */
+    function compareIssues(a, b) {
+      const ya = yearNum(a.year), yb = yearNum(b.year);
+      if (ya != null && yb != null && ya !== yb) return ya - yb;
+      if ((ya == null) !== (yb == null)) return ya == null ? 1 : -1;
+      const va = volumeNum(a.volume), vb = volumeNum(b.volume);
+      if (va != null && vb != null && va !== vb) return va - vb;
+      if ((va == null) !== (vb == null)) return va == null ? 1 : -1;
+      return issueNum(a.issue_number) - issueNum(b.issue_number);
+    }
+
     function detectPublishingLine(series) {
       const s = String(series || "").toLowerCase();
 
@@ -169,7 +190,7 @@
       }
       return clusterSeries([...bySeries.keys()]).map((names) => {
         const issues = names.flatMap((n) => bySeries.get(n) || []);
-        issues.sort((a, b) => issueNum(a.issue_number) - issueNum(b.issue_number));
+        issues.sort(compareIssues);
         const display = pickDisplayName(names);
         const aliases = names.length > 1 ? names.filter((n) => n !== display) : [];
         const value = issues.reduce((sum, r) => sum + Number(r.estimated_value || 0), 0);
@@ -222,9 +243,10 @@
 
     function renderIssueTable(issues) {
       return `<table>
-        <thead><tr><th>#</th><th>Year</th><th>Est.</th><th>Source</th></tr></thead>
+        <thead><tr><th>#</th><th>Vol</th><th>Year</th><th>Est.</th><th>Source</th></tr></thead>
         <tbody>${issues.map((r) => `<tr>
           <td>${esc(r.issue_number ?? "")}</td>
+          <td>${esc(r.volume ?? "")}</td>
           <td>${esc(r.year ?? "")}</td>
           <td class="money">£${Number(r.estimated_value || 0).toFixed(2)}</td>
           <td>${esc(r.market_source || "")}</td>
