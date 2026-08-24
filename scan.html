@@ -201,6 +201,24 @@
     </div>
 
     <div class="card">
+      <p class="section-kicker" style="margin:0 0 0.35rem;">Forbidden Planet order</p>
+      <p class="status" style="margin-top:0;">Monthly subs: open your FP order, then paste the text or drop a screenshot. Photos are never stored.</p>
+      <a class="btn ghost" href="https://forbiddenplanet.com/orders/" target="_blank" rel="noopener"
+        style="margin-top:0.65rem;text-decoration:none;">Open FP orders ↗</a>
+      <label for="fpOrderText">Paste order text</label>
+      <textarea id="fpOrderText" rows="5" placeholder="Paste the item list from your FP email or order page…"
+        style="width:100%;padding:0.75rem 0.9rem;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,0.05);color:var(--ink);font:inherit;resize:vertical;"></textarea>
+      <div class="btn-row" style="margin-top:0.65rem;">
+        <button id="fpParseBtn" class="btn accent" type="button">Parse paste</button>
+        <button id="fpShotBtn" class="btn ghost" type="button">Screenshot</button>
+      </div>
+      <input id="fpShotInput" type="file" accept="image/*" hidden />
+      <p id="fpStatus" class="status">Looks for titles like “Amazing Spider-Man #28” and £ prices.</p>
+      <ul id="fpPreview" class="list"></ul>
+      <button id="fpAddBtn" class="btn" type="button" style="margin-top:0.55rem;" disabled>Add parsed to list</button>
+    </div>
+
+    <div class="card">
       <div class="camwrap" id="camwrap">
         <video id="video" playsinline muted></video>
         <img id="still" alt="Cover preview" />
@@ -266,6 +284,6 @@
   <script src="pwa.js?v=1"></script>
   <script src="config.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
-  <script src="scan.js?v=6"></script>
+  <script src="scan.js?v=7"></script>
 </body>
 </html>

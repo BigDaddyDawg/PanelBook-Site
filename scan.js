@@ -19,6 +19,9 @@
     commitPin: $("commitPin"), commitPick: $("commitPick"),
     quick: $("quick"), quickBtn: $("quickBtn"), quickClear: $("quickClear"),
     quickStatus: $("quickStatus"), quickPick: $("quickPick"),
+    fpOrderText: $("fpOrderText"), fpParseBtn: $("fpParseBtn"), fpShotBtn: $("fpShotBtn"),
+    fpShotInput: $("fpShotInput"), fpStatus: $("fpStatus"), fpPreview: $("fpPreview"),
+    fpAddBtn: $("fpAddBtn"),
   };
 
   const CFG = (window.PANELBOOK_CONFIG || {});
@@ -41,6 +44,7 @@
   const YEAR_HINT_SLACK = 3; // search give-or-take a few years around typed hints
   let pendingQuick = null; // bulk add waiting for run pick
   let pendingCommitPicks = []; // rows that need volume pick after commit attempt
+  let fpParsedItems = []; // preview rows from FP order paste/OCR
 
   const setStatus = (msg, kind = "") => {
     els.status.textContent = msg;
@@ -480,13 +484,17 @@
       const volume = e.volume || book.volume || "";
       const noteBits = [e.notes, book.note].filter(Boolean);
       rows.push({
-        source: "scan",
+        source: e.source || "scan",
         series,
         issue_number: String(issue),
         year,
         volume,
-        title: series && issue ? `${series} #${issue}` : series,
+        title: e.title || (series && issue ? `${series} #${issue}` : series),
         upc: e.upc || "",
+        unit_price: e.unit_price || "",
+        order_id: e.order_id || "",
+        order_date: e.order_date || "",
+        product_url: e.product_url || "",
         notes: noteBits.join("; "),
         scanned_at: now,
         raw_ocr: e.raw || "",
@@ -494,6 +502,276 @@
     }
     save(rows);
     render();
+  }
+
+  /* ---------- Forbidden Planet order import ---------- */
+  function setFp(msg, kind = "") {
+    if (!els.fpStatus) return;
+    els.fpStatus.textContent = msg;
+    els.fpStatus.className = "status" + (kind ? " " + kind : "");
+  }
+
+  function parseFpTitleLine(raw) {
+    let title = String(raw || "").replace(/\s+/g, " ").trim();
+    if (!title || title.length < 4) return null;
+    // Skip noise lines
+    const low = title.toLowerCase();
+    if (/^(qty|quantity|subtotal|total|shipping|vat|order|delivered|dispatch|payment|account|sign in)\b/.test(low)) {
+      return null;
+    }
+    if (/^£?\s*\d+(\.\d{2})?\s*$/.test(title)) return null;
+    if (/^https?:\/\//i.test(title)) return null;
+
+    let year = "";
+    let issue = "";
+    let series = title;
+    const yM = title.match(/\((\d{4})\)/);
+    if (yM) year = yM[1];
+
+    // "Amazing Spider-Man 1000 (#36) …" → cover #36
+    const dual = title.match(/#\s*(\d+)\s*\(#\s*(\d+)\)/);
+    if (dual) {
+      issue = dual[2];
+      series = title.slice(0, dual.index).replace(/\s+\d+\s*$/, "").trim();
+    } else {
+      const iM = title.match(/#\s*(\d+[A-Za-z]?)\b/);
+      if (iM) {
+        issue = iM[1];
+        series = title.slice(0, iM.index).trim().replace(/[\s\-–—|:]+$/, "");
+      } else {
+        // "Amazing Spider-Man 28" trailing bare number (OCR sometimes drops #)
+        const bare = title.match(/^(.*\D)\s+(\d{1,4}[A-Za-z]?)$/);
+        if (bare && !/\b(19|20)\d{2}$/.test(bare[2])) {
+          series = bare[1].trim();
+          issue = bare[2];
+        }
+      }
+    }
+    if (year && series.endsWith(`(${year})`)) {
+      series = series.slice(0, -(year.length + 2)).trim();
+    }
+    series = series.replace(/\s+Vol\.?\s*\d+\s*$/i, "").trim();
+    if (!series || !issue) return null;
+    // Prefer catalog series spelling
+    series = resolveSeries(series) || series;
+    return { series, issue, year, title };
+  }
+
+  function parseFpOrderText(text) {
+    const lines = String(text || "")
+      .replace(/\r/g, "\n")
+      .split("\n")
+      .map((l) => l.replace(/\s+/g, " ").trim())
+      .filter(Boolean);
+
+    let orderId = "";
+    let orderDate = "";
+    for (const line of lines) {
+      const oid = line.match(/\border\s*(?:number|#|id)?\s*[:#]?\s*(\d{6,})\b/i)
+        || line.match(/\b(\d{8})\b/);
+      if (oid && !orderId && /order/i.test(line)) orderId = oid[1];
+      const od = line.match(/\b(\d{1,2}[\/\-]\d{1,2}[\/\-]\d{2,4})\b/)
+        || line.match(/\b((?:19|20)\d{2}-\d{2}-\d{2})\b/);
+      if (od && !orderDate) orderDate = od[1];
+    }
+
+    const items = [];
+    const seen = new Set();
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      // Product URL lines
+      const urlM = line.match(/https?:\/\/(?:www\.)?forbiddenplanet\.com\/(\d+)-([a-z0-9\-]+)/i);
+      if (urlM) {
+        const slug = urlM[2].replace(/-/g, " ");
+        const parsed = parseFpTitleLine(slug.replace(/\b(\d+)\b(?!.*\d)/, "#$1"))
+          || parseFpTitleLine(slug);
+        // Better: recover "#N" from slug trailing -28/
+        const slugIssue = urlM[2].match(/-(\d+)(?:-[a-z].*)?$/i);
+        let seriesGuess = urlM[2]
+          .replace(/-\d+(?:-[a-z].*)?$/i, "")
+          .replace(/-/g, " ");
+        seriesGuess = seriesGuess.replace(/\b\w/g, (c) => c.toUpperCase());
+        const book = {
+          series: (parsed && parsed.series) || resolveSeries(seriesGuess) || seriesGuess,
+          issue: (parsed && parsed.issue) || (slugIssue ? slugIssue[1] : ""),
+          year: (parsed && parsed.year) || "",
+          title: parsed ? parsed.title : seriesGuess,
+          product_url: line.match(/https?:\/\/\S+/i)[0],
+        };
+        if (book.issue) {
+          let price = "";
+          for (let j = i + 1; j <= i + 3 && j < lines.length; j++) {
+            const pm = lines[j].match(/£\s*([0-9]+(?:\.[0-9]{2})?)/);
+            if (pm) { price = pm[1]; break; }
+          }
+          const key = `${norm(book.series)}||${book.issue}`;
+          if (!seen.has(key)) {
+            seen.add(key);
+            items.push({
+              ...book,
+              unit_price: price,
+              order_id: orderId,
+              order_date: orderDate,
+            });
+          }
+        }
+        continue;
+      }
+
+      const parsed = parseFpTitleLine(line);
+      if (!parsed) continue;
+      let price = "";
+      // Price on same line or next 1–2 lines
+      const same = line.match(/£\s*([0-9]+(?:\.[0-9]{2})?)/);
+      if (same) price = same[1];
+      else {
+        for (let j = i + 1; j <= i + 2 && j < lines.length; j++) {
+          const pm = lines[j].match(/£\s*([0-9]+(?:\.[0-9]{2})?)/);
+          if (pm) { price = pm[1]; break; }
+          // Don't walk past another title
+          if (parseFpTitleLine(lines[j])) break;
+        }
+      }
+      const key = `${norm(parsed.series)}||${parsed.issue}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      items.push({
+        series: parsed.series,
+        issue: parsed.issue,
+        year: parsed.year,
+        title: parsed.title,
+        unit_price: price,
+        order_id: orderId,
+        order_date: orderDate,
+        product_url: "",
+      });
+    }
+    return { orderId, orderDate, items };
+  }
+
+  function renderFpPreview(items) {
+    fpParsedItems = items || [];
+    if (!els.fpPreview) return;
+    els.fpPreview.innerHTML = "";
+    if (els.fpAddBtn) els.fpAddBtn.disabled = !fpParsedItems.length;
+    fpParsedItems.forEach((it, idx) => {
+      const li = document.createElement("li");
+      const meta = document.createElement("div");
+      meta.className = "meta";
+      const book = resolveBook(it.series, it.issue);
+      meta.innerHTML =
+        `<strong>${escapeHtml(book.series || it.series)} #${escapeHtml(book.issue || it.issue)}</strong>` +
+        `<small>${[
+          book.volume ? "Vol " + book.volume : "",
+          book.year || it.year || "",
+          it.unit_price ? "£" + it.unit_price : "",
+          it.order_id ? "order " + it.order_id : "",
+        ].filter(Boolean).map(escapeHtml).join(" · ")}</small>`;
+      const del = document.createElement("button");
+      del.type = "button";
+      del.textContent = "\u00d7";
+      del.title = "Remove";
+      del.onclick = () => {
+        fpParsedItems.splice(idx, 1);
+        renderFpPreview(fpParsedItems.slice());
+      };
+      li.appendChild(meta);
+      li.appendChild(del);
+      els.fpPreview.appendChild(li);
+    });
+  }
+
+  function applyFpParse(text, sourceLabel) {
+    const { orderId, orderDate, items } = parseFpOrderText(text);
+    if (!items.length) {
+      setFp("No comic lines found — try a clearer paste or screenshot.", "warn");
+      renderFpPreview([]);
+      return;
+    }
+    // Attach order meta to all
+    const enriched = items.map((it) => ({
+      ...it,
+      order_id: it.order_id || orderId,
+      order_date: it.order_date || orderDate,
+    }));
+    renderFpPreview(enriched);
+    const bits = [`${enriched.length} comics`];
+    if (orderId) bits.push(`order ${orderId}`);
+    setFp(`Parsed ${bits.join(" · ")} from ${sourceLabel}. Review, then Add.`, "ok");
+  }
+
+  function addFpParsedToList() {
+    if (!fpParsedItems.length) {
+      setFp("Nothing parsed yet.", "warn");
+      return;
+    }
+    const entries = fpParsedItems.map((it) => {
+      const book = resolveBook(it.series, it.issue);
+      const noteBits = [
+        it.order_id ? `fp_order ${it.order_id}` : "fp_order",
+        it.unit_price ? `£${it.unit_price}` : "",
+      ].filter(Boolean);
+      return {
+        series: it.series,
+        issue: it.issue,
+        year: it.year || book.year || "",
+        volume: book.volume || "",
+        title: it.title || "",
+        unit_price: it.unit_price || "",
+        order_id: it.order_id || "",
+        order_date: it.order_date || "",
+        product_url: it.product_url || "",
+        source: "forbidden_planet",
+        notes: noteBits.join("; "),
+        raw: `fp: ${it.title || it.series + " #" + it.issue}`,
+      };
+    });
+    appendRows(entries);
+    setFp(`Added ${entries.length} to the list — Commit to live master when ready.`, "ok");
+    renderFpPreview([]);
+    if (els.fpOrderText) els.fpOrderText.value = "";
+  }
+
+  async function ocrFpOrderImage(file) {
+    if (!file || !file.type.startsWith("image/")) {
+      setFp("Pick an order screenshot (jpg/png).", "warn");
+      return;
+    }
+    if (els.fpShotBtn) els.fpShotBtn.disabled = true;
+    if (els.fpParseBtn) els.fpParseBtn.disabled = true;
+    setFp("Reading order screenshot…");
+    let bitmap = null;
+    try {
+      bitmap = await createImageBitmap(file);
+      const c = document.createElement("canvas");
+      const scale = Math.min(2, 1600 / bitmap.width) || 1;
+      c.width = Math.floor(bitmap.width * scale);
+      c.height = Math.floor(bitmap.height * scale);
+      const ctx = c.getContext("2d");
+      ctx.drawImage(bitmap, 0, 0, c.width, c.height);
+      // Mild contrast boost for dark FP UI / email screenshots
+      const img = ctx.getImageData(0, 0, c.width, c.height);
+      const d = img.data;
+      for (let i = 0; i < d.length; i += 4) {
+        let g = 0.299 * d[i] + 0.587 * d[i + 1] + 0.114 * d[i + 2];
+        g = (g - 128) * 1.25 + 128;
+        g = g < 0 ? 0 : g > 255 ? 255 : g;
+        d[i] = d[i + 1] = d[i + 2] = g;
+      }
+      ctx.putImageData(img, 0, 0);
+      const worker = await ensureWorker();
+      await worker.setParameters({ tessedit_char_whitelist: "" });
+      const text = (await worker.recognize(c)).data.text || "";
+      c.width = c.height = 0;
+      if (els.fpOrderText) els.fpOrderText.value = text;
+      applyFpParse(text, "screenshot");
+    } catch (e) {
+      setFp("OCR failed: " + (e.message || e), "warn");
+    } finally {
+      if (bitmap) bitmap.close();
+      if (els.fpShotBtn) els.fpShotBtn.disabled = false;
+      if (els.fpParseBtn) els.fpParseBtn.disabled = false;
+    }
   }
 
   function commitQuick(typedSeries, issues, lockedRun, rawText, yearHints) {
@@ -959,7 +1237,7 @@
       const meta = document.createElement("div");
       meta.className = "meta";
       meta.innerHTML = `<strong>${escapeHtml(r.series || "(no series)")} #${escapeHtml(r.issue_number || "?")}</strong>` +
-        `<small>${[r.volume ? "Vol " + r.volume : "", r.year, r.upc].filter(Boolean).map(escapeHtml).join(" · ")}</small>`;
+        `<small>${[r.volume ? "Vol " + r.volume : "", r.year, r.unit_price ? "£" + r.unit_price : "", r.upc].filter(Boolean).map(escapeHtml).join(" · ")}</small>`;
       const del = document.createElement("button");
       del.type = "button"; del.textContent = "\u00d7"; del.title = "Remove";
       del.onclick = () => { const cur = load(); cur.splice(idx, 1); save(cur); render(); };
@@ -1184,6 +1462,11 @@
       notes: r.notes || null,
       raw_ocr: r.raw_ocr || null,
       scanned_at: r.scanned_at || null,
+      unit_price: r.unit_price || null,
+      order_id: r.order_id || null,
+      order_date: r.order_date || null,
+      product_url: r.product_url || null,
+      source: r.source || "scan",
     }));
 
     els.pushBtn.disabled = true;
@@ -1220,13 +1503,17 @@
       });
 
       save(still.map((r) => ({
-        source: "scan",
+        source: r.source || "scan",
         series: r.series || "",
         issue_number: r.issue_number || "",
         year: r.year || "",
         volume: r.volume || "",
         title: r.title || "",
         upc: r.upc || "",
+        unit_price: r.unit_price || "",
+        order_id: r.order_id || "",
+        order_date: r.order_date || "",
+        product_url: r.product_url || "",
         notes: r.notes || "",
         scanned_at: r.scanned_at || new Date().toISOString(),
         raw_ocr: r.raw_ocr || "",
@@ -1279,6 +1566,18 @@
   els.exportBtn.onclick = exportCsv;
   els.copyBtn.onclick = copyText;
   els.pushBtn.onclick = pushToMaster;
+  if (els.fpParseBtn) {
+    els.fpParseBtn.onclick = () => applyFpParse(els.fpOrderText ? els.fpOrderText.value : "", "paste");
+  }
+  if (els.fpShotBtn && els.fpShotInput) {
+    els.fpShotBtn.onclick = () => els.fpShotInput.click();
+    els.fpShotInput.onchange = () => {
+      const f = els.fpShotInput.files && els.fpShotInput.files[0];
+      if (f) ocrFpOrderImage(f);
+      els.fpShotInput.value = "";
+    };
+  }
+  if (els.fpAddBtn) els.fpAddBtn.onclick = addFpParsedToList;
   if (els.commitPin) {
     try {
       const saved = localStorage.getItem(PIN_KEY);
