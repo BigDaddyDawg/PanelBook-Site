@@ -250,8 +250,11 @@
         <button id="wipeBtn" class="btn ghost" type="button" style="width:auto;padding:0.45rem 0.85rem;font-size:0.75rem;">Empty list</button>
       </div>
       <ul id="list" class="list"></ul>
-      <button id="pushBtn" class="btn accent" type="button" style="margin-top:0.75rem;">Push to master</button>
-      <p id="pushStatus" class="status"></p>
+      <label for="commitPin" style="margin-top:0.75rem;">Commit PIN</label>
+      <input id="commitPin" type="password" autocomplete="current-password" placeholder="family PIN to write live master" />
+      <button id="pushBtn" class="btn accent" type="button" style="margin-top:0.75rem;">Commit to live master</button>
+      <p id="pushStatus" class="status">Writes owned comics in the cloud — no laptop import needed.</p>
+      <div id="commitPick" class="chips" style="margin-top:0.45rem;"></div>
       <div class="btn-row">
         <button id="exportBtn" class="btn" type="button">Export CSV</button>
         <button id="copyBtn" class="btn ghost" type="button">Copy text</button>
@@ -263,6 +266,6 @@
   <script src="pwa.js?v=1"></script>
   <script src="config.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
-  <script src="scan.js?v=5"></script>
+  <script src="scan.js?v=6"></script>
 </body>
 </html>

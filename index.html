@@ -59,6 +59,7 @@
 
   <script src="atmosphere.js?v=1"></script>
   <script src="pwa.js?v=1"></script>
+  <script src="config.js"></script>
   <script>
     /* --- fuzzy series grouping --- */
     function normSeries(s) {
@@ -254,6 +255,33 @@
       </table>`;
     }
 
+    async function fetchLiveOwned() {
+      const CFG = window.PANELBOOK_CONFIG || {};
+      if (!CFG.SUPABASE_URL || !CFG.SUPABASE_ANON_KEY) return null;
+      const base = CFG.SUPABASE_URL.replace(/\/$/, "");
+      const table = CFG.OWNED_TABLE || "owned_comics";
+      const headers = {
+        apikey: CFG.SUPABASE_ANON_KEY,
+        Authorization: `Bearer ${CFG.SUPABASE_ANON_KEY}`,
+      };
+      const all = [];
+      let start = 0;
+      const page = 1000;
+      while (true) {
+        const res = await fetch(
+          `${base}/rest/v1/${table}?select=series,issue_number,volume,year,title,source,upc,dedupe_key&order=series.asc,issue_number.asc`,
+          { headers: { ...headers, Range: `${start}-${start + page - 1}` }, cache: "no-store" }
+        );
+        if (!res.ok) return null;
+        const rows = await res.json();
+        if (!rows.length) break;
+        all.push(...rows);
+        if (rows.length < page) break;
+        start += page;
+      }
+      return all;
+    }
+
     async function boot() {
       const out = document.getElementById("out");
       const stats = document.getElementById("stats");
@@ -261,18 +289,51 @@
         const res = await fetch(`collection.json?t=${Date.now()}`, { cache: "no-store" });
         if (!res.ok) throw new Error("No collection.json yet — run scripts/export_static.py");
         const data = await res.json();
+        let liveOwned = null;
+        try { liveOwned = await fetchLiveOwned(); } catch (_) { liveOwned = null; }
+
+        // Prefer live Supabase ownership; keep static gaps / valuations as snapshot overlay.
+        let rows = (data.collection || []).filter((r) => (r.kind || "comic") === "comic");
+        let liveCount = null;
+        if (liveOwned && liveOwned.length) {
+          liveCount = liveOwned.length;
+          const byKey = new Map();
+          for (const r of rows) {
+            const k = `${String(r.series || "").toLowerCase()}|${r.issue_number}|${r.volume || ""}`;
+            byKey.set(k, r);
+          }
+          rows = liveOwned.map((o) => {
+            const k = `${String(o.series || "").toLowerCase()}|${o.issue_number}|${o.volume || ""}`;
+            const snap = byKey.get(k) || {};
+            return {
+              kind: "comic",
+              series: o.series,
+              issue_number: o.issue_number,
+              volume: o.volume || "",
+              year: o.year || snap.year || "",
+              title: o.title || snap.title || "",
+              source: o.source || snap.source || "scan",
+              estimated_value: snap.estimated_value || 0,
+              market_source: snap.market_source || "",
+              character: snap.character || "",
+              event: snap.event || "",
+            };
+          });
+        }
+
         const when = data.exported_at
           ? new Date(data.exported_at).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })
           : "unknown";
-        document.getElementById("snapTag").textContent =
-          `Snapshot ${when} · ${(data.totals?.issues || 0).toLocaleString()} comics · grouped by publishing line`;
+        const issueTotal = liveCount != null ? liveCount : (data.totals?.issues || rows.length);
+        document.getElementById("snapTag").textContent = liveCount != null
+          ? `Live master · ${issueTotal.toLocaleString()} comics · prices snapshot ${when}`
+          : `Snapshot ${when} · ${issueTotal.toLocaleString()} comics · grouped by publishing line`;
         const t = data.totals || {};
         stats.innerHTML = `
-          <div class="stat"><b>${(t.issues || 0).toLocaleString()}</b><span>comics</span></div>
+          <div class="stat"><b>${issueTotal.toLocaleString()}</b><span>comics${liveCount != null ? " (live)" : ""}</span></div>
           <div class="stat"><b>£${Number(t.estimated_value_gbp || 0).toLocaleString()}</b><span>est. value</span></div>
           <div class="stat"><b>£${Number(t.paid_known_gbp || 0).toLocaleString()}</b><span>paid (known)</span></div>
         `;
-        const rows = (data.collection || []).filter((r) => (r.kind || "comic") === "comic");
         const allLines = buildLineGroups(buildSeriesGroups(rows));
 
         const render = (q) => {

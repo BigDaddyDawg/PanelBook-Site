@@ -16,12 +16,14 @@
     list: $("list"), count: $("count"),
     exportBtn: $("exportBtn"), copyBtn: $("copyBtn"),
     pushBtn: $("pushBtn"), pushStatus: $("pushStatus"),
+    commitPin: $("commitPin"), commitPick: $("commitPick"),
     quick: $("quick"), quickBtn: $("quickBtn"), quickClear: $("quickClear"),
     quickStatus: $("quickStatus"), quickPick: $("quickPick"),
   };
 
   const CFG = (window.PANELBOOK_CONFIG || {});
   const supabaseReady = () => Boolean(CFG.SUPABASE_URL && CFG.SUPABASE_ANON_KEY);
+  const PIN_KEY = "panelbook_commit_pin";
 
   const STORE_KEY = "panelbook_scans";
   let stream = null;
@@ -32,10 +34,13 @@
   let seriesAliases = {}; // norm alias -> display name
   let issueYears = {}; // "Series|issue" -> "2025"
   let issueBooks = {}; // "Series|issue" -> { year, series, volume, issue }
+  let ownedKeys = new Set(); // dedupe_key from live master
+  let ownedBySi = new Map(); // series||issue -> [{volume,year,label}]
   const MIN_YEAR = 2009; // hard rule: collection is modern-only
   const MAX_NEIGHBOR_GAP = 4; // infer year only across small same-vol holes
   const YEAR_HINT_SLACK = 3; // search give-or-take a few years around typed hints
   let pendingQuick = null; // bulk add waiting for run pick
+  let pendingCommitPicks = []; // rows that need volume pick after commit attempt
 
   const setStatus = (msg, kind = "") => {
     els.status.textContent = msg;
@@ -101,6 +106,55 @@
         issueBooks = data.books || {};
       }
     } catch (_) { /* years stay blank until catalog is published */ }
+    await loadOwnedLive();
+  }
+
+  function seriesIssueKeyLocal(series, issue) {
+    return `${norm(series)}||${String(issue || "").replace(/\.0+$/, "")}`;
+  }
+
+  async function loadOwnedLive() {
+    if (!supabaseReady()) return;
+    try {
+      const base = CFG.SUPABASE_URL.replace(/\/$/, "");
+      const table = CFG.OWNED_TABLE || "owned_comics";
+      const headers = {
+        apikey: CFG.SUPABASE_ANON_KEY,
+        Authorization: `Bearer ${CFG.SUPABASE_ANON_KEY}`,
+      };
+      // Paginate — PostgREST defaults to 1000
+      let start = 0;
+      const page = 1000;
+      ownedKeys = new Set();
+      ownedBySi = new Map();
+      const names = [];
+      while (true) {
+        const res = await fetch(
+          `${base}/rest/v1/${table}?select=series,issue_number,volume,year,dedupe_key&order=id.asc`,
+          { headers: { ...headers, Range: `${start}-${start + page - 1}` }, cache: "no-store" }
+        );
+        if (!res.ok) break;
+        const rows = await res.json();
+        if (!rows.length) break;
+        for (const r of rows) {
+          if (r.dedupe_key) ownedKeys.add(r.dedupe_key);
+          if (r.series) names.push(String(r.series));
+          const si = seriesIssueKeyLocal(r.series, r.issue_number);
+          const list = ownedBySi.get(si) || [];
+          const vol = r.volume ? String(r.volume) : "";
+          const label =
+            `${r.series}` +
+            (vol ? ` Vol ${vol}` : "") +
+            ` #${r.issue_number}` +
+            (r.year ? ` (${r.year})` : "");
+          list.push({ volume: vol, year: r.year || "", label });
+          ownedBySi.set(si, list);
+        }
+        if (rows.length < page) break;
+        start += page;
+      }
+      indexSeriesNames(names);
+    } catch (_) { /* offline: static collection.json still used */ }
   }
 
   function yearOk(y) {
@@ -983,10 +1037,132 @@
     }
   }
 
-  /* ---------- push to master (Supabase) ---------- */
+  /* ---------- commit to live master (Supabase Edge Function) ---------- */
   function setPush(msg, kind = "") {
     els.pushStatus.textContent = msg;
     els.pushStatus.className = "status" + (kind ? " " + kind : "");
+  }
+
+  function getCommitPin() {
+    if (els.commitPin && els.commitPin.value.trim()) {
+      const pin = els.commitPin.value.trim();
+      try { localStorage.setItem(PIN_KEY, pin); } catch (_) {}
+      return pin;
+    }
+    try {
+      const saved = localStorage.getItem(PIN_KEY);
+      if (saved) return saved;
+    } catch (_) {}
+    return CFG.DEFAULT_COMMIT_PIN || "";
+  }
+
+  function clearCommitPick() {
+    pendingCommitPicks = [];
+    if (els.commitPick) els.commitPick.innerHTML = "";
+  }
+
+  function renderCommitPicks(items) {
+    if (!els.commitPick) return;
+    els.commitPick.innerHTML = "";
+    pendingCommitPicks = items;
+    items.forEach((item, idx) => {
+      const wrap = document.createElement("div");
+      wrap.style.marginBottom = "0.5rem";
+      const label = document.createElement("div");
+      label.className = "match";
+      label.textContent = `Pick run for ${item.series} #${item.issue_number}:`;
+      wrap.appendChild(label);
+      const chips = document.createElement("div");
+      chips.className = "chips";
+      const cands = item.candidates || [];
+      cands.forEach((c) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "chip";
+        btn.textContent = c.label || `${c.series}${c.volume ? " Vol " + c.volume : ""}`;
+        btn.onclick = () => commitOneWithVolume(idx, c.series || item.series, c.volume || "");
+        chips.appendChild(btn);
+      });
+      const dismiss = document.createElement("button");
+      dismiss.type = "button";
+      dismiss.className = "chip";
+      dismiss.textContent = "Skip / keep in list";
+      dismiss.onclick = () => {
+        pendingCommitPicks.splice(idx, 1);
+        renderCommitPicks(pendingCommitPicks.slice());
+      };
+      chips.appendChild(dismiss);
+      wrap.appendChild(chips);
+      els.commitPick.appendChild(wrap);
+    });
+  }
+
+  async function callCommitOwned(scans) {
+    const pin = getCommitPin();
+    if (!pin) throw new Error("Enter the family commit PIN");
+    const base = CFG.SUPABASE_URL.replace(/\/$/, "");
+    const fn = CFG.COMMIT_FUNCTION || "commit-owned";
+    const res = await fetch(`${base}/functions/v1/${fn}`, {
+      method: "POST",
+      headers: {
+        apikey: CFG.SUPABASE_ANON_KEY,
+        Authorization: `Bearer ${CFG.SUPABASE_ANON_KEY}`,
+        "Content-Type": "application/json",
+        "x-panelbook-pin": pin,
+      },
+      body: JSON.stringify({ scans }),
+    });
+    const text = await res.text();
+    let data = {};
+    try { data = JSON.parse(text); } catch (_) { data = { error: text }; }
+    if (!res.ok) throw new Error(data.error || `${res.status} ${text}`.trim());
+    return data;
+  }
+
+  async function commitOneWithVolume(pickIdx, series, volume) {
+    const item = pendingCommitPicks[pickIdx];
+    if (!item) return;
+    els.pushBtn.disabled = true;
+    setPush(`Committing ${series}${volume ? " Vol " + volume : ""} #${item.issue_number}…`);
+    try {
+      const data = await callCommitOwned([{
+        series,
+        issue_number: item.issue_number,
+        volume: volume || null,
+        year: item.year || null,
+        title: item.title || null,
+        upc: item.upc || null,
+        notes: item.notes || null,
+        scanned_at: item.scanned_at || null,
+      }]);
+      const r = (data.results || [])[0];
+      if (r && r.status === "added") {
+        // Remove matching local row
+        const cur = load().filter((row) =>
+          !(row.series === item.series && String(row.issue_number) === String(item.issue_number))
+        );
+        save(cur);
+        render();
+        await loadOwnedLive();
+        pendingCommitPicks.splice(pickIdx, 1);
+        renderCommitPicks(pendingCommitPicks.slice());
+        setPush(`Added ${series}${volume ? " Vol " + volume : ""} #${item.issue_number}.`, "ok");
+      } else if (r && r.status === "already_owned") {
+        setPush(`Already owned: ${r.matched || series + " #" + item.issue_number}`, "warn");
+        pendingCommitPicks.splice(pickIdx, 1);
+        renderCommitPicks(pendingCommitPicks.slice());
+      } else if (r && r.status === "needs_run_pick") {
+        item.candidates = r.candidates || item.candidates;
+        renderCommitPicks(pendingCommitPicks.slice());
+        setPush("Still ambiguous — pick another run.", "warn");
+      } else {
+        setPush((r && r.reason) || "Commit failed", "warn");
+      }
+    } catch (e) {
+      setPush("Commit failed: " + (e.message || e), "warn");
+    } finally {
+      els.pushBtn.disabled = false;
+    }
   }
 
   async function pushToMaster() {
@@ -996,6 +1172,7 @@
     }
     const rows = load();
     if (!rows.length) { setPush("List is empty.", "warn"); return; }
+    clearCommitPick();
 
     const payload = rows.map((r) => ({
       series: r.series || null,
@@ -1007,34 +1184,66 @@
       notes: r.notes || null,
       raw_ocr: r.raw_ocr || null,
       scanned_at: r.scanned_at || null,
-      device: navigator.userAgent.slice(0, 120),
     }));
 
     els.pushBtn.disabled = true;
-    setPush(`Pushing ${payload.length}…`);
+    setPush(`Committing ${payload.length} to live master…`);
     try {
-      const res = await fetch(
-        `${CFG.SUPABASE_URL.replace(/\/$/, "")}/rest/v1/${CFG.SCANS_TABLE || "panelbook_scans"}`,
-        {
-          method: "POST",
-          headers: {
-            apikey: CFG.SUPABASE_ANON_KEY,
-            Authorization: `Bearer ${CFG.SUPABASE_ANON_KEY}`,
-            "Content-Type": "application/json",
-            Prefer: "return=minimal",
-          },
-          body: JSON.stringify(payload),
+      const data = await callCommitOwned(payload);
+      const results = data.results || [];
+      const summary = data.summary || {};
+      const still = [];
+      const picks = [];
+
+      results.forEach((r, i) => {
+        const src = rows[i] || payload[i];
+        if (r.status === "added") {
+          /* drop from local list */
+        } else if (r.status === "already_owned") {
+          /* drop — re-scan of owned book */
+        } else if (r.status === "needs_run_pick") {
+          still.push(src);
+          picks.push({
+            series: r.series || src.series,
+            issue_number: r.issue_number || src.issue_number,
+            year: r.year || src.year,
+            title: src.title,
+            upc: src.upc,
+            notes: src.notes,
+            scanned_at: src.scanned_at,
+            candidates: r.candidates || [],
+            matched: r.matched,
+          });
+        } else {
+          still.push(src);
         }
-      );
-      if (!res.ok) {
-        const t = await res.text().catch(() => "");
-        throw new Error(`${res.status} ${t}`.trim());
-      }
-      save([]);
+      });
+
+      save(still.map((r) => ({
+        source: "scan",
+        series: r.series || "",
+        issue_number: r.issue_number || "",
+        year: r.year || "",
+        volume: r.volume || "",
+        title: r.title || "",
+        upc: r.upc || "",
+        notes: r.notes || "",
+        scanned_at: r.scanned_at || new Date().toISOString(),
+        raw_ocr: r.raw_ocr || "",
+      })));
       render();
-      setPush(`Pushed ${payload.length} to master. Pull them on your PC.`, "ok");
+      await loadOwnedLive();
+
+      if (picks.length) renderCommitPicks(picks);
+
+      const bits = [];
+      if (summary.added) bits.push(`${summary.added} added`);
+      if (summary.already_owned) bits.push(`${summary.already_owned} already owned`);
+      if (summary.needs_run_pick) bits.push(`${summary.needs_run_pick} need a volume pick`);
+      if (summary.errors) bits.push(`${summary.errors} errors`);
+      setPush(bits.join(" · ") || "Done.", picks.length ? "warn" : "ok");
     } catch (e) {
-      setPush("Push failed: " + (e.message || e) + " — your scans are still saved here.", "warn");
+      setPush("Commit failed: " + (e.message || e) + " — your scans are still saved here.", "warn");
     } finally {
       els.pushBtn.disabled = false;
     }
@@ -1070,8 +1279,17 @@
   els.exportBtn.onclick = exportCsv;
   els.copyBtn.onclick = copyText;
   els.pushBtn.onclick = pushToMaster;
+  if (els.commitPin) {
+    try {
+      const saved = localStorage.getItem(PIN_KEY);
+      if (saved) els.commitPin.value = saved;
+      else if (CFG.DEFAULT_COMMIT_PIN) els.commitPin.placeholder = "saved default · tap to change";
+    } catch (_) {}
+  }
   if (!supabaseReady()) {
-    els.pushBtn.textContent = "Push to master (set up Supabase)";
+    els.pushBtn.textContent = "Commit (set up Supabase)";
+  } else {
+    els.pushBtn.textContent = "Commit to live master";
   }
   els.series.addEventListener("input", () => {
     renderSuggestions(matchSeries(els.series.value));
