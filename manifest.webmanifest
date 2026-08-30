@@ -1,7 +1,7 @@
 {
-  "name": "PanelBook",
-  "short_name": "PanelBook",
-  "description": "Marvel comic collection vault — browse, scan, and track gaps.",
+  "name": "Longbox",
+  "short_name": "Longbox",
+  "description": "Marvel comic collection — browse, scan, and share a wishlist.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

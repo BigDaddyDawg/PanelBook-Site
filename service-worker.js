@@ -1,4 +1,4 @@
-const CACHE_NAME = "panelbook-static-v1";
+const CACHE_NAME = "longbox-static-v2";
 const CORE_ASSETS = [
   "./",
   "index.html",
@@ -49,7 +49,7 @@ self.addEventListener("activate", (event) => {
       .then(() => self.clients.matchAll({ type: "window" }))
       .then((clients) => {
         for (const client of clients) {
-          client.postMessage({ type: "PANELBOOK_SW_UPDATED", cache: CACHE_NAME });
+          client.postMessage({ type: "LONGBOX_SW_UPDATED", cache: CACHE_NAME });
         }
       })
   );

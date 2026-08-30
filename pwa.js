@@ -1,7 +1,7 @@
-(function registerPanelBookPwa() {
+(function registerLongboxPwa() {
   if (!("serviceWorker" in navigator)) return;
 
-  const SW_URL = "service-worker.js?v=1";
+  const SW_URL = "service-worker.js?v=2";
 
   window.addEventListener("load", () => {
     navigator.serviceWorker
@@ -21,7 +21,7 @@
 
     navigator.serviceWorker.addEventListener("controllerchange", reloadOnce);
     navigator.serviceWorker.addEventListener("message", (event) => {
-      if (event.data && event.data.type === "PANELBOOK_SW_UPDATED") reloadOnce();
+      if (event.data && event.data.type === "LONGBOX_SW_UPDATED") reloadOnce();
     });
   });
 })();
