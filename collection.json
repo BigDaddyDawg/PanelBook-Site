@@ -1,8 +1,8 @@
 {
-  "exported_at": "2026-10-25T14:25:32.401816+00:00",
+  "exported_at": "2026-10-25T14:26:03.712959+00:00",
   "source": "supabase_owned_comics",
   "totals": {
-    "issues": 1931,
+    "issues": 1932,
     "estimated_value_gbp": 234.58,
     "paid_known_gbp": 0.0
   },
@@ -31264,6 +31264,24 @@
       "title": "ol [a Ultimate Universe: Finale #1",
       "year": "",
       "volume": "",
+      "edition": "",
+      "event": "",
+      "detail": "",
+      "qty": "1",
+      "unit_price": "",
+      "upc": "",
+      "estimated_value": 0,
+      "market_source": ""
+    },
+    {
+      "kind": "comic",
+      "source": "forbidden_planet",
+      "character": "",
+      "series": "Ultimate Universe: Finale",
+      "issue_number": "1",
+      "title": "Ultimate Universe: Finale #1",
+      "year": "2026",
+      "volume": "1",
       "edition": "",
       "event": "",
       "detail": "",
