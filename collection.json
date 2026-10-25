@@ -1,8 +1,8 @@
 {
-  "exported_at": "2026-10-25T17:56:30.310149+00:00",
+  "exported_at": "2026-10-25T18:01:02.897494+00:00",
   "source": "supabase_owned_comics",
   "totals": {
-    "issues": 1937,
+    "issues": 1938,
     "estimated_value_gbp": 87.0,
     "paid_known_gbp": 0.0
   },
@@ -24532,6 +24532,24 @@
       "title": "Star Wars #11",
       "year": "2015",
       "volume": "2",
+      "edition": "",
+      "event": "",
+      "detail": "",
+      "qty": "1",
+      "unit_price": "",
+      "upc": "",
+      "estimated_value": 0,
+      "market_source": ""
+    },
+    {
+      "kind": "comic",
+      "source": "wishlist",
+      "character": "",
+      "series": "Star Wars",
+      "issue_number": "11",
+      "title": "Star Wars #11",
+      "year": "2021",
+      "volume": "3",
       "edition": "",
       "event": "",
       "detail": "",
