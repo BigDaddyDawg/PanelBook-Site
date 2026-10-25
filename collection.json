@@ -1,8 +1,8 @@
 {
-  "exported_at": "2026-10-25T18:01:02.897494+00:00",
+  "exported_at": "2026-10-25T18:07:49.815062+00:00",
   "source": "supabase_owned_comics",
   "totals": {
-    "issues": 1938,
+    "issues": 1939,
     "estimated_value_gbp": 87.0,
     "paid_known_gbp": 0.0
   },
@@ -10674,6 +10674,24 @@
       "volume": "3",
       "edition": "",
       "event": "Crimson Reign",
+      "detail": "",
+      "qty": "1",
+      "unit_price": "",
+      "upc": "",
+      "estimated_value": 0,
+      "market_source": ""
+    },
+    {
+      "kind": "comic",
+      "source": "wishlist",
+      "character": "",
+      "series": "Darth Vader",
+      "issue_number": "23",
+      "title": "Darth Vader #23",
+      "year": "2015",
+      "volume": "1",
+      "edition": "",
+      "event": "",
       "detail": "",
       "qty": "1",
       "unit_price": "",
