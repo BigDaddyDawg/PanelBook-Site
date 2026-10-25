@@ -265,6 +265,37 @@
       font-weight: 700;
     }
     .cover-wait { color: var(--muted); margin: 0; }
+    .buy-actions {
+      padding: 0 0.9rem 0.9rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+    .mark-bought {
+      align-self: flex-start;
+      min-height: 44px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0.7rem 1.05rem;
+      background: linear-gradient(135deg, var(--power-soft), var(--power));
+      color: #1a1208;
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .mark-bought:disabled { opacity: 0.6; cursor: default; }
+    .buy-status { margin: 0; color: var(--muted); font-size: 0.85rem; min-height: 1.1em; }
+    .run-picks { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .run-picks .mark-bought {
+      text-transform: none;
+      letter-spacing: 0;
+      font-family: inherit;
+      background: var(--panel);
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
   </style>
 </head>
 <body>
@@ -280,7 +311,7 @@
 
   <header class="page-top">
     <h1 class="brand-compact">Wishlist</h1>
-    <p class="tag">Christmas (and anytime) shopping list. Tap an issue to drop down a cover photo so you can be sure you’re buying the right book.</p>
+    <p class="tag">Shopping list for the holes in the box. Tap an issue for the cover, then mark it purchased once you own it.</p>
     <a class="back" href="index.html">← Collection</a>
   </header>
 
@@ -311,6 +342,7 @@
 
     <div class="toolbar">
       <input id="q" type="search" placeholder="Filter series…" autocomplete="off">
+      <input id="commitPin" type="password" autocomplete="current-password" placeholder="Commit PIN">
       <select id="yearFilter">
         <option value="">All years</option>
       </select>
@@ -332,6 +364,7 @@
     </div>
   </div>
 
+  <script src="config.js?v=2"></script>
   <script>
     const KIND_LABEL = {
       hole: "Hole (skipped)",
@@ -340,9 +373,12 @@
       before: "Before (started late)",
     };
 
-    const ALL = [{"series": "All-New Wolverine", "volume": "All-New Wolverine Vol 1", "issue": "15", "year": "2016", "kind": "hole"}, {"series": "Amazing Spider-Man", "volume": "Amazing Spider-Man Vol 4", "issue": "793", "year": "2017", "kind": "hole"}, {"series": "Avengers", "volume": "Avengers Vol 8", "issue": "4", "year": "2018", "kind": "hole"}, {"series": "Avengers", "volume": "Avengers Vol 8", "issue": "39", "year": "2018", "kind": "hole"}, {"series": "Avengers", "volume": "Avengers Vol 8", "issue": "40", "year": "2018", "kind": "hole"}, {"series": "Ben Reilly: Scarlet Spider", "volume": "Ben Reilly: Scarlet Spider Vol 1", "issue": "19", "year": "2018", "kind": "hole"}, {"series": "Darth Vader", "volume": "Darth Vader Vol 1", "issue": "23", "year": "2015", "kind": "hole"}, {"series": "Inhumans: Attilan Rising", "volume": "Inhumans: Attilan Rising Vol 1", "issue": "5", "year": "2015", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "issue": "3", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "issue": "4", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "issue": "5", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "issue": "6", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "issue": "7", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "issue": "8", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "issue": "9", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "issue": "10", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "issue": "11", "year": "2018", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "issue": "12", "year": "2018", "kind": "after"}, {"series": "Laura Kinney: Wolverine", "volume": "Laura Kinney: Wolverine Vol 1", "issue": "7", "year": "2025", "kind": "hole"}, {"series": "Old Man Logan", "volume": "Old Man Logan Vol 2", "issue": "43", "year": "2018", "kind": "hole"}, {"series": "Peter Parker: The Spectacular Spider-Man", "volume": "Peter Parker: The Spectacular Spider-Man Vol 1", "issue": "310", "year": "2018", "kind": "hole"}, {"series": "Punisher", "volume": "Punisher Vol 11", "issue": "226", "year": "2018", "kind": "hole"}, {"series": "Savage Avengers", "volume": "Savage Avengers Vol 1", "issue": "2", "year": "2019", "kind": "hole"}, {"series": "Silk", "volume": "Silk Vol 5", "issue": "4", "year": "2023", "kind": "hole"}, {"series": "Spider-Gwen", "volume": "Spider-Gwen Vol 2", "issue": "2", "year": "2015", "kind": "hole"}, {"series": "Spider-Man/Deadpool", "volume": "Spider-Man/Deadpool Vol 1", "issue": "22", "year": "2017", "kind": "hole"}, {"series": "Spider-Man/Deadpool", "volume": "Spider-Man/Deadpool Vol 1", "issue": "24", "year": "2017", "kind": "hole"}, {"series": "Star Wars", "volume": "Star Wars Vol 3", "issue": "10", "year": "2021", "kind": "hole"}, {"series": "Star Wars", "volume": "Star Wars Vol 3", "issue": "11", "year": "2021", "kind": "hole"}, {"series": "Star Wars: Kanan", "volume": "Star Wars: Kanan Vol 1", "issue": "6", "year": "2015", "kind": "hole"}, {"series": "Star Wars: Kanan", "volume": "Star Wars: Kanan Vol 1", "issue": "7", "year": "2015", "kind": "hole"}, {"series": "Star Wars: Kanan", "volume": "Star Wars: Kanan Vol 1", "issue": "8", "year": "2015", "kind": "hole"}, {"series": "Steve Rogers: Captain America", "volume": "Steve Rogers: Captain America Vol 1", "issue": "8", "year": "2016", "kind": "hole"}, {"series": "Steve Rogers: Captain America", "volume": "Steve Rogers: Captain America Vol 1", "issue": "9", "year": "2016", "kind": "hole"}, {"series": "The Mighty Thor", "volume": "The Mighty Thor Vol 2", "issue": "10", "year": "2015", "kind": "hole"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "issue": "9", "year": "2024", "kind": "hole"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "issue": "10", "year": "2024", "kind": "hole"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "issue": "11", "year": "2024", "kind": "hole"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "issue": "13", "year": "2024", "kind": "after"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "issue": "14", "year": "2024", "kind": "after"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "issue": "15", "year": "2024", "kind": "after"}, {"series": "Tony Stark: Iron Man", "volume": "Tony Stark: Iron Man Vol 1", "issue": "2", "year": "2018", "kind": "hole"}, {"series": "Ultimate Spider-Man", "volume": "Ultimate Spider-Man Vol 3", "issue": "24", "year": "2026", "kind": "after"}, {"series": "Venom", "volume": "Venom Vol 3", "issue": "1", "year": "2016", "kind": "hole"}, {"series": "Venom", "volume": "Venom Vol 3", "issue": "2", "year": "2016", "kind": "hole"}, {"series": "Venom", "volume": "Venom Vol 3", "issue": "3", "year": "2017", "kind": "hole"}, {"series": "Venom", "volume": "Venom Vol 6", "issue": "257", "year": "2025", "kind": "hole"}, {"series": "Venom War: Spider-Man", "volume": "Venom War: Spider-Man Vol 1", "issue": "1", "year": "2024", "kind": "hole"}, {"series": "War of the Realms", "volume": "War of the Realms Vol 1", "issue": "6", "year": "2019", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "issue": "2", "year": "2015", "kind": "hole"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "issue": "4", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "issue": "5", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "issue": "6", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "issue": "7", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "issue": "8", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "issue": "9", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "issue": "10", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "issue": "11", "year": "2015", "kind": "after"}, {"series": "Years of Future Past", "volume": "Years of Future Past Vol 1", "issue": "5", "year": "2015", "kind": "after"}];
-    const FOCUS = new Set(["Amazing Spider-Man", "Miles Morales: Spider-Man", "Venom", "Star Wars", "Avengers", "Immortal Hulk", "Superior Spider-Man", "Silk", "Thor", "Ultimate Spider-Man", "Red Goblin", "Spider-Man", "Captain America", "Punisher", "Ultimates", "Miles Morales: Ultimate Spider-Man", "Spider-Man 2099", "Spider-Man/Deadpool", "Spider-Gwen", "Friendly Neighborhood Spider-Man", "Daredevil", "Darth Vader", "Old Man Logan", "Ben Reilly: Scarlet Spider", "Peter Parker: The Spectacular Spider-Man", "Fantastic Four", "Eddie Brock: Carnage"]);
-    const FOCUS_SCORE = {"Amazing Spider-Man": 190.0, "Miles Morales: Spider-Man": 190.0, "Venom": 125.0, "Star Wars": 110.0, "Avengers": 110.0, "Immortal Hulk": 110.0, "Superior Spider-Man": 97.0, "Silk": 97.0, "Thor": 95.0, "Ultimate Spider-Man": 90.0, "Red Goblin": 87.0, "Spider-Man": 77.0, "Captain America": 75.0, "Punisher": 75.0, "Ultimates": 75.0, "Miles Morales: Ultimate Spider-Man": 75.0, "Spider-Man 2099": 65.0, "Spider-Man/Deadpool": 65.0, "Spider-Gwen": 65.0, "Friendly Neighborhood Spider-Man": 62.0, "Daredevil": 60.0, "Darth Vader": 50.0, "Old Man Logan": 50.0, "Ben Reilly: Scarlet Spider": 50.0, "Peter Parker: The Spectacular Spider-Man": 50.0, "Fantastic Four": 47.0, "Eddie Brock: Carnage": 47.0};
+    const CFG = window.PANELBOOK_CONFIG || {};
+    const PIN_KEY = "panelbook_commit_pin";
+    const BOUGHT_KEY = "longbox_wishlist_bought_v1";
+    let ALL = [{"series": "All-New Wolverine", "volume": "All-New Wolverine Vol 1", "vol": "1", "issue": "15", "year": "2016", "kind": "hole"}, {"series": "Amazing Spider-Man", "volume": "Amazing Spider-Man Vol 4", "vol": "4", "issue": "793", "year": "2017", "kind": "hole"}, {"series": "Amazing Spider-Man", "volume": "Amazing Spider-Man Vol 7", "vol": "7", "issue": "34", "year": "2026", "kind": "after"}, {"series": "Amazing Spider-Man", "volume": "Amazing Spider-Man Vol 7", "vol": "7", "issue": "35", "year": "2026", "kind": "after"}, {"series": "Avengers", "volume": "Avengers Vol 8", "vol": "8", "issue": "4", "year": "2018", "kind": "hole"}, {"series": "Avengers", "volume": "Avengers Vol 8", "vol": "8", "issue": "39", "year": "2018", "kind": "hole"}, {"series": "Avengers", "volume": "Avengers Vol 8", "vol": "8", "issue": "40", "year": "2018", "kind": "hole"}, {"series": "Ben Reilly: Scarlet Spider", "volume": "Ben Reilly: Scarlet Spider Vol 1", "vol": "1", "issue": "19", "year": "2018", "kind": "hole"}, {"series": "Daredevil", "volume": "Daredevil Vol 9", "vol": "9", "issue": "5", "year": "2026", "kind": "hole"}, {"series": "Daredevil", "volume": "Daredevil Vol 9", "vol": "9", "issue": "6", "year": "2026", "kind": "hole"}, {"series": "Darth Vader", "volume": "Darth Vader Vol 1", "vol": "1", "issue": "23", "year": "2015", "kind": "hole"}, {"series": "Inhumans: Attilan Rising", "volume": "Inhumans: Attilan Rising Vol 1", "vol": "1", "issue": "5", "year": "2015", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "vol": "1", "issue": "3", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "vol": "1", "issue": "4", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "vol": "1", "issue": "5", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "vol": "1", "issue": "6", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "vol": "1", "issue": "7", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "vol": "1", "issue": "8", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "vol": "1", "issue": "9", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "vol": "1", "issue": "10", "year": "2019", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "vol": "1", "issue": "11", "year": "2018", "kind": "after"}, {"series": "Ironheart", "volume": "Ironheart Vol 1", "vol": "1", "issue": "12", "year": "2018", "kind": "after"}, {"series": "Laura Kinney: Wolverine", "volume": "Laura Kinney: Wolverine Vol 1", "vol": "1", "issue": "7", "year": "2025", "kind": "hole"}, {"series": "Old Man Logan", "volume": "Old Man Logan Vol 2", "vol": "2", "issue": "43", "year": "2018", "kind": "hole"}, {"series": "Peter Parker: The Spectacular Spider-Man", "volume": "Peter Parker: The Spectacular Spider-Man Vol 1", "vol": "1", "issue": "310", "year": "2018", "kind": "hole"}, {"series": "Punisher", "volume": "Punisher Vol 11", "vol": "11", "issue": "226", "year": "2018", "kind": "hole"}, {"series": "Savage Avengers", "volume": "Savage Avengers Vol 1", "vol": "1", "issue": "2", "year": "2019", "kind": "hole"}, {"series": "Silk", "volume": "Silk Vol 5", "vol": "5", "issue": "4", "year": "2023", "kind": "hole"}, {"series": "Spider-Gwen", "volume": "Spider-Gwen Vol 2", "vol": "2", "issue": "2", "year": "2015", "kind": "hole"}, {"series": "Spider-Man/Deadpool", "volume": "Spider-Man/Deadpool Vol 1", "vol": "1", "issue": "22", "year": "2017", "kind": "hole"}, {"series": "Spider-Man/Deadpool", "volume": "Spider-Man/Deadpool Vol 1", "vol": "1", "issue": "24", "year": "2017", "kind": "hole"}, {"series": "Star Wars", "volume": "Star Wars Vol 3", "vol": "3", "issue": "10", "year": "2021", "kind": "hole"}, {"series": "Star Wars", "volume": "Star Wars Vol 3", "vol": "3", "issue": "11", "year": "2021", "kind": "hole"}, {"series": "Star Wars: Kanan", "volume": "Star Wars: Kanan Vol 1", "vol": "1", "issue": "6", "year": "2015", "kind": "hole"}, {"series": "Star Wars: Kanan", "volume": "Star Wars: Kanan Vol 1", "vol": "1", "issue": "7", "year": "2015", "kind": "hole"}, {"series": "Star Wars: Kanan", "volume": "Star Wars: Kanan Vol 1", "vol": "1", "issue": "8", "year": "2015", "kind": "hole"}, {"series": "Steve Rogers: Captain America", "volume": "Steve Rogers: Captain America Vol 1", "vol": "1", "issue": "8", "year": "2016", "kind": "hole"}, {"series": "Steve Rogers: Captain America", "volume": "Steve Rogers: Captain America Vol 1", "vol": "1", "issue": "9", "year": "2016", "kind": "hole"}, {"series": "The Mighty Thor", "volume": "The Mighty Thor Vol 2", "vol": "2", "issue": "10", "year": "2015", "kind": "hole"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "vol": "1", "issue": "9", "year": "2024", "kind": "hole"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "vol": "1", "issue": "10", "year": "2024", "kind": "hole"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "vol": "1", "issue": "11", "year": "2024", "kind": "hole"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "vol": "1", "issue": "13", "year": "2024", "kind": "after"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "vol": "1", "issue": "14", "year": "2024", "kind": "after"}, {"series": "The Spectacular Spider-Men", "volume": "The Spectacular Spider-Men Vol 1", "vol": "1", "issue": "15", "year": "2024", "kind": "after"}, {"series": "Tony Stark: Iron Man", "volume": "Tony Stark: Iron Man Vol 1", "vol": "1", "issue": "2", "year": "2018", "kind": "hole"}, {"series": "Ultimate Spider-Man", "volume": "Ultimate Spider-Man Vol 3", "vol": "3", "issue": "24", "year": "2026", "kind": "after"}, {"series": "Venom", "volume": "Venom Vol 3", "vol": "3", "issue": "2", "year": "2016", "kind": "hole"}, {"series": "Venom", "volume": "Venom Vol 3", "vol": "3", "issue": "3", "year": "2017", "kind": "hole"}, {"series": "Venom", "volume": "Venom Vol 6", "vol": "6", "issue": "257", "year": "2025", "kind": "hole"}, {"series": "Venom War: Spider-Man", "volume": "Venom War: Spider-Man Vol 1", "vol": "1", "issue": "1", "year": "2024", "kind": "hole"}, {"series": "War of the Realms", "volume": "War of the Realms Vol 1", "vol": "1", "issue": "6", "year": "2019", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "vol": "1", "issue": "2", "year": "2015", "kind": "hole"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "vol": "1", "issue": "4", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "vol": "1", "issue": "5", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "vol": "1", "issue": "6", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "vol": "1", "issue": "7", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "vol": "1", "issue": "8", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "vol": "1", "issue": "9", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "vol": "1", "issue": "10", "year": "2015", "kind": "after"}, {"series": "Web Warriors", "volume": "Web Warriors Vol 1", "vol": "1", "issue": "11", "year": "2015", "kind": "after"}, {"series": "Years of Future Past", "volume": "Years of Future Past Vol 1", "vol": "1", "issue": "5", "year": "2015", "kind": "after"}];
+    const FOCUS = new Set(["Amazing Spider-Man", "Miles Morales: Spider-Man", "Venom", "Star Wars", "Avengers", "Immortal Hulk", "Superior Spider-Man", "Silk", "Thor", "Ultimate Spider-Man", "Red Goblin", "Spider-Man", "Captain America", "Punisher", "Ultimates", "Daredevil", "Miles Morales: Ultimate Spider-Man", "Spider-Man 2099", "Spider-Man/Deadpool", "Spider-Gwen", "Friendly Neighborhood Spider-Man", "Darth Vader", "Old Man Logan", "Ben Reilly: Scarlet Spider", "Peter Parker: The Spectacular Spider-Man", "Fantastic Four", "Eddie Brock: Carnage"]);
+    const FOCUS_SCORE = {"Amazing Spider-Man": 190.0, "Miles Morales: Spider-Man": 190.0, "Venom": 125.0, "Star Wars": 110.0, "Avengers": 110.0, "Immortal Hulk": 110.0, "Superior Spider-Man": 97.0, "Silk": 97.0, "Thor": 95.0, "Ultimate Spider-Man": 90.0, "Red Goblin": 87.0, "Spider-Man": 77.0, "Captain America": 75.0, "Punisher": 75.0, "Ultimates": 75.0, "Daredevil": 75.0, "Miles Morales: Ultimate Spider-Man": 75.0, "Spider-Man 2099": 65.0, "Spider-Man/Deadpool": 65.0, "Spider-Gwen": 65.0, "Friendly Neighborhood Spider-Man": 62.0, "Darth Vader": 50.0, "Old Man Logan": 50.0, "Ben Reilly: Scarlet Spider": 50.0, "Peter Parker: The Spectacular Spider-Man": 50.0, "Fantastic Four": 47.0, "Eddie Brock: Carnage": 47.0};
 
     let activeKinds = new Set(["hole"]);
     let selectedSeries = null;
@@ -524,7 +560,7 @@
 
       $("detail").innerHTML = `
         <h2>${escapeHtml(series)}${badge}</h2>
-        <p class="hint">${list.length} issue${list.length === 1 ? "" : "s"} · tap one to see the cover</p>
+        <p class="hint">${list.length} issue${list.length === 1 ? "" : "s"} · tap one, then mark it purchased when you own it</p>
         ${blocks}`;
     }
 
@@ -541,12 +577,18 @@
           data-volume="${escapeAttr(r.volume || "")}"
           data-issue="${escapeAttr(r.issue)}"
           data-year="${escapeAttr(r.year || "")}"
+          data-vol="${escapeAttr(r.vol || "")}"
           data-kind="${escapeAttr(r.kind)}">
         <summary>
           <span class="issue-num">#${escapeHtml(r.issue)}</span>
           ${r.volume ? `<span class="issue-vol">${escapeHtml(r.volume)}</span>` : ""}
         </summary>
         <div class="cover-panel"><p class="cover-wait">Looking up the cover…</p></div>
+        <div class="buy-actions">
+          <button type="button" class="mark-bought">Mark purchased</button>
+          <p class="buy-status"></p>
+          <div class="run-picks"></div>
+        </div>
       </details>`;
     }
 
@@ -724,9 +766,195 @@
       loadCover(drop);
     }, true);
 
+    function normSeries(s) {
+      let t = String(s || "").trim().toLowerCase();
+      t = t.replace(/^the\s+/, "");
+      t = t.replace(/&/g, " and ");
+      t = t.replace(/[^\w\s#]+/g, " ");
+      return t.replace(/\s+/g, " ").trim();
+    }
+
+    function rowKey(r) {
+      const vol = String((r && r.vol) || "").trim();
+      const issue = String((r && r.issue) || "").trim();
+      return normSeries(r.series) + "||" + issue + (vol ? "||v" + vol : "");
+    }
+
+    function loadBought() {
+      try { return new Set(JSON.parse(localStorage.getItem(BOUGHT_KEY) || "[]")); }
+      catch { return new Set(); }
+    }
+
+    function saveBought(keys) {
+      try { localStorage.setItem(BOUGHT_KEY, JSON.stringify([...keys])); }
+      catch { /* private mode */ }
+    }
+
+    let boughtKeys = loadBought();
+
+    function applyOwnedFilter() {
+      ALL = ALL.filter((r) => !boughtKeys.has(rowKey(r)));
+    }
+
+    function getPin() {
+      const input = $("commitPin");
+      if (input && input.value.trim()) {
+        const pin = input.value.trim();
+        try { localStorage.setItem(PIN_KEY, pin); } catch { /* ignore */ }
+        return pin;
+      }
+      try {
+        const saved = localStorage.getItem(PIN_KEY);
+        if (saved) return saved;
+      } catch { /* ignore */ }
+      return CFG.DEFAULT_COMMIT_PIN || "";
+    }
+
+    async function callCommitOwned(scans) {
+      const pin = getPin();
+      if (!pin) throw new Error("Enter the commit PIN");
+      if (!CFG.SUPABASE_URL || !CFG.SUPABASE_ANON_KEY) {
+        throw new Error("Collection save is not configured");
+      }
+      const base = CFG.SUPABASE_URL.replace(/\/$/, "");
+      const fn = CFG.COMMIT_FUNCTION || "commit-owned";
+      const res = await fetch(base + "/functions/v1/" + fn, {
+        method: "POST",
+        headers: {
+          apikey: CFG.SUPABASE_ANON_KEY,
+          Authorization: "Bearer " + CFG.SUPABASE_ANON_KEY,
+          "Content-Type": "application/json",
+          "x-panelbook-pin": pin,
+        },
+        body: JSON.stringify({ scans }),
+      });
+      const text = await res.text();
+      let data = {};
+      try { data = JSON.parse(text); } catch { data = { error: text }; }
+      if (!res.ok) throw new Error(data.error || text || "Save failed");
+      return data;
+    }
+
+    function dropOwned(series, issue, vol) {
+      const key = rowKey({ series, issue, vol });
+      boughtKeys.add(key);
+      saveBought(boughtKeys);
+      ALL = ALL.filter((r) => rowKey(r) !== key);
+      if (selectedSeries && !ALL.some((r) => r.series === selectedSeries)) selectedSeries = null;
+      fillYearFilter();
+      updateKindCounts();
+      renderBars();
+    }
+
+    async function markPurchased(drop, volumeOverride) {
+      const series = drop.dataset.series || "";
+      const issue = drop.dataset.issue || "";
+      const year = drop.dataset.year || "";
+      const vol = String(volumeOverride || drop.dataset.vol || "").trim();
+      const status = drop.querySelector(".buy-status");
+      const btn = drop.querySelector(".mark-bought");
+      const picks = drop.querySelector(".run-picks");
+      if (btn) btn.disabled = true;
+      if (status) status.textContent = "Saving as owned…";
+      try {
+        const data = await callCommitOwned([{
+          series,
+          issue_number: issue,
+          volume: vol || null,
+          year: year || null,
+          title: series + " #" + issue,
+          source: "wishlist",
+          notes: "marked purchased from wishlist",
+          scanned_at: new Date().toISOString(),
+        }]);
+        const r = (data.results || [])[0] || {};
+        if (r.status === "added" || r.status === "already_owned") {
+          dropOwned(r.series || series, String(r.issue_number || issue), String(r.volume || vol || ""));
+          return;
+        }
+        if (r.status === "needs_run_pick") {
+          if (btn) btn.disabled = false;
+          if (status) status.textContent = "Which run is this?";
+          if (picks) {
+            picks.innerHTML = (r.candidates || []).map((c) =>
+              `<button type="button" class="mark-bought run-pick" data-volume="${escapeAttr(c.volume || "")}">${escapeHtml(c.label || "This run")}</button>`
+            ).join("");
+          }
+          return;
+        }
+        if (btn) btn.disabled = false;
+        if (status) status.textContent = (r && r.reason) || "Could not save";
+      } catch (err) {
+        if (btn) btn.disabled = false;
+        const msg = (err && err.message) || "Could not save";
+        if (status) status.textContent = msg;
+        if (/pin/i.test(msg) && $("commitPin")) $("commitPin").focus();
+      }
+    }
+
+    async function loadOwnedLive() {
+      if (!CFG.SUPABASE_URL || !CFG.SUPABASE_ANON_KEY) return;
+      const base = CFG.SUPABASE_URL.replace(/\/$/, "");
+      const table = CFG.OWNED_TABLE || "owned_comics";
+      const headers = {
+        apikey: CFG.SUPABASE_ANON_KEY,
+        Authorization: "Bearer " + CFG.SUPABASE_ANON_KEY,
+      };
+      let start = 0;
+      const page = 1000;
+      try {
+        while (true) {
+          const res = await fetch(
+            base + "/rest/v1/" + table + "?select=dedupe_key,series,issue_number,volume&order=id.asc",
+            { headers: { ...headers, Range: start + "-" + (start + page - 1) }, cache: "no-store" }
+          );
+          if (!res.ok) break;
+          const rows = await res.json();
+          if (!rows.length) break;
+          for (const r of rows) {
+            if (r.dedupe_key) boughtKeys.add(r.dedupe_key);
+            boughtKeys.add(rowKey({
+              series: r.series,
+              issue: r.issue_number,
+              vol: r.volume || "",
+            }));
+          }
+          if (rows.length < page) break;
+          start += page;
+        }
+      } catch { /* wishlist still works offline */ }
+      const before = ALL.length;
+      applyOwnedFilter();
+      if (ALL.length !== before) {
+        fillYearFilter();
+        updateKindCounts();
+        renderBars();
+      }
+    }
+
+    $("detail").addEventListener("click", (e) => {
+      const pick = e.target.closest(".run-pick");
+      if (pick) {
+        const drop = pick.closest(".issue-drop");
+        if (drop) markPurchased(drop, pick.dataset.volume || "");
+        return;
+      }
+      const btn = e.target.closest(".mark-bought");
+      if (!btn) return;
+      const drop = btn.closest(".issue-drop");
+      if (drop) markPurchased(drop);
+    });
+
+    try {
+      const savedPin = localStorage.getItem(PIN_KEY);
+      if (savedPin && $("commitPin")) $("commitPin").value = savedPin;
+    } catch { /* ignore */ }
+
+    applyOwnedFilter();
     fillYearFilter();
     updateKindCounts();
     renderBars();
+    loadOwnedLive();
   </script>
   <script src="atmosphere.js?v=2"></script>
   <script src="pwa.js?v=2"></script>
