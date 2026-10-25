@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-25T14:26:03.712959+00:00",
+  "exported_at": "2026-10-25T15:01:21.964787+00:00",
   "source": "supabase_owned_comics",
   "totals": {
-    "issues": 1932,
-    "estimated_value_gbp": 234.58,
+    "issues": 1934,
+    "estimated_value_gbp": 87.0,
     "paid_known_gbp": 0.0
   },
   "collection": [
@@ -1408,8 +1408,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 8.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -1426,8 +1426,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 8.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -1444,8 +1444,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 8.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -1462,8 +1462,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 8.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -1480,8 +1480,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 8.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -1498,8 +1498,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 8.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -1516,8 +1516,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 8.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -1534,8 +1534,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 8.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -1552,8 +1552,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 8.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -1570,8 +1570,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 8.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -1588,8 +1588,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 8.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -2110,8 +2110,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 3.58,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -2128,8 +2128,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 3.99,
-      "market_source": "cover_heuristic"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -2218,8 +2218,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 3.56,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -2308,8 +2308,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 2.37,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -2326,8 +2326,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 3.99,
-      "market_source": "cover_heuristic"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -2416,8 +2416,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 2.84,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -2434,8 +2434,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 3.99,
-      "market_source": "cover_heuristic"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -2596,8 +2596,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 2.31,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -2614,8 +2614,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 3.99,
-      "market_source": "cover_heuristic"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -4324,8 +4324,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 3.99,
-      "market_source": "cover_heuristic"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -4378,8 +4378,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 3.99,
-      "market_source": "cover_heuristic"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -5926,8 +5926,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 20.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -5944,8 +5944,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 20.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -5962,8 +5962,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 20.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -5980,8 +5980,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 20.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -5998,8 +5998,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 20.0,
-      "market_source": "market_csv"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -6160,8 +6160,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 3.99,
-      "market_source": "cover_heuristic"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -6394,8 +6394,8 @@
       "qty": "1",
       "unit_price": "",
       "upc": "",
-      "estimated_value": 3.99,
-      "market_source": "cover_heuristic"
+      "estimated_value": 3.0,
+      "market_source": ""
     },
     {
       "kind": "comic",
@@ -9711,6 +9711,24 @@
     },
     {
       "kind": "comic",
+      "source": "wishlist",
+      "character": "",
+      "series": "Daredevil",
+      "issue_number": "5",
+      "title": "Daredevil #5",
+      "year": "2026",
+      "volume": "9",
+      "edition": "",
+      "event": "",
+      "detail": "",
+      "qty": "1",
+      "unit_price": "",
+      "upc": "",
+      "estimated_value": 0,
+      "market_source": ""
+    },
+    {
+      "kind": "comic",
       "source": "scan",
       "character": "",
       "series": "Daredevil",
@@ -9718,6 +9736,24 @@
       "title": "Daredevil #6",
       "year": "2022",
       "volume": "7",
+      "edition": "",
+      "event": "",
+      "detail": "",
+      "qty": "1",
+      "unit_price": "",
+      "upc": "",
+      "estimated_value": 0,
+      "market_source": ""
+    },
+    {
+      "kind": "comic",
+      "source": "wishlist",
+      "character": "",
+      "series": "Daredevil",
+      "issue_number": "6",
+      "title": "Daredevil #6",
+      "year": "2026",
+      "volume": "9",
       "edition": "",
       "event": "",
       "detail": "",
@@ -20623,10 +20659,10 @@
       "character": "",
       "series": "Secret Wars",
       "issue_number": "1",
-      "title": "Secret Wars #1 (Spider-Man variant)",
+      "title": "Secret Wars #1",
       "year": "2015",
       "volume": "1",
-      "edition": "Spider-Man variant",
+      "edition": "",
       "event": "Secret Wars",
       "detail": "",
       "qty": "1",
@@ -20641,10 +20677,10 @@
       "character": "",
       "series": "Secret Wars",
       "issue_number": "1",
-      "title": "Secret Wars #1",
+      "title": "Secret Wars #1 (Spider-Man variant)",
       "year": "2015",
       "volume": "1",
-      "edition": "",
+      "edition": "Spider-Man variant",
       "event": "Secret Wars",
       "detail": "",
       "qty": "1",
@@ -34786,7 +34822,7 @@
   ],
   "gaps": [
     {
-      "id": 3575,
+      "id": 3633,
       "series": "All-New Wolverine",
       "fandom_series": "All-New Wolverine",
       "fandom_volume": "All-New Wolverine Vol 1",
@@ -34799,7 +34835,7 @@
       "copy_years": "2015-2018"
     },
     {
-      "id": 3576,
+      "id": 3634,
       "series": "Amazing Spider-Man",
       "fandom_series": "Amazing Spider-Man",
       "fandom_volume": "Amazing Spider-Man Vol 4",
@@ -34812,7 +34848,20 @@
       "copy_years": "2015-2018"
     },
     {
-      "id": 3577,
+      "id": 3635,
+      "series": "Amazing Spider-Man",
+      "fandom_series": "Amazing Spider-Man",
+      "fandom_volume": "Amazing Spider-Man Vol 7",
+      "status": "UNFINISHED",
+      "owned_range": "1-33",
+      "owned_count": 33,
+      "owned_issues": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
+      "internal_holes": "",
+      "missing_after": "34,35",
+      "copy_years": "2025-2026"
+    },
+    {
+      "id": 3636,
       "series": "Avengers",
       "fandom_series": "Avengers",
       "fandom_volume": "Avengers Vol 8",
@@ -34825,7 +34874,7 @@
       "copy_years": "2018-2022"
     },
     {
-      "id": 3578,
+      "id": 3637,
       "series": "Ben Reilly: Scarlet Spider",
       "fandom_series": "Ben Reilly: Scarlet Spider",
       "fandom_volume": "Ben Reilly: Scarlet Spider Vol 1",
@@ -34838,7 +34887,20 @@
       "copy_years": "2017-2018"
     },
     {
-      "id": 3579,
+      "id": 3638,
+      "series": "Daredevil",
+      "fandom_series": "Daredevil",
+      "fandom_volume": "Daredevil Vol 9",
+      "status": "HOLES",
+      "owned_range": "1-7",
+      "owned_count": 5,
+      "owned_issues": "1,2,3,4,7",
+      "internal_holes": "5,6",
+      "missing_after": "",
+      "copy_years": "2026-2026"
+    },
+    {
+      "id": 3639,
       "series": "Darth Vader",
       "fandom_series": "Darth Vader",
       "fandom_volume": "Darth Vader Vol 1",
@@ -34851,7 +34913,7 @@
       "copy_years": "2015-2016"
     },
     {
-      "id": 3580,
+      "id": 3640,
       "series": "Inhumans: Attilan Rising",
       "fandom_series": "Inhumans: Attilan Rising",
       "fandom_volume": "Inhumans: Attilan Rising Vol 1",
@@ -34864,7 +34926,7 @@
       "copy_years": "2015-2015"
     },
     {
-      "id": 3581,
+      "id": 3641,
       "series": "Ironheart",
       "fandom_series": "Ironheart",
       "fandom_volume": "Ironheart Vol 1",
@@ -34877,7 +34939,7 @@
       "copy_years": "2018-2019"
     },
     {
-      "id": 3582,
+      "id": 3642,
       "series": "Laura Kinney: Wolverine",
       "fandom_series": "Laura Kinney: Wolverine",
       "fandom_volume": "Laura Kinney: Wolverine Vol 1",
@@ -34890,7 +34952,7 @@
       "copy_years": "2024-2025"
     },
     {
-      "id": 3583,
+      "id": 3643,
       "series": "Old Man Logan",
       "fandom_series": "Old Man Logan",
       "fandom_volume": "Old Man Logan Vol 2",
@@ -34903,7 +34965,7 @@
       "copy_years": "2016-2018"
     },
     {
-      "id": 3584,
+      "id": 3644,
       "series": "Peter Parker: The Spectacular Spider-Man",
       "fandom_series": "Peter Parker: The Spectacular Spider-Man",
       "fandom_volume": "Peter Parker: The Spectacular Spider-Man Vol 1",
@@ -34916,7 +34978,7 @@
       "copy_years": "2018-2018"
     },
     {
-      "id": 3585,
+      "id": 3645,
       "series": "Punisher",
       "fandom_series": "Punisher",
       "fandom_volume": "Punisher Vol 11",
@@ -34929,7 +34991,7 @@
       "copy_years": "2018-2018"
     },
     {
-      "id": 3586,
+      "id": 3646,
       "series": "Savage Avengers",
       "fandom_series": "Savage Avengers",
       "fandom_volume": "Savage Avengers Vol 1",
@@ -34942,7 +35004,7 @@
       "copy_years": "2019-2020"
     },
     {
-      "id": 3587,
+      "id": 3647,
       "series": "Silk",
       "fandom_series": "Silk",
       "fandom_volume": "Silk Vol 5",
@@ -34955,7 +35017,7 @@
       "copy_years": "2023-2023"
     },
     {
-      "id": 3588,
+      "id": 3648,
       "series": "Spider-Gwen",
       "fandom_series": "Spider-Gwen",
       "fandom_volume": "Spider-Gwen Vol 2",
@@ -34968,7 +35030,7 @@
       "copy_years": "2015-2017"
     },
     {
-      "id": 3589,
+      "id": 3649,
       "series": "Spider-Man/Deadpool",
       "fandom_series": "Spider-Man/Deadpool",
       "fandom_volume": "Spider-Man/Deadpool Vol 1",
@@ -34981,7 +35043,7 @@
       "copy_years": "2016-2018"
     },
     {
-      "id": 3590,
+      "id": 3650,
       "series": "Star Wars",
       "fandom_series": "Star Wars",
       "fandom_volume": "Star Wars Vol 3",
@@ -34994,7 +35056,7 @@
       "copy_years": "2020-2024"
     },
     {
-      "id": 3591,
+      "id": 3651,
       "series": "Star Wars: Kanan",
       "fandom_series": "Star Wars: Kanan",
       "fandom_volume": "Star Wars: Kanan Vol 1",
@@ -35007,7 +35069,7 @@
       "copy_years": "2015-2016"
     },
     {
-      "id": 3592,
+      "id": 3652,
       "series": "Steve Rogers: Captain America",
       "fandom_series": "Steve Rogers: Captain America",
       "fandom_volume": "Steve Rogers: Captain America Vol 1",
@@ -35020,7 +35082,7 @@
       "copy_years": "2016-2017"
     },
     {
-      "id": 3593,
+      "id": 3653,
       "series": "The Mighty Thor",
       "fandom_series": "The Mighty Thor",
       "fandom_volume": "The Mighty Thor Vol 2",
@@ -35033,7 +35095,7 @@
       "copy_years": "2015-2017"
     },
     {
-      "id": 3594,
+      "id": 3654,
       "series": "The Spectacular Spider-Men",
       "fandom_series": "The Spectacular Spider-Men",
       "fandom_volume": "The Spectacular Spider-Men Vol 1",
@@ -35046,7 +35108,7 @@
       "copy_years": "2024-2025"
     },
     {
-      "id": 3595,
+      "id": 3655,
       "series": "Tony Stark: Iron Man",
       "fandom_series": "Tony Stark: Iron Man",
       "fandom_volume": "Tony Stark: Iron Man Vol 1",
@@ -35059,7 +35121,7 @@
       "copy_years": "2018-2019"
     },
     {
-      "id": 3596,
+      "id": 3656,
       "series": "Ultimate Spider-Man",
       "fandom_series": "Ultimate Spider-Man",
       "fandom_volume": "Ultimate Spider-Man Vol 3",
@@ -35072,33 +35134,33 @@
       "copy_years": "2024-2026"
     },
     {
-      "id": 3597,
+      "id": 3657,
       "series": "Venom",
       "fandom_series": "Venom",
       "fandom_volume": "Venom Vol 3",
       "status": "HOLES",
-      "owned_range": "4-165",
-      "owned_count": 19,
-      "owned_issues": "4,5,6,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165",
-      "internal_holes": "1,2,3",
+      "owned_range": "1-165",
+      "owned_count": 20,
+      "owned_issues": "1,4,5,6,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165",
+      "internal_holes": "2,3",
       "missing_after": "",
-      "copy_years": "2017-2018"
+      "copy_years": "2016-2018"
     },
     {
-      "id": 3598,
+      "id": 3658,
       "series": "Venom",
       "fandom_series": "Venom",
       "fandom_volume": "Venom Vol 6",
       "status": "HOLES",
-      "owned_range": "250-259",
-      "owned_count": 9,
-      "owned_issues": "250,251,252,253,254,255,256,258,259",
+      "owned_range": "250-262",
+      "owned_count": 12,
+      "owned_issues": "250,251,252,253,254,255,256,258,259,260,261,262",
       "internal_holes": "257",
       "missing_after": "",
       "copy_years": "2025-2026"
     },
     {
-      "id": 3599,
+      "id": 3659,
       "series": "Venom War: Spider-Man",
       "fandom_series": "Venom War: Spider-Man",
       "fandom_volume": "Venom War: Spider-Man Vol 1",
@@ -35111,7 +35173,7 @@
       "copy_years": "2024-2024"
     },
     {
-      "id": 3600,
+      "id": 3660,
       "series": "War of the Realms",
       "fandom_series": "War of the Realms",
       "fandom_volume": "War of the Realms Vol 1",
@@ -35124,7 +35186,7 @@
       "copy_years": "2019-2019"
     },
     {
-      "id": 3601,
+      "id": 3661,
       "series": "Web Warriors",
       "fandom_series": "Web Warriors",
       "fandom_volume": "Web Warriors Vol 1",
@@ -35137,7 +35199,7 @@
       "copy_years": "2015-2016"
     },
     {
-      "id": 3602,
+      "id": 3662,
       "series": "Years of Future Past",
       "fandom_series": "Years of Future Past",
       "fandom_volume": "Years of Future Past Vol 1",
