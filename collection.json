@@ -1,8 +1,8 @@
 {
-  "exported_at": "2026-11-14T14:53:25.333143+00:00",
+  "exported_at": "2026-11-14T14:53:42.132982+00:00",
   "source": "supabase_owned_comics",
   "totals": {
-    "issues": 1948,
+    "issues": 1949,
     "estimated_value_gbp": 87.0,
     "paid_known_gbp": 0.0
   },
@@ -21616,6 +21616,24 @@
       "title": "Silk #4",
       "year": "2022",
       "volume": "4",
+      "edition": "",
+      "event": "",
+      "detail": "",
+      "qty": "1",
+      "unit_price": "",
+      "upc": "",
+      "estimated_value": 0,
+      "market_source": ""
+    },
+    {
+      "kind": "comic",
+      "source": "wishlist",
+      "character": "",
+      "series": "Silk",
+      "issue_number": "4",
+      "title": "Silk #4",
+      "year": "2023",
+      "volume": "5",
       "edition": "",
       "event": "",
       "detail": "",
