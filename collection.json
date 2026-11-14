@@ -1,8 +1,8 @@
 {
-  "exported_at": "2026-11-14T15:57:31.961005+00:00",
+  "exported_at": "2026-11-14T15:57:48.542527+00:00",
   "source": "supabase_owned_comics",
   "totals": {
-    "issues": 1953,
+    "issues": 1954,
     "estimated_value_gbp": 87.0,
     "paid_known_gbp": 0.0
   },
@@ -8366,6 +8366,24 @@
       "series": "Ben Reilly: Scarlet Spider",
       "issue_number": "21",
       "title": "Ben Reilly: Scarlet Spider #21",
+      "year": "2018",
+      "volume": "1",
+      "edition": "",
+      "event": "",
+      "detail": "",
+      "qty": "1",
+      "unit_price": "",
+      "upc": "",
+      "estimated_value": 0,
+      "market_source": ""
+    },
+    {
+      "kind": "comic",
+      "source": "wishlist",
+      "character": "",
+      "series": "Ben Reilly: Scarlet Spider",
+      "issue_number": "23",
+      "title": "Ben Reilly: Scarlet Spider #23",
       "year": "2018",
       "volume": "1",
       "edition": "",
